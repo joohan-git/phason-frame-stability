@@ -1,0 +1,45 @@
+{
+ "G1_triangular": {
+  "value": 2.649461773064622,
+  "passed": true,
+  "primitive": 2.6494617730646026,
+  "K": 0.8660254037835657,
+  "K_p": 0.8660254037835611,
+  "kbz": [
+   0.3333333333333333,
+   0.6666666666666666
+  ],
+  "mode": "(0, 0)",
+  "V": 144,
+  "E": 432,
+  "sec": 5.296473741531372
+ },
+ "G2": {
+  "value": 8.320011346540923e-13,
+  "passed": true,
+  "Kerr": 1.7366108551186699e-12,
+  "errs": [
+   8.320011346540923e-13,
+   3.9046543776066756e-13,
+   3.927969061123804e-13
+  ]
+ },
+ "G3": {
+  "value": 0.4666666666666669,
+  "passed": true,
+  "exact_C": 0.4666666666666667,
+  "rel": 4.440892098500626e-16,
+  "removed": 8
+ },
+ "G4": {
+  "value": [
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "passed": true,
+  "meaning": "intact spans; line-cut loses x period; all verticals removed disconnects; isolated vertex rejected"
+ }
+}

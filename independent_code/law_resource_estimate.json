@@ -1,0 +1,109 @@
+{
+  "source_script": "law_assemble.py",
+  "measurements": [
+    {
+      "name": "straight",
+      "N": 644,
+      "mech_cpu_s": 2.3984375,
+      "mc_cpu_s": 1.375,
+      "attempts": 1932,
+      "process_cpu_s": 6.34375,
+      "peak_rss_MiB": 161.87109375
+    },
+    {
+      "name": "medium",
+      "N": 1686,
+      "mech_cpu_s": 8.109375,
+      "mc_cpu_s": 1.453125,
+      "attempts": 50580,
+      "process_cpu_s": 17.890625,
+      "peak_rss_MiB": 176.78515625
+    },
+    {
+      "name": "heldout_4414",
+      "N": 4414,
+      "mech_cpu_s": 25.755208333333332,
+      "mc_cpu_s": 68.140625,
+      "attempts": 39726000,
+      "process_cpu_s": 49.09375,
+      "peak_rss_MiB": 262.3203125
+    },
+    {
+      "name": "large",
+      "N": 11556,
+      "mech_cpu_s": 221.9921875,
+      "mc_cpu_s": 2.375,
+      "attempts": 346680,
+      "process_cpu_s": 447.71875,
+      "peak_rss_MiB": 418.2421875
+    }
+  ],
+  "mechanics_size_exponent": 1.5314606473966155,
+  "mc_seconds_per_attempt": 1.7152651915622011e-06,
+  "per_size": [
+    {
+      "N": 644,
+      "mechanics_per_measurement_cpu_s": 2.0015439667057278,
+      "random_task_cpu_h": 0.002492757349599643,
+      "random_task_planning_range_cpu_h": [
+        0.002492757349599643,
+        0.0074782720487989295
+      ],
+      "sixteen_seeds_plus_reference_core_h": 0.04044010202879032,
+      "estimated_peak_RSS_MiB": 161.08176599448427,
+      "requested_memory_GiB": 4
+    },
+    {
+      "N": 1686,
+      "mechanics_per_measurement_cpu_s": 8.739213496972848,
+      "random_task_cpu_h": 0.0084700400006467,
+      "random_task_planning_range_cpu_h": [
+        0.0084700400006467,
+        0.0254101200019401
+      ],
+      "sixteen_seeds_plus_reference_core_h": 0.1379481993150619,
+      "estimated_peak_RSS_MiB": 182.29675881332008,
+      "requested_memory_GiB": 4
+    },
+    {
+      "N": 4414,
+      "mechanics_per_measurement_cpu_s": 38.15788049245353,
+      "random_task_cpu_h": 0.03066279819025196,
+      "random_task_planning_range_cpu_h": [
+        0.03066279819025196,
+        0.09198839457075589
+      ],
+      "sixteen_seeds_plus_reference_core_h": 0.5012041822919352,
+      "estimated_peak_RSS_MiB": 245.15408914414576,
+      "requested_memory_GiB": 4
+    },
+    {
+      "N": 11556,
+      "mechanics_per_measurement_cpu_s": 166.60837192603788,
+      "random_task_cpu_h": 0.11733721231769259,
+      "random_task_planning_range_cpu_h": [
+        0.11733721231769259,
+        0.3520116369530778
+      ],
+      "sixteen_seeds_plus_reference_core_h": 1.9236755003958699,
+      "estimated_peak_RSS_MiB": 431.3919510182949,
+      "requested_memory_GiB": 16
+    },
+    {
+      "N": 30254,
+      "mechanics_per_measurement_cpu_s": 727.460634718308,
+      "random_task_cpu_h": 0.4690118384476302,
+      "random_task_planning_range_cpu_h": [
+        0.4690118384476302,
+        1.4070355153428906
+      ],
+      "sixteen_seeds_plus_reference_core_h": 7.706261813694947,
+      "estimated_peak_RSS_MiB": 983.1896393877602,
+      "requested_memory_GiB": 16
+    }
+  ],
+  "memory_baseline_MiB": 150.2734375,
+  "memory_increment_size_exponent": 1.1285640488551583,
+  "total_core_h": 10.309529797726604,
+  "note": "P extrapolation, one core per task, two measurements at 3000/4500 sweeps; excludes scheduler wait and storage. Planning upper range is three times fitted time, not a statistical bound. Memory requests are provisioning, not measurements."
+}

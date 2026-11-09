@@ -1,0 +1,96 @@
+{
+ "status": "P",
+ "rows": {
+  "flip_k100_s1": {
+   "pc_gamma": 0.788249233498193,
+   "frac_vertices_outside_W": 0.05599425699928212,
+   "mode_weight_on_outside": 0.04445019407716742,
+   "frac_vertices_within2_of_outside": 0.6209619526202441,
+   "mode_weight_within2_of_outside": 0.6302209955283001,
+   "max_excess": 0.4526919016913943,
+   "weighted_mean_excess": 0.005547887418589573,
+   "mean_excess": 0.0081985281027001
+  },
+  "flip_k100_s2": {
+   "pc_gamma": 0.836812757289381,
+   "frac_vertices_outside_W": 0.06317300789662599,
+   "mode_weight_on_outside": 0.06162457552262615,
+   "frac_vertices_within2_of_outside": 0.674802584350323,
+   "mode_weight_within2_of_outside": 0.7063522558313307,
+   "max_excess": 0.4625275235339552,
+   "weighted_mean_excess": 0.0089331041424854,
+   "mean_excess": 0.008274242505861715
+  },
+  "flip_k300_s1": {
+   "pc_gamma": 0.6773562560653313,
+   "frac_vertices_outside_W": 0.1414213926776741,
+   "mode_weight_on_outside": 0.062326607581086255,
+   "frac_vertices_within2_of_outside": 0.9368269921033741,
+   "mode_weight_within2_of_outside": 0.9821950170056033,
+   "max_excess": 0.49432244640357614,
+   "weighted_mean_excess": 0.009685680855592776,
+   "mean_excess": 0.021193333460528346
+  },
+  "flip_k300_s2": {
+   "pc_gamma": 0.7399967477119761,
+   "frac_vertices_outside_W": 0.13854989231873654,
+   "mode_weight_on_outside": 0.06960756238635991,
+   "frac_vertices_within2_of_outside": 0.91816223977028,
+   "mode_weight_within2_of_outside": 0.9230327752701696,
+   "max_excess": 0.5582555083473462,
+   "weighted_mean_excess": 0.013520081391926456,
+   "mean_excess": 0.024121228104717295
+  },
+  "flip_k1000_s1": {
+   "pc_gamma": 0.5603775127891654,
+   "frac_vertices_outside_W": 0.23546302943287867,
+   "mode_weight_on_outside": 0.24156977446298877,
+   "frac_vertices_within2_of_outside": 0.9913854989231874,
+   "mode_weight_within2_of_outside": 0.9988087307829984,
+   "max_excess": 0.736983072353474,
+   "weighted_mean_excess": 0.032726436659308696,
+   "mean_excess": 0.04583630701968506
+  },
+  "flip_k1000_s2": {
+   "pc_gamma": 0.6159692177618791,
+   "frac_vertices_outside_W": 0.2871500358937545,
+   "mode_weight_on_outside": 0.15690210669262167,
+   "frac_vertices_within2_of_outside": 0.994256999282125,
+   "mode_weight_within2_of_outside": 0.9948979998529408,
+   "max_excess": 0.9040861305910519,
+   "weighted_mean_excess": 0.034891944175468384,
+   "mean_excess": 0.06353480444640267
+  },
+  "flip_eq_s1": {
+   "pc_gamma": 0.39985932257788553,
+   "frac_vertices_outside_W": 0.5448671931083992,
+   "mode_weight_on_outside": 0.17848267680228,
+   "frac_vertices_within2_of_outside": 1.0,
+   "mode_weight_within2_of_outside": 1.0,
+   "max_excess": 1.8666425835484186,
+   "weighted_mean_excess": 0.0705004786023152,
+   "mean_excess": 0.2466222439133096
+  },
+  "region_control_s11": {
+   "pc_gamma": 0.5542293699564622,
+   "frac_vertices_outside_W": 0.14931801866475233,
+   "mode_weight_on_outside": 0.11008042881188751,
+   "frac_vertices_within2_of_outside": 0.4063173007896626,
+   "mode_weight_within2_of_outside": 0.8223702011169034,
+   "max_excess": 1.2125298867958587,
+   "weighted_mean_excess": 0.033130925119566224,
+   "mean_excess": 0.05198958305556183
+  },
+  "plant_R4.5": {
+   "pc_gamma": 0.3812745606525876,
+   "frac_vertices_outside_W": 0.24910265613783203,
+   "mode_weight_on_outside": 0.8960879302345536,
+   "frac_vertices_within2_of_outside": 0.40990667623833454,
+   "mode_weight_within2_of_outside": 0.934792142790927,
+   "max_excess": 2.9490367460651337,
+   "weighted_mean_excess": 1.011775423807312,
+   "mean_excess": 0.28028847385757566
+  }
+ },
+ "note": "canonical window W = projection of unit 4-cube along the 12/17 slope plane, same offset as the canonical cut"
+}

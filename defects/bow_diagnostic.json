@@ -1,0 +1,190 @@
+{
+ "cases": [
+  {
+   "kind": "missing",
+   "level": "k1",
+   "i": 0,
+   "pe05_nl": 0.7956073758939423,
+   "pe05_linear_pred": 2.981615638611734,
+   "ends_deg_now": [
+    7,
+    2
+   ],
+   "lam_designcode": 0.7948737362425399,
+   "lam_nonlinearcode": 0.794830721147353,
+   "n_edges_over_0p03": 0
+  },
+  {
+   "kind": "missing",
+   "level": "k1",
+   "i": 1,
+   "pe05_nl": 0.7960226823576627,
+   "pe05_linear_pred": 2.626998825688248,
+   "ends_deg_now": [
+    8,
+    2
+   ],
+   "lam_designcode": 0.7953667258842853,
+   "lam_nonlinearcode": 0.7952082472963419,
+   "n_edges_over_0p03": 0
+  },
+  {
+   "kind": "missing",
+   "level": "k1",
+   "i": 2,
+   "pe05_nl": 0.7969393834690262,
+   "pe05_linear_pred": 3.240196299710179,
+   "ends_deg_now": [
+    4,
+    5
+   ],
+   "lam_designcode": 0.7956902401788003,
+   "lam_nonlinearcode": 0.7956817649585768,
+   "n_edges_over_0p03": 0
+  },
+  {
+   "kind": "missing",
+   "level": "k1",
+   "i": 3,
+   "pe05_nl": 0.6361307089384466,
+   "pe05_linear_pred": 1.1518955620530895,
+   "ends_deg_now": [
+    5,
+    3
+   ],
+   "lam_designcode": 0.7954987388413827,
+   "lam_nonlinearcode": 0.7954292223184488,
+   "n_edges_over_0p03": 0
+  },
+  {
+   "kind": "missing",
+   "level": "0.01",
+   "i": 0,
+   "pe05_nl": 0.4167882752453652,
+   "pe05_linear_pred": 0.553469263398984,
+   "ends_deg_now": [
+    4,
+    4
+   ],
+   "lam_designcode": 0.7593216591226056,
+   "lam_nonlinearcode": 0.7592038283063445,
+   "n_edges_over_0p03": 0
+  },
+  {
+   "kind": "missing",
+   "level": "0.01",
+   "i": 1,
+   "pe05_nl": 0.39156980952066733,
+   "pe05_linear_pred": 0.5564086883884759,
+   "ends_deg_now": [
+    4,
+    4
+   ],
+   "lam_designcode": 0.7657145338313559,
+   "lam_nonlinearcode": 0.7657086098558944,
+   "n_edges_over_0p03": 0
+  },
+  {
+   "kind": "missing",
+   "level": "0.01",
+   "i": 2,
+   "pe05_nl": 0.27605793973124965,
+   "pe05_linear_pred": 0.31568766133802273,
+   "ends_deg_now": [
+    6,
+    3
+   ],
+   "lam_designcode": 0.7576881483960707,
+   "lam_nonlinearcode": 0.7592930948615193,
+   "n_edges_over_0p03": 7
+  },
+  {
+   "kind": "missing",
+   "level": "0.01",
+   "i": 3,
+   "pe05_nl": 0.2591755952054696,
+   "pe05_linear_pred": 0.3247135719545522,
+   "ends_deg_now": [
+    3,
+    4
+   ],
+   "lam_designcode": 0.701556570660612,
+   "lam_nonlinearcode": 0.7016126244554057,
+   "n_edges_over_0p03": 3
+  },
+  {
+   "kind": "missing",
+   "level": "0.05",
+   "i": 0,
+   "pe05_nl": 0.07093150333595874,
+   "pe05_linear_pred": 0.07708693750933715,
+   "ends_deg_now": [
+    3,
+    4
+   ],
+   "lam_designcode": 0.4774309842282379,
+   "lam_nonlinearcode": 0.4774265898375595,
+   "n_edges_over_0p03": 321
+  },
+  {
+   "kind": "missing",
+   "level": "0.05",
+   "i": 1,
+   "pe05_nl": 0.0901146375421907,
+   "pe05_linear_pred": 0.10028294864724072,
+   "ends_deg_now": [
+    4,
+    3
+   ],
+   "lam_designcode": 0.513340262936863,
+   "lam_nonlinearcode": 0.513338530589037,
+   "n_edges_over_0p03": 333
+  },
+  {
+   "kind": "missing",
+   "level": "0.05",
+   "i": 2,
+   "pe05_nl": 0.08765398190879012,
+   "pe05_linear_pred": 0.09776168128879105,
+   "ends_deg_now": [
+    5,
+    4
+   ],
+   "lam_designcode": 0.5419911961821932,
+   "lam_nonlinearcode": 0.5418479773911637,
+   "n_edges_over_0p03": 271
+  },
+  {
+   "kind": "missing",
+   "level": "0.05",
+   "i": 3,
+   "pe05_nl": 0.10507986379054703,
+   "pe05_linear_pred": 0.11781321361790448,
+   "ends_deg_now": [
+    3,
+    4
+   ],
+   "lam_designcode": 0.4923602205305343,
+   "lam_nonlinearcode": 0.49259419707880586,
+   "n_edges_over_0p03": 269
+  },
+  {
+   "kind": "intact",
+   "name": "R22",
+   "pe05_nl": 0.3402418015880957,
+   "pe05_linear_pred": 0.4260525873119406
+  },
+  {
+   "kind": "intact",
+   "name": "R101",
+   "pe05_nl": 0.2798469078746679,
+   "pe05_linear_pred": 0.3337828312209957
+  },
+  {
+   "kind": "intact",
+   "name": "B1_12_17",
+   "pe05_nl": 0.7987457970858913,
+   "pe05_linear_pred": 14.184807873671646
+  }
+ ]
+}

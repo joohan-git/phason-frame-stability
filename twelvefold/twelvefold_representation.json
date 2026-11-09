@@ -1,0 +1,34 @@
+{
+ "status": "C",
+ "g_on_abcd": "Matrix([[-1/2, -sqrt(3)/2, 0, 0], [sqrt(3)/2, -1/2, 0, 0], [0, 0, -1, 0], [0, 0, 0, -1]])",
+ "ab_block_equals_R120": true,
+ "cd_block_equals_R180": true,
+ "offdiag_zero": true,
+ "mirror_on_abcd": "Matrix([[1, 0, 0, 0], [0, -1, 0, 0], [0, 0, 1, 0], [0, 0, 0, -1]])",
+ "m_ab": 4,
+ "m_cd": 6,
+ "check_m": {
+  "ab": true,
+  "cd": true
+ },
+ "D12_irreps": "(a,b): E4 (2D, g->R120, mirror diag(1,-1));  (c,d): g -> -1 on both, mirror: c even, d odd -> B1 (+) B2",
+ "AB_ab_block_R90_m2": true,
+ "AB_cd_block_R180_m4": true,
+ "phonon_trace_invariant_m0": true,
+ "phonon_deviator_block": "Matrix([[1/2, -sqrt(3)/2], [sqrt(3)/2, 1/2]])",
+ "phonon_deviator_is_R60_m2": true,
+ "linear_phonon_phason_R_allowed": "no: phonon m in {0,2}, phason m in {4,6}; D12 irreps distinct (m mod 12, m ~ -m) -> R = 0 by Schur",
+ "tangent_stiffness_4th_rank_m": [
+  0,
+  2,
+  4
+ ],
+ "first_order_h4_source": "(a,b) only (m=4); (c,d) m=6 not in {0,2,4}",
+ "all_orders_cd": "products of m=6 give m in {0,6,12=0} mod 12: pure (c,d) never carries m=4 in a covariant (hull-averaged) family",
+ "gram_v0_v3": "Matrix([[2, 0, 1, 0], [0, 2, 0, 1], [1, 0, 2, 0], [0, 1, 0, 2]])",
+ "det_gram": 9,
+ "det_B": "3",
+ "v4_eq_v2_minus_v0": true,
+ "v5_eq_v3_minus_v1": true,
+ "lattice": "A2 (+) A2: {v0,v2,v4} and {v1,v3,v5} orthogonal root systems (Gram block structure)"
+}

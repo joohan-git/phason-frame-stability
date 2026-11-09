@@ -1,0 +1,1718 @@
+{
+  "source_script": "ensemble_benchmark.py",
+  "runs": [
+    {
+      "name": "resume",
+      "task": 1,
+      "result": {
+        "source_script": "penrose_ensemble.py",
+        "classification": "P",
+        "task": {
+          "name": "fib_4",
+          "supercell": 1,
+          "N": 644,
+          "mode": "random",
+          "seed": 1,
+          "phase_seed": 91501,
+          "tag": "fib_4_sc1_seed01"
+        },
+        "settings": {
+          "burn": 2,
+          "spacing": 1,
+          "samples": 2,
+          "block": 1,
+          "sub": 4
+        },
+        "N": 644,
+        "period_lifts": [
+          [
+            10,
+            8,
+            3,
+            -3,
+            -8
+          ],
+          [
+            0,
+            5,
+            8,
+            8,
+            5
+          ]
+        ],
+        "phason_components": {
+          "a": [
+            0.0015528100075709586,
+            6.655711869628746e-17
+          ],
+          "b": [
+            0.006577808748212544,
+            7.652688354784569e-17
+          ],
+          "v": [
+            0.0,
+            0.0
+          ],
+          "delta": 0.006758608351404452
+        },
+        "samples": [],
+        "diagnostics": [
+          {
+            "sweeps": 1,
+            "mc": {
+              "attempted": 644,
+              "accepted": 245,
+              "cpu_s": 1.59375,
+              "seed": 910647,
+              "radius": -1
+            },
+            "internal_variance": 0.6008700104087584,
+            "low_modes": [
+              {
+                "k": [
+                  1,
+                  0
+                ],
+                "power": 0.0005406219773541417
+              },
+              {
+                "k": [
+                  0,
+                  1
+                ],
+                "power": 0.0011354688934617654
+              },
+              {
+                "k": [
+                  1,
+                  1
+                ],
+                "power": 0.002986590961336438
+              }
+            ]
+          }
+        ],
+        "invocations": [
+          {
+            "cpu_s": 1.6875,
+            "wall_s": 2.233533799997531,
+            "peak_rss_bytes": 157573120
+          }
+        ],
+        "completed_sweeps": 1,
+        "equilibration_certified": false,
+        "geometry": {
+          "vertices": 644,
+          "edges": 1288,
+          "faces": 644,
+          "degree_histogram": {
+            "3": 337,
+            "4": 64,
+            "5": 184,
+            "6": 24,
+            "7": 35
+          },
+          "square_faces": 0,
+          "rhombus_faces": 0,
+          "area": 523.1156655494195,
+          "edge_length_range": [
+            0.9999999999999959,
+            1.0000000000000029
+          ],
+          "thin_faces_from_periods": 246,
+          "fat_faces_from_periods": 398,
+          "integer_layers": [
+            -1.0,
+            0.0,
+            1.0,
+            2.0
+          ]
+        },
+        "interpretation": "Acoustic/Gamma/three boundary Bloch points sampled; no full-zone or infinite-size certificate.",
+        "complete": false
+      }
+    },
+    {
+      "name": "resume",
+      "task": 1,
+      "result": {
+        "source_script": "penrose_ensemble.py",
+        "classification": "P",
+        "task": {
+          "name": "fib_4",
+          "supercell": 1,
+          "N": 644,
+          "mode": "random",
+          "seed": 1,
+          "phase_seed": 91501,
+          "tag": "fib_4_sc1_seed01"
+        },
+        "settings": {
+          "burn": 2,
+          "spacing": 1,
+          "samples": 2,
+          "block": 1,
+          "sub": 4
+        },
+        "N": 644,
+        "period_lifts": [
+          [
+            10,
+            8,
+            3,
+            -3,
+            -8
+          ],
+          [
+            0,
+            5,
+            8,
+            8,
+            5
+          ]
+        ],
+        "phason_components": {
+          "a": [
+            0.0015528100075709586,
+            6.655711869628746e-17
+          ],
+          "b": [
+            0.006577808748212544,
+            7.652688354784569e-17
+          ],
+          "v": [
+            0.0,
+            0.0
+          ],
+          "delta": 0.006758608351404452
+        },
+        "samples": [
+          {
+            "sweeps": 2,
+            "mechanics": {
+              "pc": 0.5983116443916588,
+              "acoustic_or_Gamma": 0.5983568681266778,
+              "kind": "acoustic",
+              "theta": 0.3745275788310513,
+              "finite_k": [
+                {
+                  "k": [
+                    0.0,
+                    0.0
+                  ],
+                  "load": 0.0013287948868231673,
+                  "normalized": 0.5983780922258203,
+                  "bracket_width": 3.2484193286663743e-13,
+                  "calls": 33
+                },
+                {
+                  "k": [
+                    0.5,
+                    0.0
+                  ],
+                  "load": 0.0013286473287099586,
+                  "normalized": 0.5983116443916588,
+                  "bracket_width": 3.2484171602620293e-13,
+                  "calls": 33
+                },
+                {
+                  "k": [
+                    0.0,
+                    0.5
+                  ],
+                  "load": 0.0013286962904985344,
+                  "normalized": 0.5983336926866444,
+                  "bracket_width": 3.2484193286663743e-13,
+                  "calls": 33
+                },
+                {
+                  "k": [
+                    0.5,
+                    0.5
+                  ],
+                  "load": 0.0013288158699827838,
+                  "normalized": 0.5983875412861266,
+                  "bracket_width": 3.2484193286663743e-13,
+                  "calls": 33
+                }
+              ],
+              "sub": 4,
+              "cpu_s": 2.640625
+            },
+            "heights": {
+              "internal_variance": 0.6666463604629334,
+              "low_modes": [
+                {
+                  "k": [
+                    1,
+                    0
+                  ],
+                  "power": 0.0018773821238091334
+                },
+                {
+                  "k": [
+                    0,
+                    1
+                  ],
+                  "power": 0.0025401005532866387
+                },
+                {
+                  "k": [
+                    1,
+                    1
+                  ],
+                  "power": 0.005809319249576991
+                }
+              ]
+            },
+            "cpu_s": 2.640625,
+            "peak_rss_bytes": 166436864
+          },
+          {
+            "sweeps": 3,
+            "mechanics": {
+              "pc": 0.5672681572278813,
+              "acoustic_or_Gamma": 0.5673092148938654,
+              "kind": "acoustic",
+              "theta": 2.8909937696357155,
+              "finite_k": [
+                {
+                  "k": [
+                    0.0,
+                    0.0
+                  ],
+                  "load": 0.001259820103106051,
+                  "normalized": 0.5673176178805205,
+                  "bracket_width": 3.079862753718743e-13,
+                  "calls": 33
+                },
+                {
+                  "k": [
+                    0.5,
+                    0.0
+                  ],
+                  "load": 0.001259710267764183,
+                  "normalized": 0.5672681572278813,
+                  "bracket_width": 3.079864922123088e-13,
+                  "calls": 33
+                },
+                {
+                  "k": [
+                    0.0,
+                    0.5
+                  ],
+                  "load": 0.0012605091567666773,
+                  "normalized": 0.5676279100249104,
+                  "bracket_width": 3.079864922123088e-13,
+                  "calls": 33
+                },
+                {
+                  "k": [
+                    0.5,
+                    0.5
+                  ],
+                  "load": 0.0012605486788134545,
+                  "normalized": 0.567645707449619,
+                  "bracket_width": 3.079864922123088e-13,
+                  "calls": 33
+                }
+              ],
+              "sub": 4,
+              "cpu_s": 2.515625
+            },
+            "heights": {
+              "internal_variance": 0.7026597100781098,
+              "low_modes": [
+                {
+                  "k": [
+                    1,
+                    0
+                  ],
+                  "power": 0.0028646168133340992
+                },
+                {
+                  "k": [
+                    0,
+                    1
+                  ],
+                  "power": 0.004421482865210929
+                },
+                {
+                  "k": [
+                    1,
+                    1
+                  ],
+                  "power": 0.006322417261447926
+                }
+              ]
+            },
+            "cpu_s": 2.515625,
+            "peak_rss_bytes": 169881600
+          }
+        ],
+        "diagnostics": [
+          {
+            "sweeps": 1,
+            "mc": {
+              "attempted": 644,
+              "accepted": 245,
+              "cpu_s": 1.59375,
+              "seed": 910647,
+              "radius": -1
+            },
+            "internal_variance": 0.6008700104087584,
+            "low_modes": [
+              {
+                "k": [
+                  1,
+                  0
+                ],
+                "power": 0.0005406219773541417
+              },
+              {
+                "k": [
+                  0,
+                  1
+                ],
+                "power": 0.0011354688934617654
+              },
+              {
+                "k": [
+                  1,
+                  1
+                ],
+                "power": 0.002986590961336438
+              }
+            ]
+          },
+          {
+            "sweeps": 2,
+            "mc": {
+              "attempted": 644,
+              "accepted": 217,
+              "cpu_s": 1.5,
+              "seed": 918566,
+              "radius": -1
+            },
+            "internal_variance": 0.6666463604629334,
+            "low_modes": [
+              {
+                "k": [
+                  1,
+                  0
+                ],
+                "power": 0.0018773821238091334
+              },
+              {
+                "k": [
+                  0,
+                  1
+                ],
+                "power": 0.0025401005532866387
+              },
+              {
+                "k": [
+                  1,
+                  1
+                ],
+                "power": 0.005809319249576991
+              }
+            ]
+          },
+          {
+            "sweeps": 3,
+            "mc": {
+              "attempted": 644,
+              "accepted": 220,
+              "cpu_s": 0.0,
+              "seed": 926485,
+              "radius": -1
+            },
+            "internal_variance": 0.7026597100781098,
+            "low_modes": [
+              {
+                "k": [
+                  1,
+                  0
+                ],
+                "power": 0.0028646168133340992
+              },
+              {
+                "k": [
+                  0,
+                  1
+                ],
+                "power": 0.004421482865210929
+              },
+              {
+                "k": [
+                  1,
+                  1
+                ],
+                "power": 0.006322417261447926
+              }
+            ]
+          }
+        ],
+        "invocations": [
+          {
+            "cpu_s": 1.6875,
+            "wall_s": 2.233533799997531,
+            "peak_rss_bytes": 157573120
+          },
+          {
+            "cpu_s": 6.734375,
+            "wall_s": 8.551116000046022,
+            "peak_rss_bytes": 169881600
+          }
+        ],
+        "completed_sweeps": 3,
+        "equilibration_certified": false,
+        "geometry": {
+          "vertices": 644,
+          "edges": 1288,
+          "faces": 644,
+          "degree_histogram": {
+            "3": 337,
+            "4": 64,
+            "5": 184,
+            "6": 24,
+            "7": 35
+          },
+          "square_faces": 0,
+          "rhombus_faces": 0,
+          "area": 523.1156655494195,
+          "edge_length_range": [
+            0.9999999999999959,
+            1.0000000000000029
+          ],
+          "thin_faces_from_periods": 246,
+          "fat_faces_from_periods": 398,
+          "integer_layers": [
+            -1.0,
+            0.0,
+            1.0,
+            2.0
+          ]
+        },
+        "interpretation": "Acoustic/Gamma/three boundary Bloch points sampled; no full-zone or infinite-size certificate.",
+        "complete": true,
+        "final_geometry": {
+          "vertices": 644,
+          "edges": 1288,
+          "faces": 644,
+          "degree_histogram": {
+            "3": 228,
+            "4": 246,
+            "5": 126,
+            "6": 34,
+            "7": 6,
+            "8": 4
+          },
+          "square_faces": 0,
+          "rhombus_faces": 0,
+          "area": 523.1156655494195,
+          "edge_length_range": [
+            0.9999999999999959,
+            1.000000000000007
+          ],
+          "thin_faces_from_periods": 246,
+          "fat_faces_from_periods": 398,
+          "integer_layers": [
+            -2.0,
+            -1.0,
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "straight",
+      "task": 1,
+      "result": {
+        "source_script": "penrose_ensemble.py",
+        "classification": "P",
+        "task": {
+          "name": "fib_4",
+          "supercell": 1,
+          "N": 644,
+          "mode": "random",
+          "seed": 1,
+          "phase_seed": 91501,
+          "tag": "fib_4_sc1_seed01"
+        },
+        "settings": {
+          "burn": 2,
+          "spacing": 1,
+          "samples": 2,
+          "block": 1,
+          "sub": 4
+        },
+        "N": 644,
+        "period_lifts": [
+          [
+            10,
+            8,
+            3,
+            -3,
+            -8
+          ],
+          [
+            0,
+            5,
+            8,
+            8,
+            5
+          ]
+        ],
+        "phason_components": {
+          "a": [
+            0.0015528100075709586,
+            6.655711869628746e-17
+          ],
+          "b": [
+            0.006577808748212544,
+            7.652688354784569e-17
+          ],
+          "v": [
+            0.0,
+            0.0
+          ],
+          "delta": 0.006758608351404452
+        },
+        "samples": [
+          {
+            "sweeps": 2,
+            "mechanics": {
+              "pc": 0.5983116443916588,
+              "acoustic_or_Gamma": 0.5983568681266778,
+              "kind": "acoustic",
+              "theta": 0.3745275788310513,
+              "finite_k": [
+                {
+                  "k": [
+                    0.0,
+                    0.0
+                  ],
+                  "load": 0.0013287948868231673,
+                  "normalized": 0.5983780922258203,
+                  "bracket_width": 3.2484193286663743e-13,
+                  "calls": 33
+                },
+                {
+                  "k": [
+                    0.5,
+                    0.0
+                  ],
+                  "load": 0.0013286473287099586,
+                  "normalized": 0.5983116443916588,
+                  "bracket_width": 3.2484171602620293e-13,
+                  "calls": 33
+                },
+                {
+                  "k": [
+                    0.0,
+                    0.5
+                  ],
+                  "load": 0.0013286962904985344,
+                  "normalized": 0.5983336926866444,
+                  "bracket_width": 3.2484193286663743e-13,
+                  "calls": 33
+                },
+                {
+                  "k": [
+                    0.5,
+                    0.5
+                  ],
+                  "load": 0.0013288158699827838,
+                  "normalized": 0.5983875412861266,
+                  "bracket_width": 3.2484193286663743e-13,
+                  "calls": 33
+                }
+              ],
+              "sub": 4,
+              "cpu_s": 2.390625
+            },
+            "heights": {
+              "internal_variance": 0.6666463604629334,
+              "low_modes": [
+                {
+                  "k": [
+                    1,
+                    0
+                  ],
+                  "power": 0.0018773821238091334
+                },
+                {
+                  "k": [
+                    0,
+                    1
+                  ],
+                  "power": 0.0025401005532866387
+                },
+                {
+                  "k": [
+                    1,
+                    1
+                  ],
+                  "power": 0.005809319249576991
+                }
+              ]
+            },
+            "cpu_s": 2.390625,
+            "peak_rss_bytes": 166674432
+          },
+          {
+            "sweeps": 3,
+            "mechanics": {
+              "pc": 0.5672681572278813,
+              "acoustic_or_Gamma": 0.5673092148938654,
+              "kind": "acoustic",
+              "theta": 2.8909937696357155,
+              "finite_k": [
+                {
+                  "k": [
+                    0.0,
+                    0.0
+                  ],
+                  "load": 0.001259820103106051,
+                  "normalized": 0.5673176178805205,
+                  "bracket_width": 3.079862753718743e-13,
+                  "calls": 33
+                },
+                {
+                  "k": [
+                    0.5,
+                    0.0
+                  ],
+                  "load": 0.001259710267764183,
+                  "normalized": 0.5672681572278813,
+                  "bracket_width": 3.079864922123088e-13,
+                  "calls": 33
+                },
+                {
+                  "k": [
+                    0.0,
+                    0.5
+                  ],
+                  "load": 0.0012605091567666773,
+                  "normalized": 0.5676279100249104,
+                  "bracket_width": 3.079864922123088e-13,
+                  "calls": 33
+                },
+                {
+                  "k": [
+                    0.5,
+                    0.5
+                  ],
+                  "load": 0.0012605486788134545,
+                  "normalized": 0.567645707449619,
+                  "bracket_width": 3.079864922123088e-13,
+                  "calls": 33
+                }
+              ],
+              "sub": 4,
+              "cpu_s": 2.40625
+            },
+            "heights": {
+              "internal_variance": 0.7026597100781098,
+              "low_modes": [
+                {
+                  "k": [
+                    1,
+                    0
+                  ],
+                  "power": 0.0028646168133340992
+                },
+                {
+                  "k": [
+                    0,
+                    1
+                  ],
+                  "power": 0.004421482865210929
+                },
+                {
+                  "k": [
+                    1,
+                    1
+                  ],
+                  "power": 0.006322417261447926
+                }
+              ]
+            },
+            "cpu_s": 2.40625,
+            "peak_rss_bytes": 169734144
+          }
+        ],
+        "diagnostics": [
+          {
+            "sweeps": 1,
+            "mc": {
+              "attempted": 644,
+              "accepted": 245,
+              "cpu_s": 1.375,
+              "seed": 910647,
+              "radius": -1
+            },
+            "internal_variance": 0.6008700104087584,
+            "low_modes": [
+              {
+                "k": [
+                  1,
+                  0
+                ],
+                "power": 0.0005406219773541417
+              },
+              {
+                "k": [
+                  0,
+                  1
+                ],
+                "power": 0.0011354688934617654
+              },
+              {
+                "k": [
+                  1,
+                  1
+                ],
+                "power": 0.002986590961336438
+              }
+            ]
+          },
+          {
+            "sweeps": 2,
+            "mc": {
+              "attempted": 644,
+              "accepted": 217,
+              "cpu_s": 0.0,
+              "seed": 918566,
+              "radius": -1
+            },
+            "internal_variance": 0.6666463604629334,
+            "low_modes": [
+              {
+                "k": [
+                  1,
+                  0
+                ],
+                "power": 0.0018773821238091334
+              },
+              {
+                "k": [
+                  0,
+                  1
+                ],
+                "power": 0.0025401005532866387
+              },
+              {
+                "k": [
+                  1,
+                  1
+                ],
+                "power": 0.005809319249576991
+              }
+            ]
+          },
+          {
+            "sweeps": 3,
+            "mc": {
+              "attempted": 644,
+              "accepted": 220,
+              "cpu_s": 0.0,
+              "seed": 926485,
+              "radius": -1
+            },
+            "internal_variance": 0.7026597100781098,
+            "low_modes": [
+              {
+                "k": [
+                  1,
+                  0
+                ],
+                "power": 0.0028646168133340992
+              },
+              {
+                "k": [
+                  0,
+                  1
+                ],
+                "power": 0.004421482865210929
+              },
+              {
+                "k": [
+                  1,
+                  1
+                ],
+                "power": 0.006322417261447926
+              }
+            ]
+          }
+        ],
+        "invocations": [
+          {
+            "cpu_s": 6.34375,
+            "wall_s": 7.231894899974577,
+            "peak_rss_bytes": 169734144
+          }
+        ],
+        "completed_sweeps": 3,
+        "equilibration_certified": false,
+        "geometry": {
+          "vertices": 644,
+          "edges": 1288,
+          "faces": 644,
+          "degree_histogram": {
+            "3": 337,
+            "4": 64,
+            "5": 184,
+            "6": 24,
+            "7": 35
+          },
+          "square_faces": 0,
+          "rhombus_faces": 0,
+          "area": 523.1156655494195,
+          "edge_length_range": [
+            0.9999999999999959,
+            1.0000000000000029
+          ],
+          "thin_faces_from_periods": 246,
+          "fat_faces_from_periods": 398,
+          "integer_layers": [
+            -1.0,
+            0.0,
+            1.0,
+            2.0
+          ]
+        },
+        "interpretation": "Acoustic/Gamma/three boundary Bloch points sampled; no full-zone or infinite-size certificate.",
+        "complete": true,
+        "final_geometry": {
+          "vertices": 644,
+          "edges": 1288,
+          "faces": 644,
+          "degree_histogram": {
+            "3": 228,
+            "4": 246,
+            "5": 126,
+            "6": 34,
+            "7": 6,
+            "8": 4
+          },
+          "square_faces": 0,
+          "rhombus_faces": 0,
+          "area": 523.1156655494195,
+          "edge_length_range": [
+            0.9999999999999959,
+            1.000000000000007
+          ],
+          "thin_faces_from_periods": 246,
+          "fat_faces_from_periods": 398,
+          "integer_layers": [
+            -2.0,
+            -1.0,
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "medium",
+      "task": 18,
+      "result": {
+        "source_script": "penrose_ensemble.py",
+        "classification": "P",
+        "task": {
+          "name": "fib_5",
+          "supercell": 1,
+          "N": 1686,
+          "mode": "random",
+          "seed": 1,
+          "phase_seed": 91501,
+          "tag": "fib_5_sc1_seed01"
+        },
+        "settings": {
+          "burn": 20,
+          "spacing": 10,
+          "samples": 2,
+          "block": 10,
+          "sub": 4
+        },
+        "N": 1686,
+        "period_lifts": [
+          [
+            16,
+            13,
+            5,
+            -5,
+            -13
+          ],
+          [
+            0,
+            8,
+            13,
+            13,
+            8
+          ]
+        ],
+        "phason_components": {
+          "a": [
+            -0.0005931206448210987,
+            5.833939644823267e-17
+          ],
+          "b": [
+            -0.0025124993703206124,
+            1.1054471058002855e-16
+          ],
+          "v": [
+            0.0,
+            0.0
+          ],
+          "delta": 0.0025815586735874257
+        },
+        "samples": [
+          {
+            "sweeps": 20,
+            "mechanics": {
+              "pc": 0.4719887205403702,
+              "acoustic_or_Gamma": 0.4719887205403702,
+              "kind": "acoustic",
+              "theta": 0.8134759537897566,
+              "finite_k": [
+                {
+                  "k": [
+                    0.0,
+                    0.0
+                  ],
+                  "load": 0.0010481370067901975,
+                  "normalized": 0.47199325398808817,
+                  "bracket_width": 2.5623773936001015e-13,
+                  "calls": 33
+                },
+                {
+                  "k": [
+                    0.5,
+                    0.0
+                  ],
+                  "load": 0.0010481361612052153,
+                  "normalized": 0.47199287320732697,
+                  "bracket_width": 2.5623795620044465e-13,
+                  "calls": 33
+                },
+                {
+                  "k": [
+                    0.0,
+                    0.5
+                  ],
+                  "load": 0.0010482249168798246,
+                  "normalized": 0.4720328413406887,
+                  "bracket_width": 2.5623795620044465e-13,
+                  "calls": 33
+                },
+                {
+                  "k": [
+                    0.5,
+                    0.5
+                  ],
+                  "load": 0.0010482174278154976,
+                  "normalized": 0.4720294688924132,
+                  "bracket_width": 2.5623773936001015e-13,
+                  "calls": 33
+                }
+              ],
+              "sub": 4,
+              "cpu_s": 8.125
+            },
+            "heights": {
+              "internal_variance": 0.8485857497189049,
+              "low_modes": [
+                {
+                  "k": [
+                    1,
+                    0
+                  ],
+                  "power": 0.0022332819186129185
+                },
+                {
+                  "k": [
+                    0,
+                    1
+                  ],
+                  "power": 0.015241807543594492
+                },
+                {
+                  "k": [
+                    1,
+                    1
+                  ],
+                  "power": 0.010092852163077887
+                }
+              ]
+            },
+            "cpu_s": 8.125,
+            "peak_rss_bytes": 185372672
+          },
+          {
+            "sweeps": 30,
+            "mechanics": {
+              "pc": 0.4631408672581699,
+              "acoustic_or_Gamma": 0.46315721100091506,
+              "kind": "acoustic",
+              "theta": 1.089159176736502,
+              "finite_k": [
+                {
+                  "k": [
+                    0.0,
+                    0.0
+                  ],
+                  "load": 0.0010285880876656612,
+                  "normalized": 0.46319005565641547,
+                  "bracket_width": 2.5144318051284476e-13,
+                  "calls": 33
+                },
+                {
+                  "k": [
+                    0.5,
+                    0.0
+                  ],
+                  "load": 0.0010285549987283117,
+                  "normalized": 0.4631751551662034,
+                  "bracket_width": 2.5144339735327925e-13,
+                  "calls": 33
+                },
+                {
+                  "k": [
+                    0.0,
+                    0.5
+                  ],
+                  "load": 0.0010284788569085046,
+                  "normalized": 0.4631408672581699,
+                  "bracket_width": 2.5144339735327925e-13,
+                  "calls": 33
+                },
+                {
+                  "k": [
+                    0.5,
+                    0.5
+                  ],
+                  "load": 0.0010285096961823198,
+                  "normalized": 0.46315475468806155,
+                  "bracket_width": 2.5144339735327925e-13,
+                  "calls": 33
+                }
+              ],
+              "sub": 4,
+              "cpu_s": 8.09375
+            },
+            "heights": {
+              "internal_variance": 0.9121893030841343,
+              "low_modes": [
+                {
+                  "k": [
+                    1,
+                    0
+                  ],
+                  "power": 0.0031699073328302777
+                },
+                {
+                  "k": [
+                    0,
+                    1
+                  ],
+                  "power": 0.01807520499290226
+                },
+                {
+                  "k": [
+                    1,
+                    1
+                  ],
+                  "power": 0.010239150756917498
+                }
+              ]
+            },
+            "cpu_s": 8.09375,
+            "peak_rss_bytes": 185372672
+          }
+        ],
+        "diagnostics": [
+          {
+            "sweeps": 10,
+            "mc": {
+              "attempted": 16860,
+              "accepted": 5679,
+              "cpu_s": 1.375,
+              "seed": 911689,
+              "radius": -1
+            },
+            "internal_variance": 0.8255362569256807,
+            "low_modes": [
+              {
+                "k": [
+                  1,
+                  0
+                ],
+                "power": 0.003820413634830426
+              },
+              {
+                "k": [
+                  0,
+                  1
+                ],
+                "power": 0.004543668964298721
+              },
+              {
+                "k": [
+                  1,
+                  1
+                ],
+                "power": 0.006065933786717027
+              }
+            ]
+          },
+          {
+            "sweeps": 20,
+            "mc": {
+              "attempted": 16860,
+              "accepted": 5393,
+              "cpu_s": 0.046875,
+              "seed": 919608,
+              "radius": -1
+            },
+            "internal_variance": 0.8485857497189049,
+            "low_modes": [
+              {
+                "k": [
+                  1,
+                  0
+                ],
+                "power": 0.0022332819186129185
+              },
+              {
+                "k": [
+                  0,
+                  1
+                ],
+                "power": 0.015241807543594492
+              },
+              {
+                "k": [
+                  1,
+                  1
+                ],
+                "power": 0.010092852163077887
+              }
+            ]
+          },
+          {
+            "sweeps": 30,
+            "mc": {
+              "attempted": 16860,
+              "accepted": 5463,
+              "cpu_s": 0.03125,
+              "seed": 927527,
+              "radius": -1
+            },
+            "internal_variance": 0.9121893030841343,
+            "low_modes": [
+              {
+                "k": [
+                  1,
+                  0
+                ],
+                "power": 0.0031699073328302777
+              },
+              {
+                "k": [
+                  0,
+                  1
+                ],
+                "power": 0.01807520499290226
+              },
+              {
+                "k": [
+                  1,
+                  1
+                ],
+                "power": 0.010239150756917498
+              }
+            ]
+          }
+        ],
+        "invocations": [
+          {
+            "cpu_s": 17.890625,
+            "wall_s": 19.63068539998494,
+            "peak_rss_bytes": 185372672
+          }
+        ],
+        "completed_sweeps": 30,
+        "equilibration_certified": false,
+        "geometry": {
+          "vertices": 1686,
+          "edges": 3372,
+          "faces": 1686,
+          "degree_histogram": {
+            "3": 887,
+            "4": 158,
+            "5": 488,
+            "6": 60,
+            "7": 93
+          },
+          "square_faces": 0,
+          "rhombus_faces": 0,
+          "area": 1369.5345924559026,
+          "edge_length_range": [
+            0.9999999999999925,
+            1.0000000000000036
+          ],
+          "thin_faces_from_periods": 644,
+          "fat_faces_from_periods": 1042,
+          "integer_layers": [
+            -1.0,
+            0.0,
+            1.0,
+            2.0
+          ]
+        },
+        "interpretation": "Acoustic/Gamma/three boundary Bloch points sampled; no full-zone or infinite-size certificate.",
+        "complete": true,
+        "final_geometry": {
+          "vertices": 1686,
+          "edges": 3372,
+          "faces": 1686,
+          "degree_histogram": {
+            "3": 536,
+            "4": 717,
+            "5": 339,
+            "6": 85,
+            "7": 9
+          },
+          "square_faces": 0,
+          "rhombus_faces": 0,
+          "area": 1369.5345924559026,
+          "edge_length_range": [
+            0.9999999999999925,
+            1.0000000000000036
+          ],
+          "thin_faces_from_periods": 644,
+          "fat_faces_from_periods": 1042,
+          "integer_layers": [
+            -3.0,
+            -2.0,
+            -1.0,
+            0.0,
+            1.0,
+            2.0,
+            3.0,
+            4.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "large",
+      "task": 52,
+      "result": {
+        "source_script": "penrose_ensemble.py",
+        "classification": "P",
+        "task": {
+          "name": "fib_7",
+          "supercell": 1,
+          "N": 11556,
+          "mode": "random",
+          "seed": 1,
+          "phase_seed": 91501,
+          "tag": "fib_7_sc1_seed01"
+        },
+        "settings": {
+          "burn": 20,
+          "spacing": 10,
+          "samples": 2,
+          "block": 10,
+          "sub": 4
+        },
+        "N": 11556,
+        "period_lifts": [
+          [
+            42,
+            34,
+            13,
+            -13,
+            -34
+          ],
+          [
+            0,
+            21,
+            34,
+            34,
+            21
+          ]
+        ],
+        "phason_components": {
+          "a": [
+            -8.653513585609083e-05,
+            8.435631031821979e-17
+          ],
+          "b": [
+            -0.00036656871792859066,
+            8.68665080146078e-17
+          ],
+          "v": [
+            0.0,
+            0.0
+          ],
+          "delta": 0.00037664433448738184
+        },
+        "samples": [
+          {
+            "sweeps": 20,
+            "mechanics": {
+              "pc": 0.43294461107666776,
+              "acoustic_or_Gamma": 0.43294461107666776,
+              "kind": "acoustic",
+              "theta": 1.421603713133742,
+              "finite_k": [
+                {
+                  "k": [
+                    0.0,
+                    0.0
+                  ],
+                  "load": 0.0009614281967268948,
+                  "normalized": 0.432946857242166,
+                  "bracket_width": 2.3504115320704955e-13,
+                  "calls": 33
+                },
+                {
+                  "k": [
+                    0.5,
+                    0.0
+                  ],
+                  "load": 0.000961425113691163,
+                  "normalized": 0.4329454689007013,
+                  "bracket_width": 2.3504115320704955e-13,
+                  "calls": 33
+                },
+                {
+                  "k": [
+                    0.0,
+                    0.5
+                  ],
+                  "load": 0.0009614267570993995,
+                  "normalized": 0.43294620895433567,
+                  "bracket_width": 2.350412616272668e-13,
+                  "calls": 33
+                },
+                {
+                  "k": [
+                    0.5,
+                    0.5
+                  ],
+                  "load": 0.0009614356336662552,
+                  "normalized": 0.4329502062177157,
+                  "bracket_width": 2.3504115320704955e-13,
+                  "calls": 33
+                }
+              ],
+              "sub": 4,
+              "cpu_s": 203.859375
+            },
+            "heights": {
+              "internal_variance": 0.9171199633878027,
+              "low_modes": [
+                {
+                  "k": [
+                    1,
+                    0
+                  ],
+                  "power": 0.0007174864177267524
+                },
+                {
+                  "k": [
+                    0,
+                    1
+                  ],
+                  "power": 0.0009775815910973904
+                },
+                {
+                  "k": [
+                    1,
+                    1
+                  ],
+                  "power": 0.00026285220352202757
+                }
+              ]
+            },
+            "cpu_s": 203.859375,
+            "peak_rss_bytes": 383045632
+          },
+          {
+            "sweeps": 30,
+            "mechanics": {
+              "pc": 0.42715793361904647,
+              "acoustic_or_Gamma": 0.42715793361904647,
+              "kind": "near_Gamma_or_acoustic",
+              "theta": 1.3595600685688374,
+              "finite_k": [
+                {
+                  "k": [
+                    0.0,
+                    0.0
+                  ],
+                  "load": 0.0009485823306245394,
+                  "normalized": 0.4271621534270476,
+                  "bracket_width": 2.318996774122728e-13,
+                  "calls": 33
+                },
+                {
+                  "k": [
+                    0.5,
+                    0.0
+                  ],
+                  "load": 0.0009485752623218224,
+                  "normalized": 0.4271589704546137,
+                  "bracket_width": 2.318996774122728e-13,
+                  "calls": 33
+                },
+                {
+                  "k": [
+                    0.0,
+                    0.5
+                  ],
+                  "load": 0.0009485833308079257,
+                  "normalized": 0.42716260382600124,
+                  "bracket_width": 2.3189978583249005e-13,
+                  "calls": 33
+                },
+                {
+                  "k": [
+                    0.5,
+                    0.5
+                  ],
+                  "load": 0.0009485895417774687,
+                  "normalized": 0.4271654007272709,
+                  "bracket_width": 2.318996774122728e-13,
+                  "calls": 33
+                }
+              ],
+              "sub": 4,
+              "cpu_s": 240.125
+            },
+            "heights": {
+              "internal_variance": 0.9731904108478148,
+              "low_modes": [
+                {
+                  "k": [
+                    1,
+                    0
+                  ],
+                  "power": 0.001534568871726535
+                },
+                {
+                  "k": [
+                    0,
+                    1
+                  ],
+                  "power": 0.002655700576948119
+                },
+                {
+                  "k": [
+                    1,
+                    1
+                  ],
+                  "power": 0.0005990295822725026
+                }
+              ]
+            },
+            "cpu_s": 240.125,
+            "peak_rss_bytes": 438558720
+          }
+        ],
+        "diagnostics": [
+          {
+            "sweeps": 10,
+            "mc": {
+              "attempted": 115560,
+              "accepted": 38946,
+              "cpu_s": 1.765625,
+              "seed": 921559,
+              "radius": -1
+            },
+            "internal_variance": 0.8207312672480506,
+            "low_modes": [
+              {
+                "k": [
+                  1,
+                  0
+                ],
+                "power": 0.00029859057838976864
+              },
+              {
+                "k": [
+                  0,
+                  1
+                ],
+                "power": 0.0006757375006048125
+              },
+              {
+                "k": [
+                  1,
+                  1
+                ],
+                "power": 0.0005811932635414989
+              }
+            ]
+          },
+          {
+            "sweeps": 20,
+            "mc": {
+              "attempted": 115560,
+              "accepted": 36846,
+              "cpu_s": 0.34375,
+              "seed": 929478,
+              "radius": -1
+            },
+            "internal_variance": 0.9171199633878027,
+            "low_modes": [
+              {
+                "k": [
+                  1,
+                  0
+                ],
+                "power": 0.0007174864177267524
+              },
+              {
+                "k": [
+                  0,
+                  1
+                ],
+                "power": 0.0009775815910973904
+              },
+              {
+                "k": [
+                  1,
+                  1
+                ],
+                "power": 0.00026285220352202757
+              }
+            ]
+          },
+          {
+            "sweeps": 30,
+            "mc": {
+              "attempted": 115560,
+              "accepted": 36632,
+              "cpu_s": 0.265625,
+              "seed": 937397,
+              "radius": -1
+            },
+            "internal_variance": 0.9731904108478148,
+            "low_modes": [
+              {
+                "k": [
+                  1,
+                  0
+                ],
+                "power": 0.001534568871726535
+              },
+              {
+                "k": [
+                  0,
+                  1
+                ],
+                "power": 0.002655700576948119
+              },
+              {
+                "k": [
+                  1,
+                  1
+                ],
+                "power": 0.0005990295822725026
+              }
+            ]
+          }
+        ],
+        "invocations": [
+          {
+            "cpu_s": 447.71875,
+            "wall_s": 510.93101259996183,
+            "peak_rss_bytes": 438558720
+          }
+        ],
+        "completed_sweeps": 30,
+        "equilibration_certified": false,
+        "geometry": {
+          "vertices": 11556,
+          "edges": 23112,
+          "faces": 11556,
+          "degree_histogram": {
+            "3": 6098,
+            "4": 1046,
+            "5": 3368,
+            "6": 402,
+            "7": 642
+          },
+          "square_faces": 0,
+          "rhombus_faces": 0,
+          "area": 9386.929742998964,
+          "edge_length_range": [
+            0.9999999999999852,
+            1.000000000000015
+          ],
+          "thin_faces_from_periods": 4414,
+          "fat_faces_from_periods": 7142,
+          "integer_layers": [
+            -1.0,
+            0.0,
+            1.0,
+            2.0
+          ]
+        },
+        "interpretation": "Acoustic/Gamma/three boundary Bloch points sampled; no full-zone or infinite-size certificate.",
+        "complete": true,
+        "final_geometry": {
+          "vertices": 11556,
+          "edges": 23112,
+          "faces": 11556,
+          "degree_histogram": {
+            "3": 3626,
+            "4": 4959,
+            "5": 2385,
+            "6": 519,
+            "7": 65,
+            "8": 2
+          },
+          "square_faces": 0,
+          "rhombus_faces": 0,
+          "area": 9386.929742998964,
+          "edge_length_range": [
+            0.9999999999999858,
+            1.000000000000015
+          ],
+          "thin_faces_from_periods": 4414,
+          "fat_faces_from_periods": 7142,
+          "integer_layers": [
+            -3.0,
+            -2.0,
+            -1.0,
+            0.0,
+            1.0,
+            2.0,
+            3.0,
+            4.0,
+            5.0
+          ]
+        }
+      }
+    }
+  ],
+  "restart_identical_lifts": true,
+  "restart_pressure_max_error": 0.0,
+  "wall_s": 563.0013470000122,
+  "cpu_s": 480.375,
+  "note": "Subprocess CPU; includes five fresh starts, with restart invocations counted once."
+}

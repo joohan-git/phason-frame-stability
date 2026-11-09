@@ -1,0 +1,44 @@
+{
+  "label": "C",
+  "source": "penrose_symmetry.py",
+  "method": "exact polynomial reduction modulo Phi_10(z)",
+  "cyclotomic": "z**4 - z**3 + z**2 - z + 1",
+  "checks": {
+    "left_eigenvector_weight_1": true,
+    "left_eigenvector_weight_3": true,
+    "left_eigenvector_weight_5": true,
+    "left_eigenvector_weight_7": true,
+    "left_eigenvector_weight_9": true,
+    "G_power5_minus_I": true,
+    "G_power10_I": true,
+    "a_to_h4_via_conjugation": true,
+    "v_to_h4_via_conjugation": true,
+    "b_neither_chirality_weight4": true,
+    "quadratic_b_allowed": true,
+    "nonanalytic_first_order_b_covariant_allowed": true,
+    "transverse_strain_traceless": true,
+    "deviator_basis_spin2": true
+  },
+  "hom_weights": [
+    2,
+    4,
+    4,
+    6,
+    6,
+    8
+  ],
+  "decomposition": "E2 + E4 + E4",
+  "a_weight": 6,
+  "b_weight": 8,
+  "v_weight": 6,
+  "h4_weight": 4,
+  "covariant": "h4 = kappa_a conjugate(a) + kappa_v conjugate(v) + higher order",
+  "caveats": [
+    "Complex kappas under C10 alone; reflection symmetry makes them real in compatible bases.",
+    "No invariant real linear functional on this phason representation.",
+    "Symmetry does not prohibit nonanalytic invariant norms or ensure differentiability.",
+    "h4 proportional to conjugate(b)^2/abs(b) is C10-covariant and degree one but not differentiable at b=0. Excluding it needs regularity or empirical bounds.",
+    "Allowed does not imply nonzero coupling; generic E4+E4 to E4 map has a two-real-dimensional kernel."
+  ],
+  "cpu_s": 0.25
+}

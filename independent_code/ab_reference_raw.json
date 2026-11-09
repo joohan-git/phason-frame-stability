@@ -1,0 +1,25 @@
+{
+  "classification": "P",
+  "source_script": "ab_reference.py",
+  "row": {
+    "p": 70,
+    "q": 99,
+    "N": 47321,
+    "sub": 2,
+    "matched_offset": true,
+    "b": 2.5508902623582265e-05,
+    "zero_phi": [
+      0.7998226662315439,
+      0.7998416982085315
+    ],
+    "zero_c0": 0.7998321822200376,
+    "zero_h4": -9.515988493802308e-06,
+    "zero_min": 0.7998226662315439,
+    "critical": 0.7998226649638707,
+    "cpu_s": 152.390625,
+    "zero_phi22_5": 0.7998321822807442,
+    "midpoint_minus_phi22_5": -6.070655089729371e-11
+  },
+  "cpu_s": 206.96875,
+  "note": "47,321-vertex angular midpoint. A finite approximant reference, not an exact irrational QC value."
+}

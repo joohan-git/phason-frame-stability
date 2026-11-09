@@ -1,0 +1,772 @@
+{
+  "source_script": "penrose_ensemble.py",
+  "classification": "P",
+  "tasks": [
+    {
+      "name": "fib_4",
+      "supercell": 1,
+      "N": 644,
+      "mode": "canonical",
+      "seed": 0,
+      "phase_seed": 91501,
+      "tag": "fib_4_sc1_seed00"
+    },
+    {
+      "name": "fib_4",
+      "supercell": 1,
+      "N": 644,
+      "mode": "random",
+      "seed": 1,
+      "phase_seed": 91501,
+      "tag": "fib_4_sc1_seed01"
+    },
+    {
+      "name": "fib_4",
+      "supercell": 1,
+      "N": 644,
+      "mode": "random",
+      "seed": 2,
+      "phase_seed": 91501,
+      "tag": "fib_4_sc1_seed02"
+    },
+    {
+      "name": "fib_4",
+      "supercell": 1,
+      "N": 644,
+      "mode": "random",
+      "seed": 3,
+      "phase_seed": 91501,
+      "tag": "fib_4_sc1_seed03"
+    },
+    {
+      "name": "fib_4",
+      "supercell": 1,
+      "N": 644,
+      "mode": "random",
+      "seed": 4,
+      "phase_seed": 91501,
+      "tag": "fib_4_sc1_seed04"
+    },
+    {
+      "name": "fib_4",
+      "supercell": 1,
+      "N": 644,
+      "mode": "random",
+      "seed": 5,
+      "phase_seed": 91501,
+      "tag": "fib_4_sc1_seed05"
+    },
+    {
+      "name": "fib_4",
+      "supercell": 1,
+      "N": 644,
+      "mode": "random",
+      "seed": 6,
+      "phase_seed": 91501,
+      "tag": "fib_4_sc1_seed06"
+    },
+    {
+      "name": "fib_4",
+      "supercell": 1,
+      "N": 644,
+      "mode": "random",
+      "seed": 7,
+      "phase_seed": 91501,
+      "tag": "fib_4_sc1_seed07"
+    },
+    {
+      "name": "fib_4",
+      "supercell": 1,
+      "N": 644,
+      "mode": "random",
+      "seed": 8,
+      "phase_seed": 91501,
+      "tag": "fib_4_sc1_seed08"
+    },
+    {
+      "name": "fib_4",
+      "supercell": 1,
+      "N": 644,
+      "mode": "random",
+      "seed": 9,
+      "phase_seed": 91501,
+      "tag": "fib_4_sc1_seed09"
+    },
+    {
+      "name": "fib_4",
+      "supercell": 1,
+      "N": 644,
+      "mode": "random",
+      "seed": 10,
+      "phase_seed": 91501,
+      "tag": "fib_4_sc1_seed10"
+    },
+    {
+      "name": "fib_4",
+      "supercell": 1,
+      "N": 644,
+      "mode": "random",
+      "seed": 11,
+      "phase_seed": 91501,
+      "tag": "fib_4_sc1_seed11"
+    },
+    {
+      "name": "fib_4",
+      "supercell": 1,
+      "N": 644,
+      "mode": "random",
+      "seed": 12,
+      "phase_seed": 91501,
+      "tag": "fib_4_sc1_seed12"
+    },
+    {
+      "name": "fib_4",
+      "supercell": 1,
+      "N": 644,
+      "mode": "random",
+      "seed": 13,
+      "phase_seed": 91501,
+      "tag": "fib_4_sc1_seed13"
+    },
+    {
+      "name": "fib_4",
+      "supercell": 1,
+      "N": 644,
+      "mode": "random",
+      "seed": 14,
+      "phase_seed": 91501,
+      "tag": "fib_4_sc1_seed14"
+    },
+    {
+      "name": "fib_4",
+      "supercell": 1,
+      "N": 644,
+      "mode": "random",
+      "seed": 15,
+      "phase_seed": 91501,
+      "tag": "fib_4_sc1_seed15"
+    },
+    {
+      "name": "fib_4",
+      "supercell": 1,
+      "N": 644,
+      "mode": "random",
+      "seed": 16,
+      "phase_seed": 91501,
+      "tag": "fib_4_sc1_seed16"
+    },
+    {
+      "name": "fib_5",
+      "supercell": 1,
+      "N": 1686,
+      "mode": "canonical",
+      "seed": 0,
+      "phase_seed": 91501,
+      "tag": "fib_5_sc1_seed00"
+    },
+    {
+      "name": "fib_5",
+      "supercell": 1,
+      "N": 1686,
+      "mode": "random",
+      "seed": 1,
+      "phase_seed": 91501,
+      "tag": "fib_5_sc1_seed01"
+    },
+    {
+      "name": "fib_5",
+      "supercell": 1,
+      "N": 1686,
+      "mode": "random",
+      "seed": 2,
+      "phase_seed": 91501,
+      "tag": "fib_5_sc1_seed02"
+    },
+    {
+      "name": "fib_5",
+      "supercell": 1,
+      "N": 1686,
+      "mode": "random",
+      "seed": 3,
+      "phase_seed": 91501,
+      "tag": "fib_5_sc1_seed03"
+    },
+    {
+      "name": "fib_5",
+      "supercell": 1,
+      "N": 1686,
+      "mode": "random",
+      "seed": 4,
+      "phase_seed": 91501,
+      "tag": "fib_5_sc1_seed04"
+    },
+    {
+      "name": "fib_5",
+      "supercell": 1,
+      "N": 1686,
+      "mode": "random",
+      "seed": 5,
+      "phase_seed": 91501,
+      "tag": "fib_5_sc1_seed05"
+    },
+    {
+      "name": "fib_5",
+      "supercell": 1,
+      "N": 1686,
+      "mode": "random",
+      "seed": 6,
+      "phase_seed": 91501,
+      "tag": "fib_5_sc1_seed06"
+    },
+    {
+      "name": "fib_5",
+      "supercell": 1,
+      "N": 1686,
+      "mode": "random",
+      "seed": 7,
+      "phase_seed": 91501,
+      "tag": "fib_5_sc1_seed07"
+    },
+    {
+      "name": "fib_5",
+      "supercell": 1,
+      "N": 1686,
+      "mode": "random",
+      "seed": 8,
+      "phase_seed": 91501,
+      "tag": "fib_5_sc1_seed08"
+    },
+    {
+      "name": "fib_5",
+      "supercell": 1,
+      "N": 1686,
+      "mode": "random",
+      "seed": 9,
+      "phase_seed": 91501,
+      "tag": "fib_5_sc1_seed09"
+    },
+    {
+      "name": "fib_5",
+      "supercell": 1,
+      "N": 1686,
+      "mode": "random",
+      "seed": 10,
+      "phase_seed": 91501,
+      "tag": "fib_5_sc1_seed10"
+    },
+    {
+      "name": "fib_5",
+      "supercell": 1,
+      "N": 1686,
+      "mode": "random",
+      "seed": 11,
+      "phase_seed": 91501,
+      "tag": "fib_5_sc1_seed11"
+    },
+    {
+      "name": "fib_5",
+      "supercell": 1,
+      "N": 1686,
+      "mode": "random",
+      "seed": 12,
+      "phase_seed": 91501,
+      "tag": "fib_5_sc1_seed12"
+    },
+    {
+      "name": "fib_5",
+      "supercell": 1,
+      "N": 1686,
+      "mode": "random",
+      "seed": 13,
+      "phase_seed": 91501,
+      "tag": "fib_5_sc1_seed13"
+    },
+    {
+      "name": "fib_5",
+      "supercell": 1,
+      "N": 1686,
+      "mode": "random",
+      "seed": 14,
+      "phase_seed": 91501,
+      "tag": "fib_5_sc1_seed14"
+    },
+    {
+      "name": "fib_5",
+      "supercell": 1,
+      "N": 1686,
+      "mode": "random",
+      "seed": 15,
+      "phase_seed": 91501,
+      "tag": "fib_5_sc1_seed15"
+    },
+    {
+      "name": "fib_5",
+      "supercell": 1,
+      "N": 1686,
+      "mode": "random",
+      "seed": 16,
+      "phase_seed": 91501,
+      "tag": "fib_5_sc1_seed16"
+    },
+    {
+      "name": "fib_6",
+      "supercell": 1,
+      "N": 4414,
+      "mode": "canonical",
+      "seed": 0,
+      "phase_seed": 91501,
+      "tag": "fib_6_sc1_seed00"
+    },
+    {
+      "name": "fib_6",
+      "supercell": 1,
+      "N": 4414,
+      "mode": "random",
+      "seed": 1,
+      "phase_seed": 91501,
+      "tag": "fib_6_sc1_seed01"
+    },
+    {
+      "name": "fib_6",
+      "supercell": 1,
+      "N": 4414,
+      "mode": "random",
+      "seed": 2,
+      "phase_seed": 91501,
+      "tag": "fib_6_sc1_seed02"
+    },
+    {
+      "name": "fib_6",
+      "supercell": 1,
+      "N": 4414,
+      "mode": "random",
+      "seed": 3,
+      "phase_seed": 91501,
+      "tag": "fib_6_sc1_seed03"
+    },
+    {
+      "name": "fib_6",
+      "supercell": 1,
+      "N": 4414,
+      "mode": "random",
+      "seed": 4,
+      "phase_seed": 91501,
+      "tag": "fib_6_sc1_seed04"
+    },
+    {
+      "name": "fib_6",
+      "supercell": 1,
+      "N": 4414,
+      "mode": "random",
+      "seed": 5,
+      "phase_seed": 91501,
+      "tag": "fib_6_sc1_seed05"
+    },
+    {
+      "name": "fib_6",
+      "supercell": 1,
+      "N": 4414,
+      "mode": "random",
+      "seed": 6,
+      "phase_seed": 91501,
+      "tag": "fib_6_sc1_seed06"
+    },
+    {
+      "name": "fib_6",
+      "supercell": 1,
+      "N": 4414,
+      "mode": "random",
+      "seed": 7,
+      "phase_seed": 91501,
+      "tag": "fib_6_sc1_seed07"
+    },
+    {
+      "name": "fib_6",
+      "supercell": 1,
+      "N": 4414,
+      "mode": "random",
+      "seed": 8,
+      "phase_seed": 91501,
+      "tag": "fib_6_sc1_seed08"
+    },
+    {
+      "name": "fib_6",
+      "supercell": 1,
+      "N": 4414,
+      "mode": "random",
+      "seed": 9,
+      "phase_seed": 91501,
+      "tag": "fib_6_sc1_seed09"
+    },
+    {
+      "name": "fib_6",
+      "supercell": 1,
+      "N": 4414,
+      "mode": "random",
+      "seed": 10,
+      "phase_seed": 91501,
+      "tag": "fib_6_sc1_seed10"
+    },
+    {
+      "name": "fib_6",
+      "supercell": 1,
+      "N": 4414,
+      "mode": "random",
+      "seed": 11,
+      "phase_seed": 91501,
+      "tag": "fib_6_sc1_seed11"
+    },
+    {
+      "name": "fib_6",
+      "supercell": 1,
+      "N": 4414,
+      "mode": "random",
+      "seed": 12,
+      "phase_seed": 91501,
+      "tag": "fib_6_sc1_seed12"
+    },
+    {
+      "name": "fib_6",
+      "supercell": 1,
+      "N": 4414,
+      "mode": "random",
+      "seed": 13,
+      "phase_seed": 91501,
+      "tag": "fib_6_sc1_seed13"
+    },
+    {
+      "name": "fib_6",
+      "supercell": 1,
+      "N": 4414,
+      "mode": "random",
+      "seed": 14,
+      "phase_seed": 91501,
+      "tag": "fib_6_sc1_seed14"
+    },
+    {
+      "name": "fib_6",
+      "supercell": 1,
+      "N": 4414,
+      "mode": "random",
+      "seed": 15,
+      "phase_seed": 91501,
+      "tag": "fib_6_sc1_seed15"
+    },
+    {
+      "name": "fib_6",
+      "supercell": 1,
+      "N": 4414,
+      "mode": "random",
+      "seed": 16,
+      "phase_seed": 91501,
+      "tag": "fib_6_sc1_seed16"
+    },
+    {
+      "name": "fib_7",
+      "supercell": 1,
+      "N": 11556,
+      "mode": "canonical",
+      "seed": 0,
+      "phase_seed": 91501,
+      "tag": "fib_7_sc1_seed00"
+    },
+    {
+      "name": "fib_7",
+      "supercell": 1,
+      "N": 11556,
+      "mode": "random",
+      "seed": 1,
+      "phase_seed": 91501,
+      "tag": "fib_7_sc1_seed01"
+    },
+    {
+      "name": "fib_7",
+      "supercell": 1,
+      "N": 11556,
+      "mode": "random",
+      "seed": 2,
+      "phase_seed": 91501,
+      "tag": "fib_7_sc1_seed02"
+    },
+    {
+      "name": "fib_7",
+      "supercell": 1,
+      "N": 11556,
+      "mode": "random",
+      "seed": 3,
+      "phase_seed": 91501,
+      "tag": "fib_7_sc1_seed03"
+    },
+    {
+      "name": "fib_7",
+      "supercell": 1,
+      "N": 11556,
+      "mode": "random",
+      "seed": 4,
+      "phase_seed": 91501,
+      "tag": "fib_7_sc1_seed04"
+    },
+    {
+      "name": "fib_7",
+      "supercell": 1,
+      "N": 11556,
+      "mode": "random",
+      "seed": 5,
+      "phase_seed": 91501,
+      "tag": "fib_7_sc1_seed05"
+    },
+    {
+      "name": "fib_7",
+      "supercell": 1,
+      "N": 11556,
+      "mode": "random",
+      "seed": 6,
+      "phase_seed": 91501,
+      "tag": "fib_7_sc1_seed06"
+    },
+    {
+      "name": "fib_7",
+      "supercell": 1,
+      "N": 11556,
+      "mode": "random",
+      "seed": 7,
+      "phase_seed": 91501,
+      "tag": "fib_7_sc1_seed07"
+    },
+    {
+      "name": "fib_7",
+      "supercell": 1,
+      "N": 11556,
+      "mode": "random",
+      "seed": 8,
+      "phase_seed": 91501,
+      "tag": "fib_7_sc1_seed08"
+    },
+    {
+      "name": "fib_7",
+      "supercell": 1,
+      "N": 11556,
+      "mode": "random",
+      "seed": 9,
+      "phase_seed": 91501,
+      "tag": "fib_7_sc1_seed09"
+    },
+    {
+      "name": "fib_7",
+      "supercell": 1,
+      "N": 11556,
+      "mode": "random",
+      "seed": 10,
+      "phase_seed": 91501,
+      "tag": "fib_7_sc1_seed10"
+    },
+    {
+      "name": "fib_7",
+      "supercell": 1,
+      "N": 11556,
+      "mode": "random",
+      "seed": 11,
+      "phase_seed": 91501,
+      "tag": "fib_7_sc1_seed11"
+    },
+    {
+      "name": "fib_7",
+      "supercell": 1,
+      "N": 11556,
+      "mode": "random",
+      "seed": 12,
+      "phase_seed": 91501,
+      "tag": "fib_7_sc1_seed12"
+    },
+    {
+      "name": "fib_7",
+      "supercell": 1,
+      "N": 11556,
+      "mode": "random",
+      "seed": 13,
+      "phase_seed": 91501,
+      "tag": "fib_7_sc1_seed13"
+    },
+    {
+      "name": "fib_7",
+      "supercell": 1,
+      "N": 11556,
+      "mode": "random",
+      "seed": 14,
+      "phase_seed": 91501,
+      "tag": "fib_7_sc1_seed14"
+    },
+    {
+      "name": "fib_7",
+      "supercell": 1,
+      "N": 11556,
+      "mode": "random",
+      "seed": 15,
+      "phase_seed": 91501,
+      "tag": "fib_7_sc1_seed15"
+    },
+    {
+      "name": "fib_7",
+      "supercell": 1,
+      "N": 11556,
+      "mode": "random",
+      "seed": 16,
+      "phase_seed": 91501,
+      "tag": "fib_7_sc1_seed16"
+    },
+    {
+      "name": "fib_8",
+      "supercell": 1,
+      "N": 30254,
+      "mode": "canonical",
+      "seed": 0,
+      "phase_seed": 91501,
+      "tag": "fib_8_sc1_seed00"
+    },
+    {
+      "name": "fib_8",
+      "supercell": 1,
+      "N": 30254,
+      "mode": "random",
+      "seed": 1,
+      "phase_seed": 91501,
+      "tag": "fib_8_sc1_seed01"
+    },
+    {
+      "name": "fib_8",
+      "supercell": 1,
+      "N": 30254,
+      "mode": "random",
+      "seed": 2,
+      "phase_seed": 91501,
+      "tag": "fib_8_sc1_seed02"
+    },
+    {
+      "name": "fib_8",
+      "supercell": 1,
+      "N": 30254,
+      "mode": "random",
+      "seed": 3,
+      "phase_seed": 91501,
+      "tag": "fib_8_sc1_seed03"
+    },
+    {
+      "name": "fib_8",
+      "supercell": 1,
+      "N": 30254,
+      "mode": "random",
+      "seed": 4,
+      "phase_seed": 91501,
+      "tag": "fib_8_sc1_seed04"
+    },
+    {
+      "name": "fib_8",
+      "supercell": 1,
+      "N": 30254,
+      "mode": "random",
+      "seed": 5,
+      "phase_seed": 91501,
+      "tag": "fib_8_sc1_seed05"
+    },
+    {
+      "name": "fib_8",
+      "supercell": 1,
+      "N": 30254,
+      "mode": "random",
+      "seed": 6,
+      "phase_seed": 91501,
+      "tag": "fib_8_sc1_seed06"
+    },
+    {
+      "name": "fib_8",
+      "supercell": 1,
+      "N": 30254,
+      "mode": "random",
+      "seed": 7,
+      "phase_seed": 91501,
+      "tag": "fib_8_sc1_seed07"
+    },
+    {
+      "name": "fib_8",
+      "supercell": 1,
+      "N": 30254,
+      "mode": "random",
+      "seed": 8,
+      "phase_seed": 91501,
+      "tag": "fib_8_sc1_seed08"
+    },
+    {
+      "name": "fib_8",
+      "supercell": 1,
+      "N": 30254,
+      "mode": "random",
+      "seed": 9,
+      "phase_seed": 91501,
+      "tag": "fib_8_sc1_seed09"
+    },
+    {
+      "name": "fib_8",
+      "supercell": 1,
+      "N": 30254,
+      "mode": "random",
+      "seed": 10,
+      "phase_seed": 91501,
+      "tag": "fib_8_sc1_seed10"
+    },
+    {
+      "name": "fib_8",
+      "supercell": 1,
+      "N": 30254,
+      "mode": "random",
+      "seed": 11,
+      "phase_seed": 91501,
+      "tag": "fib_8_sc1_seed11"
+    },
+    {
+      "name": "fib_8",
+      "supercell": 1,
+      "N": 30254,
+      "mode": "random",
+      "seed": 12,
+      "phase_seed": 91501,
+      "tag": "fib_8_sc1_seed12"
+    },
+    {
+      "name": "fib_8",
+      "supercell": 1,
+      "N": 30254,
+      "mode": "random",
+      "seed": 13,
+      "phase_seed": 91501,
+      "tag": "fib_8_sc1_seed13"
+    },
+    {
+      "name": "fib_8",
+      "supercell": 1,
+      "N": 30254,
+      "mode": "random",
+      "seed": 14,
+      "phase_seed": 91501,
+      "tag": "fib_8_sc1_seed14"
+    },
+    {
+      "name": "fib_8",
+      "supercell": 1,
+      "N": 30254,
+      "mode": "random",
+      "seed": 15,
+      "phase_seed": 91501,
+      "tag": "fib_8_sc1_seed15"
+    },
+    {
+      "name": "fib_8",
+      "supercell": 1,
+      "N": 30254,
+      "mode": "random",
+      "seed": 16,
+      "phase_seed": 91501,
+      "tag": "fib_8_sc1_seed16"
+    }
+  ],
+  "seeds_per_size": 16
+}

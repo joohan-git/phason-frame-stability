@@ -1,0 +1,312 @@
+[
+{
+"kind": "cubic",
+"pars": [
+3,
+2
+],
+"seed": 4,
+"flips": 30000,
+"sub": 2
+},
+{
+"kind": "cubic",
+"pars": [
+3,
+2
+],
+"seed": 5,
+"flips": 30000,
+"sub": 2
+},
+{
+"kind": "cubic",
+"pars": [
+3,
+2
+],
+"seed": 6,
+"flips": 30000,
+"sub": 2
+},
+{
+"kind": "cubic",
+"pars": [
+3,
+2
+],
+"seed": 7,
+"flips": 30000,
+"sub": 2
+},
+{
+"kind": "cubic",
+"pars": [
+3,
+2
+],
+"seed": 8,
+"flips": 30000,
+"sub": 2
+},
+{
+"kind": "cubic",
+"pars": [
+3,
+2
+],
+"seed": 9,
+"flips": 30000,
+"sub": 2
+},
+{
+"kind": "cubic",
+"pars": [
+3,
+2
+],
+"seed": 10,
+"flips": 30000,
+"sub": 2
+},
+{
+"kind": "cubic",
+"pars": [
+3,
+2
+],
+"seed": 11,
+"flips": 30000,
+"sub": 2
+},
+{
+"kind": "cubic",
+"pars": [
+3,
+2
+],
+"seed": 12,
+"flips": 30000,
+"sub": 2
+},
+{
+"kind": "cubic",
+"pars": [
+3,
+2
+],
+"seed": 13,
+"flips": 30000,
+"sub": 2
+},
+{
+"kind": "cubic",
+"pars": [
+3,
+2
+],
+"seed": 14,
+"flips": 30000,
+"sub": 2
+},
+{
+"kind": "cubic",
+"pars": [
+3,
+2
+],
+"seed": 15,
+"flips": 30000,
+"sub": 2
+},
+{
+"kind": "cubic",
+"pars": [
+3,
+2
+],
+"seed": 16,
+"flips": 30000,
+"sub": 2
+},
+{
+"kind": "cubic",
+"pars": [
+5,
+3
+],
+"seed": 5,
+"flips": 100000,
+"sub": 2
+},
+{
+"kind": "cubic",
+"pars": [
+5,
+3
+],
+"seed": 6,
+"flips": 100000,
+"sub": 2
+},
+{
+"kind": "cubic",
+"pars": [
+5,
+3
+],
+"seed": 7,
+"flips": 100000,
+"sub": 2
+},
+{
+"kind": "cubic",
+"pars": [
+5,
+3
+],
+"seed": 8,
+"flips": 100000,
+"sub": 2
+},
+{
+"kind": "cubic",
+"pars": [
+5,
+3
+],
+"seed": 9,
+"flips": 100000,
+"sub": 2
+},
+{
+"kind": "cubic",
+"pars": [
+5,
+3
+],
+"seed": 10,
+"flips": 100000,
+"sub": 2
+},
+{
+"kind": "cubic",
+"pars": [
+5,
+3
+],
+"seed": 11,
+"flips": 100000,
+"sub": 2
+},
+{
+"kind": "cubic",
+"pars": [
+5,
+3
+],
+"seed": 12,
+"flips": 100000,
+"sub": 2
+},
+{
+"kind": "cubic",
+"pars": [
+5,
+3
+],
+"seed": 13,
+"flips": 100000,
+"sub": 2
+},
+{
+"kind": "cubic",
+"pars": [
+5,
+3
+],
+"seed": 14,
+"flips": 100000,
+"sub": 2
+},
+{
+"kind": "cubic",
+"pars": [
+5,
+3
+],
+"seed": 15,
+"flips": 100000,
+"sub": 2
+},
+{
+"kind": "cubic",
+"pars": [
+5,
+3
+],
+"seed": 16,
+"flips": 100000,
+"sub": 2
+},
+{
+"kind": "cubic",
+"pars": [
+5,
+3
+],
+"seed": 1,
+"flips": 0,
+"sub": 4
+},
+{
+"kind": "cubic",
+"pars": [
+5,
+3
+],
+"seed": 2,
+"flips": 0,
+"sub": 4
+},
+{
+"kind": "cubic",
+"pars": [
+5,
+3
+],
+"seed": 3,
+"flips": 0,
+"sub": 4
+},
+{
+"kind": "cubic",
+"pars": [
+5,
+3
+],
+"seed": 1,
+"flips": 100000,
+"sub": 4
+},
+{
+"kind": "cubic",
+"pars": [
+5,
+3
+],
+"seed": 2,
+"flips": 100000,
+"sub": 4
+},
+{
+"kind": "cubic",
+"pars": [
+5,
+3
+],
+"seed": 3,
+"flips": 100000,
+"sub": 4
+}
+]

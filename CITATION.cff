@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article and this archive."
+title: "Pressure stability of quasicrystalline frames: code and data"
+authors:
+  - family-names: Nam
+    given-names: Joohan
+    orcid: "https://orcid.org/0000-0001-5123-418X"
+    affiliation: "Technische Universität Dresden"
+version: 1.0.1
+doi: 10.5281/zenodo.24090906
+repository-code: "https://github.com/joohan-git/phason-frame-stability"
+date-released: 2026-11-09
+license: MIT
+keywords:
+  - quasicrystals
+  - phasons
+  - architected lattices
+  - buckling
+  - frameworks

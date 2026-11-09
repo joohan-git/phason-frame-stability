@@ -1,0 +1,43 @@
+{
+  "source": "penrose_localization.py",
+  "long_run_Gamma": {
+    "k": [
+      0,
+      0
+    ],
+    "pc": 0.40786811556357855,
+    "residual": 2.8035886651069506e-10,
+    "participation_ratio": 0.17759359941119657,
+    "participation_definition": "original-joint translation amplitude, mean translation removed at Gamma",
+    "full_node_translation_PR": 0.0004027766507101354,
+    "beam_strain_energy_PR": 0.0005494344610222773,
+    "joint_assigned_strain_energy_PR": 0.001017615171026751,
+    "largest_beam_energy_fraction": 0.3986156006385337,
+    "beam_energy_radius90": 1.738546083926845,
+    "energy_weight_outside_window": 0.6107300139359927,
+    "weight_outside_window": 0.6966760481809924,
+    "radius_90pct": 27.53683813019778,
+    "peak_vertex": 2533,
+    "cpu_s": 4.15625
+  },
+  "canonical_small_q": {
+    "k": [
+      0.001,
+      0
+    ],
+    "pc": 0.8103030825164692,
+    "residual": 1.3079867044825939e-08,
+    "participation_ratio": 0.9999999999999971,
+    "participation_definition": "original-joint translation amplitude, mean translation removed at Gamma",
+    "full_node_translation_PR": 0.9999999999999976,
+    "beam_strain_energy_PR": 0.6087583475221956,
+    "joint_assigned_strain_energy_PR": 0.8404252780546064,
+    "largest_beam_energy_fraction": 0.00037765153768090344,
+    "beam_energy_radius90": 33.724853962354445,
+    "energy_weight_outside_window": 0.0,
+    "weight_outside_window": 0.0,
+    "radius_90pct": 33.787265356546634,
+    "peak_vertex": 4161,
+    "cpu_s": 5.71875
+  }
+}

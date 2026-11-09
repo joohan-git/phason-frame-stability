@@ -1,0 +1,5709 @@
+{
+  "source_script": "law_run.py",
+  "prereg_sha256": "c05e613c7f10bae0c11953c2dab368697c33f55ca2dce7572bbd61d1e97c7b33",
+  "started_utc": "2026-11-08T10:42:28.320441+00:00",
+  "rows": [
+    {
+      "id": "penrose_test_uniform_0_0",
+      "kind": "penrose_test",
+      "protocol": "accepted",
+      "severity": 1,
+      "rep": 0,
+      "seed": 610000,
+      "j": 0,
+      "fold": 0,
+      "features": {
+        "x": {
+          "variance": 0.00010140691473869978,
+          "max_excess": 0.17355422045049715,
+          "mean_excess": 3.931903499105056e-05,
+          "max_gradient": 0.02952662525448914,
+          "cluster": 0.22531908954507537,
+          "symmetry_cluster": 0.035012574831085934
+        },
+        "variance": 0.4947247365696441,
+        "max_excess": 0.12205988429504093,
+        "mean_excess": 2.7652896306080864e-05,
+        "largest_cluster": 1,
+        "defects": 1,
+        "gradient_max": 0.09593425038933737,
+        "g4_max": 0.06093646405309645,
+        "sigma": 0.7032953965522034,
+        "variance_reference": 0.4946244148115211,
+        "gradient_reference": 0.0907427654850363,
+        "g4_reference": 0.06093646405309645,
+        "radius": 4.0,
+        "cpu_s": 0.375
+      },
+      "mechanics": {
+        "pc": 0.8074071580523638,
+        "acoustic_or_Gamma": 0.8074071580523638,
+        "kind": "acoustic",
+        "theta": 0.14613803910299802,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0018511767948213703,
+            "normalized": 0.8336152177001346,
+            "bracket_width": 4.383329636759026e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0018196620993556159,
+            "normalized": 0.8194236343813877,
+            "bracket_width": 4.3833318051633707e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0018299402336510605,
+            "normalized": 0.824052046525607,
+            "bracket_width": 4.383329636759026e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0018522287487467166,
+            "normalized": 0.8340889297750381,
+            "bracket_width": 4.3833318051633707e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 21.921875
+      },
+      "y": 1.0000197942990376,
+      "mc": {
+        "attempted": 1,
+        "accepted": 1,
+        "cpu_s": 1.765625,
+        "seed": 610000,
+        "radius": -1
+      },
+      "geometry": {
+        "vertices": 4414,
+        "edges": 8828,
+        "faces": 4414,
+        "degree_histogram": {
+          "3": 2323,
+          "4": 411,
+          "5": 1282,
+          "6": 153,
+          "7": 245
+        },
+        "square_faces": 0,
+        "rhombus_faces": 0,
+        "area": 3585.488111818289,
+        "edge_length_range": [
+          0.9999999999999938,
+          1.0000000000000098
+        ]
+      },
+      "N": 4414,
+      "cpu_s": 47.359375,
+      "peak_rss_bytes": 227647488
+    },
+    {
+      "id": "penrose_test_uniform_0_1",
+      "kind": "penrose_test",
+      "protocol": "accepted",
+      "severity": 1,
+      "rep": 1,
+      "seed": 610001,
+      "j": 0,
+      "fold": 1,
+      "features": {
+        "x": {
+          "variance": 6.044526008541773e-05,
+          "max_excess": 0.10509254974556609,
+          "mean_excess": 2.38089147588505e-05,
+          "max_gradient": 0.015488095443999043,
+          "cluster": 0.22531908954507537,
+          "symmetry_cluster": 0.02120121742130595
+        },
+        "variance": 0.49468421202149127,
+        "max_excess": 0.07391110644799007,
+        "mean_excess": 1.674470014680337e-05,
+        "largest_cluster": 1,
+        "defects": 1,
+        "gradient_max": 0.09346594204181773,
+        "g4_max": 0.06093646405309643,
+        "sigma": 0.7032953965522034,
+        "variance_reference": 0.4946244148115211,
+        "gradient_reference": 0.0907427654850363,
+        "g4_reference": 0.06093646405309645,
+        "radius": 4.0,
+        "cpu_s": 0.46875
+      },
+      "mechanics": {
+        "pc": 0.8074546981814822,
+        "acoustic_or_Gamma": 0.8074546981814822,
+        "kind": "acoustic",
+        "theta": -0.007786350979715092,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0018515564489375357,
+            "normalized": 0.8337861821642437,
+            "bracket_width": 4.3835898452804223e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0018196223872987743,
+            "normalized": 0.8194057513920363,
+            "bracket_width": 4.3835898452804223e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0018300439870722286,
+            "normalized": 0.8240987683897835,
+            "bracket_width": 4.3835876768760773e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.001852008006425881,
+            "normalized": 0.8339895258940291,
+            "bracket_width": 4.3835898452804223e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 20.53125
+      },
+      "y": 1.000078675459141,
+      "mc": {
+        "attempted": 1,
+        "accepted": 1,
+        "cpu_s": 0.015625,
+        "seed": 610001,
+        "radius": -1
+      },
+      "geometry": {
+        "vertices": 4414,
+        "edges": 8828,
+        "faces": 4414,
+        "degree_histogram": {
+          "3": 2325,
+          "4": 408,
+          "5": 1283,
+          "6": 152,
+          "7": 246
+        },
+        "square_faces": 0,
+        "rhombus_faces": 0,
+        "area": 3585.488111818289,
+        "edge_length_range": [
+          0.9999999999999938,
+          1.0000000000000098
+        ]
+      },
+      "N": 4414,
+      "cpu_s": 21.265625,
+      "peak_rss_bytes": 228528128
+    },
+    {
+      "id": "penrose_test_uniform_0_2",
+      "kind": "penrose_test",
+      "protocol": "accepted",
+      "severity": 1,
+      "rep": 2,
+      "seed": 610002,
+      "j": 0,
+      "fold": 2,
+      "features": {
+        "x": {
+          "variance": 9.542063901268882e-05,
+          "max_excess": 0.16396992976313157,
+          "mean_excess": 3.7147695913713546e-05,
+          "max_gradient": 0.0021658046576163367,
+          "cluster": 0.22531908954507537,
+          "symmetry_cluster": 0.033079054032667886
+        },
+        "variance": 0.49471881407059026,
+        "max_excess": 0.11531929677539857,
+        "mean_excess": 2.6125803528635832e-05,
+        "largest_cluster": 1,
+        "defects": 1,
+        "gradient_max": 0.09112356559641953,
+        "g4_max": 0.06166142780277793,
+        "sigma": 0.7032953965522034,
+        "variance_reference": 0.4946244148115211,
+        "gradient_reference": 0.0907427654850363,
+        "g4_reference": 0.06093646405309645,
+        "radius": 4.0,
+        "cpu_s": 0.40625
+      },
+      "mechanics": {
+        "pc": 0.8072351340402787,
+        "acoustic_or_Gamma": 0.8072351340402787,
+        "kind": "acoustic",
+        "theta": 0.05126642575950723,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0018511861720557736,
+            "normalized": 0.8336194404223081,
+            "bracket_width": 4.382397222890688e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0018190983174618692,
+            "normalized": 0.8191697541645409,
+            "bracket_width": 4.382397222890688e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.001829208935545358,
+            "normalized": 0.823722731015984,
+            "bracket_width": 4.382397222890688e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0018531767139256146,
+            "normalized": 0.8345158140149389,
+            "bracket_width": 4.382397222890688e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 20.875
+      },
+      "y": 0.9998067327532435,
+      "mc": {
+        "attempted": 1,
+        "accepted": 1,
+        "cpu_s": 0.015625,
+        "seed": 610002,
+        "radius": -1
+      },
+      "geometry": {
+        "vertices": 4414,
+        "edges": 8828,
+        "faces": 4414,
+        "degree_histogram": {
+          "3": 2325,
+          "4": 408,
+          "5": 1282,
+          "6": 154,
+          "7": 245
+        },
+        "square_faces": 0,
+        "rhombus_faces": 0,
+        "area": 3585.488111818289,
+        "edge_length_range": [
+          0.9999999999999938,
+          1.0000000000000098
+        ]
+      },
+      "N": 4414,
+      "cpu_s": 21.484375,
+      "peak_rss_bytes": 230215680
+    },
+    {
+      "id": "penrose_test_uniform_1_0",
+      "kind": "penrose_test",
+      "protocol": "accepted",
+      "severity": 30,
+      "rep": 0,
+      "seed": 610100,
+      "j": 1,
+      "fold": 0,
+      "features": {
+        "x": {
+          "variance": 0.003031869658351116,
+          "max_excess": 0.5345948790028747,
+          "mean_excess": 0.0012159868790077304,
+          "max_gradient": 0.0911980168081263,
+          "cluster": 0.22531908954507537,
+          "symmetry_cluster": 0.10784838972407637
+        },
+        "variance": 0.4976282350257922,
+        "max_excess": 0.375978117423104,
+        "mean_excess": 0.0008551979742740179,
+        "largest_cluster": 1,
+        "defects": 30,
+        "gradient_max": 0.10677755183399773,
+        "g4_max": 0.07742681105787506,
+        "sigma": 0.7032953965522034,
+        "variance_reference": 0.4946244148115211,
+        "gradient_reference": 0.0907427654850363,
+        "g4_reference": 0.06093646405309645,
+        "radius": 4.0,
+        "cpu_s": 0.46875
+      },
+      "mechanics": {
+        "pc": 0.8050982374258402,
+        "acoustic_or_Gamma": 0.8050982374258402,
+        "kind": "acoustic",
+        "theta": 0.0817837946380903,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0018537383946328932,
+            "normalized": 0.834768748033119,
+            "bracket_width": 4.3707962596450933e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0018138534534332857,
+            "normalized": 0.8168079060249,
+            "bracket_width": 4.3707962596450933e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0018232901908155745,
+            "normalized": 0.8210574233639907,
+            "bracket_width": 4.3707962596450933e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0018478311352274214,
+            "normalized": 0.832108612410698,
+            "bracket_width": 4.3707962596450933e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 19.9375
+      },
+      "y": 0.9971600644750431,
+      "mc": {
+        "attempted": 51,
+        "accepted": 30,
+        "cpu_s": 0.03125,
+        "seed": 610100,
+        "radius": -1
+      },
+      "geometry": {
+        "vertices": 4414,
+        "edges": 8828,
+        "faces": 4414,
+        "degree_histogram": {
+          "3": 2268,
+          "4": 515,
+          "5": 1222,
+          "6": 181,
+          "7": 228
+        },
+        "square_faces": 0,
+        "rhombus_faces": 0,
+        "area": 3585.488111818289,
+        "edge_length_range": [
+          0.9999999999999938,
+          1.0000000000000098
+        ]
+      },
+      "N": 4414,
+      "cpu_s": 20.65625,
+      "peak_rss_bytes": 230215680
+    },
+    {
+      "id": "penrose_test_uniform_1_1",
+      "kind": "penrose_test",
+      "protocol": "accepted",
+      "severity": 30,
+      "rep": 1,
+      "seed": 610101,
+      "j": 1,
+      "fold": 1,
+      "features": {
+        "x": {
+          "variance": 0.003021012759939712,
+          "max_excess": 0.5431722630028871,
+          "mean_excess": 0.0011908826783188023,
+          "max_gradient": 0.11371561366325737,
+          "cluster": 0.22531908954507537,
+          "symmetry_cluster": 0.10957877863870984
+        },
+        "variance": 0.49761746234724014,
+        "max_excess": 0.38201055210477325,
+        "mean_excess": 0.0008375423054953721,
+        "largest_cluster": 1,
+        "defects": 30,
+        "gradient_max": 0.11073668238640574,
+        "g4_max": 0.07905794807724412,
+        "sigma": 0.7032953965522034,
+        "variance_reference": 0.4946244148115211,
+        "gradient_reference": 0.0907427654850363,
+        "g4_reference": 0.06093646405309645,
+        "radius": 4.0,
+        "cpu_s": 0.34375
+      },
+      "mechanics": {
+        "pc": 0.8052927028698126,
+        "acoustic_or_Gamma": 0.8052927028698126,
+        "kind": "acoustic",
+        "theta": 0.25124724260431697,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0018543376223697297,
+            "normalized": 0.8350385900934194,
+            "bracket_width": 4.371852272561094e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.001815422911792799,
+            "normalized": 0.8175146588189589,
+            "bracket_width": 4.371850104156749e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0018253288882610417,
+            "normalized": 0.8219754822007167,
+            "bracket_width": 4.371852272561094e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0018473007945301323,
+            "normalized": 0.8318697913121067,
+            "bracket_width": 4.371852272561094e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 19.5
+      },
+      "y": 0.9974009210135815,
+      "mc": {
+        "attempted": 58,
+        "accepted": 30,
+        "cpu_s": 0.015625,
+        "seed": 610101,
+        "radius": -1
+      },
+      "geometry": {
+        "vertices": 4414,
+        "edges": 8828,
+        "faces": 4414,
+        "degree_histogram": {
+          "3": 2276,
+          "4": 499,
+          "5": 1236,
+          "6": 169,
+          "7": 234
+        },
+        "square_faces": 0,
+        "rhombus_faces": 0,
+        "area": 3585.488111818289,
+        "edge_length_range": [
+          0.9999999999999938,
+          1.0000000000000098
+        ]
+      },
+      "N": 4414,
+      "cpu_s": 20.046875,
+      "peak_rss_bytes": 230215680
+    },
+    {
+      "id": "penrose_test_uniform_1_2",
+      "kind": "penrose_test",
+      "protocol": "accepted",
+      "severity": 30,
+      "rep": 2,
+      "seed": 610102,
+      "j": 1,
+      "fold": 2,
+      "features": {
+        "x": {
+          "variance": 0.0024701454968052428,
+          "max_excess": 0.42211076976121803,
+          "mean_excess": 0.000999868265520371,
+          "max_gradient": 0.14927816643034636,
+          "cluster": 0.22531908954507537,
+          "symmetry_cluster": 0.08515600989079604
+        },
+        "variance": 0.4970710213628504,
+        "max_excess": 0.2968685612081717,
+        "mean_excess": 0.0007032027482991131,
+        "largest_cluster": 1,
+        "defects": 30,
+        "gradient_max": 0.11698942729909037,
+        "g4_max": 0.07447751611044194,
+        "sigma": 0.7032953965522034,
+        "variance_reference": 0.4946244148115211,
+        "gradient_reference": 0.0907427654850363,
+        "g4_reference": 0.06093646405309645,
+        "radius": 4.0,
+        "cpu_s": 0.328125
+      },
+      "mechanics": {
+        "pc": 0.8048036243702226,
+        "acoustic_or_Gamma": 0.8048036243702226,
+        "kind": "acoustic",
+        "theta": 3.064319093897691,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0018564120428002959,
+            "normalized": 0.835972735575183,
+            "bracket_width": 4.3691981456428497e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0018129890595485875,
+            "normalized": 0.8164186553069852,
+            "bracket_width": 4.3691959772385047e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0018235987976162956,
+            "normalized": 0.8211963940587869,
+            "bracket_width": 4.3691981456428497e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0018477412748331662,
+            "normalized": 0.8320681468039935,
+            "bracket_width": 4.3691981456428497e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 20.484375
+      },
+      "y": 0.9967951694102196,
+      "mc": {
+        "attempted": 48,
+        "accepted": 30,
+        "cpu_s": 0.0,
+        "seed": 610102,
+        "radius": -1
+      },
+      "geometry": {
+        "vertices": 4414,
+        "edges": 8828,
+        "faces": 4414,
+        "degree_histogram": {
+          "3": 2265,
+          "4": 520,
+          "5": 1225,
+          "6": 172,
+          "7": 232
+        },
+        "square_faces": 0,
+        "rhombus_faces": 0,
+        "area": 3585.488111818289,
+        "edge_length_range": [
+          0.9999999999999938,
+          1.0000000000000098
+        ]
+      },
+      "N": 4414,
+      "cpu_s": 21.078125,
+      "peak_rss_bytes": 230215680
+    },
+    {
+      "id": "penrose_test_uniform_2_0",
+      "kind": "penrose_test",
+      "protocol": "accepted",
+      "severity": 300,
+      "rep": 0,
+      "seed": 610200,
+      "j": 2,
+      "fold": 0,
+      "features": {
+        "x": {
+          "variance": 0.02421514203388364,
+          "max_excess": 0.5356138908422597,
+          "mean_excess": 0.009775462217580452,
+          "max_gradient": 0.33276842999770023,
+          "cluster": 0.390264111007232,
+          "symmetry_cluster": 0.10805396368354345
+        },
+        "variance": 0.5188692501809855,
+        "max_excess": 0.37669478375877563,
+        "mean_excess": 0.0068750375767943255,
+        "largest_cluster": 3,
+        "defects": 262,
+        "gradient_max": 0.14925139171885798,
+        "g4_max": 0.09906195629803617,
+        "sigma": 0.7032953965522034,
+        "variance_reference": 0.4946244148115211,
+        "gradient_reference": 0.0907427654850363,
+        "g4_reference": 0.06093646405309645,
+        "radius": 4.0,
+        "cpu_s": 0.453125
+      },
+      "mechanics": {
+        "pc": 0.7898076195396275,
+        "acoustic_or_Gamma": 0.7898076195396275,
+        "kind": "acoustic",
+        "theta": 0.29342223217889685,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0018374765935533373,
+            "normalized": 0.8274457927729553,
+            "bracket_width": 4.287785404510913e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.00178047025482676,
+            "normalized": 0.8017749051512093,
+            "bracket_width": 4.287785404510913e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0017901021176722266,
+            "normalized": 0.806112290680913,
+            "bracket_width": 4.287783236106568e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0018130223555249225,
+            "normalized": 0.8164336490302421,
+            "bracket_width": 4.287785404510913e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 20.890625
+      },
+      "y": 0.9782217625281537,
+      "mc": {
+        "attempted": 707,
+        "accepted": 300,
+        "cpu_s": 0.0,
+        "seed": 610200,
+        "radius": -1
+      },
+      "geometry": {
+        "vertices": 4414,
+        "edges": 8828,
+        "faces": 4414,
+        "degree_histogram": {
+          "3": 1881,
+          "4": 1223,
+          "5": 887,
+          "6": 278,
+          "7": 142,
+          "8": 3
+        },
+        "square_faces": 0,
+        "rhombus_faces": 0,
+        "area": 3585.488111818289,
+        "edge_length_range": [
+          0.9999999999999938,
+          1.0000000000000109
+        ]
+      },
+      "N": 4414,
+      "cpu_s": 21.640625,
+      "peak_rss_bytes": 230215680
+    },
+    {
+      "id": "penrose_test_uniform_2_1",
+      "kind": "penrose_test",
+      "protocol": "accepted",
+      "severity": 300,
+      "rep": 1,
+      "seed": 610201,
+      "j": 2,
+      "fold": 1,
+      "features": {
+        "x": {
+          "variance": 0.025833738244188664,
+          "max_excess": 0.6394857713706301,
+          "mean_excess": 0.010447749879166341,
+          "max_gradient": 0.28369802059551663,
+          "cluster": 0.390264111007232,
+          "symmetry_cluster": 0.1635062731120499
+        },
+        "variance": 0.5205105135812428,
+        "max_excess": 0.44974739916559897,
+        "mean_excess": 0.007347854394346527,
+        "largest_cluster": 3,
+        "defects": 262,
+        "gradient_max": 0.14062364345898606,
+        "g4_max": 0.09774225276304867,
+        "sigma": 0.7032953965522034,
+        "variance_reference": 0.4946244148115211,
+        "gradient_reference": 0.0907427654850363,
+        "g4_reference": 0.06093646405309645,
+        "radius": 4.0,
+        "cpu_s": 0.375
+      },
+      "mechanics": {
+        "pc": 0.7686304481858076,
+        "acoustic_or_Gamma": 0.7686304481858076,
+        "kind": "acoustic",
+        "theta": 0.37336565678254685,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0017071429745035538,
+            "normalized": 0.7687544303262281,
+            "bracket_width": 4.1728166061405503e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0017069688107408235,
+            "normalized": 0.7686760015325061,
+            "bracket_width": 4.1728166061405503e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0017076171333102103,
+            "normalized": 0.768967951799672,
+            "bracket_width": 4.1728166061405503e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.001707576922798687,
+            "normalized": 0.7689498443480168,
+            "bracket_width": 4.1728166061405503e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 30.484375
+      },
+      "y": 0.9519926285281936,
+      "mc": {
+        "attempted": 619,
+        "accepted": 300,
+        "cpu_s": 0.015625,
+        "seed": 610201,
+        "radius": -1
+      },
+      "geometry": {
+        "vertices": 4414,
+        "edges": 8828,
+        "faces": 4414,
+        "degree_histogram": {
+          "3": 1904,
+          "4": 1171,
+          "5": 921,
+          "6": 277,
+          "7": 135,
+          "8": 6
+        },
+        "square_faces": 0,
+        "rhombus_faces": 0,
+        "area": 3585.488111818289,
+        "edge_length_range": [
+          0.9999999999999938,
+          1.0000000000000109
+        ]
+      },
+      "N": 4414,
+      "cpu_s": 31.0625,
+      "peak_rss_bytes": 233635840
+    },
+    {
+      "id": "penrose_test_uniform_2_2",
+      "kind": "penrose_test",
+      "protocol": "accepted",
+      "severity": 300,
+      "rep": 2,
+      "seed": 610202,
+      "j": 2,
+      "fold": 2,
+      "features": {
+        "x": {
+          "variance": 0.022352689664323133,
+          "max_excess": 0.5212257979879615,
+          "mean_excess": 0.009016883075934456,
+          "max_gradient": 0.3413329673520333,
+          "cluster": 0.390264111007232,
+          "symmetry_cluster": 0.10515133085542724
+        },
+        "variance": 0.5169839223964076,
+        "max_excess": 0.36657570428918207,
+        "mean_excess": 0.0063415323585541755,
+        "largest_cluster": 3,
+        "defects": 260,
+        "gradient_max": 0.15075724164258344,
+        "g4_max": 0.09826479810339099,
+        "sigma": 0.7032953965522034,
+        "variance_reference": 0.4946244148115211,
+        "gradient_reference": 0.0907427654850363,
+        "g4_reference": 0.06093646405309645,
+        "radius": 4.0,
+        "cpu_s": 0.484375
+      },
+      "mechanics": {
+        "pc": 0.7904191556628355,
+        "acoustic_or_Gamma": 0.7904191556628355,
+        "kind": "acoustic",
+        "theta": 0.40751890862319834,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0018397539971029015,
+            "normalized": 0.8284713448763913,
+            "bracket_width": 4.291105231563064e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0017822762255659181,
+            "normalized": 0.8025881633419423,
+            "bracket_width": 4.291105231563064e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0017934440739220455,
+            "normalized": 0.8076172282938576,
+            "bracket_width": 4.291105231563064e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0018108520890309128,
+            "normalized": 0.8154563424969427,
+            "bracket_width": 4.291105231563064e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 25.40625
+      },
+      "y": 0.9789791848794889,
+      "mc": {
+        "attempted": 655,
+        "accepted": 300,
+        "cpu_s": 0.03125,
+        "seed": 610202,
+        "radius": -1
+      },
+      "geometry": {
+        "vertices": 4414,
+        "edges": 8828,
+        "faces": 4414,
+        "degree_histogram": {
+          "3": 1926,
+          "4": 1146,
+          "5": 914,
+          "6": 275,
+          "7": 150,
+          "8": 3
+        },
+        "square_faces": 0,
+        "rhombus_faces": 0,
+        "area": 3585.488111818289,
+        "edge_length_range": [
+          0.9999999999999938,
+          1.0000000000000098
+        ]
+      },
+      "N": 4414,
+      "cpu_s": 26.15625,
+      "peak_rss_bytes": 233635840
+    },
+    {
+      "id": "penrose_test_uniform_3_0",
+      "kind": "penrose_test",
+      "protocol": "accepted",
+      "severity": 3000,
+      "rep": 0,
+      "seed": 610300,
+      "j": 3,
+      "fold": 0,
+      "features": {
+        "x": {
+          "variance": 0.1266531368636239,
+          "max_excess": 0.8550239872854075,
+          "mean_excess": 0.056492992481843,
+          "max_gradient": 1.0938972690889408,
+          "cluster": 0.7472988781255052,
+          "symmetry_cluster": 0.4506219277736111
+        },
+        "variance": 0.6278501609068364,
+        "max_excess": 0.6013344341995368,
+        "mean_excess": 0.03973126154993842,
+        "largest_cluster": 11,
+        "defects": 1050,
+        "gradient_max": 0.28307599389785604,
+        "g4_max": 0.19882532916877788,
+        "sigma": 0.7032953965522034,
+        "variance_reference": 0.4946244148115211,
+        "gradient_reference": 0.0907427654850363,
+        "g4_reference": 0.06093646405309645,
+        "radius": 4.0,
+        "cpu_s": 0.4375
+      },
+      "mechanics": {
+        "pc": 0.569926294119885,
+        "acoustic_or_Gamma": 0.569926294119885,
+        "kind": "acoustic",
+        "theta": 1.8363911103615573,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0012656218466510125,
+            "normalized": 0.5699302379834751,
+            "bracket_width": 3.094070138986993e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0012656170449608997,
+            "normalized": 0.5699280757038052,
+            "bracket_width": 3.094072307391338e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0012656800554248305,
+            "normalized": 0.5699564503473045,
+            "bracket_width": 3.094072307391338e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0012656932312204204,
+            "normalized": 0.5699623836237694,
+            "bracket_width": 3.094072307391338e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 33.921875
+      },
+      "y": 0.7058862058966504,
+      "mc": {
+        "attempted": 8254,
+        "accepted": 3000,
+        "cpu_s": 0.046875,
+        "seed": 610300,
+        "radius": -1
+      },
+      "geometry": {
+        "vertices": 4414,
+        "edges": 8828,
+        "faces": 4414,
+        "degree_histogram": {
+          "3": 1522,
+          "4": 1743,
+          "5": 845,
+          "6": 240,
+          "7": 59,
+          "8": 5
+        },
+        "square_faces": 0,
+        "rhombus_faces": 0,
+        "area": 3585.488111818289,
+        "edge_length_range": [
+          0.9999999999999938,
+          1.0000000000000109
+        ]
+      },
+      "N": 4414,
+      "cpu_s": 34.734375,
+      "peak_rss_bytes": 235048960
+    },
+    {
+      "id": "penrose_test_uniform_3_1",
+      "kind": "penrose_test",
+      "protocol": "accepted",
+      "severity": 3000,
+      "rep": 1,
+      "seed": 610301,
+      "j": 3,
+      "fold": 1,
+      "features": {
+        "x": {
+          "variance": 0.13562914376485713,
+          "max_excess": 1.1423431409545426,
+          "mean_excess": 0.06094871147196255,
+          "max_gradient": 1.1062973601439623,
+          "cluster": 0.8430668357775104,
+          "symmetry_cluster": 0.5561209851970759
+        },
+        "variance": 0.6378941335507472,
+        "max_excess": 0.8034046723163146,
+        "mean_excess": 0.04286494820401973,
+        "largest_cluster": 14,
+        "defects": 1123,
+        "gradient_max": 0.28525622563681224,
+        "g4_max": 0.23176953524061736,
+        "sigma": 0.7032953965522034,
+        "variance_reference": 0.4946244148115211,
+        "gradient_reference": 0.0907427654850363,
+        "g4_reference": 0.06093646405309645,
+        "radius": 4.0,
+        "cpu_s": 0.390625
+      },
+      "mechanics": {
+        "pc": 0.5558498599754571,
+        "acoustic_or_Gamma": 0.5558502023241977,
+        "kind": "acoustic",
+        "theta": 0.5272907290069222,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0012343642784247394,
+            "normalized": 0.5558544432702879,
+            "bracket_width": 3.0176555698702145e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0012343541004807019,
+            "normalized": 0.5558498599754571,
+            "bracket_width": 3.0176555698702145e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0012344530315572867,
+            "normalized": 0.5558944102589175,
+            "bracket_width": 3.0176534014658696e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0012344360988961207,
+            "normalized": 0.5558867852043772,
+            "bracket_width": 3.0176534014658696e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 30.984375
+      },
+      "y": 0.6884517397327254,
+      "mc": {
+        "attempted": 8311,
+        "accepted": 3000,
+        "cpu_s": 0.046875,
+        "seed": 610301,
+        "radius": -1
+      },
+      "geometry": {
+        "vertices": 4414,
+        "edges": 8828,
+        "faces": 4414,
+        "degree_histogram": {
+          "3": 1521,
+          "4": 1764,
+          "5": 814,
+          "6": 252,
+          "7": 51,
+          "8": 10,
+          "9": 2
+        },
+        "square_faces": 0,
+        "rhombus_faces": 0,
+        "area": 3585.488111818289,
+        "edge_length_range": [
+          0.9999999999999937,
+          1.0000000000000109
+        ]
+      },
+      "N": 4414,
+      "cpu_s": 31.640625,
+      "peak_rss_bytes": 235204608
+    },
+    {
+      "id": "penrose_test_uniform_3_2",
+      "kind": "penrose_test",
+      "protocol": "accepted",
+      "severity": 3000,
+      "rep": 2,
+      "seed": 610302,
+      "j": 3,
+      "fold": 2,
+      "features": {
+        "x": {
+          "variance": 0.1343094180625326,
+          "max_excess": 0.865620118008357,
+          "mean_excess": 0.06007943379504329,
+          "max_gradient": 0.9831544278333721,
+          "cluster": 0.8726570813906946,
+          "symmetry_cluster": 0.6772905624077733
+        },
+        "variance": 0.6364123890398357,
+        "max_excess": 0.6087866441582526,
+        "mean_excess": 0.04225358921551682,
+        "largest_cluster": 15,
+        "defects": 1151,
+        "gradient_max": 0.2636047612838178,
+        "g4_max": 0.21799457581913387,
+        "sigma": 0.7032953965522034,
+        "variance_reference": 0.4946244148115211,
+        "gradient_reference": 0.0907427654850363,
+        "g4_reference": 0.06093646405309645,
+        "radius": 4.0,
+        "cpu_s": 0.65625
+      },
+      "mechanics": {
+        "pc": 0.5333448367043246,
+        "acoustic_or_Gamma": 0.5333448367043246,
+        "kind": "acoustic",
+        "theta": 1.9179424409096726,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0011843822290033641,
+            "normalized": 0.5333467081225387,
+            "bracket_width": 2.895474658648478e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.001184381561306865,
+            "normalized": 0.5333464074478738,
+            "bracket_width": 2.895474658648478e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0011843833657667888,
+            "normalized": 0.5333472200257197,
+            "bracket_width": 2.895474658648478e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0011843867282817272,
+            "normalized": 0.5333487342212466,
+            "bracket_width": 2.895474658648478e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 57.234375
+      },
+      "y": 0.6605779854343602,
+      "mc": {
+        "attempted": 8175,
+        "accepted": 3000,
+        "cpu_s": 0.03125,
+        "seed": 610302,
+        "radius": -1
+      },
+      "geometry": {
+        "vertices": 4414,
+        "edges": 8828,
+        "faces": 4414,
+        "degree_histogram": {
+          "3": 1524,
+          "4": 1748,
+          "5": 830,
+          "6": 246,
+          "7": 62,
+          "8": 4
+        },
+        "square_faces": 0,
+        "rhombus_faces": 0,
+        "area": 3585.488111818289,
+        "edge_length_range": [
+          0.9999999999999938,
+          1.0000000000000098
+        ]
+      },
+      "N": 4414,
+      "cpu_s": 58.125,
+      "peak_rss_bytes": 261115904
+    },
+    {
+      "id": "penrose_test_uniform_4_0",
+      "kind": "penrose_test",
+      "protocol": "sweeps",
+      "severity": 200,
+      "rep": 0,
+      "seed": 610400,
+      "j": 4,
+      "fold": 0,
+      "features": {
+        "x": {
+          "variance": 0.5642660276357387,
+          "max_excess": 2.7080541373901172,
+          "mean_excess": 0.31616595590989927,
+          "max_gradient": 2.639075576551494,
+          "cluster": 10.55638570671613,
+          "symmetry_cluster": 2.84358862624037
+        },
+        "variance": 1.2103104315904203,
+        "max_excess": 1.9045620084406176,
+        "mean_excess": 0.22235806133795907,
+        "largest_cluster": 2195,
+        "defects": 2573,
+        "gradient_max": 0.5547551915205408,
+        "g4_max": 0.46188438696049045,
+        "sigma": 0.7032953965522034,
+        "variance_reference": 0.4946244148115211,
+        "gradient_reference": 0.0907427654850363,
+        "g4_reference": 0.06093646405309645,
+        "radius": 4.0,
+        "cpu_s": 0.640625
+      },
+      "mechanics": {
+        "pc": 0.40564338263266897,
+        "acoustic_or_Gamma": 0.40564338263266897,
+        "kind": "near_Gamma_or_acoustic",
+        "theta": 3.05290876169586,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0009008086616303956,
+            "normalized": 0.4056488881407192,
+            "bracket_width": 2.202196758283037e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.000900797347624905,
+            "normalized": 0.4056437932588168,
+            "bracket_width": 2.2021956740808646e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0009008502432872527,
+            "normalized": 0.4056676130415662,
+            "bracket_width": 2.202196758283037e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0009008659180825421,
+            "normalized": 0.40567467165850873,
+            "bracket_width": 2.202196758283037e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 28.921875
+      },
+      "y": 0.5024124545013994,
+      "mc": {
+        "attempted": 882800,
+        "accepted": 278188,
+        "cpu_s": 1.5,
+        "seed": 610400,
+        "radius": -1
+      },
+      "geometry": {
+        "vertices": 4414,
+        "edges": 8828,
+        "faces": 4414,
+        "degree_histogram": {
+          "3": 1395,
+          "4": 1886,
+          "5": 898,
+          "6": 208,
+          "7": 27
+        },
+        "square_faces": 0,
+        "rhombus_faces": 0,
+        "area": 3585.488111818289,
+        "edge_length_range": [
+          0.9999999999999937,
+          1.0000000000000109
+        ]
+      },
+      "N": 4414,
+      "cpu_s": 31.34375,
+      "peak_rss_bytes": 261115904
+    },
+    {
+      "id": "penrose_test_uniform_4_1",
+      "kind": "penrose_test",
+      "protocol": "sweeps",
+      "severity": 200,
+      "rep": 1,
+      "seed": 610401,
+      "j": 4,
+      "fold": 1,
+      "features": {
+        "x": {
+          "variance": 0.6098262067483582,
+          "max_excess": 2.343316477793577,
+          "mean_excess": 0.35900303114933063,
+          "max_gradient": 2.5496623994706775,
+          "cluster": 10.558790076570045,
+          "symmetry_cluster": 2.828528210735578
+        },
+        "variance": 1.2818391616916658,
+        "max_excess": 1.6480436914971461,
+        "mean_excess": 0.2524851791556115,
+        "largest_cluster": 2196,
+        "defects": 2709,
+        "gradient_max": 0.5390342225625294,
+        "g4_max": 0.46405648868190025,
+        "sigma": 0.7032953965522034,
+        "variance_reference": 0.4946244148115211,
+        "gradient_reference": 0.0907427654850363,
+        "g4_reference": 0.06093646405309645,
+        "radius": 4.0,
+        "cpu_s": 0.453125
+      },
+      "mechanics": {
+        "pc": 0.3878852934330463,
+        "acoustic_or_Gamma": 0.38788908924116966,
+        "kind": "near_Gamma_or_acoustic",
+        "theta": 2.674881836888288,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0008613998267668179,
+            "normalized": 0.3879024446103053,
+            "bracket_width": 2.1058101009469032e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.000861361739816542,
+            "normalized": 0.3878852934330463,
+            "bracket_width": 2.1058101009469032e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0008614049419908465,
+            "normalized": 0.38790474807943054,
+            "bracket_width": 2.1058101009469032e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0008613758415864279,
+            "normalized": 0.38789164369089646,
+            "bracket_width": 2.1058111851490757e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 34.0
+      },
+      "y": 0.48041804866607374,
+      "mc": {
+        "attempted": 882800,
+        "accepted": 277404,
+        "cpu_s": 1.625,
+        "seed": 610401,
+        "radius": -1
+      },
+      "geometry": {
+        "vertices": 4414,
+        "edges": 8828,
+        "faces": 4414,
+        "degree_histogram": {
+          "3": 1391,
+          "4": 1883,
+          "5": 909,
+          "6": 212,
+          "7": 18,
+          "8": 1
+        },
+        "square_faces": 0,
+        "rhombus_faces": 0,
+        "area": 3585.488111818289,
+        "edge_length_range": [
+          0.9999999999999944,
+          1.0000000000000093
+        ]
+      },
+      "N": 4414,
+      "cpu_s": 36.359375,
+      "peak_rss_bytes": 261115904
+    },
+    {
+      "id": "penrose_test_uniform_4_2",
+      "kind": "penrose_test",
+      "protocol": "sweeps",
+      "severity": 200,
+      "rep": 2,
+      "seed": 610402,
+      "j": 4,
+      "fold": 2,
+      "features": {
+        "x": {
+          "variance": 0.5651924775442863,
+          "max_excess": 2.4063892044446944,
+          "mean_excess": 0.32896551200031326,
+          "max_gradient": 2.6640386529133364,
+          "cluster": 10.594790147179667,
+          "symmetry_cluster": 2.9532016547816022
+        },
+        "variance": 1.2117444895015705,
+        "max_excess": 1.6924024497988728,
+        "mean_excess": 0.23135993021425896,
+        "largest_cluster": 2211,
+        "defects": 2610,
+        "gradient_max": 0.559144295692807,
+        "g4_max": 0.48802168987686917,
+        "sigma": 0.7032953965522034,
+        "variance_reference": 0.4946244148115211,
+        "gradient_reference": 0.0907427654850363,
+        "g4_reference": 0.06093646405309645,
+        "radius": 4.0,
+        "cpu_s": 0.390625
+      },
+      "mechanics": {
+        "pc": 0.3924508780404927,
+        "acoustic_or_Gamma": 0.3924508780404927,
+        "kind": "near_Gamma_or_acoustic",
+        "theta": 2.957985953765854,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0008715028999327905,
+            "normalized": 0.3924520238618675,
+            "bracket_width": 2.1305754469708171e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0008715009227583726,
+            "normalized": 0.3924511335078573,
+            "bracket_width": 2.1305754469708171e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0008715020732693486,
+            "normalized": 0.3924516516017857,
+            "bracket_width": 2.1305754469708171e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0008715050072853948,
+            "normalized": 0.39245297283724623,
+            "bracket_width": 2.1305754469708171e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 28.765625
+      },
+      "y": 0.48607278547941435,
+      "mc": {
+        "attempted": 882800,
+        "accepted": 278201,
+        "cpu_s": 1.5,
+        "seed": 610402,
+        "radius": -1
+      },
+      "geometry": {
+        "vertices": 4414,
+        "edges": 8828,
+        "faces": 4414,
+        "degree_histogram": {
+          "3": 1367,
+          "4": 1941,
+          "5": 865,
+          "6": 222,
+          "7": 18,
+          "8": 1
+        },
+        "square_faces": 0,
+        "rhombus_faces": 0,
+        "area": 3585.488111818289,
+        "edge_length_range": [
+          0.9999999999999937,
+          1.0000000000000109
+        ]
+      },
+      "N": 4414,
+      "cpu_s": 31.0,
+      "peak_rss_bytes": 261115904
+    },
+    {
+      "id": "penrose_test_uniform_5_0",
+      "kind": "penrose_test",
+      "protocol": "sweeps",
+      "severity": 3000,
+      "rep": 0,
+      "seed": 610500,
+      "j": 5,
+      "fold": 0,
+      "features": {
+        "x": {
+          "variance": 0.7555307203166073,
+          "max_excess": 3.0354386200204533,
+          "mean_excess": 0.6139395687629685,
+          "max_gradient": 2.6484320644164416,
+          "cluster": 12.984715110801371,
+          "symmetry_cluster": 3.3475185536194725
+        },
+        "variance": 1.5243771029111401,
+        "max_excess": 2.134810007977158,
+        "mean_excess": 0.43178087247224073,
+        "largest_cluster": 3321,
+        "defects": 3391,
+        "gradient_max": 0.5564002852313693,
+        "g4_max": 0.50725085677908,
+        "sigma": 0.7032953965522034,
+        "variance_reference": 0.4946244148115211,
+        "gradient_reference": 0.0907427654850363,
+        "g4_reference": 0.06093646405309645,
+        "radius": 4.0,
+        "cpu_s": 0.390625
+      },
+      "mechanics": {
+        "pc": 0.3535024826740613,
+        "acoustic_or_Gamma": 0.3535029236239614,
+        "kind": "near_Gamma_or_acoustic",
+        "theta": 2.058313548891352,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0007850125746975777,
+            "normalized": 0.35350401441101187,
+            "bracket_width": 1.9191310866861766e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0007850101512184459,
+            "normalized": 0.35350292307868225,
+            "bracket_width": 1.9191310866861766e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0007850091732290843,
+            "normalized": 0.3535024826740613,
+            "bracket_width": 1.9191310866861766e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0007850099765774884,
+            "normalized": 0.3535028444349999,
+            "bracket_width": 1.9191310866861766e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 25.859375
+      },
+      "y": 0.4378329774294462,
+      "mc": {
+        "attempted": 13242000,
+        "accepted": 4140712,
+        "cpu_s": 24.34375,
+        "seed": 610500,
+        "radius": -1
+      },
+      "geometry": {
+        "vertices": 4414,
+        "edges": 8828,
+        "faces": 4414,
+        "degree_histogram": {
+          "3": 1391,
+          "4": 1875,
+          "5": 932,
+          "6": 191,
+          "7": 23,
+          "8": 2
+        },
+        "square_faces": 0,
+        "rhombus_faces": 0,
+        "area": 3585.488111818289,
+        "edge_length_range": [
+          0.9999999999999934,
+          1.0000000000000109
+        ]
+      },
+      "N": 4414,
+      "cpu_s": 50.796875,
+      "peak_rss_bytes": 261115904
+    },
+    {
+      "id": "penrose_test_uniform_5_1",
+      "kind": "penrose_test",
+      "protocol": "sweeps",
+      "severity": 3000,
+      "rep": 1,
+      "seed": 610501,
+      "j": 5,
+      "fold": 1,
+      "features": {
+        "x": {
+          "variance": 0.7744833974970418,
+          "max_excess": 4.003400434143751,
+          "mean_excess": 0.8383347201399279,
+          "max_gradient": 2.5118121150414767,
+          "cluster": 13.38516770415168,
+          "symmetry_cluster": 3.1371112418575473
+        },
+        "variance": 1.557469067971954,
+        "max_excess": 2.815573095888393,
+        "mean_excess": 0.5895969494442911,
+        "largest_cluster": 3529,
+        "defects": 3599,
+        "gradient_max": 0.5323792398632173,
+        "g4_max": 0.42916933261769036,
+        "sigma": 0.7032953965522034,
+        "variance_reference": 0.4946244148115211,
+        "gradient_reference": 0.0907427654850363,
+        "g4_reference": 0.06093646405309645,
+        "radius": 4.0,
+        "cpu_s": 0.375
+      },
+      "mechanics": {
+        "pc": 0.3632770020165319,
+        "acoustic_or_Gamma": 0.3632770020165319,
+        "kind": "near_Gamma_or_acoustic",
+        "theta": 3.088180545795607,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0008067205798438057,
+            "normalized": 0.3632794845262553,
+            "bracket_width": 1.9721941094119622e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0008067153160583474,
+            "normalized": 0.3632771141574861,
+            "bracket_width": 1.9721941094119622e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0008067435592552044,
+            "normalized": 0.36328983253142116,
+            "bracket_width": 1.9721941094119622e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0008067497233471674,
+            "normalized": 0.3632926083229491,
+            "bracket_width": 1.9721930252097897e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 24.09375
+      },
+      "y": 0.44993927686554247,
+      "mc": {
+        "attempted": 13242000,
+        "accepted": 4136601,
+        "cpu_s": 22.46875,
+        "seed": 610501,
+        "radius": -1
+      },
+      "geometry": {
+        "vertices": 4414,
+        "edges": 8828,
+        "faces": 4414,
+        "degree_histogram": {
+          "3": 1367,
+          "4": 1911,
+          "5": 924,
+          "6": 194,
+          "7": 17,
+          "8": 1
+        },
+        "square_faces": 0,
+        "rhombus_faces": 0,
+        "area": 3585.488111818289,
+        "edge_length_range": [
+          0.9999999999999858,
+          1.0000000000000109
+        ]
+      },
+      "N": 4414,
+      "cpu_s": 47.171875,
+      "peak_rss_bytes": 261115904
+    },
+    {
+      "id": "penrose_test_uniform_5_2",
+      "kind": "penrose_test",
+      "protocol": "sweeps",
+      "severity": 3000,
+      "rep": 2,
+      "seed": 610502,
+      "j": 5,
+      "fold": 2,
+      "features": {
+        "x": {
+          "variance": 0.7361845570637615,
+          "max_excess": 3.1373363502045715,
+          "mean_excess": 0.4940770870497144,
+          "max_gradient": 2.760352821261413,
+          "cluster": 12.390501400306091,
+          "symmetry_cluster": 2.9931304315542366
+        },
+        "variance": 1.4909645837511651,
+        "max_excess": 2.2064742125347667,
+        "mean_excess": 0.34748214086398643,
+        "largest_cluster": 3024,
+        "defects": 3128,
+        "gradient_max": 0.576078623498296,
+        "g4_max": 0.4621450546518731,
+        "sigma": 0.7032953965522034,
+        "variance_reference": 0.4946244148115211,
+        "gradient_reference": 0.0907427654850363,
+        "g4_reference": 0.06093646405309645,
+        "radius": 4.0,
+        "cpu_s": 0.453125
+      },
+      "mechanics": {
+        "pc": 0.4045090386002188,
+        "acoustic_or_Gamma": 0.4045090386002188,
+        "kind": "acoustic",
+        "theta": -0.0014259724908570097,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0008982916733603844,
+            "normalized": 0.4045154471152463,
+            "bracket_width": 2.1960384899433194e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.000898277622667442,
+            "normalized": 0.40450911985817994,
+            "bracket_width": 2.1960384899433194e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0008982845880620648,
+            "normalized": 0.40451225648941425,
+            "bracket_width": 2.1960384899433194e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0008982971397391898,
+            "normalized": 0.40451790871511645,
+            "bracket_width": 2.1960384899433194e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 27.3125
+      },
+      "y": 0.5010075047499859,
+      "mc": {
+        "attempted": 13242000,
+        "accepted": 4134314,
+        "cpu_s": 21.328125,
+        "seed": 610502,
+        "radius": -1
+      },
+      "geometry": {
+        "vertices": 4414,
+        "edges": 8828,
+        "faces": 4414,
+        "degree_histogram": {
+          "3": 1402,
+          "4": 1856,
+          "5": 934,
+          "6": 198,
+          "7": 24
+        },
+        "square_faces": 0,
+        "rhombus_faces": 0,
+        "area": 3585.488111818289,
+        "edge_length_range": [
+          0.9999999999999938,
+          1.0000000000000109
+        ]
+      },
+      "N": 4414,
+      "cpu_s": 49.3125,
+      "peak_rss_bytes": 275062784
+    },
+    {
+      "id": "penrose_test_disc_0_0",
+      "kind": "penrose_test",
+      "protocol": "disc",
+      "severity": 4,
+      "rep": 0,
+      "seed": 620000,
+      "j": 0,
+      "fold": 0,
+      "features": {
+        "x": {
+          "variance": 0.004731328839799875,
+          "max_excess": 0.890839802450639,
+          "mean_excess": 0.002013845532761659,
+          "max_gradient": 1.2407017926569899,
+          "cluster": 0.9012763581803015,
+          "symmetry_cluster": 0.7401680663415471
+        },
+        "variance": 0.49931594873013513,
+        "max_excess": 0.6265235321290087,
+        "mean_excess": 0.0014163282925584943,
+        "largest_cluster": 16,
+        "defects": 27,
+        "gradient_max": 0.30888773030246813,
+        "g4_max": 0.2397431394380443,
+        "sigma": 0.7032953965522034,
+        "variance_reference": 0.4946244148115211,
+        "gradient_reference": 0.0907427654850363,
+        "g4_reference": 0.06093646405309645,
+        "radius": 4.0,
+        "cpu_s": 0.53125
+      },
+      "mechanics": {
+        "pc": 0.5842864261729905,
+        "acoustic_or_Gamma": 0.5842864261729905,
+        "kind": "acoustic",
+        "theta": 2.3865584665604915,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0012975192149752048,
+            "normalized": 0.5842941451553985,
+            "bracket_width": 3.1720307804017356e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0012975182383066902,
+            "normalized": 0.5842937053455767,
+            "bracket_width": 3.1720329488060806e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0012976150724998687,
+            "normalized": 0.5843373113681095,
+            "bracket_width": 3.1720307804017356e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0012975909666460958,
+            "normalized": 0.5843264561075007,
+            "bracket_width": 3.1720329488060806e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 25.96875
+      },
+      "y": 0.7236720480936578,
+      "mc": {
+        "attempted": 13242000,
+        "accepted": 53825,
+        "cpu_s": 8.390625,
+        "seed": 620000,
+        "radius": 4
+      },
+      "geometry": {
+        "vertices": 4414,
+        "edges": 8828,
+        "faces": 4414,
+        "degree_histogram": {
+          "3": 2311,
+          "4": 433,
+          "5": 1274,
+          "6": 151,
+          "7": 245
+        },
+        "square_faces": 0,
+        "rhombus_faces": 0,
+        "area": 3585.488111818289,
+        "edge_length_range": [
+          0.9999999999999938,
+          1.0000000000000098
+        ]
+      },
+      "N": 4414,
+      "cpu_s": 35.140625,
+      "peak_rss_bytes": 297271296
+    },
+    {
+      "id": "penrose_test_disc_0_1",
+      "kind": "penrose_test",
+      "protocol": "disc",
+      "severity": 4,
+      "rep": 1,
+      "seed": 620001,
+      "j": 0,
+      "fold": 1,
+      "features": {
+        "x": {
+          "variance": 0.0031316391869100624,
+          "max_excess": 0.8869875784292964,
+          "mean_excess": 0.0013383329235551176,
+          "max_gradient": 0.7967019480933593,
+          "cluster": 0.6759572686352261,
+          "symmetry_cluster": 0.4039664060869391
+        },
+        "variance": 0.49772723607472646,
+        "max_excess": 0.6238142807083107,
+        "mean_excess": 0.0009412433841905662,
+        "largest_cluster": 9,
+        "defects": 16,
+        "gradient_max": 0.23082196861459434,
+        "g4_max": 0.13057928742927497,
+        "sigma": 0.7032953965522034,
+        "variance_reference": 0.4946244148115211,
+        "gradient_reference": 0.0907427654850363,
+        "g4_reference": 0.06093646405309645,
+        "radius": 4.0,
+        "cpu_s": 0.453125
+      },
+      "mechanics": {
+        "pc": 0.7160214492006026,
+        "acoustic_or_Gamma": 0.7160214492006026,
+        "kind": "acoustic",
+        "theta": 0.19890088576523104,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.001590417155170815,
+            "normalized": 0.7161908828754958,
+            "bracket_width": 3.887207396247039e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0015901228165898485,
+            "normalized": 0.7160583373936508,
+            "bracket_width": 3.887209564651384e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0015906714333565623,
+            "normalized": 0.7163053885055151,
+            "bracket_width": 3.887207396247039e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0015910245500147153,
+            "normalized": 0.7164644027178169,
+            "bracket_width": 3.887207396247039e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 24.203125
+      },
+      "y": 0.8868333841261876,
+      "mc": {
+        "attempted": 13242000,
+        "accepted": 53489,
+        "cpu_s": 8.296875,
+        "seed": 620001,
+        "radius": 4
+      },
+      "geometry": {
+        "vertices": 4414,
+        "edges": 8828,
+        "faces": 4414,
+        "degree_histogram": {
+          "3": 2313,
+          "4": 427,
+          "5": 1276,
+          "6": 157,
+          "7": 241
+        },
+        "square_faces": 0,
+        "rhombus_faces": 0,
+        "area": 3585.488111818289,
+        "edge_length_range": [
+          0.9999999999999938,
+          1.0000000000000098
+        ]
+      },
+      "N": 4414,
+      "cpu_s": 33.203125,
+      "peak_rss_bytes": 297271296
+    },
+    {
+      "id": "penrose_test_disc_0_2",
+      "kind": "penrose_test",
+      "protocol": "disc",
+      "severity": 4,
+      "rep": 2,
+      "seed": 620002,
+      "j": 0,
+      "fold": 2,
+      "features": {
+        "x": {
+          "variance": 0.003856307206763443,
+          "max_excess": 0.8949474820946091,
+          "mean_excess": 0.0016038817604324459,
+          "max_gradient": 0.7670956641730456,
+          "cluster": 0.7472988781255052,
+          "symmetry_cluster": 0.39408723498326975
+        },
+        "variance": 0.49844661781422195,
+        "max_excess": 0.629412444313124,
+        "mean_excess": 0.001128002658726183,
+        "largest_cluster": 11,
+        "defects": 23,
+        "gradient_max": 0.22561647781705083,
+        "g4_max": 0.15701766966504024,
+        "sigma": 0.7032953965522034,
+        "variance_reference": 0.4946244148115211,
+        "gradient_reference": 0.0907427654850363,
+        "g4_reference": 0.06093646405309645,
+        "radius": 4.0,
+        "cpu_s": 0.4375
+      },
+      "mechanics": {
+        "pc": 0.7377849263068229,
+        "acoustic_or_Gamma": 0.7377849263068229,
+        "kind": "acoustic",
+        "theta": 0.8314566863072489,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0016384240862112036,
+            "normalized": 0.7378091898801548,
+            "bracket_width": 4.005359412195819e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0016384132092575195,
+            "normalized": 0.7378042918098361,
+            "bracket_width": 4.005359412195819e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.00163844478751015,
+            "normalized": 0.7378185120139866,
+            "bracket_width": 4.005359412195819e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.001638377486259097,
+            "normalized": 0.7377882051587986,
+            "bracket_width": 4.005359412195819e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 24.96875
+      },
+      "y": 0.9137886912248928,
+      "mc": {
+        "attempted": 13242000,
+        "accepted": 53427,
+        "cpu_s": 9.078125,
+        "seed": 620002,
+        "radius": 4
+      },
+      "geometry": {
+        "vertices": 4414,
+        "edges": 8828,
+        "faces": 4414,
+        "degree_histogram": {
+          "3": 2309,
+          "4": 431,
+          "5": 1280,
+          "6": 153,
+          "7": 241
+        },
+        "square_faces": 0,
+        "rhombus_faces": 0,
+        "area": 3585.488111818289,
+        "edge_length_range": [
+          0.9999999999999938,
+          1.0000000000000098
+        ]
+      },
+      "N": 4414,
+      "cpu_s": 34.796875,
+      "peak_rss_bytes": 297271296
+    },
+    {
+      "id": "penrose_test_disc_1_0",
+      "kind": "penrose_test",
+      "protocol": "disc",
+      "severity": 7,
+      "rep": 0,
+      "seed": 620100,
+      "j": 1,
+      "fold": 0,
+      "features": {
+        "x": {
+          "variance": 0.012398022591788127,
+          "max_excess": 1.1663895762603567,
+          "mean_excess": 0.005540834304992489,
+          "max_gradient": 0.9384566916931814,
+          "cluster": 1.170792333021696,
+          "symmetry_cluster": 0.7040017408151477
+        },
+        "variance": 0.5069651733457984,
+        "max_excess": 0.820316419570384,
+        "mean_excess": 0.003896843259759745,
+        "largest_cluster": 27,
+        "defects": 74,
+        "gradient_max": 0.2557458332678925,
+        "g4_max": 0.2188640718432969,
+        "sigma": 0.7032953965522034,
+        "variance_reference": 0.4946244148115211,
+        "gradient_reference": 0.0907427654850363,
+        "g4_reference": 0.06093646405309645,
+        "radius": 4.0,
+        "cpu_s": 0.46875
+      },
+      "mechanics": {
+        "pc": 0.607911456396259,
+        "acoustic_or_Gamma": 0.607911456396259,
+        "kind": "acoustic",
+        "theta": 0.20043048510532693,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0013499758079954657,
+            "normalized": 0.6079162077983196,
+            "bracket_width": 3.300289729002426e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0013499772522021227,
+            "normalized": 0.6079168581482214,
+            "bracket_width": 3.300289729002426e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0013499741433294738,
+            "normalized": 0.6079154581719699,
+            "bracket_width": 3.300289729002426e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0013499988067224593,
+            "normalized": 0.607926564501614,
+            "bracket_width": 3.300289729002426e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 23.8125
+      },
+      "y": 0.7529329948521324,
+      "mc": {
+        "attempted": 13242000,
+        "accepted": 179445,
+        "cpu_s": 9.3125,
+        "seed": 620100,
+        "radius": 7
+      },
+      "geometry": {
+        "vertices": 4414,
+        "edges": 8828,
+        "faces": 4414,
+        "degree_histogram": {
+          "3": 2290,
+          "4": 467,
+          "5": 1259,
+          "6": 164,
+          "7": 233,
+          "8": 1
+        },
+        "square_faces": 0,
+        "rhombus_faces": 0,
+        "area": 3585.488111818289,
+        "edge_length_range": [
+          0.9999999999999938,
+          1.0000000000000098
+        ]
+      },
+      "N": 4414,
+      "cpu_s": 33.890625,
+      "peak_rss_bytes": 297271296
+    },
+    {
+      "id": "penrose_test_disc_1_1",
+      "kind": "penrose_test",
+      "protocol": "disc",
+      "severity": 7,
+      "rep": 1,
+      "seed": 620101,
+      "j": 1,
+      "fold": 1,
+      "features": {
+        "x": {
+          "variance": 0.01608233778735313,
+          "max_excess": 1.2447820021350164,
+          "mean_excess": 0.006925479136599927,
+          "max_gradient": 1.3833872032981236,
+          "cluster": 1.4775160780435295,
+          "symmetry_cluster": 0.9016268778972804
+        },
+        "variance": 0.5106617790897224,
+        "max_excess": 0.875449451812592,
+        "mean_excess": 0.004870657595689057,
+        "largest_cluster": 43,
+        "defects": 86,
+        "gradient_max": 0.33397522841723565,
+        "g4_max": 0.2015512154578043,
+        "sigma": 0.7032953965522034,
+        "variance_reference": 0.4946244148115211,
+        "gradient_reference": 0.0907427654850363,
+        "g4_reference": 0.06093646405309645,
+        "radius": 4.0,
+        "cpu_s": 0.390625
+      },
+      "mechanics": {
+        "pc": 0.6303750291333623,
+        "acoustic_or_Gamma": 0.6303750291333623,
+        "kind": "near_Gamma_or_acoustic",
+        "theta": 1.5411114778184922,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0013998651336553896,
+            "normalized": 0.6303821879182375,
+            "bracket_width": 3.4222407893635953e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0013998518286633828,
+            "normalized": 0.630376196462511,
+            "bracket_width": 3.4222429577679403e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0013998540455916772,
+            "normalized": 0.6303771947816169,
+            "bracket_width": 3.4222407893635953e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0013998576526346258,
+            "normalized": 0.6303788190921102,
+            "bracket_width": 3.4222407893635953e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 22.703125
+      },
+      "y": 0.7807554103010708,
+      "mc": {
+        "attempted": 13242000,
+        "accepted": 179413,
+        "cpu_s": 8.328125,
+        "seed": 620101,
+        "radius": 7
+      },
+      "geometry": {
+        "vertices": 4414,
+        "edges": 8828,
+        "faces": 4414,
+        "degree_histogram": {
+          "3": 2278,
+          "4": 485,
+          "5": 1259,
+          "6": 157,
+          "7": 235
+        },
+        "square_faces": 0,
+        "rhombus_faces": 0,
+        "area": 3585.488111818289,
+        "edge_length_range": [
+          0.9999999999999938,
+          1.0000000000000098
+        ]
+      },
+      "N": 4414,
+      "cpu_s": 31.65625,
+      "peak_rss_bytes": 297271296
+    },
+    {
+      "id": "penrose_test_disc_1_2",
+      "kind": "penrose_test",
+      "protocol": "disc",
+      "severity": 7,
+      "rep": 2,
+      "seed": 620102,
+      "j": 1,
+      "fold": 2,
+      "features": {
+        "x": {
+          "variance": 0.023067641270761774,
+          "max_excess": 1.5339233288888534,
+          "mean_excess": 0.010212617211710913,
+          "max_gradient": 1.9732713747019235,
+          "cluster": 1.938268097140642,
+          "symmetry_cluster": 1.882375332006624
+        },
+        "variance": 0.5177072495423998,
+        "max_excess": 1.078801215871562,
+        "mean_excess": 0.007182486671746084,
+        "largest_cluster": 74,
+        "defects": 86,
+        "gradient_max": 0.4376909339790615,
+        "g4_max": 0.3554960628091369,
+        "sigma": 0.7032953965522034,
+        "variance_reference": 0.4946244148115211,
+        "gradient_reference": 0.0907427654850363,
+        "g4_reference": 0.06093646405309645,
+        "radius": 4.0,
+        "cpu_s": 0.484375
+      },
+      "mechanics": {
+        "pc": 0.60091770859488,
+        "acoustic_or_Gamma": 0.60091770859488,
+        "kind": "acoustic",
+        "theta": 0.021726111130811042,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0013344497738825172,
+            "normalized": 0.6009245804490073,
+            "bracket_width": 3.2623209689219834e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0013344436919373076,
+            "normalized": 0.6009218416495073,
+            "bracket_width": 3.2623209689219834e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0013345220688752886,
+            "normalized": 0.6009571360678473,
+            "bracket_width": 3.2623209689219834e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0013345615517687572,
+            "normalized": 0.60097491586118,
+            "bracket_width": 3.2623209689219834e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 21.125
+      },
+      "y": 0.7442708394972244,
+      "mc": {
+        "attempted": 13242000,
+        "accepted": 179558,
+        "cpu_s": 7.734375,
+        "seed": 620102,
+        "radius": 7
+      },
+      "geometry": {
+        "vertices": 4414,
+        "edges": 8828,
+        "faces": 4414,
+        "degree_histogram": {
+          "3": 2291,
+          "4": 462,
+          "5": 1268,
+          "6": 157,
+          "7": 235,
+          "8": 1
+        },
+        "square_faces": 0,
+        "rhombus_faces": 0,
+        "area": 3585.488111818289,
+        "edge_length_range": [
+          0.9999999999999938,
+          1.0000000000000098
+        ]
+      },
+      "N": 4414,
+      "cpu_s": 29.5625,
+      "peak_rss_bytes": 297271296
+    },
+    {
+      "id": "ab_test_uniform_0_0",
+      "kind": "ab_test",
+      "protocol": "accepted",
+      "severity": 1,
+      "rep": 0,
+      "seed": 710000,
+      "j": 0,
+      "fold": 0,
+      "features": {
+        "x": {
+          "variance": 0.000165115828110185,
+          "max_excess": 0.16225333242386028,
+          "mean_excess": 5.823881278674095e-05,
+          "max_gradient": 0.0,
+          "cluster": 0.22754494493911886,
+          "symmetry_cluster": 0.03302072366783224
+        },
+        "variance": 0.38512849064352,
+        "max_excess": 0.10067572043674593,
+        "mean_excess": 3.613629592130148e-05,
+        "largest_cluster": 1,
+        "defects": 1,
+        "gradient_max": 0.0641115624030228,
+        "g4_max": 0.04509881505218112,
+        "sigma": 0.6204847625178328,
+        "variance_reference": 0.38500134051681134,
+        "gradient_reference": 0.0641115624030228,
+        "g4_reference": 0.04509881505218112,
+        "radius": 4.0,
+        "cpu_s": 0.359375
+      },
+      "mechanics": {
+        "pc": 0.796448031990894,
+        "acoustic_or_Gamma": 0.796448031990894,
+        "kind": "acoustic",
+        "theta": 0.7859693582826747,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0018435029183803786,
+            "normalized": 0.8301595455040176,
+            "bracket_width": 4.323835126746056e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.001814263947975253,
+            "normalized": 0.8169927584376593,
+            "bracket_width": 4.323835126746056e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.001813941782897029,
+            "normalized": 0.816847682228531,
+            "bracket_width": 4.323837295150401e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.001840906284911746,
+            "normalized": 0.8289902389416746,
+            "bracket_width": 4.323835126746056e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 11.46875
+      },
+      "y": 1.00001976586108,
+      "mc": {
+        "attempted": 1,
+        "accepted": 1,
+        "cpu_s": 0.796875,
+        "seed": 710000,
+        "radius": -1
+      },
+      "geometry": {
+        "vertices": 2786,
+        "edges": 5572,
+        "faces": 2786,
+        "degree_histogram": {
+          "3": 1154,
+          "4": 956,
+          "5": 395,
+          "6": 165,
+          "7": 35,
+          "8": 81
+        },
+        "square_faces": 1154,
+        "rhombus_faces": 1632,
+        "area": 2307.998266896445,
+        "edge_length_range": [
+          0.9999999999999858,
+          1.0000000000000036
+        ]
+      },
+      "N": 2786,
+      "cpu_s": 24.75,
+      "peak_rss_bytes": 297271296
+    },
+    {
+      "id": "ab_test_uniform_0_1",
+      "kind": "ab_test",
+      "protocol": "accepted",
+      "severity": 1,
+      "rep": 1,
+      "seed": 710001,
+      "j": 0,
+      "fold": 1,
+      "features": {
+        "x": {
+          "variance": 0.00041348124257689634,
+          "max_excess": 0.40339620648795427,
+          "mean_excess": 0.0001447940439655256,
+          "max_gradient": 0.05051531770455743,
+          "cluster": 0.22754494493911886,
+          "symmetry_cluster": 0.08209652439244254
+        },
+        "variance": 0.38531978800457595,
+        "max_excess": 0.25030119938327294,
+        "mean_excess": 8.984249798394579e-05,
+        "largest_cluster": 1,
+        "defects": 1,
+        "gradient_max": 0.0719475586303791,
+        "g4_max": 0.04509881505218112,
+        "sigma": 0.6204847625178328,
+        "variance_reference": 0.38500134051681134,
+        "gradient_reference": 0.0641115624030228,
+        "g4_reference": 0.04509881505218112,
+        "radius": 4.0,
+        "cpu_s": 0.3125
+      },
+      "mechanics": {
+        "pc": 0.7964382954441345,
+        "acoustic_or_Gamma": 0.7964382954441345,
+        "kind": "acoustic",
+        "theta": 2.35890256551147,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.001843386805030484,
+            "normalized": 0.830107257761582,
+            "bracket_width": 4.323783085041777e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.001814262017805832,
+            "normalized": 0.8169918892507688,
+            "bracket_width": 4.323783085041777e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.001814089308639208,
+            "normalized": 0.8169141154854879,
+            "bracket_width": 4.323783085041777e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.001840917483354658,
+            "normalized": 0.828995281783856,
+            "bracket_width": 4.323780916637432e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 10.9375
+      },
+      "y": 1.0000075406576523,
+      "mc": {
+        "attempted": 2,
+        "accepted": 1,
+        "cpu_s": 0.015625,
+        "seed": 710001,
+        "radius": -1
+      },
+      "geometry": {
+        "vertices": 2786,
+        "edges": 5572,
+        "faces": 2786,
+        "degree_histogram": {
+          "3": 1154,
+          "4": 956,
+          "5": 395,
+          "6": 165,
+          "7": 35,
+          "8": 81
+        },
+        "square_faces": 1154,
+        "rhombus_faces": 1632,
+        "area": 2307.998266896445,
+        "edge_length_range": [
+          0.9999999999999858,
+          1.0000000000000036
+        ]
+      },
+      "N": 2786,
+      "cpu_s": 11.640625,
+      "peak_rss_bytes": 297271296
+    },
+    {
+      "id": "ab_test_uniform_0_2",
+      "kind": "ab_test",
+      "protocol": "accepted",
+      "severity": 1,
+      "rep": 2,
+      "seed": 710002,
+      "j": 0,
+      "fold": 2,
+      "features": {
+        "x": {
+          "variance": 9.887780412110025e-05,
+          "max_excess": 0.09515975136112649,
+          "mean_excess": 3.415640752373528e-05,
+          "max_gradient": 8.946416509247064e-17,
+          "cluster": 0.22754494493911886,
+          "symmetry_cluster": 0.019366282387265756
+        },
+        "variance": 0.3850774804551681,
+        "max_excess": 0.05904517572456459,
+        "mean_excess": 2.1193530410827204e-05,
+        "largest_cluster": 1,
+        "defects": 1,
+        "gradient_max": 0.06411156240302282,
+        "g4_max": 0.045098815052181114,
+        "sigma": 0.6204847625178328,
+        "variance_reference": 0.38500134051681134,
+        "gradient_reference": 0.0641115624030228,
+        "g4_reference": 0.04509881505218112,
+        "radius": 4.0,
+        "cpu_s": 0.265625
+      },
+      "mechanics": {
+        "pc": 0.7964510141759966,
+        "acoustic_or_Gamma": 0.7964510141759966,
+        "kind": "acoustic",
+        "theta": 0.8132794322178978,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.001843309795417213,
+            "normalized": 0.8300725790719444,
+            "bracket_width": 4.323850305576471e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0018142032506598305,
+            "normalized": 0.8169654254428037,
+            "bracket_width": 4.323852473980816e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0018138996505613026,
+            "normalized": 0.8168287093479736,
+            "bracket_width": 4.323850305576471e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.001840878819731685,
+            "normalized": 0.8289778709214404,
+            "bracket_width": 4.323852473980816e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 11.109375
+      },
+      "y": 1.0000235102912605,
+      "mc": {
+        "attempted": 5,
+        "accepted": 1,
+        "cpu_s": 0.015625,
+        "seed": 710002,
+        "radius": -1
+      },
+      "geometry": {
+        "vertices": 2786,
+        "edges": 5572,
+        "faces": 2786,
+        "degree_histogram": {
+          "3": 1154,
+          "4": 956,
+          "5": 396,
+          "6": 163,
+          "7": 36,
+          "8": 81
+        },
+        "square_faces": 1154,
+        "rhombus_faces": 1632,
+        "area": 2307.998266896445,
+        "edge_length_range": [
+          0.9999999999999858,
+          1.0000000000000036
+        ]
+      },
+      "N": 2786,
+      "cpu_s": 11.671875,
+      "peak_rss_bytes": 297271296
+    },
+    {
+      "id": "ab_test_uniform_1_0",
+      "kind": "ab_test",
+      "protocol": "accepted",
+      "severity": 30,
+      "rep": 0,
+      "seed": 710100,
+      "j": 1,
+      "fold": 0,
+      "features": {
+        "x": {
+          "variance": 0.005398472496910278,
+          "max_excess": 0.49367880452414314,
+          "mean_excess": 0.0019612768148101582,
+          "max_gradient": 0.1653609275291594,
+          "cluster": 0.22754494493911886,
+          "symmetry_cluster": 0.10047024083469766
+        },
+        "variance": 0.38916939910152637,
+        "max_excess": 0.30632017578525056,
+        "mean_excess": 0.0012169423786692127,
+        "largest_cluster": 1,
+        "defects": 30,
+        "gradient_max": 0.08976254636493756,
+        "g4_max": 0.06018705399593981,
+        "sigma": 0.6204847625178328,
+        "variance_reference": 0.38500134051681134,
+        "gradient_reference": 0.0641115624030228,
+        "g4_reference": 0.04509881505218112,
+        "radius": 4.0,
+        "cpu_s": 0.296875
+      },
+      "mechanics": {
+        "pc": 0.7957270355839717,
+        "acoustic_or_Gamma": 0.7957270355839717,
+        "kind": "acoustic",
+        "theta": 2.631067951456428,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0018497646199676621,
+            "normalized": 0.832979292243745,
+            "bracket_width": 4.3199211569033835e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0018109339390831045,
+            "normalized": 0.8154932009154727,
+            "bracket_width": 4.3199211569033835e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0018123544984828895,
+            "normalized": 0.8161329020702303,
+            "bracket_width": 4.3199211569033835e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0018388208104786023,
+            "normalized": 0.8280511156615771,
+            "bracket_width": 4.3199189884990385e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 12.71875
+      },
+      "y": 0.9991144831193616,
+      "mc": {
+        "attempted": 75,
+        "accepted": 30,
+        "cpu_s": 0.0,
+        "seed": 710100,
+        "radius": -1
+      },
+      "geometry": {
+        "vertices": 2786,
+        "edges": 5572,
+        "faces": 2786,
+        "degree_histogram": {
+          "3": 1152,
+          "4": 958,
+          "5": 388,
+          "6": 169,
+          "7": 50,
+          "8": 69
+        },
+        "square_faces": 1154,
+        "rhombus_faces": 1632,
+        "area": 2307.998266896445,
+        "edge_length_range": [
+          0.9999999999999858,
+          1.0000000000000036
+        ]
+      },
+      "N": 2786,
+      "cpu_s": 13.3125,
+      "peak_rss_bytes": 297271296
+    },
+    {
+      "id": "ab_test_uniform_1_1",
+      "kind": "ab_test",
+      "protocol": "accepted",
+      "severity": 30,
+      "rep": 1,
+      "seed": 710101,
+      "j": 1,
+      "fold": 1,
+      "features": {
+        "x": {
+          "variance": 0.004984116406862249,
+          "max_excess": 0.4688203473275885,
+          "mean_excess": 0.0018533030947563169,
+          "max_gradient": 0.2061716189542012,
+          "cluster": 0.22754494493911886,
+          "symmetry_cluster": 0.09541121225492251
+        },
+        "variance": 0.3888486874912768,
+        "max_excess": 0.29089588187508664,
+        "mean_excess": 0.001149946330623438,
+        "largest_cluster": 1,
+        "defects": 28,
+        "gradient_max": 0.09609314940920147,
+        "g4_max": 0.058781093548752876,
+        "sigma": 0.6204847625178328,
+        "variance_reference": 0.38500134051681134,
+        "gradient_reference": 0.0641115624030228,
+        "g4_reference": 0.04509881505218112,
+        "radius": 4.0,
+        "cpu_s": 0.3125
+      },
+      "mechanics": {
+        "pc": 0.7953026625349388,
+        "acoustic_or_Gamma": 0.7953026625349388,
+        "kind": "acoustic",
+        "theta": 0.65587473345024,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0018508236588719573,
+            "normalized": 0.8334561948006627,
+            "bracket_width": 4.3176183114890243e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0018121485455815974,
+            "normalized": 0.8160401581069704,
+            "bracket_width": 4.3176183114890243e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0018122417387588404,
+            "normalized": 0.8160821245204177,
+            "bracket_width": 4.3176183114890243e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0018374841425529294,
+            "normalized": 0.8274491922110618,
+            "bracket_width": 4.3176161430846793e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 11.90625
+      },
+      "y": 0.9985816405231273,
+      "mc": {
+        "attempted": 76,
+        "accepted": 30,
+        "cpu_s": 0.015625,
+        "seed": 710101,
+        "radius": -1
+      },
+      "geometry": {
+        "vertices": 2786,
+        "edges": 5572,
+        "faces": 2786,
+        "degree_histogram": {
+          "3": 1154,
+          "4": 956,
+          "5": 384,
+          "6": 175,
+          "7": 48,
+          "8": 69
+        },
+        "square_faces": 1154,
+        "rhombus_faces": 1632,
+        "area": 2307.998266896445,
+        "edge_length_range": [
+          0.9999999999999858,
+          1.0000000000000036
+        ]
+      },
+      "N": 2786,
+      "cpu_s": 12.546875,
+      "peak_rss_bytes": 297271296
+    },
+    {
+      "id": "ab_test_uniform_1_2",
+      "kind": "ab_test",
+      "protocol": "accepted",
+      "severity": 30,
+      "rep": 2,
+      "seed": 710102,
+      "j": 1,
+      "fold": 2,
+      "features": {
+        "x": {
+          "variance": 0.005280625897648994,
+          "max_excess": 0.6319083998629969,
+          "mean_excess": 0.0019164851050807248,
+          "max_gradient": 0.2200829637035365,
+          "cluster": 0.3217971471823411,
+          "symmetry_cluster": 0.10916641300298083
+        },
+        "variance": 0.38907817238171716,
+        "max_excess": 0.3920895334220153,
+        "mean_excess": 0.0011891498052949774,
+        "largest_cluster": 2,
+        "defects": 30,
+        "gradient_max": 0.09825109376997522,
+        "g4_max": 0.06688477648566467,
+        "sigma": 0.6204847625178328,
+        "variance_reference": 0.38500134051681134,
+        "gradient_reference": 0.0641115624030228,
+        "g4_reference": 0.04509881505218112,
+        "radius": 4.0,
+        "cpu_s": 0.296875
+      },
+      "mechanics": {
+        "pc": 0.7956588972339474,
+        "acoustic_or_Gamma": 0.7956588972339474,
+        "kind": "acoustic",
+        "theta": 0.8141598422626762,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0018509144320979275,
+            "normalized": 0.8334970714704331,
+            "bracket_width": 4.3195525281647384e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0018121291029378032,
+            "normalized": 0.8160314027661598,
+            "bracket_width": 4.3195503597603935e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0018121735498236567,
+            "normalized": 0.8160514179265327,
+            "bracket_width": 4.3195525281647384e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0018386258558247418,
+            "normalized": 0.8279633243891961,
+            "bracket_width": 4.3195503597603935e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 11.921875
+      },
+      "y": 0.9990289286398469,
+      "mc": {
+        "attempted": 89,
+        "accepted": 30,
+        "cpu_s": 0.015625,
+        "seed": 710102,
+        "radius": -1
+      },
+      "geometry": {
+        "vertices": 2786,
+        "edges": 5572,
+        "faces": 2786,
+        "degree_histogram": {
+          "3": 1153,
+          "4": 957,
+          "5": 385,
+          "6": 174,
+          "7": 48,
+          "8": 69
+        },
+        "square_faces": 1154,
+        "rhombus_faces": 1632,
+        "area": 2307.998266896445,
+        "edge_length_range": [
+          0.9999999999999858,
+          1.0000000000000036
+        ]
+      },
+      "N": 2786,
+      "cpu_s": 12.625,
+      "peak_rss_bytes": 297271296
+    },
+    {
+      "id": "ab_test_uniform_2_0",
+      "kind": "ab_test",
+      "protocol": "accepted",
+      "severity": 300,
+      "rep": 0,
+      "seed": 710200,
+      "j": 2,
+      "fold": 0,
+      "features": {
+        "x": {
+          "variance": 0.05239234330001574,
+          "max_excess": 0.7795132338879746,
+          "mean_excess": 0.01954657520053991,
+          "max_gradient": 0.5824415279853792,
+          "cluster": 0.45508988987823773,
+          "symmetry_cluster": 0.24173759192116717
+        },
+        "variance": 0.42640039769315896,
+        "max_excess": 0.48367608380848776,
+        "mean_excess": 0.012128352071343967,
+        "largest_cluster": 4,
+        "defects": 238,
+        "gradient_max": 0.15446058569615573,
+        "g4_max": 0.09194130099840549,
+        "sigma": 0.6204847625178328,
+        "variance_reference": 0.38500134051681134,
+        "gradient_reference": 0.0641115624030228,
+        "g4_reference": 0.04509881505218112,
+        "radius": 4.0,
+        "cpu_s": 0.34375
+      },
+      "mechanics": {
+        "pc": 0.7535700731564539,
+        "acoustic_or_Gamma": 0.7535700731564539,
+        "kind": "acoustic",
+        "theta": 1.6908114325982717,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0016734295272302251,
+            "normalized": 0.7535727130711294,
+            "bracket_width": 4.0910547519090734e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0016752100845681805,
+            "normalized": 0.7543745271912391,
+            "bracket_width": 4.0910569203134184e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0016741167418719825,
+            "normalized": 0.7538821770752148,
+            "bracket_width": 4.0910569203134184e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0016755620527786625,
+            "normalized": 0.7545330242387526,
+            "bracket_width": 4.0910547519090734e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 14.25
+      },
+      "y": 0.9461822213736727,
+      "mc": {
+        "attempted": 721,
+        "accepted": 300,
+        "cpu_s": 0.015625,
+        "seed": 710200,
+        "radius": -1
+      },
+      "geometry": {
+        "vertices": 2786,
+        "edges": 5572,
+        "faces": 2786,
+        "degree_histogram": {
+          "3": 1138,
+          "4": 941,
+          "5": 399,
+          "6": 205,
+          "7": 83,
+          "8": 20
+        },
+        "square_faces": 1154,
+        "rhombus_faces": 1632,
+        "area": 2307.998266896445,
+        "edge_length_range": [
+          0.9999999999999858,
+          1.0000000000000036
+        ]
+      },
+      "N": 2786,
+      "cpu_s": 14.921875,
+      "peak_rss_bytes": 297271296
+    },
+    {
+      "id": "ab_test_uniform_2_1",
+      "kind": "ab_test",
+      "protocol": "accepted",
+      "severity": 300,
+      "rep": 1,
+      "seed": 710201,
+      "j": 2,
+      "fold": 1,
+      "features": {
+        "x": {
+          "variance": 0.05937381426071342,
+          "max_excess": 0.940144854989823,
+          "mean_excess": 0.022457603530220208,
+          "max_gradient": 0.6074311986720217,
+          "cluster": 0.5088059648203166,
+          "symmetry_cluster": 0.20975884916798826
+        },
+        "variance": 0.4320765625870579,
+        "max_excess": 0.5833455570807227,
+        "mean_excess": 0.013934600793168328,
+        "largest_cluster": 5,
+        "defects": 250,
+        "gradient_max": 0.15833701316650578,
+        "g4_max": 0.09400668070202539,
+        "sigma": 0.6204847625178328,
+        "variance_reference": 0.38500134051681134,
+        "gradient_reference": 0.0641115624030228,
+        "g4_reference": 0.04509881505218112,
+        "radius": 4.0,
+        "cpu_s": 0.296875
+      },
+      "mechanics": {
+        "pc": 0.7095706200817505,
+        "acoustic_or_Gamma": 0.7095706200817505,
+        "kind": "acoustic",
+        "theta": 2.7065915621716985,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0015757230886801832,
+            "normalized": 0.7095739041672735,
+            "bracket_width": 3.852187666075757e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0015765618410823997,
+            "normalized": 0.7099516081058309,
+            "bracket_width": 3.852187666075757e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0015762939842886774,
+            "normalized": 0.7098309878063349,
+            "bracket_width": 3.852187666075757e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0015761415097316012,
+            "normalized": 0.7097623260170092,
+            "bracket_width": 3.852185497671412e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 15.09375
+      },
+      "y": 0.8909365292576509,
+      "mc": {
+        "attempted": 714,
+        "accepted": 300,
+        "cpu_s": 0.015625,
+        "seed": 710201,
+        "radius": -1
+      },
+      "geometry": {
+        "vertices": 2786,
+        "edges": 5572,
+        "faces": 2786,
+        "degree_histogram": {
+          "3": 1133,
+          "4": 936,
+          "5": 415,
+          "6": 204,
+          "7": 82,
+          "8": 16
+        },
+        "square_faces": 1154,
+        "rhombus_faces": 1632,
+        "area": 2307.998266896445,
+        "edge_length_range": [
+          0.9999999999999858,
+          1.0000000000000036
+        ]
+      },
+      "N": 2786,
+      "cpu_s": 15.703125,
+      "peak_rss_bytes": 297271296
+    },
+    {
+      "id": "ab_test_uniform_2_2",
+      "kind": "ab_test",
+      "protocol": "accepted",
+      "severity": 300,
+      "rep": 2,
+      "seed": 710202,
+      "j": 2,
+      "fold": 2,
+      "features": {
+        "x": {
+          "variance": 0.05872857064300829,
+          "max_excess": 0.7872640013516634,
+          "mean_excess": 0.022169633701684337,
+          "max_gradient": 0.7254315445809915,
+          "cluster": 0.3941194056400166,
+          "symmetry_cluster": 0.27282577540509695
+        },
+        "variance": 0.43155038431746473,
+        "max_excess": 0.48848531691752567,
+        "mean_excess": 0.013755919902496947,
+        "largest_cluster": 3,
+        "defects": 232,
+        "gradient_max": 0.1766413673185931,
+        "g4_max": 0.11105625672937698,
+        "sigma": 0.6204847625178328,
+        "variance_reference": 0.38500134051681134,
+        "gradient_reference": 0.0641115624030228,
+        "g4_reference": 0.04509881505218112,
+        "radius": 4.0,
+        "cpu_s": 0.34375
+      },
+      "mechanics": {
+        "pc": 0.7699223146046508,
+        "acoustic_or_Gamma": 0.7699223146046508,
+        "kind": "acoustic",
+        "theta": 2.1167361677460406,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0017099764598630233,
+            "normalized": 0.7700303951726933,
+            "bracket_width": 4.1798313941965315e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0017110985644583033,
+            "normalized": 0.7705356972427568,
+            "bracket_width": 4.1798313941965315e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0017111194765652726,
+            "normalized": 0.7705451143068928,
+            "bracket_width": 4.1798313941965315e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0017112525293286108,
+            "normalized": 0.7706050301445296,
+            "bracket_width": 4.1798313941965315e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 15.0
+      },
+      "y": 0.9667140878702889,
+      "mc": {
+        "attempted": 786,
+        "accepted": 300,
+        "cpu_s": 0.03125,
+        "seed": 710202,
+        "radius": -1
+      },
+      "geometry": {
+        "vertices": 2786,
+        "edges": 5572,
+        "faces": 2786,
+        "degree_histogram": {
+          "3": 1132,
+          "4": 947,
+          "5": 398,
+          "6": 213,
+          "7": 76,
+          "8": 20
+        },
+        "square_faces": 1154,
+        "rhombus_faces": 1632,
+        "area": 2307.998266896445,
+        "edge_length_range": [
+          0.9999999999999858,
+          1.0000000000000036
+        ]
+      },
+      "N": 2786,
+      "cpu_s": 15.703125,
+      "peak_rss_bytes": 297271296
+    },
+    {
+      "id": "ab_test_uniform_3_0",
+      "kind": "ab_test",
+      "protocol": "accepted",
+      "severity": 3000,
+      "rep": 0,
+      "seed": 710300,
+      "j": 3,
+      "fold": 0,
+      "features": {
+        "x": {
+          "variance": 0.26278114769219685,
+          "max_excess": 1.5041249536785357,
+          "mean_excess": 0.11069549771552643,
+          "max_gradient": 1.5274760638098142,
+          "cluster": 0.9653914415470232,
+          "symmetry_cluster": 0.7043186302237651
+        },
+        "variance": 0.6139293849920864,
+        "max_excess": 0.9332866146803724,
+        "mean_excess": 0.06868486961181172,
+        "largest_cluster": 18,
+        "defects": 793,
+        "gradient_max": 0.3010554680791994,
+        "g4_max": 0.1964026007375172,
+        "sigma": 0.6204847625178328,
+        "variance_reference": 0.38500134051681134,
+        "gradient_reference": 0.0641115624030228,
+        "g4_reference": 0.04509881505218112,
+        "radius": 4.0,
+        "cpu_s": 0.4375
+      },
+      "mechanics": {
+        "pc": 0.5545230623999796,
+        "acoustic_or_Gamma": 0.5545230623999796,
+        "kind": "acoustic",
+        "theta": 0.6953202549902741,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0012314211554599022,
+            "normalized": 0.5545291068151668,
+            "bracket_width": 3.010449962231876e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.001231538013875794,
+            "normalized": 0.5545817300730189,
+            "bracket_width": 3.010447793827531e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0012315637760965353,
+            "normalized": 0.5545933312227912,
+            "bracket_width": 3.010449962231876e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0012314313936968514,
+            "normalized": 0.5545337172608827,
+            "bracket_width": 3.010447793827531e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 17.609375
+      },
+      "y": 0.6962588904132503,
+      "mc": {
+        "attempted": 8306,
+        "accepted": 3000,
+        "cpu_s": 0.03125,
+        "seed": 710300,
+        "radius": -1
+      },
+      "geometry": {
+        "vertices": 2786,
+        "edges": 5572,
+        "faces": 2786,
+        "degree_histogram": {
+          "3": 960,
+          "4": 1080,
+          "5": 558,
+          "6": 163,
+          "7": 24,
+          "8": 1
+        },
+        "square_faces": 1154,
+        "rhombus_faces": 1632,
+        "area": 2307.998266896445,
+        "edge_length_range": [
+          0.9999999999999858,
+          1.0000000000000036
+        ]
+      },
+      "N": 2786,
+      "cpu_s": 18.40625,
+      "peak_rss_bytes": 297271296
+    },
+    {
+      "id": "ab_test_uniform_3_1",
+      "kind": "ab_test",
+      "protocol": "accepted",
+      "severity": 3000,
+      "rep": 1,
+      "seed": 710301,
+      "j": 3,
+      "fold": 1,
+      "features": {
+        "x": {
+          "variance": 0.25312587613187754,
+          "max_excess": 1.4479926130817522,
+          "mean_excess": 0.10848602251683646,
+          "max_gradient": 1.6458470537779868,
+          "cluster": 0.991845420103146,
+          "symmetry_cluster": 0.7366826239598835
+        },
+        "variance": 0.6045770226973849,
+        "max_excess": 0.8984573526556071,
+        "mean_excess": 0.06731392391786353,
+        "largest_cluster": 19,
+        "defects": 808,
+        "gradient_max": 0.31941731697905,
+        "g4_max": 0.20314285596039716,
+        "sigma": 0.6204847625178328,
+        "variance_reference": 0.38500134051681134,
+        "gradient_reference": 0.0641115624030228,
+        "g4_reference": 0.04509881505218112,
+        "radius": 4.0,
+        "cpu_s": 0.359375
+      },
+      "mechanics": {
+        "pc": 0.5261164874753962,
+        "acoustic_or_Gamma": 0.5261164874753962,
+        "kind": "acoustic",
+        "theta": 2.0656912422880436,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0011683371325408877,
+            "normalized": 0.5261213384992782,
+            "bracket_width": 2.8562330452175377e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0011685775962158827,
+            "normalized": 0.5262296232289382,
+            "bracket_width": 2.8562330452175377e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0011686308166886346,
+            "normalized": 0.5262535892791302,
+            "bracket_width": 2.8562330452175377e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0011687831730056927,
+            "normalized": 0.5263221978230401,
+            "bracket_width": 2.8562330452175377e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 26.734375
+      },
+      "y": 0.6605916086020475,
+      "mc": {
+        "attempted": 8119,
+        "accepted": 3000,
+        "cpu_s": 0.046875,
+        "seed": 710301,
+        "radius": -1
+      },
+      "geometry": {
+        "vertices": 2786,
+        "edges": 5572,
+        "faces": 2786,
+        "degree_histogram": {
+          "3": 957,
+          "4": 1082,
+          "5": 564,
+          "6": 157,
+          "7": 25,
+          "8": 1
+        },
+        "square_faces": 1154,
+        "rhombus_faces": 1632,
+        "area": 2307.998266896445,
+        "edge_length_range": [
+          0.9999999999999858,
+          1.0000000000000036
+        ]
+      },
+      "N": 2786,
+      "cpu_s": 27.53125,
+      "peak_rss_bytes": 297271296
+    },
+    {
+      "id": "ab_test_uniform_3_2",
+      "kind": "ab_test",
+      "protocol": "accepted",
+      "severity": 3000,
+      "rep": 2,
+      "seed": 710302,
+      "j": 3,
+      "fold": 2,
+      "features": {
+        "x": {
+          "variance": 0.26185730001046514,
+          "max_excess": 1.47522406326859,
+          "mean_excess": 0.11069072620687953,
+          "max_gradient": 1.6278479141142959,
+          "cluster": 1.1147380173010695,
+          "symmetry_cluster": 0.7818824522762621
+        },
+        "variance": 0.6130314150352983,
+        "max_excess": 0.9153540525578034,
+        "mean_excess": 0.0686819089634021,
+        "largest_cluster": 24,
+        "defects": 811,
+        "gradient_max": 0.31662526900411236,
+        "g4_max": 0.2091659614766093,
+        "sigma": 0.6204847625178328,
+        "variance_reference": 0.38500134051681134,
+        "gradient_reference": 0.0641115624030228,
+        "g4_reference": 0.04509881505218112,
+        "radius": 4.0,
+        "cpu_s": 0.359375
+      },
+      "mechanics": {
+        "pc": 0.5465951069022587,
+        "acoustic_or_Gamma": 0.5465951069022587,
+        "kind": "acoustic",
+        "theta": 1.6940176275899006,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0012138081123697917,
+            "normalized": 0.5465976651554624,
+            "bracket_width": 2.9674093043885463e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0012139409086799856,
+            "normalized": 0.5466574655080498,
+            "bracket_width": 2.9674093043885463e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0012139934012587636,
+            "normalized": 0.5466811037756686,
+            "bracket_width": 2.9674093043885463e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0012140857538585539,
+            "normalized": 0.5467226916633272,
+            "bracket_width": 2.9674093043885463e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 21.328125
+      },
+      "y": 0.6863045533038096,
+      "mc": {
+        "attempted": 8536,
+        "accepted": 3000,
+        "cpu_s": 0.046875,
+        "seed": 710302,
+        "radius": -1
+      },
+      "geometry": {
+        "vertices": 2786,
+        "edges": 5572,
+        "faces": 2786,
+        "degree_histogram": {
+          "3": 921,
+          "4": 1136,
+          "5": 556,
+          "6": 155,
+          "7": 17,
+          "8": 1
+        },
+        "square_faces": 1154,
+        "rhombus_faces": 1632,
+        "area": 2307.998266896445,
+        "edge_length_range": [
+          0.9999999999999858,
+          1.0000000000000036
+        ]
+      },
+      "N": 2786,
+      "cpu_s": 22.34375,
+      "peak_rss_bytes": 297271296
+    },
+    {
+      "id": "ab_test_uniform_4_0",
+      "kind": "ab_test",
+      "protocol": "sweeps",
+      "severity": 200,
+      "rep": 0,
+      "seed": 710400,
+      "j": 4,
+      "fold": 0,
+      "features": {
+        "x": {
+          "variance": 0.6294008159832145,
+          "max_excess": 2.534097606241682,
+          "mean_excess": 0.3168478080728554,
+          "max_gradient": 3.327186154589701,
+          "cluster": 4.076802832063168,
+          "symmetry_cluster": 2.564247919021501
+        },
+        "variance": 1.0221581613649169,
+        "max_excess": 1.5723689514058785,
+        "mean_excess": 0.19659923694638154,
+        "largest_cluster": 321,
+        "defects": 1393,
+        "gradient_max": 0.5802286401488258,
+        "g4_max": 0.3460903225562459,
+        "sigma": 0.6204847625178328,
+        "variance_reference": 0.38500134051681134,
+        "gradient_reference": 0.0641115624030228,
+        "g4_reference": 0.04509881505218112,
+        "radius": 4.0,
+        "cpu_s": 0.328125
+      },
+      "mechanics": {
+        "pc": 0.3941034763181661,
+        "acoustic_or_Gamma": 0.3941034763181661,
+        "kind": "acoustic",
+        "theta": 2.868204176701939,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.000875195443961946,
+            "normalized": 0.3941148368915808,
+            "bracket_width": 2.1395472199481347e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0008752548767450128,
+            "normalized": 0.394141600446814,
+            "bracket_width": 2.1395483041503072e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0008751967154951258,
+            "normalized": 0.3941154094837888,
+            "bracket_width": 2.1395472199481347e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0008752655087992459,
+            "normalized": 0.39414638823490045,
+            "bracket_width": 2.1395472199481347e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 22.046875
+      },
+      "y": 0.4948361352938043,
+      "mc": {
+        "attempted": 557200,
+        "accepted": 173034,
+        "cpu_s": 1.078125,
+        "seed": 710400,
+        "radius": -1
+      },
+      "geometry": {
+        "vertices": 2786,
+        "edges": 5572,
+        "faces": 2786,
+        "degree_histogram": {
+          "3": 859,
+          "4": 1220,
+          "5": 570,
+          "6": 122,
+          "7": 15
+        },
+        "square_faces": 1154,
+        "rhombus_faces": 1632,
+        "area": 2307.998266896445,
+        "edge_length_range": [
+          0.9999999999999858,
+          1.0000000000000036
+        ]
+      },
+      "N": 2786,
+      "cpu_s": 23.84375,
+      "peak_rss_bytes": 297271296
+    },
+    {
+      "id": "ab_test_uniform_4_1",
+      "kind": "ab_test",
+      "protocol": "sweeps",
+      "severity": 200,
+      "rep": 1,
+      "seed": 710401,
+      "j": 4,
+      "fold": 1,
+      "features": {
+        "x": {
+          "variance": 0.5661325626819913,
+          "max_excess": 2.778661226878152,
+          "mean_excess": 0.3088235985276893,
+          "max_gradient": 2.8388525138693375,
+          "cluster": 6.680682382500518,
+          "symmetry_cluster": 2.056602950930305
+        },
+        "variance": 0.9443202014797849,
+        "max_excess": 1.724116951477,
+        "mean_excess": 0.19162033719235586,
+        "largest_cluster": 862,
+        "defects": 1361,
+        "gradient_max": 0.5044777443758649,
+        "g4_max": 0.28624848923111357,
+        "sigma": 0.6204847625178328,
+        "variance_reference": 0.38500134051681134,
+        "gradient_reference": 0.0641115624030228,
+        "g4_reference": 0.04509881505218112,
+        "radius": 4.0,
+        "cpu_s": 0.53125
+      },
+      "mechanics": {
+        "pc": 0.4423437351446515,
+        "acoustic_or_Gamma": 0.4423437351446515,
+        "kind": "near_Gamma_or_acoustic",
+        "theta": 1.793374166565589,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0009823007576053471,
+            "normalized": 0.4423461131259507,
+            "bracket_width": 2.401438423116353e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0009823931681047695,
+            "normalized": 0.44238772708676155,
+            "bracket_width": 2.401438423116353e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.000982406641619128,
+            "normalized": 0.4423937944308621,
+            "bracket_width": 2.401440591520698e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0009824178001461683,
+            "normalized": 0.4423988192982729,
+            "bracket_width": 2.401438423116353e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 20.4375
+      },
+      "y": 0.5554065810718553,
+      "mc": {
+        "attempted": 557200,
+        "accepted": 173340,
+        "cpu_s": 0.9375,
+        "seed": 710401,
+        "radius": -1
+      },
+      "geometry": {
+        "vertices": 2786,
+        "edges": 5572,
+        "faces": 2786,
+        "degree_histogram": {
+          "3": 888,
+          "4": 1164,
+          "5": 598,
+          "6": 120,
+          "7": 14,
+          "8": 2
+        },
+        "square_faces": 1154,
+        "rhombus_faces": 1632,
+        "area": 2307.998266896445,
+        "edge_length_range": [
+          0.9999999999999858,
+          1.0000000000000036
+        ]
+      },
+      "N": 2786,
+      "cpu_s": 22.375,
+      "peak_rss_bytes": 297271296
+    },
+    {
+      "id": "ab_test_uniform_4_2",
+      "kind": "ab_test",
+      "protocol": "sweeps",
+      "severity": 200,
+      "rep": 2,
+      "seed": 710402,
+      "j": 4,
+      "fold": 2,
+      "features": {
+        "x": {
+          "variance": 0.6831776770672346,
+          "max_excess": 3.0105906257681903,
+          "mean_excess": 0.3736432015989504,
+          "max_gradient": 2.7972137983134466,
+          "cluster": 7.299193539316497,
+          "symmetry_cluster": 2.5471974237512915
+        },
+        "variance": 1.0907423284431945,
+        "max_excess": 1.868025609468189,
+        "mean_excess": 0.2318399132105275,
+        "largest_cluster": 1029,
+        "defects": 1458,
+        "gradient_max": 0.4980186972425538,
+        "g4_max": 0.324391013426507,
+        "sigma": 0.6204847625178328,
+        "variance_reference": 0.38500134051681134,
+        "gradient_reference": 0.0641115624030228,
+        "g4_reference": 0.04509881505218112,
+        "radius": 4.0,
+        "cpu_s": 0.296875
+      },
+      "mechanics": {
+        "pc": 0.4057633911083512,
+        "acoustic_or_Gamma": 0.4057633911083512,
+        "kind": "acoustic",
+        "theta": 2.1891613397168483,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0009010670599905889,
+            "normalized": 0.4057652491527459,
+            "bracket_width": 2.2028483637887009e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0009011091161068084,
+            "normalized": 0.4057841877104116,
+            "bracket_width": 2.2028483637887009e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.000901136826835239,
+            "normalized": 0.4057966663050968,
+            "bracket_width": 2.2028483637887009e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0009011572864483812,
+            "normalized": 0.4058058796038543,
+            "bracket_width": 2.2028483637887009e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 23.453125
+      },
+      "y": 0.5094763186957194,
+      "mc": {
+        "attempted": 557200,
+        "accepted": 174300,
+        "cpu_s": 1.3125,
+        "seed": 710402,
+        "radius": -1
+      },
+      "geometry": {
+        "vertices": 2786,
+        "edges": 5572,
+        "faces": 2786,
+        "degree_histogram": {
+          "3": 858,
+          "4": 1204,
+          "5": 603,
+          "6": 109,
+          "7": 11,
+          "8": 1
+        },
+        "square_faces": 1154,
+        "rhombus_faces": 1632,
+        "area": 2307.998266896445,
+        "edge_length_range": [
+          0.9999999999999858,
+          1.0000000000000036
+        ]
+      },
+      "N": 2786,
+      "cpu_s": 25.375,
+      "peak_rss_bytes": 299606016
+    },
+    {
+      "id": "ab_test_uniform_5_0",
+      "kind": "ab_test",
+      "protocol": "sweeps",
+      "severity": 3000,
+      "rep": 0,
+      "seed": 710500,
+      "j": 5,
+      "fold": 0,
+      "features": {
+        "x": {
+          "variance": 0.6256067654557569,
+          "max_excess": 3.5909800270629186,
+          "mean_excess": 0.5903904334396094,
+          "max_gradient": 2.792353856414911,
+          "cluster": 9.41772214869736,
+          "symmetry_cluster": 2.433204602568697
+        },
+        "variance": 1.0174035244659596,
+        "max_excess": 2.2281483892984157,
+        "mean_excess": 0.3663282678855764,
+        "largest_cluster": 1713,
+        "defects": 1781,
+        "gradient_max": 0.49726481726886296,
+        "g4_max": 0.30325525153763133,
+        "sigma": 0.6204847625178328,
+        "variance_reference": 0.38500134051681134,
+        "gradient_reference": 0.0641115624030228,
+        "g4_reference": 0.04509881505218112,
+        "radius": 4.0,
+        "cpu_s": 0.328125
+      },
+      "mechanics": {
+        "pc": 0.3555260109464706,
+        "acoustic_or_Gamma": 0.3555260109464706,
+        "kind": "acoustic",
+        "theta": 1.5044003806937192,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0007895088599995028,
+            "normalized": 0.3555287652944994,
+            "bracket_width": 1.9301151388956272e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0007895605276215234,
+            "normalized": 0.35555203207058433,
+            "bracket_width": 1.9301151388956272e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.000789562078661564,
+            "normalized": 0.35555273052930786,
+            "bracket_width": 1.9301140546934548e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0007895965881443995,
+            "normalized": 0.3555682707144091,
+            "bracket_width": 1.9301140546934548e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 19.734375
+      },
+      "y": 0.44639828832959977,
+      "mc": {
+        "attempted": 8358000,
+        "accepted": 2589563,
+        "cpu_s": 15.953125,
+        "seed": 710500,
+        "radius": -1
+      },
+      "geometry": {
+        "vertices": 2786,
+        "edges": 5572,
+        "faces": 2786,
+        "degree_histogram": {
+          "3": 853,
+          "4": 1225,
+          "5": 580,
+          "6": 112,
+          "7": 15,
+          "8": 1
+        },
+        "square_faces": 1154,
+        "rhombus_faces": 1632,
+        "area": 2307.998266896445,
+        "edge_length_range": [
+          0.9999999999999879,
+          1.0000000000000036
+        ]
+      },
+      "N": 2786,
+      "cpu_s": 36.59375,
+      "peak_rss_bytes": 309841920
+    },
+    {
+      "id": "ab_test_uniform_5_1",
+      "kind": "ab_test",
+      "protocol": "sweeps",
+      "severity": 3000,
+      "rep": 1,
+      "seed": 710501,
+      "j": 5,
+      "fold": 1,
+      "features": {
+        "x": {
+          "variance": 0.5891282948354131,
+          "max_excess": 3.8266985901240655,
+          "mean_excess": 0.6033419115495788,
+          "max_gradient": 2.8199004159809675,
+          "cluster": 9.52704353662555,
+          "symmetry_cluster": 2.8492368393807572
+        },
+        "variance": 0.9722549491625322,
+        "max_excess": 2.3744081659204563,
+        "mean_excess": 0.3743644627048957,
+        "largest_cluster": 1753,
+        "defects": 1827,
+        "gradient_max": 0.5015378723864949,
+        "g4_max": 0.34272689270732276,
+        "sigma": 0.6204847625178328,
+        "variance_reference": 0.38500134051681134,
+        "gradient_reference": 0.0641115624030228,
+        "g4_reference": 0.04509881505218112,
+        "radius": 4.0,
+        "cpu_s": 0.484375
+      },
+      "mechanics": {
+        "pc": 0.3602887266783199,
+        "acoustic_or_Gamma": 0.3602887266783199,
+        "kind": "near_Gamma_or_acoustic",
+        "theta": 2.256597958648706,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0008000905813145913,
+            "normalized": 0.3602938876439133,
+            "bracket_width": 1.9559711923050616e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0008001420352789597,
+            "normalized": 0.3603170582064595,
+            "bracket_width": 1.9559711923050616e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0008001625056873244,
+            "normalized": 0.36032627636648235,
+            "bracket_width": 1.955970108102889e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0008001722884754528,
+            "normalized": 0.3603306817161379,
+            "bracket_width": 1.9559711923050616e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 18.109375
+      },
+      "y": 0.4523783519115526,
+      "mc": {
+        "attempted": 8358000,
+        "accepted": 2589662,
+        "cpu_s": 14.984375,
+        "seed": 710501,
+        "radius": -1
+      },
+      "geometry": {
+        "vertices": 2786,
+        "edges": 5572,
+        "faces": 2786,
+        "degree_histogram": {
+          "3": 862,
+          "4": 1208,
+          "5": 577,
+          "6": 132,
+          "7": 7
+        },
+        "square_faces": 1154,
+        "rhombus_faces": 1632,
+        "area": 2307.998266896445,
+        "edge_length_range": [
+          0.9999999999999879,
+          1.0000000000000036
+        ]
+      },
+      "N": 2786,
+      "cpu_s": 34.046875,
+      "peak_rss_bytes": 310468608
+    },
+    {
+      "id": "ab_test_uniform_5_2",
+      "kind": "ab_test",
+      "protocol": "sweeps",
+      "severity": 3000,
+      "rep": 2,
+      "seed": 710502,
+      "j": 5,
+      "fold": 2,
+      "features": {
+        "x": {
+          "variance": 0.5474746580584646,
+          "max_excess": 3.482545351567694,
+          "mean_excess": 0.7224359404280108,
+          "max_gradient": 2.451686440591951,
+          "cluster": 9.85561225346971,
+          "symmetry_cluster": 2.44721539936825
+        },
+        "variance": 0.9219541697791394,
+        "max_excess": 2.1608663254250633,
+        "mean_excess": 0.4482604929308215,
+        "largest_cluster": 1876,
+        "defects": 1982,
+        "gradient_max": 0.44442008211774464,
+        "g4_max": 0.28121660881213606,
+        "sigma": 0.6204847625178328,
+        "variance_reference": 0.38500134051681134,
+        "gradient_reference": 0.0641115624030228,
+        "g4_reference": 0.04509881505218112,
+        "radius": 4.0,
+        "cpu_s": 0.328125
+      },
+      "mechanics": {
+        "pc": 0.4452361760721009,
+        "acoustic_or_Gamma": 0.4452361760721009,
+        "kind": "acoustic",
+        "theta": 0.8613779791340134,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.000988731762627438,
+            "normalized": 0.4452420999741643,
+            "bracket_width": 2.4171420073826333e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.00098881090589587,
+            "normalized": 0.4452777394836525,
+            "bracket_width": 2.4171420073826333e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0009888332371446773,
+            "normalized": 0.44528779561059195,
+            "bracket_width": 2.4171398389782883e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0009888547946663641,
+            "normalized": 0.44529750331554174,
+            "bracket_width": 2.4171420073826333e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 20.578125
+      },
+      "y": 0.5590383285090416,
+      "mc": {
+        "attempted": 8358000,
+        "accepted": 2587026,
+        "cpu_s": 18.34375,
+        "seed": 710502,
+        "radius": -1
+      },
+      "geometry": {
+        "vertices": 2786,
+        "edges": 5572,
+        "faces": 2786,
+        "degree_histogram": {
+          "3": 891,
+          "4": 1160,
+          "5": 592,
+          "6": 130,
+          "7": 13
+        },
+        "square_faces": 1154,
+        "rhombus_faces": 1632,
+        "area": 2307.998266896445,
+        "edge_length_range": [
+          0.9999999999999879,
+          1.0000000000000036
+        ]
+      },
+      "N": 2786,
+      "cpu_s": 39.5625,
+      "peak_rss_bytes": 325926912
+    },
+    {
+      "id": "ab_test_disc_0_0",
+      "kind": "ab_test",
+      "protocol": "disc",
+      "severity": 4,
+      "rep": 0,
+      "seed": 720000,
+      "j": 0,
+      "fold": 0,
+      "features": {
+        "x": {
+          "variance": 0.008594624849427746,
+          "max_excess": 0.8809681811362201,
+          "mean_excess": 0.0032898687299877643,
+          "max_gradient": 0.9182702348236945,
+          "cluster": 0.5573690086505347,
+          "symmetry_cluster": 0.31780118914044136
+        },
+        "variance": 0.3916476638092461,
+        "max_excess": 0.5466273326580746,
+        "mean_excess": 0.002041313417641302,
+        "largest_cluster": 6,
+        "defects": 21,
+        "gradient_max": 0.20655473454846648,
+        "g4_max": 0.11019991080634896,
+        "sigma": 0.6204847625178328,
+        "variance_reference": 0.38500134051681134,
+        "gradient_reference": 0.0641115624030228,
+        "g4_reference": 0.04509881505218112,
+        "radius": 4.0,
+        "cpu_s": 0.46875
+      },
+      "mechanics": {
+        "pc": 0.6863637278467416,
+        "acoustic_or_Gamma": 0.6863637278467416,
+        "kind": "acoustic",
+        "theta": 1.7887681975516232,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0015242769817159442,
+            "normalized": 0.6864068799387978,
+            "bracket_width": 3.7261990368242515e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0015246221980153199,
+            "normalized": 0.6865623364901995,
+            "bracket_width": 3.7261990368242515e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0015245610786663152,
+            "normalized": 0.6865348134467124,
+            "bracket_width": 3.7261990368242515e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.001524849087752842,
+            "normalized": 0.6866645086535864,
+            "bracket_width": 3.7261990368242515e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 19.40625
+      },
+      "y": 0.8617979665303312,
+      "mc": {
+        "attempted": 8358000,
+        "accepted": 62724,
+        "cpu_s": 4.90625,
+        "seed": 720000,
+        "radius": 4
+      },
+      "geometry": {
+        "vertices": 2786,
+        "edges": 5572,
+        "faces": 2786,
+        "degree_histogram": {
+          "3": 1147,
+          "4": 962,
+          "5": 400,
+          "6": 162,
+          "7": 37,
+          "8": 78
+        },
+        "square_faces": 1154,
+        "rhombus_faces": 1632,
+        "area": 2307.998266896445,
+        "edge_length_range": [
+          0.9999999999999858,
+          1.0000000000000036
+        ]
+      },
+      "N": 2786,
+      "cpu_s": 25.296875,
+      "peak_rss_bytes": 325926912
+    },
+    {
+      "id": "ab_test_disc_0_1",
+      "kind": "ab_test",
+      "protocol": "disc",
+      "severity": 4,
+      "rep": 1,
+      "seed": 720001,
+      "j": 0,
+      "fold": 1,
+      "features": {
+        "x": {
+          "variance": 0.006677946286888892,
+          "max_excess": 0.7130483941384336,
+          "mean_excess": 0.0025611463352082035,
+          "max_gradient": 0.582511049874092,
+          "cluster": 0.45508988987823773,
+          "symmetry_cluster": 0.2721316861796233
+        },
+        "variance": 0.3901605461834396,
+        "max_excess": 0.442435663500708,
+        "mean_excess": 0.00158915227557508,
+        "largest_cluster": 4,
+        "defects": 20,
+        "gradient_max": 0.15447137001430766,
+        "g4_max": 0.09368012415431072,
+        "sigma": 0.6204847625178328,
+        "variance_reference": 0.38500134051681134,
+        "gradient_reference": 0.0641115624030228,
+        "g4_reference": 0.04509881505218112,
+        "radius": 4.0,
+        "cpu_s": 0.296875
+      },
+      "mechanics": {
+        "pc": 0.7803282493828583,
+        "acoustic_or_Gamma": 0.7803282493828583,
+        "kind": "acoustic",
+        "theta": 2.115544865599969,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0017332782514641889,
+            "normalized": 0.7805235734216586,
+            "bracket_width": 4.236322664191716e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.001734823145562944,
+            "normalized": 0.7812192645269384,
+            "bracket_width": 4.236322664191716e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0017349272747975665,
+            "normalized": 0.7812661556260659,
+            "bracket_width": 4.236322664191716e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0017349149432859348,
+            "normalized": 0.7812606025444898,
+            "bracket_width": 4.236322664191716e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 16.25
+      },
+      "y": 0.9797797745723532,
+      "mc": {
+        "attempted": 8358000,
+        "accepted": 62321,
+        "cpu_s": 4.59375,
+        "seed": 720001,
+        "radius": 4
+      },
+      "geometry": {
+        "vertices": 2786,
+        "edges": 5572,
+        "faces": 2786,
+        "degree_histogram": {
+          "3": 1150,
+          "4": 959,
+          "5": 397,
+          "6": 165,
+          "7": 37,
+          "8": 78
+        },
+        "square_faces": 1154,
+        "rhombus_faces": 1632,
+        "area": 2307.998266896445,
+        "edge_length_range": [
+          0.9999999999999858,
+          1.0000000000000036
+        ]
+      },
+      "N": 2786,
+      "cpu_s": 21.421875,
+      "peak_rss_bytes": 325926912
+    },
+    {
+      "id": "ab_test_disc_0_2",
+      "kind": "ab_test",
+      "protocol": "disc",
+      "severity": 4,
+      "rep": 2,
+      "seed": 720002,
+      "j": 0,
+      "fold": 2,
+      "features": {
+        "x": {
+          "variance": 0.007288685156508823,
+          "max_excess": 0.7320709077444248,
+          "mean_excess": 0.002738266268634953,
+          "max_gradient": 1.2458560062638262,
+          "cluster": 0.3941194056400166,
+          "symmetry_cluster": 0.23778643642166772
+        },
+        "variance": 0.3906341007983025,
+        "max_excess": 0.45423884333801373,
+        "mean_excess": 0.0016990524954045509,
+        "largest_cluster": 3,
+        "defects": 22,
+        "gradient_max": 0.25737022944752924,
+        "g4_max": 0.13859072707685624,
+        "sigma": 0.6204847625178328,
+        "variance_reference": 0.38500134051681134,
+        "gradient_reference": 0.0641115624030228,
+        "g4_reference": 0.04509881505218112,
+        "radius": 4.0,
+        "cpu_s": 0.375
+      },
+      "mechanics": {
+        "pc": 0.7366887679130512,
+        "acoustic_or_Gamma": 0.7366887679130512,
+        "kind": "acoustic",
+        "theta": 2.364486118000625,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0016361170051571354,
+            "normalized": 0.736770273510568,
+            "bracket_width": 3.9994071422688737e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0016367926684043494,
+            "normalized": 0.7370745357325741,
+            "bracket_width": 3.9994071422688737e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0016365523347575896,
+            "normalized": 0.7369663095567572,
+            "bracket_width": 3.9994071422688737e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.001636063391888299,
+            "normalized": 0.7367461305778683,
+            "bracket_width": 3.9994093106732187e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 17.34375
+      },
+      "y": 0.9249860626302859,
+      "mc": {
+        "attempted": 8358000,
+        "accepted": 62333,
+        "cpu_s": 6.4375,
+        "seed": 720002,
+        "radius": 4
+      },
+      "geometry": {
+        "vertices": 2786,
+        "edges": 5572,
+        "faces": 2786,
+        "degree_histogram": {
+          "3": 1151,
+          "4": 955,
+          "5": 402,
+          "6": 163,
+          "7": 37,
+          "8": 78
+        },
+        "square_faces": 1154,
+        "rhombus_faces": 1632,
+        "area": 2307.998266896445,
+        "edge_length_range": [
+          0.9999999999999858,
+          1.0000000000000036
+        ]
+      },
+      "N": 2786,
+      "cpu_s": 24.484375,
+      "peak_rss_bytes": 325926912
+    },
+    {
+      "id": "ab_test_disc_1_0",
+      "kind": "ab_test",
+      "protocol": "disc",
+      "severity": 7,
+      "rep": 0,
+      "seed": 720100,
+      "j": 1,
+      "fold": 0,
+      "features": {
+        "x": {
+          "variance": 0.027433060898515604,
+          "max_excess": 1.73611052422263,
+          "mean_excess": 0.010344892456511724,
+          "max_gradient": 1.521611926916505,
+          "cluster": 0.9653914415470232,
+          "symmetry_cluster": 0.8362962304737314
+        },
+        "variance": 0.40641461250611427,
+        "max_excess": 1.0772301263269888,
+        "mean_excess": 0.006418848139151197,
+        "largest_cluster": 18,
+        "defects": 65,
+        "gradient_max": 0.3001458161822952,
+        "g4_max": 0.20460568427103643,
+        "sigma": 0.6204847625178328,
+        "variance_reference": 0.38500134051681134,
+        "gradient_reference": 0.0641115624030228,
+        "g4_reference": 0.04509881505218112,
+        "radius": 4.0,
+        "cpu_s": 0.3125
+      },
+      "mechanics": {
+        "pc": 0.6431488810339075,
+        "acoustic_or_Gamma": 0.6431488810339075,
+        "kind": "acoustic",
+        "theta": 0.5602318193848965,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0014282865255602364,
+            "normalized": 0.6431808060007346,
+            "bracket_width": 3.491588528720113e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0014288392250263945,
+            "normalized": 0.6434296956189995,
+            "bracket_width": 3.491588528720113e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0014283190231834091,
+            "normalized": 0.643195440212492,
+            "bracket_width": 3.491588528720113e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0014286741321845185,
+            "normalized": 0.6433553516094451,
+            "bracket_width": 3.491590697124458e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 14.953125
+      },
+      "y": 0.807537425659302,
+      "mc": {
+        "attempted": 8358000,
+        "accepted": 179848,
+        "cpu_s": 5.640625,
+        "seed": 720100,
+        "radius": 7
+      },
+      "geometry": {
+        "vertices": 2786,
+        "edges": 5572,
+        "faces": 2786,
+        "degree_histogram": {
+          "3": 1134,
+          "4": 973,
+          "5": 408,
+          "6": 162,
+          "7": 34,
+          "8": 75
+        },
+        "square_faces": 1154,
+        "rhombus_faces": 1632,
+        "area": 2307.998266896445,
+        "edge_length_range": [
+          0.9999999999999858,
+          1.0000000000000036
+        ]
+      },
+      "N": 2786,
+      "cpu_s": 21.234375,
+      "peak_rss_bytes": 325926912
+    },
+    {
+      "id": "ab_test_disc_1_1",
+      "kind": "ab_test",
+      "protocol": "disc",
+      "severity": 7,
+      "rep": 1,
+      "seed": 720101,
+      "j": 1,
+      "fold": 1,
+      "features": {
+        "x": {
+          "variance": 0.027645188052193737,
+          "max_excess": 1.73611052422263,
+          "mean_excess": 0.010674697615672092,
+          "max_gradient": 1.7915636138534248,
+          "cluster": 1.0672803958105979,
+          "symmetry_cluster": 1.067388593192147
+        },
+        "variance": 0.40658244918181763,
+        "max_excess": 1.0772301263269888,
+        "mean_excess": 0.006623487215009974,
+        "largest_cluster": 22,
+        "defects": 68,
+        "gradient_max": 0.3420210432723809,
+        "g4_max": 0.23655652946658046,
+        "sigma": 0.6204847625178328,
+        "variance_reference": 0.38500134051681134,
+        "gradient_reference": 0.0641115624030228,
+        "g4_reference": 0.04509881505218112,
+        "radius": 4.0,
+        "cpu_s": 0.625
+      },
+      "mechanics": {
+        "pc": 0.6618600043600804,
+        "acoustic_or_Gamma": 0.6618600043600804,
+        "kind": "acoustic",
+        "theta": 2.4289313476458183,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0014698122600864361,
+            "normalized": 0.6618805241065658,
+            "bracket_width": 3.59317176706897e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.001470099863570717,
+            "normalized": 0.6620100366641081,
+            "bracket_width": 3.593169598664625e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0014701858032288614,
+            "normalized": 0.6620487366991525,
+            "bracket_width": 3.59317176706897e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0014699668562520745,
+            "normalized": 0.6619501412909616,
+            "bracket_width": 3.593169598664625e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 16.078125
+      },
+      "y": 0.8310311031072376,
+      "mc": {
+        "attempted": 8358000,
+        "accepted": 179507,
+        "cpu_s": 5.9375,
+        "seed": 720101,
+        "radius": 7
+      },
+      "geometry": {
+        "vertices": 2786,
+        "edges": 5572,
+        "faces": 2786,
+        "degree_histogram": {
+          "3": 1148,
+          "4": 950,
+          "5": 414,
+          "6": 164,
+          "7": 34,
+          "8": 76
+        },
+        "square_faces": 1154,
+        "rhombus_faces": 1632,
+        "area": 2307.998266896445,
+        "edge_length_range": [
+          0.9999999999999858,
+          1.0000000000000036
+        ]
+      },
+      "N": 2786,
+      "cpu_s": 23.078125,
+      "peak_rss_bytes": 325926912
+    },
+    {
+      "id": "ab_test_disc_1_2",
+      "kind": "ab_test",
+      "protocol": "disc",
+      "severity": 7,
+      "rep": 2,
+      "seed": 720102,
+      "j": 1,
+      "fold": 2,
+      "features": {
+        "x": {
+          "variance": 0.02174757776292857,
+          "max_excess": 0.9218402123186175,
+          "mean_excess": 0.008208323831673858,
+          "max_gradient": 1.1541071077505969,
+          "cluster": 0.5573690086505347,
+          "symmetry_cluster": 0.33185176801951083
+        },
+        "variance": 0.40192912283260407,
+        "max_excess": 0.5719878052199059,
+        "mean_excess": 0.005093139863365621,
+        "largest_cluster": 6,
+        "defects": 55,
+        "gradient_max": 0.24313803107121582,
+        "g4_max": 0.13190302502958892,
+        "sigma": 0.6204847625178328,
+        "variance_reference": 0.38500134051681134,
+        "gradient_reference": 0.0641115624030228,
+        "g4_reference": 0.04509881505218112,
+        "radius": 4.0,
+        "cpu_s": 0.328125
+      },
+      "mechanics": {
+        "pc": 0.6329033219205525,
+        "acoustic_or_Gamma": 0.6329033219205525,
+        "kind": "acoustic",
+        "theta": 0.15935688967184644,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.001405636084518368,
+            "normalized": 0.6329809415723653,
+            "bracket_width": 3.435968957271607e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.00140615913913728,
+            "normalized": 0.6332164816305775,
+            "bracket_width": 3.435968957271607e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0014063240786450436,
+            "normalized": 0.6332907565912708,
+            "bracket_width": 3.435966788867262e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.001406916785483814,
+            "normalized": 0.6335576621844136,
+            "bracket_width": 3.435966788867262e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 16.546875
+      },
+      "y": 0.7946731065648827,
+      "mc": {
+        "attempted": 8358000,
+        "accepted": 177438,
+        "cpu_s": 5.796875,
+        "seed": 720102,
+        "radius": 7
+      },
+      "geometry": {
+        "vertices": 2786,
+        "edges": 5572,
+        "faces": 2786,
+        "degree_histogram": {
+          "3": 1136,
+          "4": 968,
+          "5": 412,
+          "6": 161,
+          "7": 34,
+          "8": 75
+        },
+        "square_faces": 1154,
+        "rhombus_faces": 1632,
+        "area": 2307.998266896445,
+        "edge_length_range": [
+          0.9999999999999858,
+          1.0000000000000036
+        ]
+      },
+      "N": 2786,
+      "cpu_s": 23.046875,
+      "peak_rss_bytes": 325926912
+    }
+  ],
+  "references": {
+    "penrose_test": {
+      "N": 4414,
+      "L": [
+        [
+          26,
+          21,
+          8,
+          -8,
+          -21
+        ],
+        [
+          0,
+          13,
+          21,
+          21,
+          13
+        ]
+      ],
+      "gamma": [
+        0.2584271012313817,
+        0.1119390972058111,
+        -0.21849832110684245,
+        -0.11235399337344096,
+        -0.04034367629216909
+      ],
+      "features": {
+        "x": {
+          "variance": 0.0,
+          "max_excess": 0.0,
+          "mean_excess": 0.0,
+          "max_gradient": 0.0,
+          "cluster": 0.0,
+          "symmetry_cluster": 0.0
+        },
+        "variance": 0.4946244148115211,
+        "max_excess": 0.0,
+        "mean_excess": 0.0,
+        "largest_cluster": 0,
+        "defects": 0,
+        "gradient_max": 0.0907427654850363,
+        "g4_max": 0.06093646405309645,
+        "sigma": 0.7032953965522034,
+        "variance_reference": 0.4946244148115211,
+        "gradient_reference": 0.0907427654850363,
+        "g4_reference": 0.06093646405309645,
+        "radius": 4.0,
+        "cpu_s": 0.390625
+      },
+      "mechanics": {
+        "pc": 0.8073911763099796,
+        "acoustic_or_Gamma": 0.8073911763099796,
+        "kind": "acoustic",
+        "theta": 0.006120860475492947,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0018511810046387075,
+            "normalized": 0.8336171134498036,
+            "bracket_width": 4.383242900585227e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0018196497160256958,
+            "normalized": 0.819418057965188,
+            "bracket_width": 4.383245068989572e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0018298276865467197,
+            "normalized": 0.8240013647219301,
+            "bracket_width": 4.383245068989572e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0018532439326558437,
+            "normalized": 0.8345460837096489,
+            "bracket_width": 4.383245068989572e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 21.9375
+      },
+      "geometry": {
+        "vertices": 4414,
+        "edges": 8828,
+        "faces": 4414,
+        "degree_histogram": {
+          "3": 2326,
+          "4": 406,
+          "5": 1284,
+          "6": 152,
+          "7": 246
+        },
+        "square_faces": 0,
+        "rhombus_faces": 0,
+        "area": 3585.488111818289,
+        "edge_length_range": [
+          0.9999999999999938,
+          1.0000000000000098
+        ]
+      }
+    },
+    "ab_test": {
+      "N": 2786,
+      "L": [
+        [
+          24,
+          17,
+          0,
+          -17
+        ],
+        [
+          0,
+          17,
+          24,
+          17
+        ]
+      ],
+      "gamma": [
+        -0.33641467735627323,
+        -0.08193089364125705,
+        -0.4597962946092784,
+        -0.27097333970348103
+      ],
+      "features": {
+        "x": {
+          "variance": 0.0,
+          "max_excess": 0.0,
+          "mean_excess": 0.0,
+          "max_gradient": 0.0,
+          "cluster": 0.0,
+          "symmetry_cluster": 0.0
+        },
+        "variance": 0.38500134051681134,
+        "max_excess": 0.0,
+        "mean_excess": 0.0,
+        "largest_cluster": 0,
+        "defects": 0,
+        "gradient_max": 0.0641115624030228,
+        "g4_max": 0.04509881505218112,
+        "sigma": 0.6204847625178328,
+        "variance_reference": 0.38500134051681134,
+        "gradient_reference": 0.0641115624030228,
+        "g4_reference": 0.04509881505218112,
+        "radius": 4.0,
+        "cpu_s": 0.265625
+      },
+      "mechanics": {
+        "pc": 0.7964322898208936,
+        "acoustic_or_Gamma": 0.7964322898208936,
+        "kind": "acoustic",
+        "theta": 2.3561956330973883,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.0018434301503698414,
+            "normalized": 0.8301267768775334,
+            "bracket_width": 4.3237505589766023e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0018142678541547056,
+            "normalized": 0.8169945174542178,
+            "bracket_width": 4.3237505589766023e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0018140761875120389,
+            "normalized": 0.8169082068271079,
+            "bracket_width": 4.3237483905722573e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0018409161233104128,
+            "normalized": 0.8289946693336661,
+            "bracket_width": 4.3237483905722573e-13,
+            "calls": 33
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 10.828125
+      },
+      "geometry": {
+        "vertices": 2786,
+        "edges": 5572,
+        "faces": 2786,
+        "degree_histogram": {
+          "3": 1154,
+          "4": 956,
+          "5": 396,
+          "6": 164,
+          "7": 34,
+          "8": 82
+        },
+        "square_faces": 1154,
+        "rhombus_faces": 1632,
+        "area": 2307.998266896445,
+        "edge_length_range": [
+          0.9999999999999858,
+          1.0000000000000036
+        ]
+      }
+    }
+  },
+  "invocations": [
+    {
+      "cpu_s": 1321.71875,
+      "wall_s": 1767.4180621999549,
+      "peak_rss_bytes": 325926912
+    }
+  ],
+  "model_lock_sha256": "4d36ee40fc6cf3c0adefdefdfe1f3f8e4bb05cde65e28eff75368664fe8e612d"
+}

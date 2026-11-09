@@ -1,0 +1,690 @@
+{
+  "label": "C for finite data/hash checks; P for numerical pressure estimates",
+  "status": "PASS",
+  "primary_configurations": 84,
+  "F4_controls": 12,
+  "preregistration_unchanged": true,
+  "copied_modules_hash_verified": true,
+  "sources": [
+    "validate_patches.py",
+    "cell_manifest.json",
+    "snapshots/*.npz",
+    "raw/*.json",
+    "forbidden_results.json"
+  ],
+  "records": [
+    {
+      "id": "AB_approximant_00_0",
+      "label": "C",
+      "raw_sha256": "1e35d927ab38abab51a3f16df78b19c81be0826bb2bc2dd69bb71cc30ffadf4c",
+      "snapshot_sha256": "40a240eefc3194f86afaa6273c47d499fab6a4cb088bd93ff5087fbb33dc2750",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_approximant_00_1",
+      "label": "C",
+      "raw_sha256": "f00f83c82dfbc30d61ed1898760319a807c69093f01a782af3135951556d0897",
+      "snapshot_sha256": "5f7aec73d6c1cb7aacc41efb469662b9ccfc1cdadc07170b677159783e15c1fd",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_approximant_01_0",
+      "label": "C",
+      "raw_sha256": "a6f727b6c322267835d76ab269c3a826c64105be39a0eede7e9f6aa185085e1a",
+      "snapshot_sha256": "7efae9095496867ed29013e3af172b2050a5cc24cc75d9bf7c9958661164e820",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_approximant_01_1",
+      "label": "C",
+      "raw_sha256": "e20d5b56c0ddfa7e9e9f1e16fcecdc85e9c3b114ce6546078ae4c678203b8958",
+      "snapshot_sha256": "66e5759266bdf214671d08c221deffe0538bbed3b237b5d54619c59df0682d6e",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_approximant_02_0",
+      "label": "C",
+      "raw_sha256": "a78311e88f120009dac5fead34f33c0d60f9a0096f7d1a863df76c59e9c4799e",
+      "snapshot_sha256": "0f93d88304119b19d9c1da24a8699c889feddcca2de96a99fb2daf65a2a9e943",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_approximant_02_1",
+      "label": "C",
+      "raw_sha256": "6f94a5a0c72ec762cd3c6e332a3f496861d520d0d9dc214ff0dc05f9aa845bca",
+      "snapshot_sha256": "1b697394f4fc787cc6679ed6505cbdfc0ce15fdc1bcb1abd2eca530f8c953f8e",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_approximant_03_0",
+      "label": "C",
+      "raw_sha256": "fa324b9251964da5374948104669f853ef984d619122abe4f2cd8ae55c6ccf1f",
+      "snapshot_sha256": "efb1c7a66684ff855733cff9f8f0b5b0893b6d192d20cbbc7c2ea266b611f147",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_approximant_03_1",
+      "label": "C",
+      "raw_sha256": "34015cc7351c245e4104c3bfc5339725e9b9510be95a74fd38832e5d5ab0519d",
+      "snapshot_sha256": "2eb6ac2664e672ad81f7ab872edc2355bbdcb6adc012fabf34d2e0a02335c608",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_approximant_04_0",
+      "label": "C",
+      "raw_sha256": "5b50170b2f184ac07b7b645f52055378a6a18af21552d02ab2165ef0b9040e64",
+      "snapshot_sha256": "3d556282abf28214284d8fca0c8e3f6fdee66a913a566daa3134f5e43434ce82",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_approximant_04_1",
+      "label": "C",
+      "raw_sha256": "074290fa8cb5c05c127a2c57d2745228f5665aba73318be2b9a07e5e086aa17f",
+      "snapshot_sha256": "781ae05f618594c000f35168d2b2d4670035b9eb17b4ca393e3be59a8b264294",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_approximant_05_0",
+      "label": "C",
+      "raw_sha256": "e05624381a1cc32a8f471516dfc63d2a3ae4982e99c493349026dea49c85cfff",
+      "snapshot_sha256": "beca31649daa747ea59e1a2d35b625a86b73b2129d360639b5b2d35334254cec",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_approximant_05_1",
+      "label": "C",
+      "raw_sha256": "48d9a861293fc7e2079e86ff386928e36ea33996bf9ef85279fc2670f5a54f0c",
+      "snapshot_sha256": "ada82ea0b69f13c8228c46377f938dfb394a5f53fcef321d3324cec13809465c",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_few_flip_00_0",
+      "label": "C",
+      "raw_sha256": "8644723ceb798beea3eac3fc77d84358f8026182b7a5eae9b85d51909fdf6ebc",
+      "snapshot_sha256": "55b2ec940d0b62c7748d6df29f60e1b00bdfb76aebc32b61b1764a7d8716743a",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_few_flip_00_1",
+      "label": "C",
+      "raw_sha256": "b001254592345ba07733af78a90cd1e4cbc0d46d94612005996471153a5da610",
+      "snapshot_sha256": "b189951c1824c00d3acee0f3923e0141203e07de918d33ec1fd4610a7fe728da",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_few_flip_01_0",
+      "label": "C",
+      "raw_sha256": "34d09c87e59913ddd4ad70e93df72564879fa2f62f5a69f8e593c77cb5ea2a71",
+      "snapshot_sha256": "2c032dd6d041473740196ab6acf231efdc4b412d71511f720902d7247777da7b",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_few_flip_01_1",
+      "label": "C",
+      "raw_sha256": "5fa3c552cb7526ff8ac1dd7984ab2f3b970a56d53c2f83b252390c7b18dd2823",
+      "snapshot_sha256": "cb27286c6d449e07a692b7e5201b9a0f5dcb278f46fd86e34717b4a39a074d32",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_few_flip_02_0",
+      "label": "C",
+      "raw_sha256": "3b1abf947173fc9bea2e6317773a591cfba667674d3b38ac7477b807b62d6f45",
+      "snapshot_sha256": "f4d80827e7f58eaf51a507845655ca2800328535ce8ce52aeb99a971c5fdbbcd",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_few_flip_02_1",
+      "label": "C",
+      "raw_sha256": "bd9d141c7ba3b3a822f2d089c626e4c5b05e2c7a1fe67d50f080c521648eedcb",
+      "snapshot_sha256": "b83998b8e09ab9a3f42314921ff09da7c964610cec325268aeaf4817ac7a6980",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_few_flip_03_0",
+      "label": "C",
+      "raw_sha256": "e1705386f2680dac245fb8821319697d9877c7a740dab7985739cc0b62576752",
+      "snapshot_sha256": "b0dbe2f9fca3d31dc8e8b71015054962fe7976ee8d0bc2dbfa5f08a497568f91",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_few_flip_03_1",
+      "label": "C",
+      "raw_sha256": "7bbc7be585b416c082e5e55c5f5f8fb005e2dad2957246d29e5a08ad43ce394b",
+      "snapshot_sha256": "b2ccd9751876d606c0c3ca21f6229b68d3a9e79d26bb0a6ef0956367dff5d0df",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_few_flip_04_0",
+      "label": "C",
+      "raw_sha256": "a918eba6f19d0297821f460b522faecabfabe1b80511595efb1d75ccd7ecff2e",
+      "snapshot_sha256": "1a6bf4e9feb5c4232ffe4b0920f95283e4591d1ab335637b145caa8beb850a4c",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_few_flip_04_1",
+      "label": "C",
+      "raw_sha256": "5589ea94385ce6ddf08cc2ff0091d8ba1a3f8ba7122383ab51447a2c6803e934",
+      "snapshot_sha256": "f7e4254bc9f5030b7af871efa74a26db0b00796dcb4acb4c4e11102efd772d8b",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_few_flip_05_0",
+      "label": "C",
+      "raw_sha256": "0ec42bd695586bdd00bbafbc02b35dc26ab7da319579be23505b049153a791a0",
+      "snapshot_sha256": "819f51d4eed61449a821ce0ee3b8f0a813f055036b643e4eedfeccafbb0d556a",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_few_flip_05_1",
+      "label": "C",
+      "raw_sha256": "b9dc513b9d1f6be78a4c49ef2d7fd1bfef33791621ebca0b36d5ef18f36b03ce",
+      "snapshot_sha256": "aecd805e1a82f113e017f0fc3a1b402e8443e8e3a793bdf4dac534e286520ab4",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_equilibrated_00_0",
+      "label": "C",
+      "raw_sha256": "ebfa782e2f95dd2df9ce8fe5a89d77f319a03445ee232eb9da26cf90f7d13e69",
+      "snapshot_sha256": "90ca8985ac489e32d78b2d393e50ac041199ba3e794e86a6690d23e37accf3f0",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_equilibrated_00_1",
+      "label": "C",
+      "raw_sha256": "da164d545406a3d0a3cb806d6aca043b4d3b115191d6d8822f14dc5d02335e7a",
+      "snapshot_sha256": "bdf9dae6016c1e50f73524a5841e8808a42a1d85d9d6be56d02118ffb5ae4850",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_equilibrated_01_0",
+      "label": "C",
+      "raw_sha256": "88960309628ec523b8cca9b9ca6eaccbc7e3873fee858afaa81b06b0b87af658",
+      "snapshot_sha256": "a162c5e9ce4def76ec14e9ba5467a680db675d345a6c4475cd5259ce5670d34d",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_equilibrated_01_1",
+      "label": "C",
+      "raw_sha256": "e770053ea96c9852a2e57c08147d759e8f73cfa1e0580e06989ef8bbdb134980",
+      "snapshot_sha256": "f6dfa8755dfb76a36cab6eba157c34f440025ed140f9007fed1e248b4a8a8f4b",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_equilibrated_02_0",
+      "label": "C",
+      "raw_sha256": "78310754da9ed1e815e50b39d39971f08b1416b1a78c66f0cb42aafc2569bff5",
+      "snapshot_sha256": "a33ebf6562c13d414125b40f59eed406737a1f39b3084286c099ee0d7b8ace68",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_equilibrated_02_1",
+      "label": "C",
+      "raw_sha256": "5bb5806b54ef9e97f099ed0ab5e32179c5756892b6a4c9ac43da3e15fa0f96aa",
+      "snapshot_sha256": "2b2e6f2ad4dea4b71cb54dc9cf08958af05d62bfa3cb9469660410e07cf62e80",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_equilibrated_03_0",
+      "label": "C",
+      "raw_sha256": "c5f7ba570027dd3a71b55c930755cecf845317f46867f1b49a7c73bd51317fe8",
+      "snapshot_sha256": "7de4cc07a6fa4dfe897b7451a86eda6723ed494ec9a9069e1a3d10b158592932",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_equilibrated_03_1",
+      "label": "C",
+      "raw_sha256": "15557bf7522195ce4aa87c58b3be3ddded810855a4fd70c66e5435aa1d4f3985",
+      "snapshot_sha256": "293600782cb535b2449467335cf4896429aead932dce7bb60132fa05f3fe04aa",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_equilibrated_04_0",
+      "label": "C",
+      "raw_sha256": "8d697705ee1dc8fc81058fc80344cd7f2ce1884e75876c9ad6998093feb8c39e",
+      "snapshot_sha256": "2210101aae77fa1c4b4eaac08e503728ae1b5283a1f9b63e922f1f278cfbce27",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_equilibrated_04_1",
+      "label": "C",
+      "raw_sha256": "d5bb04b1dc76dab7169bf578713620586c4d016f3d0babb4146201e7e0f985b6",
+      "snapshot_sha256": "b0800d1fa8f4d664acdd12733e7d5b05160a316a3f2efbd8e2e768e2330443cf",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_equilibrated_05_0",
+      "label": "C",
+      "raw_sha256": "32e6bb1730a89d9d3a840531f03194ae02b8341577a509c3779697736fcd971e",
+      "snapshot_sha256": "397b36508565bf2357ff03e1d72e8041e7cbed9820240afa76edfaa615b2ab66",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_equilibrated_05_1",
+      "label": "C",
+      "raw_sha256": "a7868cb0bb9ccb7b5abe67a588b6bfbc96a0c3a8a629b67a8265cfb42aa9b204",
+      "snapshot_sha256": "2273651489519c26dc0c28056b728006929571f139d78ce077970a433e40fd8b",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_disc_cluster_00_0",
+      "label": "C",
+      "raw_sha256": "422964b2982c402de9749ebb3ffe31b30b23c3022e94295b3775eed558b5b726",
+      "snapshot_sha256": "f5fede7e8075e01abc3e955d809376d821aabfe649e418ac0c155411f7e4fb03",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_disc_cluster_00_1",
+      "label": "C",
+      "raw_sha256": "381cf862bf96a40584d46f4106350e931bfdb756e366b5e1daaf1225f0685f3e",
+      "snapshot_sha256": "a699ba82ec970c4a470847ce03039d195d5ad9c1b9c5685d4de402e178a77650",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_disc_cluster_01_0",
+      "label": "C",
+      "raw_sha256": "421fb888406cf01b5c8474ec573cf82602a6602bf8536d54cf44584a90303f45",
+      "snapshot_sha256": "3dba67e2e953858f2e9dbaf9590ef59342051b800c1e4a22e2ad996a0e91f2ae",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_disc_cluster_01_1",
+      "label": "C",
+      "raw_sha256": "64b91a9ba9980a111991f62cfa5bfd05600e966d52f2cc41ba1236ea77561c60",
+      "snapshot_sha256": "bdf373eab42f9b8bb769b7303901b9c813fa9a02c0982da84d768174078d68fc",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_disc_cluster_02_0",
+      "label": "C",
+      "raw_sha256": "79d6a2dceb75d2e6119eb9f9125e3f23c7d0203e7acfd17719628d50818a0b58",
+      "snapshot_sha256": "efd1b90d7fa6930b9fa8cdf626cd6451ce17d88e658918c712d2a4e9bee72457",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_disc_cluster_02_1",
+      "label": "C",
+      "raw_sha256": "114132c7a7cea579f80966bd3893e78ffaf1770313c349e3a35bd1d1dfb631f4",
+      "snapshot_sha256": "c1367bbca2ace1969a55fa6a3475982ee2c39fba758a34ca8639e27277dd3193",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_disc_cluster_03_0",
+      "label": "C",
+      "raw_sha256": "a664de950043c8cf70b1c807a5add99aa8410b8a8b7b125eb30a1496750aa8b4",
+      "snapshot_sha256": "a932c71512c523583916d63942b37c910f68c9eb64d4cd988c9d43a630a4cc8d",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_disc_cluster_03_1",
+      "label": "C",
+      "raw_sha256": "ce6cde02fdf57d735d54b341ba3f0ff1d4c241066d717019e92bee0d6c0618e1",
+      "snapshot_sha256": "1439b520189042747e882111b710cf22247b58700f66c7607ed39b2589e74956",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_disc_cluster_04_0",
+      "label": "C",
+      "raw_sha256": "521257a7cb7c468b0e2097d7d1542d82f9dc545d70a7adc1d2b7a03365f587d6",
+      "snapshot_sha256": "54e2b1757f685b3b831cc71860d57572e689c844ec0d50d1e415d7a417317470",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_disc_cluster_04_1",
+      "label": "C",
+      "raw_sha256": "d72eb9f3a502613f73ecfe14d71da8f4989b608f447d05554bb2c7a72e2b45fc",
+      "snapshot_sha256": "f1c630d6feb12fadab11e5bec876c519305cdb5a76225ddde411f25c457fc3b8",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_disc_cluster_05_0",
+      "label": "C",
+      "raw_sha256": "c90cde5ac9f1d022254f7ef8cb46dffe9d07a6b187485ec1beb9ec82a12d0945",
+      "snapshot_sha256": "ec0dceb29f4742fad13d5ec7f519a14035ecfc95b99af2ec1fc8c1ef999397ba",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "AB_disc_cluster_05_1",
+      "label": "C",
+      "raw_sha256": "6f5c075cff0286f3a2727876ef1b9a7a7a0e0d4a1ab43f22654332c59b6efeb1",
+      "snapshot_sha256": "d00129aa2aa080db65ee9a867eca978bf01fb245f4b757ce99cc88f685afdc5f",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "Penrose_approximant_00_0",
+      "label": "C",
+      "raw_sha256": "432dc98e8f1392dd909209545f1c31c430d5d440c376ed0ef3e6dcc5266e0dab",
+      "snapshot_sha256": "138a67585e23d96d614ddcd3d40bf57e9e3ef50b90cdc22af92a5da5348c38b9",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "Penrose_approximant_00_1",
+      "label": "C",
+      "raw_sha256": "827230ea9b26070cba4b280f1b236a35fb59411c0aa037a27504884146b1a349",
+      "snapshot_sha256": "db523705e0f2329166111b8dce65a81dac031acc1c0984fd7527aea3428caa9c",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "Penrose_approximant_01_0",
+      "label": "C",
+      "raw_sha256": "b143eda1e43979a268e500c37055f77f9f6e908b7b24b415fe0a2805991a0b74",
+      "snapshot_sha256": "7cbdf9043947e6f2f734d8648797bb4dce7c733cb4c9732c20547dbca8213781",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "Penrose_approximant_01_1",
+      "label": "C",
+      "raw_sha256": "519863bc16fb65e151adbebf6bf4765b84e33405d619bafec6be8f9219522e2b",
+      "snapshot_sha256": "ed40039b2f7aff34d743cdce85388584a6c5088745a9915092a8be1c455afbf3",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "Penrose_approximant_02_0",
+      "label": "C",
+      "raw_sha256": "5030ca480bb18a98068d52f181f7c01c51cd8fd7e7a85fd9fca4aaba259cb2f6",
+      "snapshot_sha256": "ad4d76f96e73077ff0c4a05d85a4e7bd4a8b7f3bcc0f060a6c27e192d974dadb",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "Penrose_approximant_02_1",
+      "label": "C",
+      "raw_sha256": "6e51bf1974c64bdf0712dbe4d0b248af3de4ad92d1b97cb84306db794f4d03de",
+      "snapshot_sha256": "4c818e3e7269eb57cadf2e4cbc354a5454402f384bb61507a8a40659b0a8117c",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "Penrose_approximant_03_0",
+      "label": "C",
+      "raw_sha256": "e12059f18c57ac23a269d3169f278bd1d4a5ab570b263e1b30dfc2469b4000ba",
+      "snapshot_sha256": "7ebbcbc032f7df83b53cec5ff4fcfdfe7dea54ee2666d40efb73ce14f3edf484",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "Penrose_approximant_03_1",
+      "label": "C",
+      "raw_sha256": "1ce430f8be52dc81b169c2bc99d8de0fb198c0b9b1855f8d5c9a229eeeba8db2",
+      "snapshot_sha256": "79f71578b715df8aa5f82e9faa16b711f50a4b1ec27b15da614f6e08b6bd97bb",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "Penrose_approximant_04_0",
+      "label": "C",
+      "raw_sha256": "a88164fe181e998c90d57f8545c6d8281bd12b2ab34876652fd4ce1aeeb21104",
+      "snapshot_sha256": "aa2e4349265e0504ec89432526975a7d3dc5a5f4355779a3dcc9fb6985c6b6b1",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "Penrose_approximant_04_1",
+      "label": "C",
+      "raw_sha256": "139a69b55e7f9ba5bccbd753a6e2b76acf890c0fc00ace163cebac62036c4aab",
+      "snapshot_sha256": "59e84f8b80d0570776515589afd88d177d865152663d2d56c4977389d5c91155",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "Penrose_approximant_05_0",
+      "label": "C",
+      "raw_sha256": "eac190b85120aac6ad11fe394c8598e8e8a07014243cb66eedb5f25ba5ca5cbd",
+      "snapshot_sha256": "f4393d11169aee2b372544dacd7cff8492b7150aaeea297c006ce301cfa5776a",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "Penrose_approximant_05_1",
+      "label": "C",
+      "raw_sha256": "7ac1a93f565345e739ae98a3fb56cd5e0c542ca8e4f361fb8a4a5b2b0d7d2a11",
+      "snapshot_sha256": "57004843eafc6167695a1f04682cad2b278d48dfc83f4e7b487695410bdde5a4",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "Penrose_few_flip_00_0",
+      "label": "C",
+      "raw_sha256": "1bbcf83895087d17c01c2a03ed375ac021501558e79e691fab45e29c87b6c720",
+      "snapshot_sha256": "3f7e58dfdb7e74b2dfb55b65a2c776259371aba44cd345adbe7b3f101a53c9be",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "Penrose_few_flip_00_1",
+      "label": "C",
+      "raw_sha256": "0a65bdcf829ef2f4d20e7633fa76f5f2061329ebc0c39e52fbd896407b387c74",
+      "snapshot_sha256": "1a4488bd57b3ad4f6bcbedcd4db7fab4a3e996ede3303a66584ca829cb11b75a",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "Penrose_few_flip_01_0",
+      "label": "C",
+      "raw_sha256": "07cea51e4c0451e0ec5e5207c539beac002872bd0d9cb5524112f39884049152",
+      "snapshot_sha256": "fb0db97d17897b01d6ae6a1468a362e32ba9c44def3acd4c17700a984770cd38",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "Penrose_few_flip_01_1",
+      "label": "C",
+      "raw_sha256": "f97372e31ed73001603d9278758d898c5c3ef95e3b54e93b119581b3f25c6b74",
+      "snapshot_sha256": "dd1030f5e2b8921cbbe7575c397474b79f2d19f79e91f4d9f9fc956896c5e2cb",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "Penrose_few_flip_02_0",
+      "label": "C",
+      "raw_sha256": "c3fb8a76537a896a10a5ea79e09a56d25539b5034dbece27ff4c6bda9b69d37e",
+      "snapshot_sha256": "efaf96d40507166657a4e1e001324db9f0f5d0fd9774e551c54d7a14f9a79d82",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "Penrose_few_flip_02_1",
+      "label": "C",
+      "raw_sha256": "1409f75e90e42a346f266836e82232593fd4e5930871d920f9b8f5f4f3812ef0",
+      "snapshot_sha256": "bd10374a0cccae2b7632380060e34f7b84eeb69d1de8a0ca62bfc6554097bd2f",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "Penrose_few_flip_03_0",
+      "label": "C",
+      "raw_sha256": "24006e73f84c41ba4e0279880e59fd9e9afaecf953e8d119bdf44a4a8aac2e31",
+      "snapshot_sha256": "4ae9af9dfb8d39d27195b9c2c029fcf20dc06ce7e316594c63b7f435c1f3fc10",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "Penrose_few_flip_03_1",
+      "label": "C",
+      "raw_sha256": "1465085850d2f634ef2677475f2f6848b44621c22dbb0bf2eb8bd7a25e24bba8",
+      "snapshot_sha256": "4daa1c9c654ca86518371e5bf01061dc8462a34e7d258589c3ac9c8c003806ca",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "Penrose_few_flip_04_0",
+      "label": "C",
+      "raw_sha256": "efc9822678a3df3df52d06333fc511c60d46d36c28bfa49271728f1e8109ffaf",
+      "snapshot_sha256": "84566e8ecf39c11efd874c9775c668d80bc177852a0ca0d1de259062e0d2ee30",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "Penrose_few_flip_04_1",
+      "label": "C",
+      "raw_sha256": "f3d625452ee38cbb1502cb300df73ce2f18a3282828b4bf2373dcd7adbc3309b",
+      "snapshot_sha256": "9c5d53bb1116348d3ac866d2729226808b09d819e9d7a629f8239ec62f13dc73",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "Penrose_few_flip_05_0",
+      "label": "C",
+      "raw_sha256": "cb03c4b52a695f6b561ca9940559c841247a456cc23dea56f41272b5f2f31661",
+      "snapshot_sha256": "17b3e4f6641db281de8f43c81c2d4d8d3811909538fa8a177b6da3a20d9a4bb1",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "Penrose_few_flip_05_1",
+      "label": "C",
+      "raw_sha256": "ad80386777b250e4d107f0563ceea5dc3e26b1edf640d5f5f29cbb7d51665644",
+      "snapshot_sha256": "475930fe4176d032d4f3be132ec9431d1fc452a402c3b2f3eaba04d44e335a35",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "Penrose_equilibrated_00_0",
+      "label": "C",
+      "raw_sha256": "0cd86527375393393b001969bdab53b8ee1a65450d10d7c7b33bb1f3cfa89c44",
+      "snapshot_sha256": "24c898bbc83d2725b075359664c8d734c53064fb77bae660c628052d15e0b6a7",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "Penrose_equilibrated_00_1",
+      "label": "C",
+      "raw_sha256": "8d8770beefe60d50637b3042af006d556a00c30134b7889181725082a01d411c",
+      "snapshot_sha256": "0f96aaea5247779d9594275d055545849774a32111b9005d61f3f0a1149efc89",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "Penrose_equilibrated_01_0",
+      "label": "C",
+      "raw_sha256": "79a5ff6381e25292057086146b31f36e5f84b82561b3d2f781681c067225b643",
+      "snapshot_sha256": "0a6c8510a68e5b21352df97a6c68fb14f6ad5c5777e115c6b182499be971220e",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "Penrose_equilibrated_01_1",
+      "label": "C",
+      "raw_sha256": "756cddd765a8943dfba4ce0303c6cbbb3c40d67269fe5c71a27dc9d41708440e",
+      "snapshot_sha256": "351298f51ea89c71e97aa3128b74f29f8ec9e4f001def15cbb7dbc20dc9b72a5",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "Penrose_equilibrated_02_0",
+      "label": "C",
+      "raw_sha256": "799890354ba0cd0fa19cbd74f63c090206f1f4a9c228e04f083a6f6f4faaa017",
+      "snapshot_sha256": "35159e9c6b769ab4df98115d0f85ec80e82686d10b5d69dd945aad5bfd1249df",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "Penrose_equilibrated_02_1",
+      "label": "C",
+      "raw_sha256": "410a1cd1faa89bc300b989a04c9237cb13bfb08c6c93fe933145d6b9b3853e94",
+      "snapshot_sha256": "9edefe3b237371509fd205d78c668d423572e324e02f9361b1d28db582d97b19",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "Penrose_equilibrated_03_0",
+      "label": "C",
+      "raw_sha256": "2d6b22ec7cb751944050d22c968bba6680d0833ec63ee6178407204d3a6f1dcd",
+      "snapshot_sha256": "999eea7a025a88873219ce5430cc4e86ff47ef0f709285bb4414d31746817e66",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "Penrose_equilibrated_03_1",
+      "label": "C",
+      "raw_sha256": "ecaa0a6c2f7b509818792a0673540538240a7e3154a017025bd9e66011240f83",
+      "snapshot_sha256": "b0dba73a0ab0362f447c2541fc0cd1e4ce9bee8b21f7f00e89900dc451f1bcb7",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "Penrose_equilibrated_04_0",
+      "label": "C",
+      "raw_sha256": "63e952a7eac25d1d409ea2ede61e3f6cb85abc82a3f7840557f2f78e6ea6c9cc",
+      "snapshot_sha256": "0adc3e09ee4f999a1a0e40d68b27f5fd9116054b80c87463b74e6b61a98c098f",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "Penrose_equilibrated_04_1",
+      "label": "C",
+      "raw_sha256": "966a313534c5f3ba77f170a3fd2e36d933f4e5600770d8bac330d3d2c8a428eb",
+      "snapshot_sha256": "e2f9984e6df179dc62d3cae04b253309ffdd7c3c7d5062e80333cb23a8816339",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "Penrose_equilibrated_05_0",
+      "label": "C",
+      "raw_sha256": "e68b2dd92af26faf380589ec52aac6db49d8eee22268fdc8b6d662f42e95ab5a",
+      "snapshot_sha256": "7dddda130f9ee5c62cb7e9b6065cba141208bae563a2cbb12a2a9f3e0f007bc4",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "Penrose_equilibrated_05_1",
+      "label": "C",
+      "raw_sha256": "7fcd8f84c8336aeb8e8bda3f7979dd293a1451ac892d3c9125473f351a328892",
+      "snapshot_sha256": "52fbb85999e7ef514c62688232c16b4e5fe4a0234afab53c90d3c8bec0ad1b1f",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "F4_B1_2_3_0",
+      "label": "C",
+      "raw_sha256": "57a49a5a1b94b2e4af133564bff10921c3c9b33006998bfb7a930662b5b439d2",
+      "snapshot_sha256": "8a9017c52d8afd5193a9233e2721a67fd62aaa7ef639fe772dcddaafd10d0f31",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "F4_B1_2_3_1",
+      "label": "C",
+      "raw_sha256": "59d7d15aef155234c00cc0df926223d68d117bb13ec303e911997b72be3d1a71",
+      "snapshot_sha256": "32292d0e6634cf544cd64604a908afba9aed9c1e192cb91ce5f4ce1a1ca45827",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "F4_B1_2_3_2",
+      "label": "C",
+      "raw_sha256": "cc45755f671a51e3afbabb590c7cd5899fdebdb617fc09b2a07894f7a8f98797",
+      "snapshot_sha256": "b9e758a3339200f7b9861d3337b1d7aea76c88925194a3766f05f571eddf471d",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "F4_B1_5_7_0",
+      "label": "C",
+      "raw_sha256": "2d8d809e8d1cc022f51f118a0d6637d711d947ce785e37c0994290aa23c89c46",
+      "snapshot_sha256": "72e8fa1ec24b00d2cdbc18f9bb55c9589c7fc41ac2ebd5851d2cd2518d4462a6",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "F4_B1_5_7_1",
+      "label": "C",
+      "raw_sha256": "faa1e48a453aefbbc4f7faee90ea08813309e569ddd55644f1b2b6b849fe6cb9",
+      "snapshot_sha256": "3f35ae9676dfa5108d1a37a0345f0f85407ef4bfa99369726e046fc145abe35c",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "F4_B1_5_7_2",
+      "label": "C",
+      "raw_sha256": "8354eebb7cb5ca2286444b6476a8740f9ecec6f9b5165017773bdc558a36f15d",
+      "snapshot_sha256": "95f8d07e19006428a095c3b048720035307afae9649f21c45b904d3adbc6bb4e",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "F4_B1_12_17_0",
+      "label": "C",
+      "raw_sha256": "7c8b1eaaa2418a934333ac0bd26c18e588cab942e7a9479c33df1c2cad208c85",
+      "snapshot_sha256": "33ab8335e058df2beadcd74aa231285896575714a36cf6ff37fc169b51c70549",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "F4_B1_12_17_1",
+      "label": "C",
+      "raw_sha256": "206268b350916e1fdfe4857efd4cca8e0a73af4cf3ee829b3ce1f78a1defbd65",
+      "snapshot_sha256": "0fadb12949b5c2af2b4ec20188b0dd215703d1e0fa64219f5e5bc98df1795934",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "F4_B1_12_17_2",
+      "label": "C",
+      "raw_sha256": "cb09a13ac16335d6eb6a4653123bd7b1ce7b8466fa006395f3dc769e621c0909",
+      "snapshot_sha256": "0fb10d0c042032fcbaaf56453e71a6ab2cb3726c81a3f6eaf6f0a290f0e53ac5",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "F4_B1_29_41_0",
+      "label": "C",
+      "raw_sha256": "36c118e1ae54ef918b02ec1787d7b9e6419b7fb7e227c4cd3595ddb6c7ed85bc",
+      "snapshot_sha256": "49872d84553ca052fa016e6f618538423821717c1bf86f29bd81b446e5c155d5",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "F4_B1_29_41_1",
+      "label": "C",
+      "raw_sha256": "b314a12b82802a3b331fcce7d54c445227a97ffffe8e7af33afe91e6355384e7",
+      "snapshot_sha256": "4491f710e0450197253a19151753ca002136b5cc6043d30837c89903b2461987",
+      "finite_census_reproduced": true
+    },
+    {
+      "id": "F4_B1_29_41_2",
+      "label": "C",
+      "raw_sha256": "7ae9448242fe6e7d909badcecf95c167f01f618b0c94991826593e261bfb45af",
+      "snapshot_sha256": "54d5129479d0861665543eba81a898e5771b7c40461d694f3ffa8c51b328f0d5",
+      "finite_census_reproduced": true
+    }
+  ],
+  "cpu_s": 3.328125
+}

@@ -1,0 +1,47 @@
+{
+  "classification": "C",
+  "source_script": "representation.py",
+  "physical_rotation_degrees": 45,
+  "internal_rotation_degrees": 135,
+  "phason_action": [
+    [
+      0,
+      -1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      -1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      -1
+    ]
+  ],
+  "reflection_action": [
+    1,
+    -1,
+    1,
+    -1
+  ],
+  "phason_dimension": 4,
+  "elastic_dimension": 6,
+  "general_major_tangent_dimension": 10,
+  "D8_phason": "E2 + B1 + B2",
+  "D8_elastic": "2 A1 + E2 + B1 + B2",
+  "D8_major_F_tangent": "3 A1 + A2 + 2 E2 + B1 + B2",
+  "transverse_strain_trace": 0,
+  "transverse_formula": "C11/4 - C12*sin(4*theta)/2 + C22/4 + (-C11 + C22)*cos(4*theta)/4",
+  "caveat": "C certifies symbolic representation identities, not numerical stability thresholds."
+}

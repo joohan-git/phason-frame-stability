@@ -1,0 +1,130 @@
+{
+  "classification": "P",
+  "source_script": "verify_frame.py",
+  "full_vs_condensed": [
+    {
+      "flips": 0,
+      "sub": 2,
+      "k": [
+        0.0,
+        0.0
+      ],
+      "condensed": 0.001837785726692522,
+      "uncondensed": 0.0018377857265301203,
+      "relative_error": 8.836805992669111e-11,
+      "full_eigen_residual": 7.00666296116494e-08
+    },
+    {
+      "flips": 0,
+      "sub": 2,
+      "k": [
+        0.173,
+        0.319
+      ],
+      "condensed": 0.002390856885593892,
+      "uncondensed": 0.0023908568855636075,
+      "relative_error": 1.2666742599942377e-11,
+      "full_eigen_residual": 2.7698033597599704e-12
+    },
+    {
+      "flips": 0,
+      "sub": 4,
+      "k": [
+        0.0,
+        0.0
+      ],
+      "condensed": 0.0018290555115536978,
+      "uncondensed": 0.0018290555111949137,
+      "relative_error": 1.9615817055465476e-10,
+      "full_eigen_residual": 3.219873186094292e-08
+    },
+    {
+      "flips": 0,
+      "sub": 4,
+      "k": [
+        0.173,
+        0.319
+      ],
+      "condensed": 0.0023697808067611953,
+      "uncondensed": 0.0023697808069046465,
+      "relative_error": 6.053354078337683e-11,
+      "full_eigen_residual": 6.062711851174203e-12
+    },
+    {
+      "flips": 200,
+      "sub": 2,
+      "k": [
+        0.0,
+        0.0
+      ],
+      "condensed": 0.0017317273136149372,
+      "uncondensed": 0.0017317273137876761,
+      "relative_error": 9.97495343942994e-11,
+      "full_eigen_residual": 8.040665997535137e-13
+    },
+    {
+      "flips": 200,
+      "sub": 2,
+      "k": [
+        0.173,
+        0.319
+      ],
+      "condensed": 0.0018758611595527642,
+      "uncondensed": 0.001875861159217291,
+      "relative_error": 1.7883689527914665e-10,
+      "full_eigen_residual": 3.8388483280566025e-13
+    },
+    {
+      "flips": 200,
+      "sub": 4,
+      "k": [
+        0.0,
+        0.0
+      ],
+      "condensed": 0.001717830883269119,
+      "uncondensed": 0.0017178308835392002,
+      "relative_error": 1.5722226731815008e-10,
+      "full_eigen_residual": 2.2916060745538317e-12
+    },
+    {
+      "flips": 200,
+      "sub": 4,
+      "k": [
+        0.173,
+        0.319
+      ],
+      "condensed": 0.0018584750193093042,
+      "uncondensed": 0.001858475019440028,
+      "relative_error": 7.033926872958818e-11,
+      "full_eigen_residual": 2.306385619843106e-12
+    }
+  ],
+  "mc_geometry": {
+    "vertices": 239,
+    "edges": 478,
+    "faces": 239,
+    "degree_histogram": {
+      "3": 66,
+      "4": 114,
+      "5": 53,
+      "6": 5,
+      "7": 1
+    },
+    "square_faces": 99,
+    "rhombus_faces": 140,
+    "area": 197.99494936611666,
+    "edge_length_range": [
+      0.9999999999999984,
+      1.0000000000000009
+    ]
+  },
+  "mc_moves": {
+    "attempted": 10000,
+    "accepted": 3214
+  },
+  "rotation_equivalence": [
+    0.7888831861542827,
+    0.7888831861542405
+  ],
+  "cpu_s": 1.09375
+}

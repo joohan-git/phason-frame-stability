@@ -1,0 +1,142 @@
+[
+{
+"kind": "cubic",
+"pars": [
+8,
+5
+],
+"seed": 5,
+"flips": 400000,
+"sub": 2
+},
+{
+"kind": "cubic",
+"pars": [
+8,
+5
+],
+"seed": 6,
+"flips": 400000,
+"sub": 2
+},
+{
+"kind": "cubic",
+"pars": [
+8,
+5
+],
+"seed": 7,
+"flips": 400000,
+"sub": 2
+},
+{
+"kind": "cubic",
+"pars": [
+8,
+5
+],
+"seed": 8,
+"flips": 400000,
+"sub": 2
+},
+{
+"kind": "cubic",
+"pars": [
+8,
+5
+],
+"seed": 9,
+"flips": 400000,
+"sub": 2
+},
+{
+"kind": "cubic",
+"pars": [
+8,
+5
+],
+"seed": 10,
+"flips": 400000,
+"sub": 2
+},
+{
+"kind": "cubic",
+"pars": [
+8,
+5
+],
+"seed": 11,
+"flips": 400000,
+"sub": 2
+},
+{
+"kind": "cubic",
+"pars": [
+8,
+5
+],
+"seed": 12,
+"flips": 400000,
+"sub": 2
+},
+{
+"kind": "cubic",
+"pars": [
+8,
+5
+],
+"seed": 13,
+"flips": 400000,
+"sub": 2
+},
+{
+"kind": "cubic",
+"pars": [
+8,
+5
+],
+"seed": 14,
+"flips": 400000,
+"sub": 2
+},
+{
+"kind": "cubic",
+"pars": [
+8,
+5
+],
+"seed": 15,
+"flips": 400000,
+"sub": 2
+},
+{
+"kind": "cubic",
+"pars": [
+8,
+5
+],
+"seed": 16,
+"flips": 400000,
+"sub": 2
+},
+{
+"kind": "cubic",
+"pars": [
+8,
+5
+],
+"seed": 1,
+"flips": 0,
+"sub": 4
+},
+{
+"kind": "cubic",
+"pars": [
+8,
+5
+],
+"seed": 1,
+"flips": 400000,
+"sub": 4
+}
+]

@@ -1,0 +1,2710 @@
+{
+  "label": "P",
+  "seed": 861108620,
+  "policy": {
+    "patches": "Induced graph of vertices <=2 edges from root; signed lift directions; no rotation quotient; unwrap torus.",
+    "pressure": "EA=1, beam radius=.03, sub=2, uniform hydrostatic stress. Minimum of optimized acoustic threshold and Bloch scan.",
+    "primary_bloch_grid": "Gamma and (i/4,j/4), i,j=0,1,2,3, modulo k~-k (10 non-Gamma points).",
+    "pc_QC_AB": 0.7998,
+    "pc_QC_Penrose": 0.8106,
+    "Penrose_reference_source": "the main code gives .8106; own pre-existing free-reference estimate .81054; constant normalization does not affect ranks.",
+    "atlas_radii": [
+      35,
+      60,
+      90,
+      110
+    ],
+    "F1": "PASS iff N_AB>=40, all four families present, and Spearman(phi2,Delta)>=.9.",
+    "F2": "PASS iff rho_phi2 >= every signed competitor rho. Report paired bootstrap 95% CIs; registration specifies no CI decision rule.",
+    "F3": "Fit g(x)=a*x+b*x^2, a,b>=0, AB only. Penrose predictions g(phi2), scale fixed to 1 (no Penrose fit). PASS iff N>=30, all three families, rho>=.85.",
+    "F4": "Test zero-phi2 Pell sequence; isotropic angular mean c0 (8 directions). Fit Delta_iso=c+a*abs(delta)+b*delta^2. 95% bootstrap CI for a, both all orders and three finest. Finite consistency is not proof of universal/asymptotic statement; report binary with scope.",
+    "bootstrap": "10000 paired, stratified by family and clustered by period (two phase/MC replicates); percentile 95% CI; seed 864108.",
+    "alternatives": "Centered internal variance and true Euclidean max/mean excess from each rational-cut projected cube. Moved fraction relative to same-period/same-phase canonical vertex set. These are periodic well-defined.",
+    "equilibration": "Uniform-vertex legal flips, beta=0; 5000 burn-in sweeps, then 20 blocks of 500 sweeps. Retain traces, paired-chain diagnostics by period.",
+    "discs": "Uniform beta=0 legal flips restricted to old AND new site in disc; 15000 global-vertex sweeps.",
+    "heldout": "Fresh RNG, independent randomly rounded oblique primitive periods, no old observations or snapshots; F4 controls excluded from held-out cohorts.",
+    "cpu_limit_s": 14400
+  },
+  "prereg_sha256": "99041b1bf014d8d0c938f7cf1d9cfc6c48180d1946511157e476d623c68b1f0a",
+  "copied_sources": [
+    {
+      "file": "geometry.py",
+      "source": "../independent_code/geometry.py",
+      "sha256": "61d64ba0ab634ab2b3766a147dab09f3ee1c5e02cc526edd57580322f1d276ce"
+    },
+    {
+      "file": "frame.py",
+      "source": "../independent_code/frame.py",
+      "sha256": "7fd97eb7478f5622e566666078f4f63da490865e422e92d01b8dbc016f65357e"
+    },
+    {
+      "file": "beam_check.py",
+      "source": "../independent_code/beam_check.py",
+      "sha256": "fed4c91ecf93ecec87b1735e77af3c9a89221683bcef7fe3b8bd1ce7eb7bd104"
+    },
+    {
+      "file": "rigidity_check.py",
+      "source": "../independent_code/rigidity_check.py",
+      "sha256": "2877b41c3ee079d366a586111215b5306b1a0f3db4c0b29910f08da963ade976"
+    },
+    {
+      "file": "penrose_core.py",
+      "source": "../independent_code/penrose_core.py",
+      "sha256": "676051512d74156077a7bc300be3cd8fda5d8a30b9429927f86d11ba48168755"
+    },
+    {
+      "file": "penrose_mc.py",
+      "source": "../independent_code/penrose_mc.py",
+      "sha256": "4bb6fa0b96a18193cdc685bd997cc45479054e45d9b7d95d1adffb7cc8a24e28"
+    },
+    {
+      "file": "law_ab_mc.py",
+      "source": "../independent_code/law_ab_mc.py",
+      "sha256": "d2aef7b50fb5a95a9501da1b6acedc9fbf08413b93fec5a15286bb4a8a7cbda7"
+    }
+  ],
+  "rows": [
+    {
+      "id": "AB_approximant_00_0",
+      "symmetry": "AB",
+      "family": "approximant",
+      "group": "AB_approximant_00",
+      "rep": 0,
+      "L": [
+        [
+          7,
+          5,
+          1,
+          -4
+        ],
+        [
+          0,
+          7,
+          10,
+          6
+        ]
+      ],
+      "N_expected": 308,
+      "delta": 0.055949939140193285,
+      "phase_seed": 862000000,
+      "mc_seed": 862000017,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "AB_approximant_00_1",
+      "symmetry": "AB",
+      "family": "approximant",
+      "group": "AB_approximant_00",
+      "rep": 1,
+      "L": [
+        [
+          7,
+          5,
+          1,
+          -4
+        ],
+        [
+          0,
+          7,
+          10,
+          6
+        ]
+      ],
+      "N_expected": 308,
+      "delta": 0.055949939140193285,
+      "phase_seed": 862000098,
+      "mc_seed": 862000115,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "AB_approximant_01_0",
+      "symmetry": "AB",
+      "family": "approximant",
+      "group": "AB_approximant_01",
+      "rep": 0,
+      "L": [
+        [
+          11,
+          7,
+          -1,
+          -8
+        ],
+        [
+          1,
+          6,
+          8,
+          6
+        ]
+      ],
+      "N_expected": 432,
+      "delta": 0.050487318202284096,
+      "phase_seed": 862000194,
+      "mc_seed": 862000211,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "AB_approximant_01_1",
+      "symmetry": "AB",
+      "family": "approximant",
+      "group": "AB_approximant_01",
+      "rep": 1,
+      "L": [
+        [
+          11,
+          7,
+          -1,
+          -8
+        ],
+        [
+          1,
+          6,
+          8,
+          6
+        ]
+      ],
+      "N_expected": 432,
+      "delta": 0.050487318202284096,
+      "phase_seed": 862000292,
+      "mc_seed": 862000309,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "AB_approximant_02_0",
+      "symmetry": "AB",
+      "family": "approximant",
+      "group": "AB_approximant_02",
+      "rep": 0,
+      "L": [
+        [
+          10,
+          8,
+          1,
+          -6
+        ],
+        [
+          0,
+          7,
+          10,
+          7
+        ]
+      ],
+      "N_expected": 478,
+      "delta": 0.015971506698996368,
+      "phase_seed": 862000388,
+      "mc_seed": 862000405,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "AB_approximant_02_1",
+      "symmetry": "AB",
+      "family": "approximant",
+      "group": "AB_approximant_02",
+      "rep": 1,
+      "L": [
+        [
+          10,
+          8,
+          1,
+          -6
+        ],
+        [
+          0,
+          7,
+          10,
+          7
+        ]
+      ],
+      "N_expected": 478,
+      "delta": 0.015971506698996368,
+      "phase_seed": 862000486,
+      "mc_seed": 862000503,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "AB_approximant_03_0",
+      "symmetry": "AB",
+      "family": "approximant",
+      "group": "AB_approximant_03",
+      "rep": 0,
+      "L": [
+        [
+          8,
+          6,
+          1,
+          -5
+        ],
+        [
+          -1,
+          5,
+          7,
+          5
+        ]
+      ],
+      "N_expected": 270,
+      "delta": 0.05326400118047822,
+      "phase_seed": 862000582,
+      "mc_seed": 862000599,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "AB_approximant_03_1",
+      "symmetry": "AB",
+      "family": "approximant",
+      "group": "AB_approximant_03",
+      "rep": 1,
+      "L": [
+        [
+          8,
+          6,
+          1,
+          -5
+        ],
+        [
+          -1,
+          5,
+          7,
+          5
+        ]
+      ],
+      "N_expected": 270,
+      "delta": 0.05326400118047822,
+      "phase_seed": 862000680,
+      "mc_seed": 862000697,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "AB_approximant_04_0",
+      "symmetry": "AB",
+      "family": "approximant",
+      "group": "AB_approximant_04",
+      "rep": 0,
+      "L": [
+        [
+          7,
+          5,
+          0,
+          -5
+        ],
+        [
+          1,
+          6,
+          8,
+          5
+        ]
+      ],
+      "N_expected": 268,
+      "delta": 0.017151424174759004,
+      "phase_seed": 862000776,
+      "mc_seed": 862000793,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "AB_approximant_04_1",
+      "symmetry": "AB",
+      "family": "approximant",
+      "group": "AB_approximant_04",
+      "rep": 1,
+      "L": [
+        [
+          7,
+          5,
+          0,
+          -5
+        ],
+        [
+          1,
+          6,
+          8,
+          5
+        ]
+      ],
+      "N_expected": 268,
+      "delta": 0.017151424174759004,
+      "phase_seed": 862000874,
+      "mc_seed": 862000891,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "AB_approximant_05_0",
+      "symmetry": "AB",
+      "family": "approximant",
+      "group": "AB_approximant_05",
+      "rep": 0,
+      "L": [
+        [
+          7,
+          3,
+          -3,
+          -7
+        ],
+        [
+          1,
+          8,
+          10,
+          6
+        ]
+      ],
+      "N_expected": 355,
+      "delta": 0.018312015698885627,
+      "phase_seed": 862000970,
+      "mc_seed": 862000987,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "AB_approximant_05_1",
+      "symmetry": "AB",
+      "family": "approximant",
+      "group": "AB_approximant_05",
+      "rep": 1,
+      "L": [
+        [
+          7,
+          3,
+          -3,
+          -7
+        ],
+        [
+          1,
+          8,
+          10,
+          6
+        ]
+      ],
+      "N_expected": 355,
+      "delta": 0.018312015698885627,
+      "phase_seed": 862001068,
+      "mc_seed": 862001085,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "AB_few_flip_00_0",
+      "symmetry": "AB",
+      "family": "few_flip",
+      "group": "AB_few_flip_00",
+      "rep": 0,
+      "L": [
+        [
+          9,
+          7,
+          1,
+          -6
+        ],
+        [
+          0,
+          7,
+          11,
+          8
+        ]
+      ],
+      "N_expected": 476,
+      "delta": 0.029848125599660935,
+      "phase_seed": 862001164,
+      "mc_seed": 862001181,
+      "flips": 1,
+      "disc_radius": -1
+    },
+    {
+      "id": "AB_few_flip_00_1",
+      "symmetry": "AB",
+      "family": "few_flip",
+      "group": "AB_few_flip_00",
+      "rep": 1,
+      "L": [
+        [
+          9,
+          7,
+          1,
+          -6
+        ],
+        [
+          0,
+          7,
+          11,
+          8
+        ]
+      ],
+      "N_expected": 476,
+      "delta": 0.029848125599660935,
+      "phase_seed": 862001262,
+      "mc_seed": 862001279,
+      "flips": 1,
+      "disc_radius": -1
+    },
+    {
+      "id": "AB_few_flip_01_0",
+      "symmetry": "AB",
+      "family": "few_flip",
+      "group": "AB_few_flip_01",
+      "rep": 0,
+      "L": [
+        [
+          10,
+          7,
+          -1,
+          -8
+        ],
+        [
+          -1,
+          5,
+          7,
+          6
+        ]
+      ],
+      "N_expected": 364,
+      "delta": 0.04945541828741547,
+      "phase_seed": 862001358,
+      "mc_seed": 862001375,
+      "flips": 2,
+      "disc_radius": -1
+    },
+    {
+      "id": "AB_few_flip_01_1",
+      "symmetry": "AB",
+      "family": "few_flip",
+      "group": "AB_few_flip_01",
+      "rep": 1,
+      "L": [
+        [
+          10,
+          7,
+          -1,
+          -8
+        ],
+        [
+          -1,
+          5,
+          7,
+          6
+        ]
+      ],
+      "N_expected": 364,
+      "delta": 0.04945541828741547,
+      "phase_seed": 862001456,
+      "mc_seed": 862001473,
+      "flips": 2,
+      "disc_radius": -1
+    },
+    {
+      "id": "AB_few_flip_02_0",
+      "symmetry": "AB",
+      "family": "few_flip",
+      "group": "AB_few_flip_02",
+      "rep": 0,
+      "L": [
+        [
+          10,
+          8,
+          1,
+          -7
+        ],
+        [
+          1,
+          7,
+          9,
+          6
+        ]
+      ],
+      "N_expected": 449,
+      "delta": 0.02914151249813855,
+      "phase_seed": 862001552,
+      "mc_seed": 862001569,
+      "flips": 4,
+      "disc_radius": -1
+    },
+    {
+      "id": "AB_few_flip_02_1",
+      "symmetry": "AB",
+      "family": "few_flip",
+      "group": "AB_few_flip_02",
+      "rep": 1,
+      "L": [
+        [
+          10,
+          8,
+          1,
+          -7
+        ],
+        [
+          1,
+          7,
+          9,
+          6
+        ]
+      ],
+      "N_expected": 449,
+      "delta": 0.02914151249813855,
+      "phase_seed": 862001650,
+      "mc_seed": 862001667,
+      "flips": 4,
+      "disc_radius": -1
+    },
+    {
+      "id": "AB_few_flip_03_0",
+      "symmetry": "AB",
+      "family": "few_flip",
+      "group": "AB_few_flip_03",
+      "rep": 0,
+      "L": [
+        [
+          8,
+          8,
+          4,
+          -3
+        ],
+        [
+          -1,
+          6,
+          10,
+          8
+        ]
+      ],
+      "N_expected": 401,
+      "delta": 0.02436464686185977,
+      "phase_seed": 862001746,
+      "mc_seed": 862001763,
+      "flips": 8,
+      "disc_radius": -1
+    },
+    {
+      "id": "AB_few_flip_03_1",
+      "symmetry": "AB",
+      "family": "few_flip",
+      "group": "AB_few_flip_03",
+      "rep": 1,
+      "L": [
+        [
+          8,
+          8,
+          4,
+          -3
+        ],
+        [
+          -1,
+          6,
+          10,
+          8
+        ]
+      ],
+      "N_expected": 401,
+      "delta": 0.02436464686185977,
+      "phase_seed": 862001844,
+      "mc_seed": 862001861,
+      "flips": 8,
+      "disc_radius": -1
+    },
+    {
+      "id": "AB_few_flip_04_0",
+      "symmetry": "AB",
+      "family": "few_flip",
+      "group": "AB_few_flip_04",
+      "rep": 0,
+      "L": [
+        [
+          10,
+          7,
+          0,
+          -7
+        ],
+        [
+          2,
+          7,
+          7,
+          3
+        ]
+      ],
+      "N_expected": 338,
+      "delta": 0.04315263481554085,
+      "phase_seed": 862001940,
+      "mc_seed": 862001957,
+      "flips": 16,
+      "disc_radius": -1
+    },
+    {
+      "id": "AB_few_flip_04_1",
+      "symmetry": "AB",
+      "family": "few_flip",
+      "group": "AB_few_flip_04",
+      "rep": 1,
+      "L": [
+        [
+          10,
+          7,
+          0,
+          -7
+        ],
+        [
+          2,
+          7,
+          7,
+          3
+        ]
+      ],
+      "N_expected": 338,
+      "delta": 0.04315263481554085,
+      "phase_seed": 862002038,
+      "mc_seed": 862002055,
+      "flips": 16,
+      "disc_radius": -1
+    },
+    {
+      "id": "AB_few_flip_05_0",
+      "symmetry": "AB",
+      "family": "few_flip",
+      "group": "AB_few_flip_05",
+      "rep": 0,
+      "L": [
+        [
+          8,
+          4,
+          -2,
+          -7
+        ],
+        [
+          0,
+          8,
+          11,
+          8
+        ]
+      ],
+      "N_expected": 425,
+      "delta": 0.01434305215191695,
+      "phase_seed": 862002134,
+      "mc_seed": 862002151,
+      "flips": 32,
+      "disc_radius": -1
+    },
+    {
+      "id": "AB_few_flip_05_1",
+      "symmetry": "AB",
+      "family": "few_flip",
+      "group": "AB_few_flip_05",
+      "rep": 1,
+      "L": [
+        [
+          8,
+          4,
+          -2,
+          -7
+        ],
+        [
+          0,
+          8,
+          11,
+          8
+        ]
+      ],
+      "N_expected": 425,
+      "delta": 0.01434305215191695,
+      "phase_seed": 862002232,
+      "mc_seed": 862002249,
+      "flips": 32,
+      "disc_radius": -1
+    },
+    {
+      "id": "AB_equilibrated_00_0",
+      "symmetry": "AB",
+      "family": "equilibrated",
+      "group": "AB_equilibrated_00",
+      "rep": 0,
+      "L": [
+        [
+          11,
+          6,
+          -2,
+          -9
+        ],
+        [
+          1,
+          7,
+          9,
+          6
+        ]
+      ],
+      "N_expected": 483,
+      "delta": 0.01960003418247942,
+      "phase_seed": 862002328,
+      "mc_seed": 862002345,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "AB_equilibrated_00_1",
+      "symmetry": "AB",
+      "family": "equilibrated",
+      "group": "AB_equilibrated_00",
+      "rep": 1,
+      "L": [
+        [
+          11,
+          6,
+          -2,
+          -9
+        ],
+        [
+          1,
+          7,
+          9,
+          6
+        ]
+      ],
+      "N_expected": 483,
+      "delta": 0.01960003418247942,
+      "phase_seed": 862002426,
+      "mc_seed": 862002443,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "AB_equilibrated_01_0",
+      "symmetry": "AB",
+      "family": "equilibrated",
+      "group": "AB_equilibrated_01",
+      "rep": 0,
+      "L": [
+        [
+          9,
+          5,
+          -2,
+          -8
+        ],
+        [
+          0,
+          7,
+          9,
+          7
+        ]
+      ],
+      "N_expected": 415,
+      "delta": 0.03459698935322996,
+      "phase_seed": 862002522,
+      "mc_seed": 862002539,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "AB_equilibrated_01_1",
+      "symmetry": "AB",
+      "family": "equilibrated",
+      "group": "AB_equilibrated_01",
+      "rep": 1,
+      "L": [
+        [
+          9,
+          5,
+          -2,
+          -8
+        ],
+        [
+          0,
+          7,
+          9,
+          7
+        ]
+      ],
+      "N_expected": 415,
+      "delta": 0.03459698935322996,
+      "phase_seed": 862002620,
+      "mc_seed": 862002637,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "AB_equilibrated_02_0",
+      "symmetry": "AB",
+      "family": "equilibrated",
+      "group": "AB_equilibrated_02",
+      "rep": 0,
+      "L": [
+        [
+          10,
+          8,
+          1,
+          -6
+        ],
+        [
+          -2,
+          4,
+          9,
+          7
+        ]
+      ],
+      "N_expected": 415,
+      "delta": 0.05116705423142974,
+      "phase_seed": 862002716,
+      "mc_seed": 862002733,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "AB_equilibrated_02_1",
+      "symmetry": "AB",
+      "family": "equilibrated",
+      "group": "AB_equilibrated_02",
+      "rep": 1,
+      "L": [
+        [
+          10,
+          8,
+          1,
+          -6
+        ],
+        [
+          -2,
+          4,
+          9,
+          7
+        ]
+      ],
+      "N_expected": 415,
+      "delta": 0.05116705423142974,
+      "phase_seed": 862002814,
+      "mc_seed": 862002831,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "AB_equilibrated_03_0",
+      "symmetry": "AB",
+      "family": "equilibrated",
+      "group": "AB_equilibrated_03",
+      "rep": 0,
+      "L": [
+        [
+          7,
+          5,
+          0,
+          -5
+        ],
+        [
+          1,
+          7,
+          9,
+          6
+        ]
+      ],
+      "N_expected": 309,
+      "delta": 0.014353245548574197,
+      "phase_seed": 862002910,
+      "mc_seed": 862002927,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "AB_equilibrated_03_1",
+      "symmetry": "AB",
+      "family": "equilibrated",
+      "group": "AB_equilibrated_03",
+      "rep": 1,
+      "L": [
+        [
+          7,
+          5,
+          0,
+          -5
+        ],
+        [
+          1,
+          7,
+          9,
+          6
+        ]
+      ],
+      "N_expected": 309,
+      "delta": 0.014353245548574197,
+      "phase_seed": 862003008,
+      "mc_seed": 862003025,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "AB_equilibrated_04_0",
+      "symmetry": "AB",
+      "family": "equilibrated",
+      "group": "AB_equilibrated_04",
+      "rep": 0,
+      "L": [
+        [
+          8,
+          5,
+          -1,
+          -7
+        ],
+        [
+          -1,
+          5,
+          8,
+          6
+        ]
+      ],
+      "N_expected": 309,
+      "delta": 0.03612154250017401,
+      "phase_seed": 862003104,
+      "mc_seed": 862003121,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "AB_equilibrated_04_1",
+      "symmetry": "AB",
+      "family": "equilibrated",
+      "group": "AB_equilibrated_04",
+      "rep": 1,
+      "L": [
+        [
+          8,
+          5,
+          -1,
+          -7
+        ],
+        [
+          -1,
+          5,
+          8,
+          6
+        ]
+      ],
+      "N_expected": 309,
+      "delta": 0.03612154250017401,
+      "phase_seed": 862003202,
+      "mc_seed": 862003219,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "AB_equilibrated_05_0",
+      "symmetry": "AB",
+      "family": "equilibrated",
+      "group": "AB_equilibrated_05",
+      "rep": 0,
+      "L": [
+        [
+          7,
+          6,
+          1,
+          -4
+        ],
+        [
+          -1,
+          6,
+          9,
+          7
+        ]
+      ],
+      "N_expected": 314,
+      "delta": 0.024315145576570812,
+      "phase_seed": 862003298,
+      "mc_seed": 862003315,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "AB_equilibrated_05_1",
+      "symmetry": "AB",
+      "family": "equilibrated",
+      "group": "AB_equilibrated_05",
+      "rep": 1,
+      "L": [
+        [
+          7,
+          6,
+          1,
+          -4
+        ],
+        [
+          -1,
+          6,
+          9,
+          7
+        ]
+      ],
+      "N_expected": 314,
+      "delta": 0.024315145576570812,
+      "phase_seed": 862003396,
+      "mc_seed": 862003413,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "AB_disc_cluster_00_0",
+      "symmetry": "AB",
+      "family": "disc_cluster",
+      "group": "AB_disc_cluster_00",
+      "rep": 0,
+      "L": [
+        [
+          7,
+          5,
+          -1,
+          -5
+        ],
+        [
+          1,
+          7,
+          9,
+          6
+        ]
+      ],
+      "N_expected": 311,
+      "delta": 0.05191862261855101,
+      "phase_seed": 862003492,
+      "mc_seed": 862003509,
+      "flips": 0,
+      "disc_radius": 2
+    },
+    {
+      "id": "AB_disc_cluster_00_1",
+      "symmetry": "AB",
+      "family": "disc_cluster",
+      "group": "AB_disc_cluster_00",
+      "rep": 1,
+      "L": [
+        [
+          7,
+          5,
+          -1,
+          -5
+        ],
+        [
+          1,
+          7,
+          9,
+          6
+        ]
+      ],
+      "N_expected": 311,
+      "delta": 0.05191862261855101,
+      "phase_seed": 862003590,
+      "mc_seed": 862003607,
+      "flips": 0,
+      "disc_radius": 2
+    },
+    {
+      "id": "AB_disc_cluster_01_0",
+      "symmetry": "AB",
+      "family": "disc_cluster",
+      "group": "AB_disc_cluster_01",
+      "rep": 0,
+      "L": [
+        [
+          9,
+          8,
+          3,
+          -5
+        ],
+        [
+          -1,
+          4,
+          7,
+          6
+        ]
+      ],
+      "N_expected": 324,
+      "delta": 0.04047985398092177,
+      "phase_seed": 862003686,
+      "mc_seed": 862003703,
+      "flips": 0,
+      "disc_radius": 3
+    },
+    {
+      "id": "AB_disc_cluster_01_1",
+      "symmetry": "AB",
+      "family": "disc_cluster",
+      "group": "AB_disc_cluster_01",
+      "rep": 1,
+      "L": [
+        [
+          9,
+          8,
+          3,
+          -5
+        ],
+        [
+          -1,
+          4,
+          7,
+          6
+        ]
+      ],
+      "N_expected": 324,
+      "delta": 0.04047985398092177,
+      "phase_seed": 862003784,
+      "mc_seed": 862003801,
+      "flips": 0,
+      "disc_radius": 3
+    },
+    {
+      "id": "AB_disc_cluster_02_0",
+      "symmetry": "AB",
+      "family": "disc_cluster",
+      "group": "AB_disc_cluster_02",
+      "rep": 0,
+      "L": [
+        [
+          8,
+          4,
+          -2,
+          -7
+        ],
+        [
+          2,
+          7,
+          8,
+          5
+        ]
+      ],
+      "N_expected": 331,
+      "delta": 0.03401934039398976,
+      "phase_seed": 862003880,
+      "mc_seed": 862003897,
+      "flips": 0,
+      "disc_radius": 4
+    },
+    {
+      "id": "AB_disc_cluster_02_1",
+      "symmetry": "AB",
+      "family": "disc_cluster",
+      "group": "AB_disc_cluster_02",
+      "rep": 1,
+      "L": [
+        [
+          8,
+          4,
+          -2,
+          -7
+        ],
+        [
+          2,
+          7,
+          8,
+          5
+        ]
+      ],
+      "N_expected": 331,
+      "delta": 0.03401934039398976,
+      "phase_seed": 862003978,
+      "mc_seed": 862003995,
+      "flips": 0,
+      "disc_radius": 4
+    },
+    {
+      "id": "AB_disc_cluster_03_0",
+      "symmetry": "AB",
+      "family": "disc_cluster",
+      "group": "AB_disc_cluster_03",
+      "rep": 0,
+      "L": [
+        [
+          7,
+          4,
+          -2,
+          -7
+        ],
+        [
+          1,
+          7,
+          10,
+          7
+        ]
+      ],
+      "N_expected": 360,
+      "delta": 0.0462850283614094,
+      "phase_seed": 862004074,
+      "mc_seed": 862004091,
+      "flips": 0,
+      "disc_radius": 5
+    },
+    {
+      "id": "AB_disc_cluster_03_1",
+      "symmetry": "AB",
+      "family": "disc_cluster",
+      "group": "AB_disc_cluster_03",
+      "rep": 1,
+      "L": [
+        [
+          7,
+          4,
+          -2,
+          -7
+        ],
+        [
+          1,
+          7,
+          10,
+          7
+        ]
+      ],
+      "N_expected": 360,
+      "delta": 0.0462850283614094,
+      "phase_seed": 862004172,
+      "mc_seed": 862004189,
+      "flips": 0,
+      "disc_radius": 5
+    },
+    {
+      "id": "AB_disc_cluster_04_0",
+      "symmetry": "AB",
+      "family": "disc_cluster",
+      "group": "AB_disc_cluster_04",
+      "rep": 0,
+      "L": [
+        [
+          7,
+          3,
+          -2,
+          -6
+        ],
+        [
+          1,
+          8,
+          9,
+          6
+        ]
+      ],
+      "N_expected": 317,
+      "delta": 0.04742423939973657,
+      "phase_seed": 862004268,
+      "mc_seed": 862004285,
+      "flips": 0,
+      "disc_radius": 6
+    },
+    {
+      "id": "AB_disc_cluster_04_1",
+      "symmetry": "AB",
+      "family": "disc_cluster",
+      "group": "AB_disc_cluster_04",
+      "rep": 1,
+      "L": [
+        [
+          7,
+          3,
+          -2,
+          -6
+        ],
+        [
+          1,
+          8,
+          9,
+          6
+        ]
+      ],
+      "N_expected": 317,
+      "delta": 0.04742423939973657,
+      "phase_seed": 862004366,
+      "mc_seed": 862004383,
+      "flips": 0,
+      "disc_radius": 6
+    },
+    {
+      "id": "AB_disc_cluster_05_0",
+      "symmetry": "AB",
+      "family": "disc_cluster",
+      "group": "AB_disc_cluster_05",
+      "rep": 0,
+      "L": [
+        [
+          11,
+          8,
+          1,
+          -7
+        ],
+        [
+          0,
+          5,
+          7,
+          5
+        ]
+      ],
+      "N_expected": 367,
+      "delta": 0.016609500333935316,
+      "phase_seed": 862004462,
+      "mc_seed": 862004479,
+      "flips": 0,
+      "disc_radius": 7
+    },
+    {
+      "id": "AB_disc_cluster_05_1",
+      "symmetry": "AB",
+      "family": "disc_cluster",
+      "group": "AB_disc_cluster_05",
+      "rep": 1,
+      "L": [
+        [
+          11,
+          8,
+          1,
+          -7
+        ],
+        [
+          0,
+          5,
+          7,
+          5
+        ]
+      ],
+      "N_expected": 367,
+      "delta": 0.016609500333935316,
+      "phase_seed": 862004560,
+      "mc_seed": 862004577,
+      "flips": 0,
+      "disc_radius": 7
+    },
+    {
+      "id": "Penrose_approximant_00_0",
+      "symmetry": "Penrose",
+      "family": "approximant",
+      "group": "Penrose_approximant_00",
+      "rep": 0,
+      "L": [
+        [
+          10,
+          8,
+          3,
+          -3,
+          -8
+        ],
+        [
+          1,
+          5,
+          7,
+          7,
+          4
+        ]
+      ],
+      "N_expected": 568,
+      "delta": 0.029180278524982797,
+      "phase_seed": 862004656,
+      "mc_seed": 862004673,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "Penrose_approximant_00_1",
+      "symmetry": "Penrose",
+      "family": "approximant",
+      "group": "Penrose_approximant_00",
+      "rep": 1,
+      "L": [
+        [
+          10,
+          8,
+          3,
+          -3,
+          -8
+        ],
+        [
+          1,
+          5,
+          7,
+          7,
+          4
+        ]
+      ],
+      "N_expected": 568,
+      "delta": 0.029180278524982797,
+      "phase_seed": 862004754,
+      "mc_seed": 862004771,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "Penrose_approximant_01_0",
+      "symmetry": "Penrose",
+      "family": "approximant",
+      "group": "Penrose_approximant_01",
+      "rep": 0,
+      "L": [
+        [
+          7,
+          4,
+          0,
+          -4,
+          -7
+        ],
+        [
+          2,
+          5,
+          6,
+          5,
+          2
+        ]
+      ],
+      "N_expected": 340,
+      "delta": 0.028629924409846682,
+      "phase_seed": 862004850,
+      "mc_seed": 862004867,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "Penrose_approximant_01_1",
+      "symmetry": "Penrose",
+      "family": "approximant",
+      "group": "Penrose_approximant_01",
+      "rep": 1,
+      "L": [
+        [
+          7,
+          4,
+          0,
+          -4,
+          -7
+        ],
+        [
+          2,
+          5,
+          6,
+          5,
+          2
+        ]
+      ],
+      "N_expected": 340,
+      "delta": 0.028629924409846682,
+      "phase_seed": 862004948,
+      "mc_seed": 862004965,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "Penrose_approximant_02_0",
+      "symmetry": "Penrose",
+      "family": "approximant",
+      "group": "Penrose_approximant_02",
+      "rep": 0,
+      "L": [
+        [
+          10,
+          9,
+          4,
+          -2,
+          -7
+        ],
+        [
+          -2,
+          4,
+          9,
+          11,
+          8
+        ]
+      ],
+      "N_expected": 818,
+      "delta": 0.03235788391852615,
+      "phase_seed": 862005044,
+      "mc_seed": 862005061,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "Penrose_approximant_02_1",
+      "symmetry": "Penrose",
+      "family": "approximant",
+      "group": "Penrose_approximant_02",
+      "rep": 1,
+      "L": [
+        [
+          10,
+          9,
+          4,
+          -2,
+          -7
+        ],
+        [
+          -2,
+          4,
+          9,
+          11,
+          8
+        ]
+      ],
+      "N_expected": 818,
+      "delta": 0.03235788391852615,
+      "phase_seed": 862005142,
+      "mc_seed": 862005159,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "Penrose_approximant_03_0",
+      "symmetry": "Penrose",
+      "family": "approximant",
+      "group": "Penrose_approximant_03",
+      "rep": 0,
+      "L": [
+        [
+          9,
+          6,
+          2,
+          -2,
+          -7
+        ],
+        [
+          -1,
+          5,
+          9,
+          10,
+          7
+        ]
+      ],
+      "N_expected": 640,
+      "delta": 0.07086606081642059,
+      "phase_seed": 862005238,
+      "mc_seed": 862005255,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "Penrose_approximant_03_1",
+      "symmetry": "Penrose",
+      "family": "approximant",
+      "group": "Penrose_approximant_03",
+      "rep": 1,
+      "L": [
+        [
+          9,
+          6,
+          2,
+          -2,
+          -7
+        ],
+        [
+          -1,
+          5,
+          9,
+          10,
+          7
+        ]
+      ],
+      "N_expected": 640,
+      "delta": 0.07086606081642059,
+      "phase_seed": 862005336,
+      "mc_seed": 862005353,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "Penrose_approximant_04_0",
+      "symmetry": "Penrose",
+      "family": "approximant",
+      "group": "Penrose_approximant_04",
+      "rep": 0,
+      "L": [
+        [
+          7,
+          5,
+          1,
+          -4,
+          -7
+        ],
+        [
+          2,
+          8,
+          11,
+          10,
+          5
+        ]
+      ],
+      "N_expected": 644,
+      "delta": 0.029460090802741434,
+      "phase_seed": 862005432,
+      "mc_seed": 862005449,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "Penrose_approximant_04_1",
+      "symmetry": "Penrose",
+      "family": "approximant",
+      "group": "Penrose_approximant_04",
+      "rep": 1,
+      "L": [
+        [
+          7,
+          5,
+          1,
+          -4,
+          -7
+        ],
+        [
+          2,
+          8,
+          11,
+          10,
+          5
+        ]
+      ],
+      "N_expected": 644,
+      "delta": 0.029460090802741434,
+      "phase_seed": 862005530,
+      "mc_seed": 862005547,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "Penrose_approximant_05_0",
+      "symmetry": "Penrose",
+      "family": "approximant",
+      "group": "Penrose_approximant_05",
+      "rep": 0,
+      "L": [
+        [
+          8,
+          6,
+          2,
+          -3,
+          -7
+        ],
+        [
+          -2,
+          3,
+          6,
+          6,
+          5
+        ]
+      ],
+      "N_expected": 391,
+      "delta": 0.06722571854238535,
+      "phase_seed": 862005626,
+      "mc_seed": 862005643,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "Penrose_approximant_05_1",
+      "symmetry": "Penrose",
+      "family": "approximant",
+      "group": "Penrose_approximant_05",
+      "rep": 1,
+      "L": [
+        [
+          8,
+          6,
+          2,
+          -3,
+          -7
+        ],
+        [
+          -2,
+          3,
+          6,
+          6,
+          5
+        ]
+      ],
+      "N_expected": 391,
+      "delta": 0.06722571854238535,
+      "phase_seed": 862005724,
+      "mc_seed": 862005741,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "Penrose_few_flip_00_0",
+      "symmetry": "Penrose",
+      "family": "few_flip",
+      "group": "Penrose_few_flip_00",
+      "rep": 0,
+      "L": [
+        [
+          8,
+          7,
+          4,
+          -1,
+          -6
+        ],
+        [
+          1,
+          6,
+          9,
+          9,
+          5
+        ]
+      ],
+      "N_expected": 575,
+      "delta": 0.035915938175104814,
+      "phase_seed": 862005820,
+      "mc_seed": 862005837,
+      "flips": 1,
+      "disc_radius": -1
+    },
+    {
+      "id": "Penrose_few_flip_00_1",
+      "symmetry": "Penrose",
+      "family": "few_flip",
+      "group": "Penrose_few_flip_00",
+      "rep": 1,
+      "L": [
+        [
+          8,
+          7,
+          4,
+          -1,
+          -6
+        ],
+        [
+          1,
+          6,
+          9,
+          9,
+          5
+        ]
+      ],
+      "N_expected": 575,
+      "delta": 0.035915938175104814,
+      "phase_seed": 862005918,
+      "mc_seed": 862005935,
+      "flips": 1,
+      "disc_radius": -1
+    },
+    {
+      "id": "Penrose_few_flip_01_0",
+      "symmetry": "Penrose",
+      "family": "few_flip",
+      "group": "Penrose_few_flip_01",
+      "rep": 0,
+      "L": [
+        [
+          8,
+          6,
+          1,
+          -5,
+          -8
+        ],
+        [
+          1,
+          6,
+          9,
+          9,
+          5
+        ]
+      ],
+      "N_expected": 626,
+      "delta": 0.04369470608495113,
+      "phase_seed": 862006014,
+      "mc_seed": 862006031,
+      "flips": 2,
+      "disc_radius": -1
+    },
+    {
+      "id": "Penrose_few_flip_01_1",
+      "symmetry": "Penrose",
+      "family": "few_flip",
+      "group": "Penrose_few_flip_01",
+      "rep": 1,
+      "L": [
+        [
+          8,
+          6,
+          1,
+          -5,
+          -8
+        ],
+        [
+          1,
+          6,
+          9,
+          9,
+          5
+        ]
+      ],
+      "N_expected": 626,
+      "delta": 0.04369470608495113,
+      "phase_seed": 862006112,
+      "mc_seed": 862006129,
+      "flips": 2,
+      "disc_radius": -1
+    },
+    {
+      "id": "Penrose_few_flip_02_0",
+      "symmetry": "Penrose",
+      "family": "few_flip",
+      "group": "Penrose_few_flip_02",
+      "rep": 0,
+      "L": [
+        [
+          11,
+          7,
+          1,
+          -5,
+          -10
+        ],
+        [
+          1,
+          5,
+          7,
+          6,
+          3
+        ]
+      ],
+      "N_expected": 579,
+      "delta": 0.031443169394865814,
+      "phase_seed": 862006208,
+      "mc_seed": 862006225,
+      "flips": 4,
+      "disc_radius": -1
+    },
+    {
+      "id": "Penrose_few_flip_02_1",
+      "symmetry": "Penrose",
+      "family": "few_flip",
+      "group": "Penrose_few_flip_02",
+      "rep": 1,
+      "L": [
+        [
+          11,
+          7,
+          1,
+          -5,
+          -10
+        ],
+        [
+          1,
+          5,
+          7,
+          6,
+          3
+        ]
+      ],
+      "N_expected": 579,
+      "delta": 0.031443169394865814,
+      "phase_seed": 862006306,
+      "mc_seed": 862006323,
+      "flips": 4,
+      "disc_radius": -1
+    },
+    {
+      "id": "Penrose_few_flip_03_0",
+      "symmetry": "Penrose",
+      "family": "few_flip",
+      "group": "Penrose_few_flip_03",
+      "rep": 0,
+      "L": [
+        [
+          8,
+          6,
+          1,
+          -4,
+          -7
+        ],
+        [
+          0,
+          4,
+          7,
+          7,
+          4
+        ]
+      ],
+      "N_expected": 445,
+      "delta": 0.03458158708504666,
+      "phase_seed": 862006402,
+      "mc_seed": 862006419,
+      "flips": 8,
+      "disc_radius": -1
+    },
+    {
+      "id": "Penrose_few_flip_03_1",
+      "symmetry": "Penrose",
+      "family": "few_flip",
+      "group": "Penrose_few_flip_03",
+      "rep": 1,
+      "L": [
+        [
+          8,
+          6,
+          1,
+          -4,
+          -7
+        ],
+        [
+          0,
+          4,
+          7,
+          7,
+          4
+        ]
+      ],
+      "N_expected": 445,
+      "delta": 0.03458158708504666,
+      "phase_seed": 862006500,
+      "mc_seed": 862006517,
+      "flips": 8,
+      "disc_radius": -1
+    },
+    {
+      "id": "Penrose_few_flip_04_0",
+      "symmetry": "Penrose",
+      "family": "few_flip",
+      "group": "Penrose_few_flip_04",
+      "rep": 0,
+      "L": [
+        [
+          7,
+          5,
+          1,
+          -4,
+          -7
+        ],
+        [
+          1,
+          6,
+          8,
+          6,
+          3
+        ]
+      ],
+      "N_expected": 438,
+      "delta": 0.06552031477965499,
+      "phase_seed": 862006596,
+      "mc_seed": 862006613,
+      "flips": 16,
+      "disc_radius": -1
+    },
+    {
+      "id": "Penrose_few_flip_04_1",
+      "symmetry": "Penrose",
+      "family": "few_flip",
+      "group": "Penrose_few_flip_04",
+      "rep": 1,
+      "L": [
+        [
+          7,
+          5,
+          1,
+          -4,
+          -7
+        ],
+        [
+          1,
+          6,
+          8,
+          6,
+          3
+        ]
+      ],
+      "N_expected": 438,
+      "delta": 0.06552031477965499,
+      "phase_seed": 862006694,
+      "mc_seed": 862006711,
+      "flips": 16,
+      "disc_radius": -1
+    },
+    {
+      "id": "Penrose_few_flip_05_0",
+      "symmetry": "Penrose",
+      "family": "few_flip",
+      "group": "Penrose_few_flip_05",
+      "rep": 0,
+      "L": [
+        [
+          9,
+          6,
+          1,
+          -4,
+          -8
+        ],
+        [
+          2,
+          5,
+          6,
+          6,
+          3
+        ]
+      ],
+      "N_expected": 452,
+      "delta": 0.06638933746791513,
+      "phase_seed": 862006790,
+      "mc_seed": 862006807,
+      "flips": 32,
+      "disc_radius": -1
+    },
+    {
+      "id": "Penrose_few_flip_05_1",
+      "symmetry": "Penrose",
+      "family": "few_flip",
+      "group": "Penrose_few_flip_05",
+      "rep": 1,
+      "L": [
+        [
+          9,
+          6,
+          1,
+          -4,
+          -8
+        ],
+        [
+          2,
+          5,
+          6,
+          6,
+          3
+        ]
+      ],
+      "N_expected": 452,
+      "delta": 0.06638933746791513,
+      "phase_seed": 862006888,
+      "mc_seed": 862006905,
+      "flips": 32,
+      "disc_radius": -1
+    },
+    {
+      "id": "Penrose_equilibrated_00_0",
+      "symmetry": "Penrose",
+      "family": "equilibrated",
+      "group": "Penrose_equilibrated_00",
+      "rep": 0,
+      "L": [
+        [
+          8,
+          7,
+          3,
+          -3,
+          -7
+        ],
+        [
+          -2,
+          2,
+          6,
+          7,
+          5
+        ]
+      ],
+      "N_expected": 430,
+      "delta": 0.062033618659021135,
+      "phase_seed": 862006984,
+      "mc_seed": 862007001,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "Penrose_equilibrated_00_1",
+      "symmetry": "Penrose",
+      "family": "equilibrated",
+      "group": "Penrose_equilibrated_00",
+      "rep": 1,
+      "L": [
+        [
+          8,
+          7,
+          3,
+          -3,
+          -7
+        ],
+        [
+          -2,
+          2,
+          6,
+          7,
+          5
+        ]
+      ],
+      "N_expected": 430,
+      "delta": 0.062033618659021135,
+      "phase_seed": 862007082,
+      "mc_seed": 862007099,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "Penrose_equilibrated_01_0",
+      "symmetry": "Penrose",
+      "family": "equilibrated",
+      "group": "Penrose_equilibrated_01",
+      "rep": 0,
+      "L": [
+        [
+          11,
+          9,
+          3,
+          -4,
+          -9
+        ],
+        [
+          -1,
+          4,
+          8,
+          9,
+          6
+        ]
+      ],
+      "N_expected": 749,
+      "delta": 0.024308164659196208,
+      "phase_seed": 862007178,
+      "mc_seed": 862007195,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "Penrose_equilibrated_01_1",
+      "symmetry": "Penrose",
+      "family": "equilibrated",
+      "group": "Penrose_equilibrated_01",
+      "rep": 1,
+      "L": [
+        [
+          11,
+          9,
+          3,
+          -4,
+          -9
+        ],
+        [
+          -1,
+          4,
+          8,
+          9,
+          6
+        ]
+      ],
+      "N_expected": 749,
+      "delta": 0.024308164659196208,
+      "phase_seed": 862007276,
+      "mc_seed": 862007293,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "Penrose_equilibrated_02_0",
+      "symmetry": "Penrose",
+      "family": "equilibrated",
+      "group": "Penrose_equilibrated_02",
+      "rep": 0,
+      "L": [
+        [
+          9,
+          7,
+          2,
+          -3,
+          -7
+        ],
+        [
+          -1,
+          4,
+          8,
+          8,
+          5
+        ]
+      ],
+      "N_expected": 550,
+      "delta": 0.04405836797977068,
+      "phase_seed": 862007372,
+      "mc_seed": 862007389,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "Penrose_equilibrated_02_1",
+      "symmetry": "Penrose",
+      "family": "equilibrated",
+      "group": "Penrose_equilibrated_02",
+      "rep": 1,
+      "L": [
+        [
+          9,
+          7,
+          2,
+          -3,
+          -7
+        ],
+        [
+          -1,
+          4,
+          8,
+          8,
+          5
+        ]
+      ],
+      "N_expected": 550,
+      "delta": 0.04405836797977068,
+      "phase_seed": 862007470,
+      "mc_seed": 862007487,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "Penrose_equilibrated_03_0",
+      "symmetry": "Penrose",
+      "family": "equilibrated",
+      "group": "Penrose_equilibrated_03",
+      "rep": 0,
+      "L": [
+        [
+          7,
+          5,
+          1,
+          -4,
+          -7
+        ],
+        [
+          1,
+          4,
+          6,
+          6,
+          3
+        ]
+      ],
+      "N_expected": 358,
+      "delta": 0.04468500548234447,
+      "phase_seed": 862007566,
+      "mc_seed": 862007583,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "Penrose_equilibrated_03_1",
+      "symmetry": "Penrose",
+      "family": "equilibrated",
+      "group": "Penrose_equilibrated_03",
+      "rep": 1,
+      "L": [
+        [
+          7,
+          5,
+          1,
+          -4,
+          -7
+        ],
+        [
+          1,
+          4,
+          6,
+          6,
+          3
+        ]
+      ],
+      "N_expected": 358,
+      "delta": 0.04468500548234447,
+      "phase_seed": 862007664,
+      "mc_seed": 862007681,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "Penrose_equilibrated_04_0",
+      "symmetry": "Penrose",
+      "family": "equilibrated",
+      "group": "Penrose_equilibrated_04",
+      "rep": 0,
+      "L": [
+        [
+          8,
+          7,
+          3,
+          -2,
+          -6
+        ],
+        [
+          1,
+          6,
+          9,
+          9,
+          5
+        ]
+      ],
+      "N_expected": 579,
+      "delta": 0.025489200366691396,
+      "phase_seed": 862007760,
+      "mc_seed": 862007777,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "Penrose_equilibrated_04_1",
+      "symmetry": "Penrose",
+      "family": "equilibrated",
+      "group": "Penrose_equilibrated_04",
+      "rep": 1,
+      "L": [
+        [
+          8,
+          7,
+          3,
+          -2,
+          -6
+        ],
+        [
+          1,
+          6,
+          9,
+          9,
+          5
+        ]
+      ],
+      "N_expected": 579,
+      "delta": 0.025489200366691396,
+      "phase_seed": 862007858,
+      "mc_seed": 862007875,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "Penrose_equilibrated_05_0",
+      "symmetry": "Penrose",
+      "family": "equilibrated",
+      "group": "Penrose_equilibrated_05",
+      "rep": 0,
+      "L": [
+        [
+          9,
+          6,
+          1,
+          -4,
+          -8
+        ],
+        [
+          2,
+          8,
+          11,
+          10,
+          5
+        ]
+      ],
+      "N_expected": 767,
+      "delta": 0.021609052132813146,
+      "phase_seed": 862007954,
+      "mc_seed": 862007971,
+      "flips": 0,
+      "disc_radius": -1
+    },
+    {
+      "id": "Penrose_equilibrated_05_1",
+      "symmetry": "Penrose",
+      "family": "equilibrated",
+      "group": "Penrose_equilibrated_05",
+      "rep": 1,
+      "L": [
+        [
+          9,
+          6,
+          1,
+          -4,
+          -8
+        ],
+        [
+          2,
+          8,
+          11,
+          10,
+          5
+        ]
+      ],
+      "N_expected": 767,
+      "delta": 0.021609052132813146,
+      "phase_seed": 862008052,
+      "mc_seed": 862008069,
+      "flips": 0,
+      "disc_radius": -1
+    }
+  ],
+  "F4": [
+    {
+      "id": "F4_B1_2_3_0",
+      "symmetry": "AB",
+      "family": "F4_Pell",
+      "group": "Pell_2_3",
+      "p": 2,
+      "q": 3,
+      "rep": 0,
+      "L": [
+        [
+          3,
+          2,
+          0,
+          -2
+        ],
+        [
+          0,
+          2,
+          3,
+          2
+        ]
+      ],
+      "phase_seed": 863000200,
+      "mc_seed": 0
+    },
+    {
+      "id": "F4_B1_2_3_1",
+      "symmetry": "AB",
+      "family": "F4_Pell",
+      "group": "Pell_2_3",
+      "p": 2,
+      "q": 3,
+      "rep": 1,
+      "L": [
+        [
+          3,
+          2,
+          0,
+          -2
+        ],
+        [
+          0,
+          2,
+          3,
+          2
+        ]
+      ],
+      "phase_seed": 863000201,
+      "mc_seed": 0
+    },
+    {
+      "id": "F4_B1_2_3_2",
+      "symmetry": "AB",
+      "family": "F4_Pell",
+      "group": "Pell_2_3",
+      "p": 2,
+      "q": 3,
+      "rep": 2,
+      "L": [
+        [
+          3,
+          2,
+          0,
+          -2
+        ],
+        [
+          0,
+          2,
+          3,
+          2
+        ]
+      ],
+      "phase_seed": 863000202,
+      "mc_seed": 0
+    },
+    {
+      "id": "F4_B1_5_7_0",
+      "symmetry": "AB",
+      "family": "F4_Pell",
+      "group": "Pell_5_7",
+      "p": 5,
+      "q": 7,
+      "rep": 0,
+      "L": [
+        [
+          7,
+          5,
+          0,
+          -5
+        ],
+        [
+          0,
+          5,
+          7,
+          5
+        ]
+      ],
+      "phase_seed": 863000500,
+      "mc_seed": 0
+    },
+    {
+      "id": "F4_B1_5_7_1",
+      "symmetry": "AB",
+      "family": "F4_Pell",
+      "group": "Pell_5_7",
+      "p": 5,
+      "q": 7,
+      "rep": 1,
+      "L": [
+        [
+          7,
+          5,
+          0,
+          -5
+        ],
+        [
+          0,
+          5,
+          7,
+          5
+        ]
+      ],
+      "phase_seed": 863000501,
+      "mc_seed": 0
+    },
+    {
+      "id": "F4_B1_5_7_2",
+      "symmetry": "AB",
+      "family": "F4_Pell",
+      "group": "Pell_5_7",
+      "p": 5,
+      "q": 7,
+      "rep": 2,
+      "L": [
+        [
+          7,
+          5,
+          0,
+          -5
+        ],
+        [
+          0,
+          5,
+          7,
+          5
+        ]
+      ],
+      "phase_seed": 863000502,
+      "mc_seed": 0
+    },
+    {
+      "id": "F4_B1_12_17_0",
+      "symmetry": "AB",
+      "family": "F4_Pell",
+      "group": "Pell_12_17",
+      "p": 12,
+      "q": 17,
+      "rep": 0,
+      "L": [
+        [
+          17,
+          12,
+          0,
+          -12
+        ],
+        [
+          0,
+          12,
+          17,
+          12
+        ]
+      ],
+      "phase_seed": 863001200,
+      "mc_seed": 0
+    },
+    {
+      "id": "F4_B1_12_17_1",
+      "symmetry": "AB",
+      "family": "F4_Pell",
+      "group": "Pell_12_17",
+      "p": 12,
+      "q": 17,
+      "rep": 1,
+      "L": [
+        [
+          17,
+          12,
+          0,
+          -12
+        ],
+        [
+          0,
+          12,
+          17,
+          12
+        ]
+      ],
+      "phase_seed": 863001201,
+      "mc_seed": 0
+    },
+    {
+      "id": "F4_B1_12_17_2",
+      "symmetry": "AB",
+      "family": "F4_Pell",
+      "group": "Pell_12_17",
+      "p": 12,
+      "q": 17,
+      "rep": 2,
+      "L": [
+        [
+          17,
+          12,
+          0,
+          -12
+        ],
+        [
+          0,
+          12,
+          17,
+          12
+        ]
+      ],
+      "phase_seed": 863001202,
+      "mc_seed": 0
+    },
+    {
+      "id": "F4_B1_29_41_0",
+      "symmetry": "AB",
+      "family": "F4_Pell",
+      "group": "Pell_29_41",
+      "p": 29,
+      "q": 41,
+      "rep": 0,
+      "L": [
+        [
+          41,
+          29,
+          0,
+          -29
+        ],
+        [
+          0,
+          29,
+          41,
+          29
+        ]
+      ],
+      "phase_seed": 863002900,
+      "mc_seed": 0
+    },
+    {
+      "id": "F4_B1_29_41_1",
+      "symmetry": "AB",
+      "family": "F4_Pell",
+      "group": "Pell_29_41",
+      "p": 29,
+      "q": 41,
+      "rep": 1,
+      "L": [
+        [
+          41,
+          29,
+          0,
+          -29
+        ],
+        [
+          0,
+          29,
+          41,
+          29
+        ]
+      ],
+      "phase_seed": 863002901,
+      "mc_seed": 0
+    },
+    {
+      "id": "F4_B1_29_41_2",
+      "symmetry": "AB",
+      "family": "F4_Pell",
+      "group": "Pell_29_41",
+      "p": 29,
+      "q": 41,
+      "rep": 2,
+      "L": [
+        [
+          41,
+          29,
+          0,
+          -29
+        ],
+        [
+          0,
+          29,
+          41,
+          29
+        ]
+      ],
+      "phase_seed": 863002902,
+      "mc_seed": 0
+    }
+  ]
+}

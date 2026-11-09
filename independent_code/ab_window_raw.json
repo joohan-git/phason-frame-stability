@@ -1,0 +1,3289 @@
+{
+  "classification": "P",
+  "source_script": "ab_window.py",
+  "N": 1393,
+  "sub": 4,
+  "matched_offset": true,
+  "rows": [
+    {
+      "index": 0,
+      "seed": 41001,
+      "protocol": "global",
+      "severity": 10,
+      "replicate": 0,
+      "moves": [
+        {
+          "attempted": 21,
+          "accepted": 10
+        }
+      ],
+      "mc_cpu_s": 0.046875,
+      "moved_fraction": 0.007178750897343862,
+      "mean_excess": 0.0005049845445704566,
+      "max_excess": 0.1262172858755083,
+      "euclidean_mean_excess": 0.0005049845445704565,
+      "recentered_mean_excess": 0.0004660575767116515,
+      "fitted_window_shift": [
+        -0.0043686807045781135,
+        -0.015492976916340953
+      ],
+      "recentered_objective": 4.530782989802537e-05,
+      "internal_variance": 0.3865845024863651,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.7953967449979505,
+        "theta": 1.3159249203643608,
+        "kind": "acoustic",
+        "Gamma": 0.8317124779682874,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.001838585406667522,
+            "normalized": 0.8279451094714767,
+            "bracket_width": 4.93500205978048e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0018381171740368407,
+            "normalized": 0.8277342566520963,
+            "bracket_width": 4.935004228184825e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0018716492825808441,
+            "normalized": 0.8428343141085487,
+            "bracket_width": 4.935004228184825e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.7953967449979505,
+        "pressure_per_unit": 1.0000000000000009,
+        "cpu_s": 6.59375
+      }
+    },
+    {
+      "index": 1,
+      "seed": 41002,
+      "protocol": "global",
+      "severity": 10,
+      "replicate": 1,
+      "moves": [
+        {
+          "attempted": 25,
+          "accepted": 10
+        }
+      ],
+      "mc_cpu_s": 0.078125,
+      "moved_fraction": 0.007178750897343862,
+      "mean_excess": 0.0008303052434609738,
+      "max_excess": 0.29665790312786855,
+      "euclidean_mean_excess": 0.0008303052434609734,
+      "recentered_mean_excess": 0.0011793712065278255,
+      "fitted_window_shift": [
+        0.0006524498854368335,
+        0.025673813115001994
+      ],
+      "recentered_objective": 0.00015328610079076466,
+      "internal_variance": 0.3879305094598106,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.7956151761236582,
+        "theta": 1.183318533960694,
+        "kind": "acoustic",
+        "Gamma": 0.832134236830969,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0018392854066452522,
+            "normalized": 0.8282603309216688,
+            "bracket_width": 4.936357312496087e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.001840341425564018,
+            "normalized": 0.8287358735296603,
+            "bracket_width": 4.936359480900432e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0018705922671756418,
+            "normalized": 0.8423583227664007,
+            "bracket_width": 4.936357312496087e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.7956151761236582,
+        "pressure_per_unit": 1.0000000000000004,
+        "cpu_s": 6.71875
+      }
+    },
+    {
+      "index": 2,
+      "seed": 41003,
+      "protocol": "global",
+      "severity": 10,
+      "replicate": 2,
+      "moves": [
+        {
+          "attempted": 22,
+          "accepted": 10
+        }
+      ],
+      "mc_cpu_s": 0.078125,
+      "moved_fraction": 0.007178750897343862,
+      "mean_excess": 0.0007022778051847502,
+      "max_excess": 0.2734034882278745,
+      "euclidean_mean_excess": 0.0007022778051847502,
+      "recentered_mean_excess": 0.0007751375005157201,
+      "fitted_window_shift": [
+        -0.024707179067843848,
+        0.001577845607867744
+      ],
+      "recentered_objective": 0.00012031797580589927,
+      "internal_variance": 0.38733592499410746,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.7958451504591678,
+        "theta": 1.4106474272785192,
+        "kind": "acoustic",
+        "Gamma": 0.8310604543296249,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0018390224662526797,
+            "normalized": 0.8281419245581008,
+            "bracket_width": 4.937786290959423e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0018400804751884836,
+            "normalized": 0.8286183633033445,
+            "bracket_width": 4.937784122555078e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0018729073740722212,
+            "normalized": 0.8434008533042672,
+            "bracket_width": 4.937786290959423e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.7958451504591678,
+        "pressure_per_unit": 1.0000000000000004,
+        "cpu_s": 6.03125
+      }
+    },
+    {
+      "index": 3,
+      "seed": 41004,
+      "protocol": "global",
+      "severity": 10,
+      "replicate": 3,
+      "moves": [
+        {
+          "attempted": 17,
+          "accepted": 10
+        }
+      ],
+      "mc_cpu_s": 0.03125,
+      "moved_fraction": 0.007178750897343862,
+      "mean_excess": 0.0005297662031045384,
+      "max_excess": 0.15565452634598154,
+      "euclidean_mean_excess": 0.0005297662031045383,
+      "recentered_mean_excess": 0.0006448803662681962,
+      "fitted_window_shift": [
+        -0.011889484874096114,
+        0.013721609649971876
+      ],
+      "recentered_objective": 5.3443136049868396e-05,
+      "internal_variance": 0.38683928280520097,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.7953145737828906,
+        "theta": 1.3298145749592143,
+        "kind": "acoustic",
+        "Gamma": 0.8331247335543331,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0018397794609099631,
+            "normalized": 0.828482811645598,
+            "bracket_width": 4.934492484759412e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0018380942844715834,
+            "normalized": 0.8277239491061189,
+            "bracket_width": 4.934494653163757e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0018692414795908106,
+            "normalized": 0.8417500410022031,
+            "bracket_width": 4.934494653163757e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.7953145737828906,
+        "pressure_per_unit": 1.0000000000000002,
+        "cpu_s": 5.71875
+      }
+    },
+    {
+      "index": 4,
+      "seed": 41005,
+      "protocol": "global",
+      "severity": 30,
+      "replicate": 0,
+      "moves": [
+        {
+          "attempted": 67,
+          "accepted": 30
+        }
+      ],
+      "mc_cpu_s": 0.0625,
+      "moved_fraction": 0.021536252692031587,
+      "mean_excess": 0.003309532859559271,
+      "max_excess": 0.4699437869359262,
+      "euclidean_mean_excess": 0.003309532859559271,
+      "recentered_mean_excess": 0.003403092376363435,
+      "fitted_window_shift": [
+        -0.037699996905456584,
+        -0.01330341146055352
+      ],
+      "recentered_objective": 0.0007999429026484813,
+      "internal_variance": 0.39629313472521155,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.7941828888588081,
+        "theta": 1.1334012704092673,
+        "kind": "acoustic",
+        "Gamma": 0.8349047637655046,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0018374403161522499,
+            "normalized": 0.8274294564653213,
+            "bracket_width": 4.927471191490396e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0018364064728830887,
+            "normalized": 0.8269638999154009,
+            "bracket_width": 4.927471191490396e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0018683973197683962,
+            "normalized": 0.8413699020138016,
+            "bracket_width": 4.927471191490396e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.7941828888588081,
+        "pressure_per_unit": 0.9999999999999996,
+        "cpu_s": 6.203125
+      }
+    },
+    {
+      "index": 5,
+      "seed": 41006,
+      "protocol": "global",
+      "severity": 30,
+      "replicate": 1,
+      "moves": [
+        {
+          "attempted": 67,
+          "accepted": 30
+        }
+      ],
+      "mc_cpu_s": 0.078125,
+      "moved_fraction": 0.020100502512562814,
+      "mean_excess": 0.002379494493884107,
+      "max_excess": 0.3814068309093741,
+      "euclidean_mean_excess": 0.002379494493884106,
+      "recentered_mean_excess": 0.00246133227126901,
+      "fitted_window_shift": [
+        0.008623707196351612,
+        -0.02113337093929788
+      ],
+      "recentered_objective": 0.0004117973709431889,
+      "internal_variance": 0.39307117857256135,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.7950246537870262,
+        "theta": 2.4464768798118124,
+        "kind": "acoustic",
+        "Gamma": 0.8342469259099117,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0018370241547541102,
+            "normalized": 0.8272420521744512,
+            "bracket_width": 4.932694877557431e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0018377050042578023,
+            "normalized": 0.8275486498526573,
+            "bracket_width": 4.932694877557431e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.001869628040578171,
+            "normalized": 0.8419241157434889,
+            "bracket_width": 4.932694877557431e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.7950246537870262,
+        "pressure_per_unit": 0.9999999999999989,
+        "cpu_s": 6.234375
+      }
+    },
+    {
+      "index": 6,
+      "seed": 41007,
+      "protocol": "global",
+      "severity": 30,
+      "replicate": 2,
+      "moves": [
+        {
+          "attempted": 66,
+          "accepted": 30
+        }
+      ],
+      "mc_cpu_s": 0.046875,
+      "moved_fraction": 0.021536252692031587,
+      "mean_excess": 0.0027703493139929437,
+      "max_excess": 0.3816320655245067,
+      "euclidean_mean_excess": 0.0027703493139929433,
+      "recentered_mean_excess": 0.003160938736156712,
+      "fitted_window_shift": [
+        -0.03226981821674423,
+        0.031351294175146795
+      ],
+      "recentered_objective": 0.0005053824619046782,
+      "internal_variance": 0.3943774388088009,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.7943092334354676,
+        "theta": 2.6654723714732387,
+        "kind": "acoustic",
+        "Gamma": 0.8371943858083442,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0018384591672518324,
+            "normalized": 0.8278882617958323,
+            "bracket_width": 4.928256153863275e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0018369678306606081,
+            "normalized": 0.8272166885130235,
+            "bracket_width": 4.928256153863275e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0018682409139555638,
+            "normalized": 0.8412994699156473,
+            "bracket_width": 4.928256153863275e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.7943092334354676,
+        "pressure_per_unit": 1.0,
+        "cpu_s": 5.578125
+      }
+    },
+    {
+      "index": 7,
+      "seed": 41008,
+      "protocol": "global",
+      "severity": 30,
+      "replicate": 3,
+      "moves": [
+        {
+          "attempted": 73,
+          "accepted": 30
+        }
+      ],
+      "mc_cpu_s": 0.046875,
+      "moved_fraction": 0.020100502512562814,
+      "mean_excess": 0.0020691544045033676,
+      "max_excess": 0.2981457414850113,
+      "euclidean_mean_excess": 0.0020691544045033676,
+      "recentered_mean_excess": 0.0022935706017454378,
+      "fitted_window_shift": [
+        0.020805622028864885,
+        2.5186016852894554e-05
+      ],
+      "recentered_objective": 0.0003753845856937405,
+      "internal_variance": 0.3922545279017786,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.7942158167005224,
+        "theta": 0.004078997831738144,
+        "kind": "acoustic",
+        "Gamma": 0.8337891180226633,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0018331072292186383,
+            "normalized": 0.8254781964789272,
+            "bracket_width": 4.927677189903168e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0018367142439944392,
+            "normalized": 0.8271024942855918,
+            "bracket_width": 4.927677189903168e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.001870273163102912,
+            "normalized": 0.8422146249781604,
+            "bracket_width": 4.927677189903168e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.7942158167005224,
+        "pressure_per_unit": 0.9999999999999994,
+        "cpu_s": 6.515625
+      }
+    },
+    {
+      "index": 8,
+      "seed": 41009,
+      "protocol": "global",
+      "severity": 100,
+      "replicate": 0,
+      "moves": [
+        {
+          "attempted": 231,
+          "accepted": 100
+        }
+      ],
+      "mc_cpu_s": 0.09375,
+      "moved_fraction": 0.06173725771715721,
+      "mean_excess": 0.008691952078007575,
+      "max_excess": 0.49432244640357703,
+      "euclidean_mean_excess": 0.008700866499478458,
+      "recentered_mean_excess": 0.008798612367849313,
+      "fitted_window_shift": [
+        0.020761337684674863,
+        -0.004489507023646028
+      ],
+      "recentered_objective": 0.0019178084130023006,
+      "internal_variance": 0.4146667771748978,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.7889058185624573,
+        "theta": 1.8824048785451282,
+        "kind": "acoustic",
+        "Gamma": 0.8324094072951096,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.001818518561025063,
+            "normalized": 0.8189086803494233,
+            "bracket_width": 4.894730454285678e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0018204435808047538,
+            "normalized": 0.8197755482721485,
+            "bracket_width": 4.894730454285678e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0018534767824082156,
+            "normalized": 0.8346509397652984,
+            "bracket_width": 4.894730454285678e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.7889058185624573,
+        "pressure_per_unit": 0.9999999999999953,
+        "cpu_s": 6.140625
+      }
+    },
+    {
+      "index": 9,
+      "seed": 41010,
+      "protocol": "global",
+      "severity": 100,
+      "replicate": 1,
+      "moves": [
+        {
+          "attempted": 242,
+          "accepted": 100
+        }
+      ],
+      "mc_cpu_s": 0.0625,
+      "moved_fraction": 0.06460875807609476,
+      "mean_excess": 0.008893325485270585,
+      "max_excess": 0.4036530425930088,
+      "euclidean_mean_excess": 0.008895360522135774,
+      "recentered_mean_excess": 0.008867542295713342,
+      "fitted_window_shift": [
+        -0.022713595251190544,
+        0.01409413246785524
+      ],
+      "recentered_objective": 0.0018215752972827542,
+      "internal_variance": 0.4148498272353523,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.7864853046918026,
+        "theta": 0.40998669187738024,
+        "kind": "acoustic",
+        "Gamma": 0.7905012608975509,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0017640629797673131,
+            "normalized": 0.7943864405762379,
+            "bracket_width": 4.879714254196754e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.001760123425629346,
+            "normalized": 0.7926123948505405,
+            "bracket_width": 4.879712085792409e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0017615355569287762,
+            "normalized": 0.7932483006937256,
+            "bracket_width": 4.879712085792409e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.7864853046918026,
+        "pressure_per_unit": 0.9999999999999974,
+        "cpu_s": 6.828125
+      }
+    },
+    {
+      "index": 10,
+      "seed": 41011,
+      "protocol": "global",
+      "severity": 100,
+      "replicate": 2,
+      "moves": [
+        {
+          "attempted": 216,
+          "accepted": 100
+        }
+      ],
+      "mc_cpu_s": 0.046875,
+      "moved_fraction": 0.06460875807609476,
+      "mean_excess": 0.009243709747052374,
+      "max_excess": 0.4928346080464343,
+      "euclidean_mean_excess": 0.009243758745384939,
+      "recentered_mean_excess": 0.009337016312168126,
+      "fitted_window_shift": [
+        0.022937570019891922,
+        -0.032168147381498265
+      ],
+      "recentered_objective": 0.0019399122278474592,
+      "internal_variance": 0.4164454843029581,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.7488740811862556,
+        "theta": 1.0594761728061493,
+        "kind": "acoustic",
+        "Gamma": 0.7490729881552581,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0016645767669262398,
+            "normalized": 0.7495861701711218,
+            "bracket_width": 4.646357083804009e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.00166619021438565,
+            "normalized": 0.7503127319770426,
+            "bracket_width": 4.646354915399664e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0016656342704995742,
+            "normalized": 0.7500623813433718,
+            "bracket_width": 4.646354915399664e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.7488740811862556,
+        "pressure_per_unit": 0.9999999999999984,
+        "cpu_s": 6.4375
+      }
+    },
+    {
+      "index": 11,
+      "seed": 41012,
+      "protocol": "global",
+      "severity": 100,
+      "replicate": 3,
+      "moves": [
+        {
+          "attempted": 246,
+          "accepted": 100
+        }
+      ],
+      "mc_cpu_s": 0.0625,
+      "moved_fraction": 0.06030150753768844,
+      "mean_excess": 0.007185255086128865,
+      "max_excess": 0.4512040633342522,
+      "euclidean_mean_excess": 0.0071852550861288625,
+      "recentered_mean_excess": 0.0070364759142042994,
+      "fitted_window_shift": [
+        -0.019015668151702,
+        -0.04038794246952773
+      ],
+      "recentered_objective": 0.001295454376278951,
+      "internal_variance": 0.408996330195061,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.787579216876128,
+        "theta": 1.4113023898096109,
+        "kind": "acoustic",
+        "Gamma": 0.796306852711083,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0017760269288052918,
+            "normalized": 0.7997740026987472,
+            "bracket_width": 4.886499191392168e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0017799961457059623,
+            "normalized": 0.801561406052121,
+            "bracket_width": 4.886499191392168e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.001780316518811192,
+            "normalized": 0.8017056753064723,
+            "bracket_width": 4.886501359796513e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.787579216876128,
+        "pressure_per_unit": 0.9999999999999971,
+        "cpu_s": 6.453125
+      }
+    },
+    {
+      "index": 12,
+      "seed": 41013,
+      "protocol": "global",
+      "severity": 300,
+      "replicate": 0,
+      "moves": [
+        {
+          "attempted": 771,
+          "accepted": 300
+        }
+      ],
+      "mc_cpu_s": 0.09375,
+      "moved_fraction": 0.14860014357501794,
+      "mean_excess": 0.02699269039483284,
+      "max_excess": 0.49938102740639945,
+      "euclidean_mean_excess": 0.027030933327219366,
+      "recentered_mean_excess": 0.026861333157749023,
+      "fitted_window_shift": [
+        -0.013854605435107883,
+        -0.010034661476518644
+      ],
+      "recentered_objective": 0.007501828468533541,
+      "internal_variance": 0.4758540022834662,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.6897206982167136,
+        "theta": 1.8053700863213564,
+        "kind": "acoustic",
+        "Gamma": 0.689816742402705,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0015339528526574187,
+            "normalized": 0.6907640830346232,
+            "bracket_width": 4.279341637991596e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0015347744985636886,
+            "normalized": 0.6911340836379928,
+            "bracket_width": 4.279339469587251e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.001534081563684266,
+            "normalized": 0.6908220437172364,
+            "bracket_width": 4.279339469587251e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.6897206982167136,
+        "pressure_per_unit": 0.9999999999999969,
+        "cpu_s": 6.5625
+      }
+    },
+    {
+      "index": 13,
+      "seed": 41014,
+      "protocol": "global",
+      "severity": 300,
+      "replicate": 1,
+      "moves": [
+        {
+          "attempted": 706,
+          "accepted": 300
+        }
+      ],
+      "mc_cpu_s": 0.109375,
+      "moved_fraction": 0.14860014357501794,
+      "mean_excess": 0.025582133725303848,
+      "max_excess": 0.49938102740639945,
+      "euclidean_mean_excess": 0.025618979482851665,
+      "recentered_mean_excess": 0.025402827788017612,
+      "fitted_window_shift": [
+        -0.037470892549487725,
+        -0.010995402149467867
+      ],
+      "recentered_objective": 0.006831697901219426,
+      "internal_variance": 0.4710591696186723,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.6975695221830184,
+        "theta": 1.720704203572736,
+        "kind": "acoustic",
+        "Gamma": 0.6976110114654175,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0015516842958459825,
+            "normalized": 0.6987488421970771,
+            "bracket_width": 4.328039662770955e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0015499648560531234,
+            "normalized": 0.697974550308125,
+            "bracket_width": 4.328039662770955e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0015510066435578391,
+            "normalized": 0.6984436842773766,
+            "bracket_width": 4.32803749436661e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.6975695221830184,
+        "pressure_per_unit": 0.9999999999999934,
+        "cpu_s": 7.1875
+      }
+    },
+    {
+      "index": 14,
+      "seed": 41015,
+      "protocol": "global",
+      "severity": 300,
+      "replicate": 2,
+      "moves": [
+        {
+          "attempted": 777,
+          "accepted": 300
+        }
+      ],
+      "mc_cpu_s": 0.09375,
+      "moved_fraction": 0.1457286432160804,
+      "mean_excess": 0.02515971080833718,
+      "max_excess": 0.4993810274063988,
+      "euclidean_mean_excess": 0.025197775782818076,
+      "recentered_mean_excess": 0.02488491045284387,
+      "fitted_window_shift": [
+        -0.019444276168349543,
+        -0.03122889743658273
+      ],
+      "recentered_objective": 0.006610186928715206,
+      "internal_variance": 0.46946377334939615,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.7032978281662561,
+        "theta": 2.5837834628350222,
+        "kind": "acoustic",
+        "Gamma": 0.7033865713385637,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0015639169739563748,
+            "normalized": 0.7042574174204579,
+            "bracket_width": 4.36357980998503e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0015635881092724115,
+            "normalized": 0.7041093242691809,
+            "bracket_width": 4.36357980998503e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0015637761097453565,
+            "normalized": 0.7041939839600436,
+            "bracket_width": 4.36357980998503e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.7032978281662561,
+        "pressure_per_unit": 0.9999999999999969,
+        "cpu_s": 7.6875
+      }
+    },
+    {
+      "index": 15,
+      "seed": 41016,
+      "protocol": "global",
+      "severity": 300,
+      "replicate": 3,
+      "moves": [
+        {
+          "attempted": 767,
+          "accepted": 300
+        }
+      ],
+      "mc_cpu_s": 0.09375,
+      "moved_fraction": 0.15147164393395549,
+      "mean_excess": 0.025617420210701305,
+      "max_excess": 0.4943224464035766,
+      "euclidean_mean_excess": 0.02566736760350348,
+      "recentered_mean_excess": 0.02570376985162862,
+      "fitted_window_shift": [
+        0.020528896662356282,
+        -0.0468797798112071
+      ],
+      "recentered_objective": 0.006619171594184963,
+      "internal_variance": 0.4715938026217847,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.6816340845111383,
+        "theta": 2.29956717592026,
+        "kind": "acoustic",
+        "Gamma": 0.681638203135929,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.001514651911417347,
+            "normalized": 0.6820725532041553,
+            "bracket_width": 4.229166929853312e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0015158926668673582,
+            "normalized": 0.6826312856966256,
+            "bracket_width": 4.229169098257657e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0015165112892761463,
+            "normalized": 0.6829098614952304,
+            "bracket_width": 4.229169098257657e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.6816340845111383,
+        "pressure_per_unit": 0.999999999999998,
+        "cpu_s": 9.71875
+      }
+    },
+    {
+      "index": 16,
+      "seed": 41017,
+      "protocol": "global",
+      "severity": 1000,
+      "replicate": 0,
+      "moves": [
+        {
+          "attempted": 2767,
+          "accepted": 1000
+        }
+      ],
+      "mc_cpu_s": 0.265625,
+      "moved_fraction": 0.24192390524048815,
+      "mean_excess": 0.05066551289235293,
+      "max_excess": 0.796224439674044,
+      "euclidean_mean_excess": 0.050822935934814344,
+      "recentered_mean_excess": 0.050093310926105035,
+      "fitted_window_shift": [
+        -0.05998793928027318,
+        0.007959269562722526
+      ],
+      "recentered_objective": 0.01565022373704976,
+      "internal_variance": 0.5533254661611833,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.6218474452471758,
+        "theta": 1.2311526221151914,
+        "kind": "acoustic",
+        "Gamma": 0.6218569960569112,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.001382139424477631,
+            "normalized": 0.6224000108747249,
+            "bracket_width": 3.8582245037721563e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0013825558847104643,
+            "normalized": 0.6225875497357499,
+            "bracket_width": 3.8582266721765013e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0013831663488211572,
+            "normalized": 0.6228624517191569,
+            "bracket_width": 3.8582245037721563e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.6218474452471758,
+        "pressure_per_unit": 0.999999999999994,
+        "cpu_s": 8.671875
+      }
+    },
+    {
+      "index": 17,
+      "seed": 41018,
+      "protocol": "global",
+      "severity": 1000,
+      "replicate": 1,
+      "moves": [
+        {
+          "attempted": 2793,
+          "accepted": 1000
+        }
+      ],
+      "mc_cpu_s": 0.171875,
+      "moved_fraction": 0.2684852835606604,
+      "mean_excess": 0.06261840880200958,
+      "max_excess": 0.8378549843862256,
+      "euclidean_mean_excess": 0.06288371447581913,
+      "recentered_mean_excess": 0.062454327451526334,
+      "fitted_window_shift": [
+        -0.002071292335540716,
+        0.027530888626082158
+      ],
+      "recentered_objective": 0.021541800222994727,
+      "internal_variance": 0.5946705309381428,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.6019026786611743,
+        "theta": 0.7670119812472215,
+        "kind": "acoustic",
+        "Gamma": 0.6019116436459117,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.001337118175243587,
+            "normalized": 0.6021262052682802,
+            "bracket_width": 3.734478004613351e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0013371657050675208,
+            "normalized": 0.6021476087261437,
+            "bracket_width": 3.734478004613351e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0013367400880849845,
+            "normalized": 0.6019559464308155,
+            "bracket_width": 3.734478004613351e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.6019026786611743,
+        "pressure_per_unit": 0.9999999999999922,
+        "cpu_s": 8.203125
+      }
+    },
+    {
+      "index": 18,
+      "seed": 41019,
+      "protocol": "global",
+      "severity": 1000,
+      "replicate": 2,
+      "moves": [
+        {
+          "attempted": 2796,
+          "accepted": 1000
+        }
+      ],
+      "mc_cpu_s": 0.28125,
+      "moved_fraction": 0.2555635319454415,
+      "mean_excess": 0.056144381386177694,
+      "max_excess": 0.7738365762259186,
+      "euclidean_mean_excess": 0.05641882613999809,
+      "recentered_mean_excess": 0.05598160206668737,
+      "fitted_window_shift": [
+        -0.03266390503917211,
+        -0.0003991638834669635
+      ],
+      "recentered_objective": 0.018562786088235455,
+      "internal_variance": 0.5734309238420086,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.5906094006084637,
+        "theta": 0.0071184075192706146,
+        "kind": "acoustic",
+        "Gamma": 0.5906452585864815,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0013125799897418969,
+            "normalized": 0.5910762586039847,
+            "bracket_width": 3.6644103550143026e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0013124000053056086,
+            "normalized": 0.590995208665665,
+            "bracket_width": 3.6644081866099576e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0013121728240074976,
+            "normalized": 0.5908929052077716,
+            "bracket_width": 3.6644103550143026e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.5906094006084637,
+        "pressure_per_unit": 0.9999999999999856,
+        "cpu_s": 9.125
+      }
+    },
+    {
+      "index": 19,
+      "seed": 41020,
+      "protocol": "global",
+      "severity": 1000,
+      "replicate": 3,
+      "moves": [
+        {
+          "attempted": 2685,
+          "accepted": 1000
+        }
+      ],
+      "mc_cpu_s": 0.234375,
+      "moved_fraction": 0.24766690595836324,
+      "mean_excess": 0.05444131718608834,
+      "max_excess": 0.6728206438946431,
+      "euclidean_mean_excess": 0.054689528333174364,
+      "recentered_mean_excess": 0.05420029845529629,
+      "fitted_window_shift": [
+        -0.025799960446854953,
+        0.016577026671150366
+      ],
+      "recentered_objective": 0.01745942240116498,
+      "internal_variance": 0.5673544495887739,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.6106535837935385,
+        "theta": 0.03482012848623237,
+        "kind": "acoustic",
+        "Gamma": 0.6106810956033464,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.001356434487466275,
+            "normalized": 0.61082465690387,
+            "bracket_width": 3.78877268100708e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0013565367460642453,
+            "normalized": 0.6108707056246876,
+            "bracket_width": 3.78877268100708e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0013566798805949134,
+            "normalized": 0.6109351614472093,
+            "bracket_width": 3.78877268100708e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.6106535837935385,
+        "pressure_per_unit": 0.9999999999999765,
+        "cpu_s": 7.96875
+      }
+    },
+    {
+      "index": 20,
+      "seed": 41021,
+      "protocol": "global",
+      "severity": 3000,
+      "replicate": 0,
+      "moves": [
+        {
+          "attempted": 8776,
+          "accepted": 3000
+        }
+      ],
+      "mc_cpu_s": 0.421875,
+      "moved_fraction": 0.34099066762383345,
+      "mean_excess": 0.08747746665978805,
+      "max_excess": 0.9430437556467879,
+      "euclidean_mean_excess": 0.08814707367839224,
+      "recentered_mean_excess": 0.08730932785957483,
+      "fitted_window_shift": [
+        -0.01456696221823246,
+        -0.02482069985399953
+      ],
+      "recentered_objective": 0.034886913890535914,
+      "internal_variance": 0.6765668439654392,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.5274927460048058,
+        "theta": 2.144540676833021,
+        "kind": "acoustic",
+        "Gamma": 0.527501439962042,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.001172020289777708,
+            "normalized": 0.5277799245027248,
+            "bracket_width": 3.272805203929918e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0011718328064844125,
+            "normalized": 0.5276954977063254,
+            "bracket_width": 3.272805203929918e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0011717550122350546,
+            "normalized": 0.527660465682212,
+            "bracket_width": 3.272805203929918e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.5274927460048058,
+        "pressure_per_unit": 0.9999999999999962,
+        "cpu_s": 7.59375
+      }
+    },
+    {
+      "index": 21,
+      "seed": 41022,
+      "protocol": "global",
+      "severity": 3000,
+      "replicate": 1,
+      "moves": [
+        {
+          "attempted": 8925,
+          "accepted": 3000
+        }
+      ],
+      "mc_cpu_s": 0.46875,
+      "moved_fraction": 0.3474515434314429,
+      "mean_excess": 0.09671322403307281,
+      "max_excess": 1.1175630772863359,
+      "euclidean_mean_excess": 0.09745881037326835,
+      "recentered_mean_excess": 0.09598054120103947,
+      "fitted_window_shift": [
+        0.00011955111023694419,
+        0.06929297923165617
+      ],
+      "recentered_objective": 0.04175384095011586,
+      "internal_variance": 0.7026204434721438,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.5577351211923534,
+        "theta": 0.64755375556679,
+        "kind": "acoustic",
+        "Gamma": 0.5577619661036358,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0012394745491508975,
+            "normalized": 0.5581556818423196,
+            "bracket_width": 3.4604415687089496e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0012393353085562555,
+            "normalized": 0.5580929795229409,
+            "bracket_width": 3.4604415687089496e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0012395435040051185,
+            "normalized": 0.5581867333420865,
+            "bracket_width": 3.4604437371132946e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.5577351211923534,
+        "pressure_per_unit": 0.9999999999999897,
+        "cpu_s": 8.1875
+      }
+    },
+    {
+      "index": 22,
+      "seed": 41023,
+      "protocol": "global",
+      "severity": 3000,
+      "replicate": 2,
+      "moves": [
+        {
+          "attempted": 8712,
+          "accepted": 3000
+        }
+      ],
+      "mc_cpu_s": 0.40625,
+      "moved_fraction": 0.33524766690595836,
+      "mean_excess": 0.09128319451770864,
+      "max_excess": 0.9938889829497529,
+      "euclidean_mean_excess": 0.0918466171573648,
+      "recentered_mean_excess": 0.09101683730721634,
+      "fitted_window_shift": [
+        -0.0018316219036543292,
+        0.031943869744507455
+      ],
+      "recentered_objective": 0.0385615847360474,
+      "internal_variance": 0.6859221962861954,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.5054928244164989,
+        "theta": 2.9235824950237053,
+        "kind": "acoustic",
+        "Gamma": 0.5055010998501664,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.001122671071514088,
+            "normalized": 0.5055571635858623,
+            "bracket_width": 3.136308487222683e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0011230165602537894,
+            "normalized": 0.5057127428216031,
+            "bracket_width": 3.136306318818338e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0011228988524360673,
+            "normalized": 0.5056597370642005,
+            "bracket_width": 3.136308487222683e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.5054928244164989,
+        "pressure_per_unit": 0.9999999999999902,
+        "cpu_s": 8.359375
+      }
+    },
+    {
+      "index": 23,
+      "seed": 41024,
+      "protocol": "global",
+      "severity": 3000,
+      "replicate": 3,
+      "moves": [
+        {
+          "attempted": 8714,
+          "accepted": 3000
+        }
+      ],
+      "mc_cpu_s": 0.46875,
+      "moved_fraction": 0.33094041636755206,
+      "mean_excess": 0.08455394613537336,
+      "max_excess": 1.0902299579991535,
+      "euclidean_mean_excess": 0.08500438180013714,
+      "recentered_mean_excess": 0.08289319785452162,
+      "fitted_window_shift": [
+        0.07005917018547171,
+        -0.02532510477007045
+      ],
+      "recentered_objective": 0.03287158086925577,
+      "internal_variance": 0.662105703415372,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.5276366355301157,
+        "theta": 1.9029750977096398,
+        "kind": "acoustic",
+        "Gamma": 0.527650051067065,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.001172345305821927,
+            "normalized": 0.527926284548516,
+            "bracket_width": 3.2736964181157013e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0011721997532879087,
+            "normalized": 0.5278607398594988,
+            "bracket_width": 3.2736985865200463e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0011722797480586357,
+            "normalized": 0.527896762814411,
+            "bracket_width": 3.2736964181157013e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.5276366355301157,
+        "pressure_per_unit": 0.9999999999999891,
+        "cpu_s": 7.765625
+      }
+    },
+    {
+      "index": 24,
+      "seed": 41025,
+      "protocol": "region",
+      "severity": 5.0,
+      "replicate": 0,
+      "moves": [
+        {
+          "attempted": 111440,
+          "accepted": 2269
+        }
+      ],
+      "mc_cpu_s": 3.765625,
+      "moved_fraction": 0.019382627422828428,
+      "mean_excess": 0.0043323732116392795,
+      "max_excess": 0.629702260825319,
+      "euclidean_mean_excess": 0.004359206820656125,
+      "recentered_mean_excess": 0.00546247516109531,
+      "fitted_window_shift": [
+        -0.0285162773576811,
+        0.0644542023611002
+      ],
+      "recentered_objective": 0.0014309950265408659,
+      "internal_variance": 0.39941496932735215,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.6581960590573976,
+        "theta": 2.0949345867251115,
+        "kind": "acoustic",
+        "Gamma": 0.6582445989267415,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.001462688528230299,
+            "normalized": 0.658672591023835,
+            "bracket_width": 4.083747229266521e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0014627864213851093,
+            "normalized": 0.6587166739141277,
+            "bracket_width": 4.083749397670866e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0014618944205789064,
+            "normalized": 0.658314991347486,
+            "bracket_width": 4.083747229266521e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.6581960590573976,
+        "pressure_per_unit": 0.9999999999999982,
+        "cpu_s": 6.609375
+      }
+    },
+    {
+      "index": 25,
+      "seed": 41026,
+      "protocol": "region",
+      "severity": 5.0,
+      "replicate": 1,
+      "moves": [
+        {
+          "attempted": 111440,
+          "accepted": 2287
+        }
+      ],
+      "mc_cpu_s": 2.171875,
+      "moved_fraction": 0.02799712849964106,
+      "mean_excess": 0.011325764166285954,
+      "max_excess": 1.05868859634539,
+      "euclidean_mean_excess": 0.011510962606695726,
+      "recentered_mean_excess": 0.015221372523676275,
+      "fitted_window_shift": [
+        -0.16597411044070598,
+        0.005429507567934524
+      ],
+      "recentered_objective": 0.005012663115088066,
+      "internal_variance": 0.4208772946243901,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.6021731226359727,
+        "theta": 0.15642246246197555,
+        "kind": "acoustic",
+        "Gamma": 0.6022050175846543,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0013373759726912897,
+            "normalized": 0.6022422956795745,
+            "bracket_width": 3.7361563495763583e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0013376111779165184,
+            "normalized": 0.6023482124432147,
+            "bracket_width": 3.7361563495763583e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0013376074877151174,
+            "normalized": 0.6023465506851088,
+            "bracket_width": 3.7361563495763583e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.6021731226359727,
+        "pressure_per_unit": 0.9999999999999916,
+        "cpu_s": 6.234375
+      }
+    },
+    {
+      "index": 26,
+      "seed": 41027,
+      "protocol": "region",
+      "severity": 5.0,
+      "replicate": 2,
+      "moves": [
+        {
+          "attempted": 111440,
+          "accepted": 2322
+        }
+      ],
+      "mc_cpu_s": 2.234375,
+      "moved_fraction": 0.02297200287150036,
+      "mean_excess": 0.006467319907059442,
+      "max_excess": 0.7857362593888461,
+      "euclidean_mean_excess": 0.006513102861779689,
+      "recentered_mean_excess": 0.007662661891094384,
+      "fitted_window_shift": [
+        -0.08849317399254741,
+        -0.039085538129028076
+      ],
+      "recentered_objective": 0.002401047627306355,
+      "internal_variance": 0.4060530995777422,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.659401163132804,
+        "theta": 1.1685184040462553,
+        "kind": "acoustic",
+        "Gamma": 0.6595525538573062,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0014654176395615397,
+            "normalized": 0.659901554536604,
+            "bracket_width": 4.091226055852326e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0014647857347334335,
+            "normalized": 0.6596169974471239,
+            "bracket_width": 4.091223887447981e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0014651166141862082,
+            "normalized": 0.6597659978817819,
+            "bracket_width": 4.091226055852326e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.659401163132804,
+        "pressure_per_unit": 0.999999999999999,
+        "cpu_s": 6.171875
+      }
+    },
+    {
+      "index": 27,
+      "seed": 41028,
+      "protocol": "region",
+      "severity": 5.0,
+      "replicate": 3,
+      "moves": [
+        {
+          "attempted": 111440,
+          "accepted": 2142
+        }
+      ],
+      "mc_cpu_s": 2.15625,
+      "moved_fraction": 0.01866475233309404,
+      "mean_excess": 0.003935508883623136,
+      "max_excess": 0.5775835358279396,
+      "euclidean_mean_excess": 0.0039586120017388315,
+      "recentered_mean_excess": 0.003977377369779318,
+      "fitted_window_shift": [
+        0.007676051329587131,
+        0.006295146383807469
+      ],
+      "recentered_objective": 0.0011902204321446487,
+      "internal_variance": 0.398326339938299,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.715266386696525,
+        "theta": 1.7680183405980323,
+        "kind": "acoustic",
+        "Gamma": 0.7153657715111313,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.001590299521636597,
+            "normalized": 0.7161379105691714,
+            "bracket_width": 4.437838985182907e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0015895384749878686,
+            "normalized": 0.7157951988035882,
+            "bracket_width": 4.437838985182907e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0015911072015329566,
+            "normalized": 0.7165016220496303,
+            "bracket_width": 4.437838985182907e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.715266386696525,
+        "pressure_per_unit": 0.9999999999999991,
+        "cpu_s": 6.265625
+      }
+    },
+    {
+      "index": 28,
+      "seed": 41029,
+      "protocol": "region",
+      "severity": 8.0,
+      "replicate": 0,
+      "moves": [
+        {
+          "attempted": 111440,
+          "accepted": 6159
+        }
+      ],
+      "mc_cpu_s": 2.765625,
+      "moved_fraction": 0.07753050969131371,
+      "mean_excess": 0.024261860364024522,
+      "max_excess": 1.05868859634539,
+      "euclidean_mean_excess": 0.024479001778258725,
+      "recentered_mean_excess": 0.025210929120740223,
+      "fitted_window_shift": [
+        -0.11010526503437243,
+        -0.06154315216204238
+      ],
+      "recentered_objective": 0.010553900736272848,
+      "internal_variance": 0.4634767493506365,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.5642141761338264,
+        "theta": 1.2786072498996557,
+        "kind": "acoustic",
+        "Gamma": 0.5642317621207994,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0012534563463934315,
+            "normalized": 0.5644519140470339,
+            "bracket_width": 3.500641616860367e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0012536142680347514,
+            "normalized": 0.5645230287475729,
+            "bracket_width": 3.500641616860367e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0012537066139084064,
+            "normalized": 0.5645646136063427,
+            "bracket_width": 3.500641616860367e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.5642141761338264,
+        "pressure_per_unit": 0.9999999999999893,
+        "cpu_s": 6.03125
+      }
+    },
+    {
+      "index": 29,
+      "seed": 41030,
+      "protocol": "region",
+      "severity": 8.0,
+      "replicate": 1,
+      "moves": [
+        {
+          "attempted": 111440,
+          "accepted": 6324
+        }
+      ],
+      "mc_cpu_s": 2.59375,
+      "moved_fraction": 0.057430007178750894,
+      "mean_excess": 0.014279009431717274,
+      "max_excess": 0.7863371687091604,
+      "euclidean_mean_excess": 0.014333465281303272,
+      "recentered_mean_excess": 0.014590046299932132,
+      "fitted_window_shift": [
+        -0.07299724766581119,
+        -0.02112689249817381
+      ],
+      "recentered_objective": 0.005187625596549349,
+      "internal_variance": 0.43132774270374186,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.6122078817490225,
+        "theta": 2.5063239850083003,
+        "kind": "acoustic",
+        "Gamma": 0.6122788610868876,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.001360338574807343,
+            "normalized": 0.6125827313502704,
+            "bracket_width": 3.798415575129166e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0013603838849762663,
+            "normalized": 0.612603135261143,
+            "bracket_width": 3.798415575129166e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0013599640452591876,
+            "normalized": 0.6124140745630342,
+            "bracket_width": 3.798415575129166e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.6122078817490225,
+        "pressure_per_unit": 0.9999999999999967,
+        "cpu_s": 6.296875
+      }
+    },
+    {
+      "index": 30,
+      "seed": 41031,
+      "protocol": "region",
+      "severity": 8.0,
+      "replicate": 2,
+      "moves": [
+        {
+          "attempted": 111440,
+          "accepted": 6087
+        }
+      ],
+      "mc_cpu_s": 3.21875,
+      "moved_fraction": 0.057430007178750894,
+      "mean_excess": 0.014874628392110074,
+      "max_excess": 1.1270834618715968,
+      "euclidean_mean_excess": 0.014990658583953782,
+      "recentered_mean_excess": 0.01706519516103371,
+      "fitted_window_shift": [
+        0.053529539886695704,
+        0.09146216324043775
+      ],
+      "recentered_objective": 0.005803640038466771,
+      "internal_variance": 0.43546424714672316,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.5319604878733686,
+        "theta": 0.3706951473414939,
+        "kind": "acoustic",
+        "Gamma": 0.5319672919413364,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0011815650426837171,
+            "normalized": 0.5320780830005492,
+            "bracket_width": 3.3005260850760276e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0011815272879784802,
+            "normalized": 0.5320610814386706,
+            "bracket_width": 3.3005239166716827e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0011815389444425485,
+            "normalized": 0.5320663305352772,
+            "bracket_width": 3.3005239166716827e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.5319604878733686,
+        "pressure_per_unit": 0.9999999999999932,
+        "cpu_s": 7.03125
+      }
+    },
+    {
+      "index": 31,
+      "seed": 41032,
+      "protocol": "region",
+      "severity": 8.0,
+      "replicate": 3,
+      "moves": [
+        {
+          "attempted": 111440,
+          "accepted": 5948
+        }
+      ],
+      "mc_cpu_s": 3.015625,
+      "moved_fraction": 0.0681981335247667,
+      "mean_excess": 0.025324701071119397,
+      "max_excess": 1.1292687973714952,
+      "euclidean_mean_excess": 0.025548389155548242,
+      "recentered_mean_excess": 0.027263823974713264,
+      "fitted_window_shift": [
+        -0.1892435048254293,
+        -0.06476652959320164
+      ],
+      "recentered_objective": 0.009719478366117473,
+      "internal_variance": 0.46207481542581,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.6613702813664225,
+        "theta": 2.093611577096716,
+        "kind": "acoustic",
+        "Gamma": 0.6614129237979384,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0014695809511376767,
+            "normalized": 0.6617763619000087,
+            "bracket_width": 4.103442845931893e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.001470380263523355,
+            "normalized": 0.662136305353417,
+            "bracket_width": 4.103442845931893e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0014696339791010118,
+            "normalized": 0.6618002412600587,
+            "bracket_width": 4.103442845931893e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.6613702813664225,
+        "pressure_per_unit": 0.9999999999999847,
+        "cpu_s": 6.390625
+      }
+    },
+    {
+      "index": 32,
+      "seed": 41033,
+      "protocol": "region",
+      "severity": 11.0,
+      "replicate": 0,
+      "moves": [
+        {
+          "attempted": 111440,
+          "accepted": 11782
+        }
+      ],
+      "mc_cpu_s": 3.375,
+      "moved_fraction": 0.14357501794687724,
+      "mean_excess": 0.04839057045374894,
+      "max_excess": 1.463800993426089,
+      "euclidean_mean_excess": 0.04874380429864296,
+      "recentered_mean_excess": 0.05100456779632333,
+      "fitted_window_shift": [
+        0.14096750569372443,
+        -0.03494082019324095
+      ],
+      "recentered_objective": 0.025526548373113654,
+      "internal_variance": 0.5439608126287676,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.5783542855194035,
+        "theta": 1.0856852927473233,
+        "kind": "acoustic",
+        "Gamma": 0.5783891898635513,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0012850395168823455,
+            "normalized": 0.5786743327897651,
+            "bracket_width": 3.588373088253549e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0012848789806002856,
+            "normalized": 0.5786020406736946,
+            "bracket_width": 3.588373088253549e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.001284940051841708,
+            "normalized": 0.5786295420535499,
+            "bracket_width": 3.588373088253549e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.5783542855194035,
+        "pressure_per_unit": 0.9999999999999871,
+        "cpu_s": 6.6875
+      }
+    },
+    {
+      "index": 33,
+      "seed": 41034,
+      "protocol": "region",
+      "severity": 11.0,
+      "replicate": 1,
+      "moves": [
+        {
+          "attempted": 111440,
+          "accepted": 11833
+        }
+      ],
+      "mc_cpu_s": 3.171875,
+      "moved_fraction": 0.1191672648959081,
+      "mean_excess": 0.034171434383508885,
+      "max_excess": 0.9106278935253901,
+      "euclidean_mean_excess": 0.034370790163206114,
+      "recentered_mean_excess": 0.035360551579578854,
+      "fitted_window_shift": [
+        0.11803631104702852,
+        0.03950041220275558
+      ],
+      "recentered_objective": 0.013162407754923052,
+      "internal_variance": 0.4967683456327538,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.5919392755120023,
+        "theta": 1.5006155417150326,
+        "kind": "acoustic",
+        "Gamma": 0.5920371317440462,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0013149622033101615,
+            "normalized": 0.5921490083747643,
+            "bracket_width": 3.6726589651425723e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0013151902674582872,
+            "normalized": 0.5922517093944731,
+            "bracket_width": 3.6726611335469173e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0013157721263546518,
+            "normalized": 0.5925137299815508,
+            "bracket_width": 3.6726611335469173e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.5919392755120023,
+        "pressure_per_unit": 0.9999999999999892,
+        "cpu_s": 6.796875
+      }
+    },
+    {
+      "index": 34,
+      "seed": 41035,
+      "protocol": "region",
+      "severity": 11.0,
+      "replicate": 2,
+      "moves": [
+        {
+          "attempted": 111440,
+          "accepted": 12054
+        }
+      ],
+      "mc_cpu_s": 3.28125,
+      "moved_fraction": 0.1363962670495334,
+      "mean_excess": 0.04271303487685455,
+      "max_excess": 0.9210227785782846,
+      "euclidean_mean_excess": 0.042979712248918424,
+      "recentered_mean_excess": 0.04312477616135003,
+      "fitted_window_shift": [
+        0.07726377478953894,
+        0.05895628661968284
+      ],
+      "recentered_objective": 0.01932606631276075,
+      "internal_variance": 0.5244186061020041,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.6365084724116631,
+        "theta": 0.37699146171868786,
+        "kind": "acoustic",
+        "Gamma": 0.6365242330149593,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.00141444273317343,
+            "normalized": 0.6369467196419345,
+            "bracket_width": 3.949186897639345e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.001413991640698879,
+            "normalized": 0.6367435853154738,
+            "bracket_width": 3.94918906604369e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.001414597667727185,
+            "normalized": 0.6370164892080392,
+            "bracket_width": 3.94918906604369e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.6365084724116631,
+        "pressure_per_unit": 0.9999999999999888,
+        "cpu_s": 6.5625
+      }
+    },
+    {
+      "index": 35,
+      "seed": 41036,
+      "protocol": "region",
+      "severity": 11.0,
+      "replicate": 3,
+      "moves": [
+        {
+          "attempted": 111440,
+          "accepted": 11737
+        }
+      ],
+      "mc_cpu_s": 3.921875,
+      "moved_fraction": 0.1306532663316583,
+      "mean_excess": 0.04357183286739844,
+      "max_excess": 1.5392048284582214,
+      "euclidean_mean_excess": 0.04399699846460652,
+      "recentered_mean_excess": 0.04730519824331922,
+      "fitted_window_shift": [
+        0.05357666292912959,
+        0.17787694394434467
+      ],
+      "recentered_objective": 0.02252968093281293,
+      "internal_variance": 0.526413188154251,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.4834432117609941,
+        "theta": 1.3684873241964377,
+        "kind": "acoustic",
+        "Gamma": 0.4834465086324271,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0010737091081146175,
+            "normalized": 0.4835087898743638,
+            "bracket_width": 2.9995016886941173e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0010736957216384074,
+            "normalized": 0.4835027617249665,
+            "bracket_width": 2.9995016886941173e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0010737272601991543,
+            "normalized": 0.48351696405521205,
+            "bracket_width": 2.9995016886941173e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.4834432117609941,
+        "pressure_per_unit": 0.9999999999999882,
+        "cpu_s": 7.359375
+      }
+    },
+    {
+      "index": 36,
+      "seed": 41037,
+      "protocol": "biased",
+      "severity": 3.0,
+      "replicate": 0,
+      "moves": [
+        {
+          "attempted": 41790,
+          "accepted": 13045
+        },
+        {
+          "attempted": 41790,
+          "accepted": 12775
+        },
+        {
+          "attempted": 41790,
+          "accepted": 12489
+        }
+      ],
+      "mc_cpu_s": 9.203125,
+      "moved_fraction": 0.4989231873653984,
+      "mean_excess": 0.20243768818162372,
+      "max_excess": 1.8681304219055606,
+      "euclidean_mean_excess": 0.20412437128345914,
+      "recentered_mean_excess": 0.2003884623736017,
+      "fitted_window_shift": [
+        -0.07605961723393652,
+        -0.007953012976574287
+      ],
+      "recentered_objective": 0.12881677803775526,
+      "internal_variance": 1.0484531366475454,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.44820767012477053,
+        "theta": 2.9951009937379025,
+        "kind": "near_Gamma_or_acoustic",
+        "Gamma": 0.4482156759573864,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0009953716095822723,
+            "normalized": 0.4482321317637989,
+            "bracket_width": 2.780885331038485e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0009955057474869255,
+            "normalized": 0.4482925362583356,
+            "bracket_width": 2.780885331038485e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0009954608634568664,
+            "normalized": 0.44827232424477015,
+            "bracket_width": 2.780885331038485e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.44820767012477053,
+        "pressure_per_unit": 0.9999999999999876,
+        "cpu_s": 10.15625
+      }
+    },
+    {
+      "index": 37,
+      "seed": 41038,
+      "protocol": "biased",
+      "severity": 3.0,
+      "replicate": 1,
+      "moves": [
+        {
+          "attempted": 41790,
+          "accepted": 13219
+        },
+        {
+          "attempted": 41790,
+          "accepted": 12530
+        },
+        {
+          "attempted": 41790,
+          "accepted": 12197
+        }
+      ],
+      "mc_cpu_s": 7.921875,
+      "moved_fraction": 0.48025843503230436,
+      "mean_excess": 0.1836669535176282,
+      "max_excess": 1.450337136426605,
+      "euclidean_mean_excess": 0.1854654525968059,
+      "recentered_mean_excess": 0.17459805158458028,
+      "fitted_window_shift": [
+        0.13932504574017948,
+        -0.039646384327085
+      ],
+      "recentered_objective": 0.10818084400878226,
+      "internal_variance": 0.9635388635637585,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.3696430273807125,
+        "theta": 1.8383165126375667,
+        "kind": "acoustic",
+        "Gamma": 0.3696516444234364,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0008209855031645452,
+            "normalized": 0.36970321303925313,
+            "bracket_width": 2.293433455299865e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0008210525432095046,
+            "normalized": 0.3697334022690608,
+            "bracket_width": 2.293433455299865e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0008210768125529744,
+            "normalized": 0.3697443311517567,
+            "bracket_width": 2.293433455299865e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.3696430273807125,
+        "pressure_per_unit": 0.9999999999999343,
+        "cpu_s": 9.453125
+      }
+    },
+    {
+      "index": 38,
+      "seed": 41039,
+      "protocol": "biased",
+      "severity": 3.0,
+      "replicate": 2,
+      "moves": [
+        {
+          "attempted": 41790,
+          "accepted": 13466
+        },
+        {
+          "attempted": 41790,
+          "accepted": 12753
+        },
+        {
+          "attempted": 41790,
+          "accepted": 12642
+        }
+      ],
+      "mc_cpu_s": 6.96875,
+      "moved_fraction": 0.5039483129935391,
+      "mean_excess": 0.2115931772804569,
+      "max_excess": 1.8681304219055606,
+      "euclidean_mean_excess": 0.21352981941498694,
+      "recentered_mean_excess": 0.2075929994063124,
+      "fitted_window_shift": [
+        0.12585777390834257,
+        0.03646628750380238
+      ],
+      "recentered_objective": 0.14244172369068242,
+      "internal_variance": 1.0740748827010613,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.36201137104203607,
+        "theta": 0.3314499250182205,
+        "kind": "acoustic",
+        "Gamma": 0.36201960020052415,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0008041387126704636,
+            "normalized": 0.36211682746843166,
+            "bracket_width": 2.2460830938209053e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0008040872686029618,
+            "normalized": 0.3620936613626065,
+            "bracket_width": 2.2460830938209053e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0008041990943526688,
+            "normalized": 0.36214401832848214,
+            "bracket_width": 2.2460830938209053e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.36201137104203607,
+        "pressure_per_unit": 0.9999999999999425,
+        "cpu_s": 9.234375
+      }
+    },
+    {
+      "index": 39,
+      "seed": 41040,
+      "protocol": "biased",
+      "severity": 3.0,
+      "replicate": 3,
+      "moves": [
+        {
+          "attempted": 41790,
+          "accepted": 13239
+        },
+        {
+          "attempted": 41790,
+          "accepted": 12877
+        },
+        {
+          "attempted": 41790,
+          "accepted": 12377
+        }
+      ],
+      "mc_cpu_s": 6.8125,
+      "moved_fraction": 0.49748743718592964,
+      "mean_excess": 0.20133083570426413,
+      "max_excess": 1.6201002864676706,
+      "euclidean_mean_excess": 0.20315593931028111,
+      "recentered_mean_excess": 0.18963104298331934,
+      "fitted_window_shift": [
+        0.10746416379914997,
+        0.15578282379612235
+      ],
+      "recentered_objective": 0.12112677957174613,
+      "internal_variance": 1.0128002240593474,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.4791579146216755,
+        "theta": 0.9961769915149288,
+        "kind": "acoustic",
+        "Gamma": 0.4791693739573262,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0010643238686023247,
+            "normalized": 0.47928246286924225,
+            "bracket_width": 2.972912714616083e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0010644684687503784,
+            "normalized": 0.47934757868326744,
+            "bracket_width": 2.972912714616083e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0010645541362339372,
+            "normalized": 0.47938615615364005,
+            "bracket_width": 2.972912714616083e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.4791579146216755,
+        "pressure_per_unit": 0.9999999999999778,
+        "cpu_s": 7.78125
+      }
+    },
+    {
+      "index": 40,
+      "seed": 41041,
+      "protocol": "biased",
+      "severity": 4.5,
+      "replicate": 0,
+      "moves": [
+        {
+          "attempted": 41790,
+          "accepted": 13125
+        },
+        {
+          "attempted": 41790,
+          "accepted": 12349
+        },
+        {
+          "attempted": 41790,
+          "accepted": 12048
+        }
+      ],
+      "mc_cpu_s": 7.046875,
+      "moved_fraction": 0.539124192390524,
+      "mean_excess": 0.2674037319043892,
+      "max_excess": 2.8672634949979128,
+      "euclidean_mean_excess": 0.2702635151559037,
+      "recentered_mean_excess": 0.267183671532551,
+      "fitted_window_shift": [
+        -0.07027792023403907,
+        -0.10665763138488248
+      ],
+      "recentered_objective": 0.23564024199855488,
+      "internal_variance": 1.2940779765016293,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.4127980011095524,
+        "theta": 1.3209592676155506,
+        "kind": "acoustic",
+        "Gamma": 0.412820981975122,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0009168289083286608,
+            "normalized": 0.41286306750832136,
+            "bracket_width": 2.5611869396147124e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0009171889827462198,
+            "normalized": 0.41302521491359423,
+            "bracket_width": 2.5611869396147124e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0009172838905919454,
+            "normalized": 0.41306795347033143,
+            "bracket_width": 2.5611869396147124e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.4127980011095524,
+        "pressure_per_unit": 0.9999999999999722,
+        "cpu_s": 8.28125
+      }
+    },
+    {
+      "index": 41,
+      "seed": 41042,
+      "protocol": "biased",
+      "severity": 4.5,
+      "replicate": 1,
+      "moves": [
+        {
+          "attempted": 41790,
+          "accepted": 13487
+        },
+        {
+          "attempted": 41790,
+          "accepted": 12267
+        },
+        {
+          "attempted": 41790,
+          "accepted": 11737
+        }
+      ],
+      "mc_cpu_s": 9.8125,
+      "moved_fraction": 0.5728643216080402,
+      "mean_excess": 0.3019092179925047,
+      "max_excess": 2.449470209518957,
+      "euclidean_mean_excess": 0.30515906257053443,
+      "recentered_mean_excess": 0.28434743238804444,
+      "fitted_window_shift": [
+        -0.1684919788861538,
+        -0.15080086470712703
+      ],
+      "recentered_objective": 0.25021372670164793,
+      "internal_variance": 1.3515999758254238,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.4155609194193915,
+        "theta": 2.1874745853665876,
+        "kind": "acoustic",
+        "Gamma": 0.4155715276142224,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0009231128831891434,
+            "normalized": 0.41569284426762265,
+            "bracket_width": 2.578329260163881e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0009231145980358141,
+            "normalized": 0.4156936164911535,
+            "bracket_width": 2.578329260163881e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0009230263111493135,
+            "normalized": 0.415653859460752,
+            "bracket_width": 2.578329260163881e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.4155609194193915,
+        "pressure_per_unit": 0.9999999999999631,
+        "cpu_s": 8.015625
+      }
+    },
+    {
+      "index": 42,
+      "seed": 41043,
+      "protocol": "biased",
+      "severity": 4.5,
+      "replicate": 2,
+      "moves": [
+        {
+          "attempted": 41790,
+          "accepted": 13262
+        },
+        {
+          "attempted": 41790,
+          "accepted": 12232
+        },
+        {
+          "attempted": 41790,
+          "accepted": 12275
+        }
+      ],
+      "mc_cpu_s": 8.75,
+      "moved_fraction": 0.5599425699928212,
+      "mean_excess": 0.3137579492903539,
+      "max_excess": 3.1571894696260396,
+      "euclidean_mean_excess": 0.3173447123789299,
+      "recentered_mean_excess": 0.2948065741130832,
+      "fitted_window_shift": [
+        -0.25884711179833475,
+        -0.2429981602705684
+      ],
+      "recentered_objective": 0.2782910463116075,
+      "internal_variance": 1.39723899221227,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.3637747854897911,
+        "theta": 2.345717181176814,
+        "kind": "acoustic",
+        "Gamma": 0.36378875497140994,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0008081034426130816,
+            "normalized": 0.3639022102711351,
+            "bracket_width": 2.257024862145629e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0008080768794679825,
+            "normalized": 0.363890248452012,
+            "bracket_width": 2.257024862145629e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0008081371512715229,
+            "normalized": 0.36391738983190075,
+            "bracket_width": 2.2570237779434565e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.3637747854897911,
+        "pressure_per_unit": 0.9999999999999749,
+        "cpu_s": 9.171875
+      }
+    },
+    {
+      "index": 43,
+      "seed": 41044,
+      "protocol": "biased",
+      "severity": 4.5,
+      "replicate": 3,
+      "moves": [
+        {
+          "attempted": 41790,
+          "accepted": 13273
+        },
+        {
+          "attempted": 41790,
+          "accepted": 12259
+        },
+        {
+          "attempted": 41790,
+          "accepted": 12128
+        }
+      ],
+      "mc_cpu_s": 7.265625,
+      "moved_fraction": 0.5405599425699928,
+      "mean_excess": 0.26343972147966627,
+      "max_excess": 2.6576229330798635,
+      "euclidean_mean_excess": 0.2660578497105442,
+      "recentered_mean_excess": 0.2587244348081386,
+      "fitted_window_shift": [
+        0.03242734109928637,
+        0.07509655565950737
+      ],
+      "recentered_objective": 0.22032792929704184,
+      "internal_variance": 1.2620309902314388,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.42368806130123604,
+        "theta": 0.4030235495563506,
+        "kind": "acoustic",
+        "Gamma": 0.4236930402608168,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0009410916568328425,
+            "normalized": 0.4237889803832549,
+            "bracket_width": 2.6287533348018366e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0009410478202641192,
+            "normalized": 0.4237692400586777,
+            "bracket_width": 2.6287533348018366e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0009411422075010502,
+            "normalized": 0.4238117441767514,
+            "bracket_width": 2.628754419004009e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.42368806130123604,
+        "pressure_per_unit": 0.9999999999999303,
+        "cpu_s": 10.640625
+      }
+    },
+    {
+      "index": 44,
+      "seed": 41045,
+      "protocol": "biased",
+      "severity": 6.0,
+      "replicate": 0,
+      "moves": [
+        {
+          "attempted": 41790,
+          "accepted": 13012
+        },
+        {
+          "attempted": 41790,
+          "accepted": 12111
+        },
+        {
+          "attempted": 41790,
+          "accepted": 11576
+        }
+      ],
+      "mc_cpu_s": 7.71875,
+      "moved_fraction": 0.5951184493898062,
+      "mean_excess": 0.3808107615071476,
+      "max_excess": 2.9490367460651328,
+      "euclidean_mean_excess": 0.3850160670916131,
+      "recentered_mean_excess": 0.37746645728472933,
+      "fitted_window_shift": [
+        -0.035241169840411375,
+        0.041541667669755776
+      ],
+      "recentered_objective": 0.4516407670942795,
+      "internal_variance": 1.7365472774993091,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.38127968457574096,
+        "theta": 0.5028094528901937,
+        "kind": "acoustic",
+        "Gamma": 0.3812950257358862,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.000846789864158229,
+            "normalized": 0.38132333925709416,
+            "bracket_width": 2.3656326463700195e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0008468809000915726,
+            "normalized": 0.3813643342282957,
+            "bracket_width": 2.3656326463700195e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0008468439957483912,
+            "normalized": 0.38134771559837266,
+            "bracket_width": 2.3656326463700195e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.38127968457574096,
+        "pressure_per_unit": 0.9999999999999676,
+        "cpu_s": 8.578125
+      }
+    },
+    {
+      "index": 45,
+      "seed": 41046,
+      "protocol": "biased",
+      "severity": 6.0,
+      "replicate": 1,
+      "moves": [
+        {
+          "attempted": 41790,
+          "accepted": 13044
+        },
+        {
+          "attempted": 41790,
+          "accepted": 11926
+        },
+        {
+          "attempted": 41790,
+          "accepted": 11371
+        }
+      ],
+      "mc_cpu_s": 8.03125,
+      "moved_fraction": 0.589375448671931,
+      "mean_excess": 0.369551610763109,
+      "max_excess": 2.8376089689280724,
+      "euclidean_mean_excess": 0.3738405580714741,
+      "recentered_mean_excess": 0.3673461874314575,
+      "fitted_window_shift": [
+        0.045444809350824164,
+        -0.09405182338082906
+      ],
+      "recentered_objective": 0.397325986726701,
+      "internal_variance": 1.668857453316119,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.3860392245799659,
+        "theta": 2.3084910446568365,
+        "kind": "acoustic",
+        "Gamma": 0.38604359932302024,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0008573810755982683,
+            "normalized": 0.3860927351651432,
+            "bracket_width": 2.395163060942007e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0008574237463860378,
+            "normalized": 0.386111950519471,
+            "bracket_width": 2.395163060942007e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0008573596003268616,
+            "normalized": 0.38608306449884117,
+            "bracket_width": 2.395163060942007e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.3860392245799659,
+        "pressure_per_unit": 0.9999999999999871,
+        "cpu_s": 8.34375
+      }
+    },
+    {
+      "index": 46,
+      "seed": 41047,
+      "protocol": "biased",
+      "severity": 6.0,
+      "replicate": 2,
+      "moves": [
+        {
+          "attempted": 41790,
+          "accepted": 13460
+        },
+        {
+          "attempted": 41790,
+          "accepted": 11996
+        },
+        {
+          "attempted": 41790,
+          "accepted": 11584
+        }
+      ],
+      "mc_cpu_s": 10.140625,
+      "moved_fraction": 0.5226130653266332,
+      "mean_excess": 0.32400520597221116,
+      "max_excess": 2.9490367460651328,
+      "euclidean_mean_excess": 0.3273333299140088,
+      "recentered_mean_excess": 0.3188223681177595,
+      "fitted_window_shift": [
+        0.06160679262845366,
+        0.08012672981284481
+      ],
+      "recentered_objective": 0.40025176999040524,
+      "internal_variance": 1.539730223402091,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.3442873028928517,
+        "theta": 2.0028023687127776,
+        "kind": "acoustic",
+        "Gamma": 0.3442940220694465,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.000764629906945778,
+            "normalized": 0.3443253654225636,
+            "bracket_width": 2.136115720072218e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0007646735855869874,
+            "normalized": 0.34434503462979577,
+            "bracket_width": 2.1361146358700456e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0007646357137611296,
+            "normalized": 0.3443279803265841,
+            "bracket_width": 2.1361146358700456e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.3442873028928517,
+        "pressure_per_unit": 0.9999999999999708,
+        "cpu_s": 7.90625
+      }
+    },
+    {
+      "index": 47,
+      "seed": 41048,
+      "protocol": "biased",
+      "severity": 6.0,
+      "replicate": 3,
+      "moves": [
+        {
+          "attempted": 41790,
+          "accepted": 13170
+        },
+        {
+          "attempted": 41790,
+          "accepted": 11822
+        },
+        {
+          "attempted": 41790,
+          "accepted": 11266
+        }
+      ],
+      "mc_cpu_s": 6.21875,
+      "moved_fraction": 0.5491744436468055,
+      "mean_excess": 0.35483040337577915,
+      "max_excess": 3.366830031544089,
+      "euclidean_mean_excess": 0.35941248721555613,
+      "recentered_mean_excess": 0.3552393900548704,
+      "fitted_window_shift": [
+        0.08499570811277507,
+        -0.045311255041798726
+      ],
+      "recentered_objective": 0.43545241592169803,
+      "internal_variance": 1.6657592352531267,
+      "mechanics": {
+        "acoustic_or_Gamma": 0.39379142219312685,
+        "theta": 2.809384711815116,
+        "kind": "acoustic",
+        "Gamma": 0.3938013112833138,
+        "finite_k": [
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.0008746788357508334,
+            "normalized": 0.3938821997563395,
+            "bracket_width": 2.4432615219199816e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0008746258367729814,
+            "normalized": 0.39385833344892707,
+            "bracket_width": 2.4432615219199816e-13,
+            "calls": 33
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.0008747038654959782,
+            "normalized": 0.39389347106035877,
+            "bracket_width": 2.4432615219199816e-13,
+            "calls": 33
+          }
+        ],
+        "minimum_sampled": 0.39379142219312685,
+        "pressure_per_unit": 0.9999999999999828,
+        "cpu_s": 8.671875
+      }
+    }
+  ],
+  "cpu_s": 492.96875,
+  "requested": 48,
+  "baseline_window": {
+    "moved_fraction": 0.0,
+    "mean_excess": 0.0,
+    "max_excess": 0.0,
+    "euclidean_mean_excess": 0.0,
+    "recentered_mean_excess": 0.0,
+    "fitted_window_shift": [
+      0.0,
+      0.0
+    ],
+    "recentered_objective": 0.0,
+    "internal_variance": 0.38500134051681134
+  },
+  "definition": "Primary excess = positive normalized facet violation, matching main. Euclidean and recentered controls also saved."
+}

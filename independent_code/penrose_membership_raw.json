@@ -1,0 +1,31 @@
+{
+  "source": "penrose_membership.py",
+  "rows": [
+    {
+      "seed": 5010001,
+      "success": true,
+      "margin": -0.17334521392891228,
+      "internal_shift": [
+        -0.15149901660541817,
+        -0.012778710106551504,
+        0.1298073988078314
+      ],
+      "regenerated_identical_lift_set": null,
+      "diagonal_offset": -9.71445146547012e-17
+    },
+    {
+      "seed": 5070001,
+      "success": true,
+      "margin": 0.00017259359311709626,
+      "internal_shift": [
+        -0.00021310026652933352,
+        -0.00031374670850510956,
+        0.000128487097520563
+      ],
+      "regenerated_identical_lift_set": true,
+      "regenerated_difference_count": 0,
+      "diagonal_offset": -8.326672684688674e-17
+    }
+  ],
+  "cpu_s": 1.703125
+}

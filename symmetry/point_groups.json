@@ -1,0 +1,88 @@
+{
+ "C8_AB": {
+  "N": 8,
+  "P_equivariant": true,
+  "m_int": 3,
+  "phason_charges_abs": [
+   2,
+   4
+  ],
+  "linear_4theta_split": true,
+  "linear_2theta": true,
+  "analytic_linear_isotropic": false
+ },
+ "C10_Penrose": {
+  "N": 10,
+  "P_equivariant": true,
+  "m_int": 7,
+  "phason_charges_abs": [
+   4,
+   2
+  ],
+  "linear_4theta_split": true,
+  "linear_2theta": true,
+  "analytic_linear_isotropic": false
+ },
+ "C12_dodecagonal": {
+  "N": 12,
+  "P_equivariant": true,
+  "m_int": 5,
+  "phason_charges_abs": [
+   4,
+   6
+  ],
+  "linear_4theta_split": true,
+  "linear_2theta": false,
+  "analytic_linear_isotropic": false
+ },
+ "Ih": {
+  "order": 60,
+  "conj_is_hom_sample": true,
+  "mult_A_in_T1xT2": -8.511709855459534e-17,
+  "mult_H_in_T1xT2": 1.0,
+  "G_part_norm": 1.0,
+  "G_dim": 4.0,
+  "mult_T1_in_T2": -7.031412489292658e-17
+ },
+ "Ih_coupling": {
+  "equivariant_map_rank": 9,
+  "trials": [
+   {
+    "iso_bulk": 2.3592239273284576e-16,
+    "iso_shear": 1.5265566588595902e-16,
+    "mean_trace_half": -0.0005489734849267431,
+    "mean_traceless_abs": 0.06449642193141263,
+    "mean_lower_branch_shift": -0.06504539541633936
+   },
+   {
+    "iso_bulk": 1.249000902703301e-16,
+    "iso_shear": -5.551115123125783e-17,
+    "mean_trace_half": 0.0004334564160372935,
+    "mean_traceless_abs": 0.06077913906458416,
+    "mean_lower_branch_shift": -0.06034568264854685
+   },
+   {
+    "iso_bulk": 2.0816681711721685e-17,
+    "iso_shear": -1.3877787807814457e-16,
+    "mean_trace_half": -0.0007757894742520844,
+    "mean_traceless_abs": 0.06260494193155747,
+    "mean_lower_branch_shift": -0.06338073140580956
+   },
+   {
+    "iso_bulk": -5.551115123125783e-17,
+    "iso_shear": -5.551115123125783e-17,
+    "mean_trace_half": -0.0011588900050238165,
+    "mean_traceless_abs": 0.07966849808703355,
+    "mean_lower_branch_shift": -0.08082738809205736
+   },
+   {
+    "iso_bulk": 1.3877787807814457e-17,
+    "iso_shear": -1.6653345369377348e-16,
+    "mean_trace_half": -0.0004748076089666513,
+    "mean_traceless_abs": 0.082338372976502,
+    "mean_lower_branch_shift": -0.08281318058546867
+   }
+  ],
+  "note": "dC linear (analytic) in phason strain; angular mean of trace part = 0 (no A in G+H) but mean of lower transverse branch = -<|traceless|> != 0: linear isotropic cusp of the stiffness of the softer polarisation. 2D has a single transverse polarisation, so no such term."
+ }
+}

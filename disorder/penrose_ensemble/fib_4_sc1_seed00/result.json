@@ -1,0 +1,174 @@
+{
+  "source_script": "penrose_ensemble.py",
+  "classification": "P",
+  "task": {
+    "name": "fib_4",
+    "supercell": 1,
+    "N": 644,
+    "mode": "canonical",
+    "seed": 0,
+    "phase_seed": 91501,
+    "tag": "fib_4_sc1_seed00"
+  },
+  "settings": {
+    "burn": 3000,
+    "spacing": 1500,
+    "samples": 2,
+    "block": 100,
+    "sub": 4
+  },
+  "N": 644,
+  "period_lifts": [
+    [
+      10,
+      8,
+      3,
+      -3,
+      -8
+    ],
+    [
+      0,
+      5,
+      8,
+      8,
+      5
+    ]
+  ],
+  "phason_components": {
+    "a": [
+      0.0015528100075709586,
+      8.760923199651399e-17
+    ],
+    "b": [
+      0.006577808748212544,
+      5.547477024761917e-17
+    ],
+    "v": [
+      0.0,
+      0.0
+    ],
+    "delta": 0.006758608351404452
+  },
+  "samples": [
+    {
+      "sweeps": 0,
+      "mechanics": {
+        "pc": 0.8060426265918225,
+        "acoustic_or_Gamma": 0.8060426265918225,
+        "kind": "acoustic",
+        "theta": 2.6870125580733832,
+        "finite_k": [
+          {
+            "k": [
+              0.0,
+              0.0
+            ],
+            "load": 0.001926115516238515,
+            "normalized": 0.8673613508318169,
+            "bracket_width": 6.563883551274907e-13,
+            "calls": 34
+          },
+          {
+            "k": [
+              0.5,
+              0.0
+            ],
+            "load": 0.001907807357923351,
+            "normalized": 0.8591168874060225,
+            "bracket_width": 6.563885719679252e-13,
+            "calls": 34
+          },
+          {
+            "k": [
+              0.0,
+              0.5
+            ],
+            "load": 0.0019739381399110642,
+            "normalized": 0.8888966612113047,
+            "bracket_width": 6.563885719679252e-13,
+            "calls": 34
+          },
+          {
+            "k": [
+              0.5,
+              0.5
+            ],
+            "load": 0.001998652206361564,
+            "normalized": 0.9000258099463272,
+            "bracket_width": 6.563881382870562e-13,
+            "calls": 34
+          }
+        ],
+        "sub": 4,
+        "cpu_s": 2.256316163
+      },
+      "heights": {
+        "internal_variance": 0.49430048533008614,
+        "low_modes": [
+          {
+            "k": [
+              1,
+              0
+            ],
+            "power": 0.0002915301529273685
+          },
+          {
+            "k": [
+              0,
+              1
+            ],
+            "power": 0.0005822672273001429
+          },
+          {
+            "k": [
+              1,
+              1
+            ],
+            "power": 0.0001942820978438844
+          }
+        ]
+      },
+      "cpu_s": 2.257141467,
+      "peak_rss_bytes": 151650304
+    }
+  ],
+  "diagnostics": [],
+  "invocations": [
+    {
+      "cpu_s": 2.298295721,
+      "wall_s": 2.3950653850333765,
+      "peak_rss_bytes": 151650304
+    }
+  ],
+  "completed_sweeps": 0,
+  "equilibration_certified": false,
+  "geometry": {
+    "vertices": 644,
+    "edges": 1288,
+    "faces": 644,
+    "degree_histogram": {
+      "3": 337,
+      "4": 64,
+      "5": 184,
+      "6": 24,
+      "7": 35
+    },
+    "square_faces": 0,
+    "rhombus_faces": 0,
+    "area": 523.1156655494195,
+    "edge_length_range": [
+      0.999999999999996,
+      1.0000000000000029
+    ],
+    "thin_faces_from_periods": 246,
+    "fat_faces_from_periods": 398,
+    "integer_layers": [
+      -1.0,
+      0.0,
+      1.0,
+      2.0
+    ]
+  },
+  "interpretation": "Acoustic/Gamma/three boundary Bloch points sampled; no full-zone or infinite-size certificate.",
+  "complete": true
+}

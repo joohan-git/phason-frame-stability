@@ -1,0 +1,198 @@
+{
+  "source": "penrose_offset_plateau.py",
+  "rows": [
+    {
+      "name": "fib_4",
+      "s": -0.1,
+      "V": 644,
+      "changed_vertices": 23,
+      "identical_integer_lift_set": false,
+      "identical_edge_table": false
+    },
+    {
+      "name": "fib_4",
+      "s": -0.01,
+      "V": 644,
+      "changed_vertices": 2,
+      "identical_integer_lift_set": false,
+      "identical_edge_table": false
+    },
+    {
+      "name": "fib_4",
+      "s": -0.001,
+      "V": 644,
+      "changed_vertices": 0,
+      "identical_integer_lift_set": true,
+      "identical_edge_table": true
+    },
+    {
+      "name": "fib_4",
+      "s": -0.0001,
+      "V": 644,
+      "changed_vertices": 0,
+      "identical_integer_lift_set": true,
+      "identical_edge_table": true
+    },
+    {
+      "name": "fib_4",
+      "s": -1e-05,
+      "V": 644,
+      "changed_vertices": 0,
+      "identical_integer_lift_set": true,
+      "identical_edge_table": true
+    },
+    {
+      "name": "fib_4",
+      "s": -1e-06,
+      "V": 644,
+      "changed_vertices": 0,
+      "identical_integer_lift_set": true,
+      "identical_edge_table": true
+    },
+    {
+      "name": "fib_4",
+      "s": 0.1,
+      "V": 644,
+      "changed_vertices": 24,
+      "identical_integer_lift_set": false,
+      "identical_edge_table": false
+    },
+    {
+      "name": "fib_4",
+      "s": 0.01,
+      "V": 644,
+      "changed_vertices": 4,
+      "identical_integer_lift_set": false,
+      "identical_edge_table": false
+    },
+    {
+      "name": "fib_4",
+      "s": 0.001,
+      "V": 644,
+      "changed_vertices": 0,
+      "identical_integer_lift_set": true,
+      "identical_edge_table": true
+    },
+    {
+      "name": "fib_4",
+      "s": 0.0001,
+      "V": 644,
+      "changed_vertices": 0,
+      "identical_integer_lift_set": true,
+      "identical_edge_table": true
+    },
+    {
+      "name": "fib_4",
+      "s": 1e-05,
+      "V": 644,
+      "changed_vertices": 0,
+      "identical_integer_lift_set": true,
+      "identical_edge_table": true
+    },
+    {
+      "name": "fib_4",
+      "s": 1e-06,
+      "V": 644,
+      "changed_vertices": 0,
+      "identical_integer_lift_set": true,
+      "identical_edge_table": true
+    },
+    {
+      "name": "fib_5",
+      "s": -0.1,
+      "V": 1686,
+      "changed_vertices": 77,
+      "identical_integer_lift_set": false,
+      "identical_edge_table": false
+    },
+    {
+      "name": "fib_5",
+      "s": -0.01,
+      "V": 1686,
+      "changed_vertices": 6,
+      "identical_integer_lift_set": false,
+      "identical_edge_table": false
+    },
+    {
+      "name": "fib_5",
+      "s": -0.001,
+      "V": 1686,
+      "changed_vertices": 1,
+      "identical_integer_lift_set": false,
+      "identical_edge_table": false
+    },
+    {
+      "name": "fib_5",
+      "s": -0.0001,
+      "V": 1686,
+      "changed_vertices": 0,
+      "identical_integer_lift_set": true,
+      "identical_edge_table": true
+    },
+    {
+      "name": "fib_5",
+      "s": -1e-05,
+      "V": 1686,
+      "changed_vertices": 0,
+      "identical_integer_lift_set": true,
+      "identical_edge_table": true
+    },
+    {
+      "name": "fib_5",
+      "s": -1e-06,
+      "V": 1686,
+      "changed_vertices": 0,
+      "identical_integer_lift_set": true,
+      "identical_edge_table": true
+    },
+    {
+      "name": "fib_5",
+      "s": 0.1,
+      "V": 1686,
+      "changed_vertices": 83,
+      "identical_integer_lift_set": false,
+      "identical_edge_table": false
+    },
+    {
+      "name": "fib_5",
+      "s": 0.01,
+      "V": 1686,
+      "changed_vertices": 7,
+      "identical_integer_lift_set": false,
+      "identical_edge_table": false
+    },
+    {
+      "name": "fib_5",
+      "s": 0.001,
+      "V": 1686,
+      "changed_vertices": 0,
+      "identical_integer_lift_set": true,
+      "identical_edge_table": true
+    },
+    {
+      "name": "fib_5",
+      "s": 0.0001,
+      "V": 1686,
+      "changed_vertices": 0,
+      "identical_integer_lift_set": true,
+      "identical_edge_table": true
+    },
+    {
+      "name": "fib_5",
+      "s": 1e-05,
+      "V": 1686,
+      "changed_vertices": 0,
+      "identical_integer_lift_set": true,
+      "identical_edge_table": true
+    },
+    {
+      "name": "fib_5",
+      "s": 1e-06,
+      "V": 1686,
+      "changed_vertices": 0,
+      "identical_integer_lift_set": true,
+      "identical_edge_table": true
+    }
+  ],
+  "cpu_s": 0.4375
+}

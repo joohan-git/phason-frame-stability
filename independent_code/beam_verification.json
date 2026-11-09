@@ -1,0 +1,28 @@
+{
+  "element_translation_residual": 4.046035655711836e-17,
+  "element_rotation_residual": 8.092099002507771e-17,
+  "columns": [
+    {
+      "elements": 1,
+      "pressure_over_EI": 12.0,
+      "relative_error": 0.2158542037080533
+    },
+    {
+      "elements": 2,
+      "pressure_over_EI": 9.943846796479768,
+      "relative_error": 0.007522327377398774
+    },
+    {
+      "elements": 4,
+      "pressure_over_EI": 9.874659025641208,
+      "relative_error": 0.0005121405424608483
+    },
+    {
+      "elements": 8,
+      "pressure_over_EI": 9.86992778939156,
+      "relative_error": 3.276608555524696e-05
+    }
+  ],
+  "bloch_K_hermiticity": 2.102346013170002e-18,
+  "bloch_H_hermiticity": 7.048358881006894e-16
+}

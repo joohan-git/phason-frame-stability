@@ -1,0 +1,77 @@
+{
+  "source_script": "law_ab_mc.py; law_features.py",
+  "mc": {
+    "attempted": 248,
+    "accepted": 100,
+    "cpu_s": 8.21875,
+    "seed": 550001,
+    "radius": -1
+  },
+  "geometry": {
+    "vertices": 1393,
+    "edges": 2786,
+    "faces": 1393,
+    "degree_histogram": {
+      "3": 570,
+      "4": 478,
+      "5": 193,
+      "6": 95,
+      "7": 41,
+      "8": 16
+    },
+    "square_faces": 577,
+    "rhombus_faces": 816,
+    "area": 1153.999133448223,
+    "edge_length_range": [
+      0.9999999999999973,
+      1.0000000000000036
+    ]
+  },
+  "reference_features": {
+    "x": {
+      "variance": 0.0,
+      "max_excess": 0.0,
+      "mean_excess": 0.0,
+      "max_gradient": 0.0,
+      "cluster": 0.0,
+      "symmetry_cluster": 0.0
+    },
+    "variance": 0.38500134051681134,
+    "max_excess": 0.0,
+    "mean_excess": 0.0,
+    "largest_cluster": 0,
+    "defects": 0,
+    "gradient_max": 0.06411156240302283,
+    "g4_max": 0.04509881505218113,
+    "sigma": 0.6204847625178328,
+    "variance_reference": 0.38500134051681134,
+    "gradient_reference": 0.06411156240302283,
+    "g4_reference": 0.04509881505218113,
+    "radius": 4.0,
+    "cpu_s": 0.1875
+  },
+  "disorder_features": {
+    "x": {
+      "variance": 0.03312359921809671,
+      "max_excess": 0.7942735064864224,
+      "mean_excess": 0.012170729953480376,
+      "max_gradient": 0.4547338012201626,
+      "cluster": 0.3217971471823412,
+      "symmetry_cluster": 0.1743107260798831
+    },
+    "variance": 0.41092901372869467,
+    "max_excess": 0.49283460804643414,
+    "mean_excess": 0.007551752484853945,
+    "largest_cluster": 2,
+    "defects": 80,
+    "gradient_max": 0.13465041106775383,
+    "g4_max": 0.0739753197041006,
+    "sigma": 0.6204847625178328,
+    "variance_reference": 0.38500134051681134,
+    "gradient_reference": 0.06411156240302283,
+    "g4_reference": 0.04509881505218113,
+    "radius": 4.0,
+    "cpu_s": 0.171875
+  },
+  "cpu_s": 8.96875
+}

@@ -1,0 +1,643 @@
+{
+  "source_script": "law_fit.py",
+  "model_lock_sha256": "4d36ee40fc6cf3c0adefdefdfe1f3f8e4bb05cde65e28eff75368664fe8e612d",
+  "metrics": {
+    "pooled": {
+      "n": 48,
+      "r2": 0.8482672897031285,
+      "mae": 0.06122656528171808,
+      "rmse": 0.07853179661298508,
+      "spearman": -0.9440946591402518,
+      "actual_range": [
+        0.4378329774294462,
+        1.000078675459141
+      ]
+    },
+    "ab_test": {
+      "n": 24,
+      "r2": 0.8733802000089833,
+      "mae": 0.05544104431032331,
+      "rmse": 0.07014317627715028,
+      "spearman": -0.9591304347826086,
+      "actual_range": [
+        0.44639828832959977,
+        1.0000235102912605
+      ]
+    },
+    "penrose_test": {
+      "n": 24,
+      "r2": 0.8245579802860009,
+      "mae": 0.06701208625311288,
+      "rmse": 0.08610703211863206,
+      "spearman": -0.9391304347826085,
+      "actual_range": [
+        0.4378329774294462,
+        1.000078675459141
+      ]
+    }
+  },
+  "predictions": [
+    {
+      "id": "penrose_test_uniform_0_0",
+      "kind": "penrose_test",
+      "protocol": "accepted",
+      "severity": 1,
+      "rep": 0,
+      "x": 0.02952662525448914,
+      "y": 1.0000197942990376,
+      "predicted_y": 0.9943358726120414
+    },
+    {
+      "id": "penrose_test_uniform_0_1",
+      "kind": "penrose_test",
+      "protocol": "accepted",
+      "severity": 1,
+      "rep": 1,
+      "x": 0.015488095443999043,
+      "y": 1.000078675459141,
+      "predicted_y": 0.9970248885517241
+    },
+    {
+      "id": "penrose_test_uniform_0_2",
+      "kind": "penrose_test",
+      "protocol": "accepted",
+      "severity": 1,
+      "rep": 2,
+      "x": 0.0021658046576163367,
+      "y": 0.9998067327532435,
+      "predicted_y": 0.9995834368253433
+    },
+    {
+      "id": "penrose_test_uniform_1_0",
+      "kind": "penrose_test",
+      "protocol": "accepted",
+      "severity": 30,
+      "rep": 0,
+      "x": 0.0911980168081263,
+      "y": 0.9971600644750431,
+      "predicted_y": 0.982608649099793
+    },
+    {
+      "id": "penrose_test_uniform_1_1",
+      "kind": "penrose_test",
+      "protocol": "accepted",
+      "severity": 30,
+      "rep": 1,
+      "x": 0.11371561366325737,
+      "y": 0.9974009210135815,
+      "predicted_y": 0.9783613350605996
+    },
+    {
+      "id": "penrose_test_uniform_1_2",
+      "kind": "penrose_test",
+      "protocol": "accepted",
+      "severity": 30,
+      "rep": 2,
+      "x": 0.14927816643034636,
+      "y": 0.9967951694102196,
+      "predicted_y": 0.9716908175690397
+    },
+    {
+      "id": "penrose_test_uniform_2_0",
+      "kind": "penrose_test",
+      "protocol": "accepted",
+      "severity": 300,
+      "rep": 0,
+      "x": 0.33276842999770023,
+      "y": 0.9782217625281537,
+      "predicted_y": 0.9379892109317209
+    },
+    {
+      "id": "penrose_test_uniform_2_1",
+      "kind": "penrose_test",
+      "protocol": "accepted",
+      "severity": 300,
+      "rep": 1,
+      "x": 0.28369802059551663,
+      "y": 0.9519926285281936,
+      "predicted_y": 0.9468857495461592
+    },
+    {
+      "id": "penrose_test_uniform_2_2",
+      "kind": "penrose_test",
+      "protocol": "accepted",
+      "severity": 300,
+      "rep": 2,
+      "x": 0.3413329673520333,
+      "y": 0.9789791848794889,
+      "predicted_y": 0.9364450374601012
+    },
+    {
+      "id": "penrose_test_uniform_3_0",
+      "kind": "penrose_test",
+      "protocol": "accepted",
+      "severity": 3000,
+      "rep": 0,
+      "x": 1.0938972690889408,
+      "y": 0.7058862058966504,
+      "predicted_y": 0.8102275466808565
+    },
+    {
+      "id": "penrose_test_uniform_3_1",
+      "kind": "penrose_test",
+      "protocol": "accepted",
+      "severity": 3000,
+      "rep": 1,
+      "x": 1.1062973601439623,
+      "y": 0.6884517397327254,
+      "predicted_y": 0.8082970634105399
+    },
+    {
+      "id": "penrose_test_uniform_3_2",
+      "kind": "penrose_test",
+      "protocol": "accepted",
+      "severity": 3000,
+      "rep": 2,
+      "x": 0.9831544278333721,
+      "y": 0.6605779854343602,
+      "predicted_y": 0.8276740788897003
+    },
+    {
+      "id": "penrose_test_uniform_4_0",
+      "kind": "penrose_test",
+      "protocol": "sweeps",
+      "severity": 200,
+      "rep": 0,
+      "x": 2.639075576551494,
+      "y": 0.5024124545013994,
+      "predicted_y": 0.6018806114454541
+    },
+    {
+      "id": "penrose_test_uniform_4_1",
+      "kind": "penrose_test",
+      "protocol": "sweeps",
+      "severity": 200,
+      "rep": 1,
+      "x": 2.5496623994706775,
+      "y": 0.48041804866607374,
+      "predicted_y": 0.6123231105191876
+    },
+    {
+      "id": "penrose_test_uniform_4_2",
+      "kind": "penrose_test",
+      "protocol": "sweeps",
+      "severity": 200,
+      "rep": 2,
+      "x": 2.6640386529133364,
+      "y": 0.48607278547941435,
+      "predicted_y": 0.5989971235666712
+    },
+    {
+      "id": "penrose_test_uniform_5_0",
+      "kind": "penrose_test",
+      "protocol": "sweeps",
+      "severity": 3000,
+      "rep": 0,
+      "x": 2.6484320644164416,
+      "y": 0.4378329774294462,
+      "predicted_y": 0.6007982196915933
+    },
+    {
+      "id": "penrose_test_uniform_5_1",
+      "kind": "penrose_test",
+      "protocol": "sweeps",
+      "severity": 3000,
+      "rep": 1,
+      "x": 2.5118121150414767,
+      "y": 0.44993927686554247,
+      "predicted_y": 0.6167980171604123
+    },
+    {
+      "id": "penrose_test_uniform_5_2",
+      "kind": "penrose_test",
+      "protocol": "sweeps",
+      "severity": 3000,
+      "rep": 2,
+      "x": 2.760352821261413,
+      "y": 0.5010075047499859,
+      "predicted_y": 0.5880007430527586
+    },
+    {
+      "id": "penrose_test_disc_0_0",
+      "kind": "penrose_test",
+      "protocol": "disc",
+      "severity": 4,
+      "rep": 0,
+      "x": 1.2407017926569899,
+      "y": 0.7236720480936578,
+      "predicted_y": 0.7876654050499905
+    },
+    {
+      "id": "penrose_test_disc_0_1",
+      "kind": "penrose_test",
+      "protocol": "disc",
+      "severity": 4,
+      "rep": 1,
+      "x": 0.7967019480933593,
+      "y": 0.8868333841261876,
+      "predicted_y": 0.857900848314587
+    },
+    {
+      "id": "penrose_test_disc_0_2",
+      "kind": "penrose_test",
+      "protocol": "disc",
+      "severity": 4,
+      "rep": 2,
+      "x": 0.7670956641730456,
+      "y": 0.9137886912248928,
+      "predicted_y": 0.8628010101115863
+    },
+    {
+      "id": "penrose_test_disc_1_0",
+      "kind": "penrose_test",
+      "protocol": "disc",
+      "severity": 7,
+      "rep": 0,
+      "x": 0.9384566916931814,
+      "y": 0.7529329948521324,
+      "predicted_y": 0.8348217652353089
+    },
+    {
+      "id": "penrose_test_disc_1_1",
+      "kind": "penrose_test",
+      "protocol": "disc",
+      "severity": 7,
+      "rep": 1,
+      "x": 1.3833872032981236,
+      "y": 0.7807554103010708,
+      "predicted_y": 0.7663385659329901
+    },
+    {
+      "id": "penrose_test_disc_1_2",
+      "kind": "penrose_test",
+      "protocol": "disc",
+      "severity": 7,
+      "rep": 2,
+      "x": 1.9732713747019235,
+      "y": 0.7442708394972244,
+      "predicted_y": 0.6841274294061686
+    },
+    {
+      "id": "ab_test_uniform_0_0",
+      "kind": "ab_test",
+      "protocol": "accepted",
+      "severity": 1,
+      "rep": 0,
+      "x": 0.0,
+      "y": 1.00001976586108,
+      "predicted_y": 1.0
+    },
+    {
+      "id": "ab_test_uniform_0_1",
+      "kind": "ab_test",
+      "protocol": "accepted",
+      "severity": 1,
+      "rep": 1,
+      "x": 0.05051531770455743,
+      "y": 1.0000075406576523,
+      "predicted_y": 0.9903291058111028
+    },
+    {
+      "id": "ab_test_uniform_0_2",
+      "kind": "ab_test",
+      "protocol": "accepted",
+      "severity": 1,
+      "rep": 2,
+      "x": 8.946416509247064e-17,
+      "y": 1.0000235102912605,
+      "predicted_y": 1.0
+    },
+    {
+      "id": "ab_test_uniform_1_0",
+      "kind": "ab_test",
+      "protocol": "accepted",
+      "severity": 30,
+      "rep": 0,
+      "x": 0.1653609275291594,
+      "y": 0.9991144831193616,
+      "predicted_y": 0.9686891050030393
+    },
+    {
+      "id": "ab_test_uniform_1_1",
+      "kind": "ab_test",
+      "protocol": "accepted",
+      "severity": 30,
+      "rep": 1,
+      "x": 0.2061716189542012,
+      "y": 0.9985816405231273,
+      "predicted_y": 0.9611136849603392
+    },
+    {
+      "id": "ab_test_uniform_1_2",
+      "kind": "ab_test",
+      "protocol": "accepted",
+      "severity": 30,
+      "rep": 2,
+      "x": 0.2200829637035365,
+      "y": 0.9990289286398469,
+      "predicted_y": 0.9585449758057984
+    },
+    {
+      "id": "ab_test_uniform_2_0",
+      "kind": "ab_test",
+      "protocol": "accepted",
+      "severity": 300,
+      "rep": 0,
+      "x": 0.5824415279853792,
+      "y": 0.9461822213736727,
+      "predicted_y": 0.8940012784606898
+    },
+    {
+      "id": "ab_test_uniform_2_1",
+      "kind": "ab_test",
+      "protocol": "accepted",
+      "severity": 300,
+      "rep": 1,
+      "x": 0.6074311986720217,
+      "y": 0.8909365292576509,
+      "predicted_y": 0.8897137478447482
+    },
+    {
+      "id": "ab_test_uniform_2_2",
+      "kind": "ab_test",
+      "protocol": "accepted",
+      "severity": 300,
+      "rep": 2,
+      "x": 0.7254315445809915,
+      "y": 0.9667140878702889,
+      "predicted_y": 0.8697443201332394
+    },
+    {
+      "id": "ab_test_uniform_3_0",
+      "kind": "ab_test",
+      "protocol": "accepted",
+      "severity": 3000,
+      "rep": 0,
+      "x": 1.5274760638098142,
+      "y": 0.6962588904132503,
+      "predicted_y": 0.7453878975537671
+    },
+    {
+      "id": "ab_test_uniform_3_1",
+      "kind": "ab_test",
+      "protocol": "accepted",
+      "severity": 3000,
+      "rep": 1,
+      "x": 1.6458470537779868,
+      "y": 0.6605916086020475,
+      "predicted_y": 0.7286058777442602
+    },
+    {
+      "id": "ab_test_uniform_3_2",
+      "kind": "ab_test",
+      "protocol": "accepted",
+      "severity": 3000,
+      "rep": 2,
+      "x": 1.6278479141142959,
+      "y": 0.6863045533038096,
+      "predicted_y": 0.7311331300022141
+    },
+    {
+      "id": "ab_test_uniform_4_0",
+      "kind": "ab_test",
+      "protocol": "sweeps",
+      "severity": 200,
+      "rep": 0,
+      "x": 3.327186154589701,
+      "y": 0.4948361352938043,
+      "predicted_y": 0.5272542014760527
+    },
+    {
+      "id": "ab_test_uniform_4_1",
+      "kind": "ab_test",
+      "protocol": "sweeps",
+      "severity": 200,
+      "rep": 1,
+      "x": 2.8388525138693375,
+      "y": 0.5554065810718553,
+      "predicted_y": 0.5791877633146673
+    },
+    {
+      "id": "ab_test_uniform_4_2",
+      "kind": "ab_test",
+      "protocol": "sweeps",
+      "severity": 200,
+      "rep": 2,
+      "x": 2.7972137983134466,
+      "y": 0.5094763186957194,
+      "predicted_y": 0.5838458690501558
+    },
+    {
+      "id": "ab_test_uniform_5_0",
+      "kind": "ab_test",
+      "protocol": "sweeps",
+      "severity": 3000,
+      "rep": 0,
+      "x": 2.792353856414911,
+      "y": 0.44639828832959977,
+      "predicted_y": 0.5843919844037203
+    },
+    {
+      "id": "ab_test_uniform_5_1",
+      "kind": "ab_test",
+      "protocol": "sweeps",
+      "severity": 3000,
+      "rep": 1,
+      "x": 2.8199004159809675,
+      "y": 0.4523783519115526,
+      "predicted_y": 0.5813033005665914
+    },
+    {
+      "id": "ab_test_uniform_5_2",
+      "kind": "ab_test",
+      "protocol": "sweeps",
+      "severity": 3000,
+      "rep": 2,
+      "x": 2.451686440591951,
+      "y": 0.5590383285090416,
+      "predicted_y": 0.6239737969908034
+    },
+    {
+      "id": "ab_test_disc_0_0",
+      "kind": "ab_test",
+      "protocol": "disc",
+      "severity": 4,
+      "rep": 0,
+      "x": 0.9182702348236945,
+      "y": 0.8617979665303312,
+      "predicted_y": 0.8380700153799924
+    },
+    {
+      "id": "ab_test_disc_0_1",
+      "kind": "ab_test",
+      "protocol": "disc",
+      "severity": 4,
+      "rep": 1,
+      "x": 0.582511049874092,
+      "y": 0.9797797745723532,
+      "predicted_y": 0.8939893218287615
+    },
+    {
+      "id": "ab_test_disc_0_2",
+      "kind": "ab_test",
+      "protocol": "disc",
+      "severity": 4,
+      "rep": 2,
+      "x": 1.2458560062638262,
+      "y": 0.9249860626302859,
+      "predicted_y": 0.7868847827523001
+    },
+    {
+      "id": "ab_test_disc_1_0",
+      "kind": "ab_test",
+      "protocol": "disc",
+      "severity": 7,
+      "rep": 0,
+      "x": 1.521611926916505,
+      "y": 0.807537425659302,
+      "predicted_y": 0.7462292607119546
+    },
+    {
+      "id": "ab_test_disc_1_1",
+      "kind": "ab_test",
+      "protocol": "disc",
+      "severity": 7,
+      "rep": 1,
+      "x": 1.7915636138534248,
+      "y": 0.8310311031072376,
+      "predicted_y": 0.7084648932612699
+    },
+    {
+      "id": "ab_test_disc_1_2",
+      "kind": "ab_test",
+      "protocol": "disc",
+      "severity": 7,
+      "rep": 2,
+      "x": 1.1541071077505969,
+      "y": 0.7946731065648827,
+      "predicted_y": 0.8008968569008745
+    }
+  ],
+  "per_protocol": {
+    "ab_test_accepted": {
+      "n": 12,
+      "r2": 0.8800192619230955,
+      "mae": 0.03587036187967651,
+      "rmse": 0.04586107472588978,
+      "spearman": -0.965034965034965,
+      "actual_range": [
+        0.6605916086020475,
+        1.0000235102912605
+      ]
+    },
+    "ab_test_disc": {
+      "n": 6,
+      "r2": -0.7507539899159281,
+      "mae": 0.0729529681502039,
+      "rmse": 0.08738314378370578,
+      "spearman": -0.48571428571428577,
+      "actual_range": [
+        0.7946731065648827,
+        0.9797797745723532
+      ]
+    },
+    "ab_test_sweeps": {
+      "n": 6,
+      "r2": -2.9984191267080686,
+      "mae": 0.07707048533173631,
+      "rmse": 0.08853231356650759,
+      "spearman": -0.14285714285714288,
+      "actual_range": [
+        0.44639828832959977,
+        0.5590383285090416
+      ]
+    },
+    "penrose_test_accepted": {
+      "n": 12,
+      "r2": 0.7258343505014092,
+      "mae": 0.04556772446724506,
+      "rmse": 0.06944492662958043,
+      "spearman": -0.9230769230769231,
+      "actual_range": [
+        0.6605779854343602,
+        1.000078675459141
+      ]
+    },
+    "penrose_test_disc": {
+      "n": 6,
+      "r2": 0.43561430287952874,
+      "mae": 0.05006043312059214,
+      "rmse": 0.05486776661836679,
+      "spearman": -0.7142857142857143,
+      "actual_range": [
+        0.7236720480936578,
+        0.9137886912248928
+      ]
+    },
+    "penrose_test_sweeps": {
+      "n": 6,
+      "r2": -27.49990349626197,
+      "mae": 0.12685246295736918,
+      "rmse": 0.13039178056247774,
+      "spearman": 0.3714285714285715,
+      "actual_range": [
+        0.4378329774294462,
+        0.5024124545013994
+      ]
+    }
+  },
+  "gate_checks": {
+    "pooled_r2": true,
+    "ab_r2": true,
+    "penrose_r2": true,
+    "pooled_mae": true
+  },
+  "primary_pass": true,
+  "secondary_spearman_pass": true,
+  "bootstrap_ci95": {
+    "pooled": {
+      "r2": [
+        0.8367601914283452,
+        0.8646420195453446
+      ],
+      "mae": [
+        0.05759720569405997,
+        0.06461612533102362
+      ],
+      "spearman": [
+        -0.9551979121357111,
+        -0.9388309430682312
+      ]
+    },
+    "ab_test": {
+      "r2": [
+        0.849383977938597,
+        0.9079486802952207
+      ],
+      "mae": [
+        0.04840037154811966,
+        0.05968077930648289
+      ],
+      "spearman": [
+        -0.9761904761904762,
+        -0.9502617801047121
+      ]
+    },
+    "penrose_test": {
+      "r2": [
+        0.821355131530233,
+        0.8288095792164387
+      ],
+      "mae": [
+        0.06114484473098907,
+        0.07164059449857456
+      ],
+      "spearman": [
+        -0.9761904761904762,
+        -0.9391304347826085
+      ]
+    }
+  },
+  "bootstrap_note": "Whole replicate blocks, independently within each class; three blocks per class limit interval resolution.",
+  "cpu_s": 2.453125
+}

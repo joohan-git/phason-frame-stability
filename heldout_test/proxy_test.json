@@ -1,0 +1,78 @@
+{
+ "ab_rect": {
+  "partial_deficit_K_given_lam_lin": [
+   -0.4429745462109727,
+   0.0178982101789821
+  ],
+  "partial_deficit_K_given_firstorder_pred": [
+   -0.4429745462109721,
+   0.018098190180981903
+  ],
+  "partial_deficit_K_given_cT_g": [
+   -0.3617888029042137,
+   0.06159384061593841
+  ],
+  "spearman_residual_vs_K": [
+   0.15615763546798028,
+   0.41435856414358563
+  ],
+  "rms_residual_over_rms_deficit": 0.031230690842377735
+ },
+ "ab_circ": {
+  "partial_deficit_K_given_lam_lin": [
+   -0.22094408663149656,
+   0.2512748725127487
+  ],
+  "partial_deficit_K_given_firstorder_pred": [
+   -0.2209440866314961,
+   0.26277372262773724
+  ],
+  "partial_deficit_K_given_cT_g": [
+   -0.5155308756710479,
+   0.005599440055994401
+  ],
+  "spearman_residual_vs_K": [
+   0.2881773399014778,
+   0.12368763123687632
+  ],
+  "rms_residual_over_rms_deficit": 0.03824588326562868
+ },
+ "pen_rect": {
+  "partial_deficit_K_given_lam_lin": [
+   -0.3573998462426892,
+   0.1536846315368463
+  ],
+  "partial_deficit_K_given_firstorder_pred": [
+   -0.357399846242689,
+   0.16428357164283572
+  ],
+  "partial_deficit_K_given_cT_g": [
+   -0.4369641102545278,
+   0.0827917208279172
+  ],
+  "spearman_residual_vs_K": [
+   -0.3312693498452013,
+   0.1780821917808219
+  ],
+  "rms_residual_over_rms_deficit": 0.014677270031499793
+ },
+ "pen_circ": {
+  "partial_deficit_K_given_lam_lin": [
+   -0.6096446898450841,
+   0.0117988201179882
+  ],
+  "partial_deficit_K_given_firstorder_pred": [
+   -0.3967643469349402,
+   0.12048795120487951
+  ],
+  "partial_deficit_K_given_cT_g": [
+   -0.344741552233715,
+   0.19468053194680532
+  ],
+  "spearman_residual_vs_K": [
+   -0.5294117647058824,
+   0.0268973102689731
+  ],
+  "rms_residual_over_rms_deficit": 0.013106604774249308
+ }
+}

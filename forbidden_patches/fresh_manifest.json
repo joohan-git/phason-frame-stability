@@ -1,0 +1,5358 @@
+{
+  "role": "prospective independent replication, not part of primary cohort",
+  "seed": 866108,
+  "rows": [
+    {
+      "id": "fresh_AB_approximant_00_0",
+      "symmetry": "AB",
+      "family": "approximant",
+      "group": "fresh_AB_approximant_00",
+      "rep": 0,
+      "L": [
+        [
+          21,
+          17,
+          3,
+          -13
+        ],
+        [
+          -1,
+          12,
+          17,
+          13
+        ]
+      ],
+      "N_expected": 1779,
+      "delta": 0.01586914612578841,
+      "phase_seed": 866000000,
+      "mc_seed": 866000023,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_approximant_00_1",
+      "symmetry": "AB",
+      "family": "approximant",
+      "group": "fresh_AB_approximant_00",
+      "rep": 1,
+      "L": [
+        [
+          21,
+          17,
+          3,
+          -13
+        ],
+        [
+          -1,
+          12,
+          17,
+          13
+        ]
+      ],
+      "N_expected": 1779,
+      "delta": 0.01586914612578841,
+      "phase_seed": 866000101,
+      "mc_seed": 866000124,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_approximant_01_0",
+      "symmetry": "AB",
+      "family": "approximant",
+      "group": "fresh_AB_approximant_01",
+      "rep": 0,
+      "L": [
+        [
+          14,
+          14,
+          6,
+          -5
+        ],
+        [
+          -3,
+          13,
+          20,
+          16
+        ]
+      ],
+      "N_expected": 1418,
+      "delta": 0.02630242853972108,
+      "phase_seed": 866000202,
+      "mc_seed": 866000225,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_approximant_01_1",
+      "symmetry": "AB",
+      "family": "approximant",
+      "group": "fresh_AB_approximant_01",
+      "rep": 1,
+      "L": [
+        [
+          14,
+          14,
+          6,
+          -5
+        ],
+        [
+          -3,
+          13,
+          20,
+          16
+        ]
+      ],
+      "N_expected": 1418,
+      "delta": 0.02630242853972108,
+      "phase_seed": 866000303,
+      "mc_seed": 866000326,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_approximant_02_0",
+      "symmetry": "AB",
+      "family": "approximant",
+      "group": "fresh_AB_approximant_02",
+      "rep": 0,
+      "L": [
+        [
+          15,
+          10,
+          -2,
+          -12
+        ],
+        [
+          2,
+          11,
+          13,
+          7
+        ]
+      ],
+      "N_expected": 969,
+      "delta": 0.02961455672034325,
+      "phase_seed": 866000404,
+      "mc_seed": 866000427,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_approximant_02_1",
+      "symmetry": "AB",
+      "family": "approximant",
+      "group": "fresh_AB_approximant_02",
+      "rep": 1,
+      "L": [
+        [
+          15,
+          10,
+          -2,
+          -12
+        ],
+        [
+          2,
+          11,
+          13,
+          7
+        ]
+      ],
+      "N_expected": 969,
+      "delta": 0.02961455672034325,
+      "phase_seed": 866000505,
+      "mc_seed": 866000528,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_approximant_03_0",
+      "symmetry": "AB",
+      "family": "approximant",
+      "group": "fresh_AB_approximant_03",
+      "rep": 0,
+      "L": [
+        [
+          19,
+          15,
+          2,
+          -12
+        ],
+        [
+          -4,
+          7,
+          14,
+          12
+        ]
+      ],
+      "N_expected": 1299,
+      "delta": 0.018527319944955038,
+      "phase_seed": 866000606,
+      "mc_seed": 866000629,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_approximant_03_1",
+      "symmetry": "AB",
+      "family": "approximant",
+      "group": "fresh_AB_approximant_03",
+      "rep": 1,
+      "L": [
+        [
+          19,
+          15,
+          2,
+          -12
+        ],
+        [
+          -4,
+          7,
+          14,
+          12
+        ]
+      ],
+      "N_expected": 1299,
+      "delta": 0.018527319944955038,
+      "phase_seed": 866000707,
+      "mc_seed": 866000730,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_approximant_04_0",
+      "symmetry": "AB",
+      "family": "approximant",
+      "group": "fresh_AB_approximant_04",
+      "rep": 0,
+      "L": [
+        [
+          14,
+          15,
+          6,
+          -6
+        ],
+        [
+          -3,
+          12,
+          20,
+          16
+        ]
+      ],
+      "N_expected": 1473,
+      "delta": 0.0217055611293034,
+      "phase_seed": 866000808,
+      "mc_seed": 866000831,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_approximant_04_1",
+      "symmetry": "AB",
+      "family": "approximant",
+      "group": "fresh_AB_approximant_04",
+      "rep": 1,
+      "L": [
+        [
+          14,
+          15,
+          6,
+          -6
+        ],
+        [
+          -3,
+          12,
+          20,
+          16
+        ]
+      ],
+      "N_expected": 1473,
+      "delta": 0.0217055611293034,
+      "phase_seed": 866000909,
+      "mc_seed": 866000932,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_approximant_05_0",
+      "symmetry": "AB",
+      "family": "approximant",
+      "group": "fresh_AB_approximant_05",
+      "rep": 0,
+      "L": [
+        [
+          18,
+          12,
+          0,
+          -13
+        ],
+        [
+          -2,
+          10,
+          17,
+          13
+        ]
+      ],
+      "N_expected": 1429,
+      "delta": 0.023734494390977516,
+      "phase_seed": 866001010,
+      "mc_seed": 866001033,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_approximant_05_1",
+      "symmetry": "AB",
+      "family": "approximant",
+      "group": "fresh_AB_approximant_05",
+      "rep": 1,
+      "L": [
+        [
+          18,
+          12,
+          0,
+          -13
+        ],
+        [
+          -2,
+          10,
+          17,
+          13
+        ]
+      ],
+      "N_expected": 1429,
+      "delta": 0.023734494390977516,
+      "phase_seed": 866001111,
+      "mc_seed": 866001134,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_approximant_06_0",
+      "symmetry": "AB",
+      "family": "approximant",
+      "group": "fresh_AB_approximant_06",
+      "rep": 0,
+      "L": [
+        [
+          14,
+          13,
+          4,
+          -8
+        ],
+        [
+          -1,
+          14,
+          21,
+          16
+        ]
+      ],
+      "N_expected": 1492,
+      "delta": 0.026166364787650366,
+      "phase_seed": 866001212,
+      "mc_seed": 866001235,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_approximant_06_1",
+      "symmetry": "AB",
+      "family": "approximant",
+      "group": "fresh_AB_approximant_06",
+      "rep": 1,
+      "L": [
+        [
+          14,
+          13,
+          4,
+          -8
+        ],
+        [
+          -1,
+          14,
+          21,
+          16
+        ]
+      ],
+      "N_expected": 1492,
+      "delta": 0.026166364787650366,
+      "phase_seed": 866001313,
+      "mc_seed": 866001336,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_approximant_07_0",
+      "symmetry": "AB",
+      "family": "approximant",
+      "group": "fresh_AB_approximant_07",
+      "rep": 0,
+      "L": [
+        [
+          13,
+          9,
+          -1,
+          -10
+        ],
+        [
+          1,
+          16,
+          21,
+          14
+        ]
+      ],
+      "N_expected": 1352,
+      "delta": 0.016071018606922158,
+      "phase_seed": 866001414,
+      "mc_seed": 866001437,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_approximant_07_1",
+      "symmetry": "AB",
+      "family": "approximant",
+      "group": "fresh_AB_approximant_07",
+      "rep": 1,
+      "L": [
+        [
+          13,
+          9,
+          -1,
+          -10
+        ],
+        [
+          1,
+          16,
+          21,
+          14
+        ]
+      ],
+      "N_expected": 1352,
+      "delta": 0.016071018606922158,
+      "phase_seed": 866001515,
+      "mc_seed": 866001538,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_approximant_08_0",
+      "symmetry": "AB",
+      "family": "approximant",
+      "group": "fresh_AB_approximant_08",
+      "rep": 0,
+      "L": [
+        [
+          18,
+          12,
+          0,
+          -13
+        ],
+        [
+          -2,
+          14,
+          21,
+          16
+        ]
+      ],
+      "N_expected": 1815,
+      "delta": 0.018060632330277816,
+      "phase_seed": 866001616,
+      "mc_seed": 866001639,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_approximant_08_1",
+      "symmetry": "AB",
+      "family": "approximant",
+      "group": "fresh_AB_approximant_08",
+      "rep": 1,
+      "L": [
+        [
+          18,
+          12,
+          0,
+          -13
+        ],
+        [
+          -2,
+          14,
+          21,
+          16
+        ]
+      ],
+      "N_expected": 1815,
+      "delta": 0.018060632330277816,
+      "phase_seed": 866001717,
+      "mc_seed": 866001740,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_approximant_09_0",
+      "symmetry": "AB",
+      "family": "approximant",
+      "group": "fresh_AB_approximant_09",
+      "rep": 0,
+      "L": [
+        [
+          21,
+          17,
+          3,
+          -13
+        ],
+        [
+          -1,
+          12,
+          18,
+          14
+        ]
+      ],
+      "N_expected": 1871,
+      "delta": 0.01219004988771524,
+      "phase_seed": 866001818,
+      "mc_seed": 866001841,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_approximant_09_1",
+      "symmetry": "AB",
+      "family": "approximant",
+      "group": "fresh_AB_approximant_09",
+      "rep": 1,
+      "L": [
+        [
+          21,
+          17,
+          3,
+          -13
+        ],
+        [
+          -1,
+          12,
+          18,
+          14
+        ]
+      ],
+      "N_expected": 1871,
+      "delta": 0.01219004988771524,
+      "phase_seed": 866001919,
+      "mc_seed": 866001942,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_approximant_10_0",
+      "symmetry": "AB",
+      "family": "approximant",
+      "group": "fresh_AB_approximant_10",
+      "rep": 0,
+      "L": [
+        [
+          17,
+          11,
+          -2,
+          -13
+        ],
+        [
+          5,
+          13,
+          14,
+          6
+        ]
+      ],
+      "N_expected": 1166,
+      "delta": 0.02107685719423957,
+      "phase_seed": 866002020,
+      "mc_seed": 866002043,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_approximant_10_1",
+      "symmetry": "AB",
+      "family": "approximant",
+      "group": "fresh_AB_approximant_10",
+      "rep": 1,
+      "L": [
+        [
+          17,
+          11,
+          -2,
+          -13
+        ],
+        [
+          5,
+          13,
+          14,
+          6
+        ]
+      ],
+      "N_expected": 1166,
+      "delta": 0.02107685719423957,
+      "phase_seed": 866002121,
+      "mc_seed": 866002144,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_approximant_11_0",
+      "symmetry": "AB",
+      "family": "approximant",
+      "group": "fresh_AB_approximant_11",
+      "rep": 0,
+      "L": [
+        [
+          19,
+          15,
+          3,
+          -11
+        ],
+        [
+          -3,
+          12,
+          21,
+          17
+        ]
+      ],
+      "N_expected": 1919,
+      "delta": 0.017122606787833266,
+      "phase_seed": 866002222,
+      "mc_seed": 866002245,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_approximant_11_1",
+      "symmetry": "AB",
+      "family": "approximant",
+      "group": "fresh_AB_approximant_11",
+      "rep": 1,
+      "L": [
+        [
+          19,
+          15,
+          3,
+          -11
+        ],
+        [
+          -3,
+          12,
+          21,
+          17
+        ]
+      ],
+      "N_expected": 1919,
+      "delta": 0.017122606787833266,
+      "phase_seed": 866002323,
+      "mc_seed": 866002346,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_few_flip_00_0",
+      "symmetry": "AB",
+      "family": "few_flip",
+      "group": "fresh_AB_few_flip_00",
+      "rep": 0,
+      "L": [
+        [
+          14,
+          14,
+          7,
+          -5
+        ],
+        [
+          -4,
+          7,
+          14,
+          13
+        ]
+      ],
+      "N_expected": 1065,
+      "delta": 0.020931149893822932,
+      "phase_seed": 866002424,
+      "mc_seed": 866002447,
+      "extension_kind": "fresh",
+      "flips": 1,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_few_flip_00_1",
+      "symmetry": "AB",
+      "family": "few_flip",
+      "group": "fresh_AB_few_flip_00",
+      "rep": 1,
+      "L": [
+        [
+          14,
+          14,
+          7,
+          -5
+        ],
+        [
+          -4,
+          7,
+          14,
+          13
+        ]
+      ],
+      "N_expected": 1065,
+      "delta": 0.020931149893822932,
+      "phase_seed": 866002525,
+      "mc_seed": 866002548,
+      "extension_kind": "fresh",
+      "flips": 1,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_few_flip_01_0",
+      "symmetry": "AB",
+      "family": "few_flip",
+      "group": "fresh_AB_few_flip_01",
+      "rep": 0,
+      "L": [
+        [
+          21,
+          12,
+          -5,
+          -19
+        ],
+        [
+          3,
+          15,
+          18,
+          11
+        ]
+      ],
+      "N_expected": 1955,
+      "delta": 0.01672177204255359,
+      "phase_seed": 866002626,
+      "mc_seed": 866002649,
+      "extension_kind": "fresh",
+      "flips": 2,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_few_flip_01_1",
+      "symmetry": "AB",
+      "family": "few_flip",
+      "group": "fresh_AB_few_flip_01",
+      "rep": 1,
+      "L": [
+        [
+          21,
+          12,
+          -5,
+          -19
+        ],
+        [
+          3,
+          15,
+          18,
+          11
+        ]
+      ],
+      "N_expected": 1955,
+      "delta": 0.01672177204255359,
+      "phase_seed": 866002727,
+      "mc_seed": 866002750,
+      "extension_kind": "fresh",
+      "flips": 2,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_few_flip_02_0",
+      "symmetry": "AB",
+      "family": "few_flip",
+      "group": "fresh_AB_few_flip_02",
+      "rep": 0,
+      "L": [
+        [
+          16,
+          12,
+          0,
+          -11
+        ],
+        [
+          -3,
+          10,
+          16,
+          14
+        ]
+      ],
+      "N_expected": 1289,
+      "delta": 0.028794806343631768,
+      "phase_seed": 866002828,
+      "mc_seed": 866002851,
+      "extension_kind": "fresh",
+      "flips": 4,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_few_flip_02_1",
+      "symmetry": "AB",
+      "family": "few_flip",
+      "group": "fresh_AB_few_flip_02",
+      "rep": 1,
+      "L": [
+        [
+          16,
+          12,
+          0,
+          -11
+        ],
+        [
+          -3,
+          10,
+          16,
+          14
+        ]
+      ],
+      "N_expected": 1289,
+      "delta": 0.028794806343631768,
+      "phase_seed": 866002929,
+      "mc_seed": 866002952,
+      "extension_kind": "fresh",
+      "flips": 4,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_few_flip_03_0",
+      "symmetry": "AB",
+      "family": "few_flip",
+      "group": "fresh_AB_few_flip_03",
+      "rep": 0,
+      "L": [
+        [
+          15,
+          12,
+          3,
+          -8
+        ],
+        [
+          -3,
+          13,
+          22,
+          18
+        ]
+      ],
+      "N_expected": 1591,
+      "delta": 0.02215906111566277,
+      "phase_seed": 866003030,
+      "mc_seed": 866003053,
+      "extension_kind": "fresh",
+      "flips": 8,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_few_flip_03_1",
+      "symmetry": "AB",
+      "family": "few_flip",
+      "group": "fresh_AB_few_flip_03",
+      "rep": 1,
+      "L": [
+        [
+          15,
+          12,
+          3,
+          -8
+        ],
+        [
+          -3,
+          13,
+          22,
+          18
+        ]
+      ],
+      "N_expected": 1591,
+      "delta": 0.02215906111566277,
+      "phase_seed": 866003131,
+      "mc_seed": 866003154,
+      "extension_kind": "fresh",
+      "flips": 8,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_few_flip_04_0",
+      "symmetry": "AB",
+      "family": "few_flip",
+      "group": "fresh_AB_few_flip_04",
+      "rep": 0,
+      "L": [
+        [
+          16,
+          10,
+          -1,
+          -12
+        ],
+        [
+          -1,
+          13,
+          19,
+          14
+        ]
+      ],
+      "N_expected": 1446,
+      "delta": 0.014228052344582883,
+      "phase_seed": 866003232,
+      "mc_seed": 866003255,
+      "extension_kind": "fresh",
+      "flips": 16,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_few_flip_04_1",
+      "symmetry": "AB",
+      "family": "few_flip",
+      "group": "fresh_AB_few_flip_04",
+      "rep": 1,
+      "L": [
+        [
+          16,
+          10,
+          -1,
+          -12
+        ],
+        [
+          -1,
+          13,
+          19,
+          14
+        ]
+      ],
+      "N_expected": 1446,
+      "delta": 0.014228052344582883,
+      "phase_seed": 866003333,
+      "mc_seed": 866003356,
+      "extension_kind": "fresh",
+      "flips": 16,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_few_flip_05_0",
+      "symmetry": "AB",
+      "family": "few_flip",
+      "group": "fresh_AB_few_flip_05",
+      "rep": 0,
+      "L": [
+        [
+          16,
+          12,
+          1,
+          -10
+        ],
+        [
+          -2,
+          11,
+          18,
+          14
+        ]
+      ],
+      "N_expected": 1371,
+      "delta": 0.015083412534757748,
+      "phase_seed": 866003434,
+      "mc_seed": 866003457,
+      "extension_kind": "fresh",
+      "flips": 32,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_few_flip_05_1",
+      "symmetry": "AB",
+      "family": "few_flip",
+      "group": "fresh_AB_few_flip_05",
+      "rep": 1,
+      "L": [
+        [
+          16,
+          12,
+          1,
+          -10
+        ],
+        [
+          -2,
+          11,
+          18,
+          14
+        ]
+      ],
+      "N_expected": 1371,
+      "delta": 0.015083412534757748,
+      "phase_seed": 866003535,
+      "mc_seed": 866003558,
+      "extension_kind": "fresh",
+      "flips": 32,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_few_flip_06_0",
+      "symmetry": "AB",
+      "family": "few_flip",
+      "group": "fresh_AB_few_flip_06",
+      "rep": 0,
+      "L": [
+        [
+          17,
+          10,
+          -3,
+          -14
+        ],
+        [
+          2,
+          17,
+          22,
+          14
+        ]
+      ],
+      "N_expected": 1830,
+      "delta": 0.004171819438787193,
+      "phase_seed": 866003636,
+      "mc_seed": 866003659,
+      "extension_kind": "fresh",
+      "flips": 1,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_few_flip_06_1",
+      "symmetry": "AB",
+      "family": "few_flip",
+      "group": "fresh_AB_few_flip_06",
+      "rep": 1,
+      "L": [
+        [
+          17,
+          10,
+          -3,
+          -14
+        ],
+        [
+          2,
+          17,
+          22,
+          14
+        ]
+      ],
+      "N_expected": 1830,
+      "delta": 0.004171819438787193,
+      "phase_seed": 866003737,
+      "mc_seed": 866003760,
+      "extension_kind": "fresh",
+      "flips": 1,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_few_flip_07_0",
+      "symmetry": "AB",
+      "family": "few_flip",
+      "group": "fresh_AB_few_flip_07",
+      "rep": 0,
+      "L": [
+        [
+          13,
+          6,
+          -4,
+          -12
+        ],
+        [
+          4,
+          15,
+          18,
+          11
+        ]
+      ],
+      "N_expected": 1198,
+      "delta": 0.026160619482520603,
+      "phase_seed": 866003838,
+      "mc_seed": 866003861,
+      "extension_kind": "fresh",
+      "flips": 2,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_few_flip_07_1",
+      "symmetry": "AB",
+      "family": "few_flip",
+      "group": "fresh_AB_few_flip_07",
+      "rep": 1,
+      "L": [
+        [
+          13,
+          6,
+          -4,
+          -12
+        ],
+        [
+          4,
+          15,
+          18,
+          11
+        ]
+      ],
+      "N_expected": 1198,
+      "delta": 0.026160619482520603,
+      "phase_seed": 866003939,
+      "mc_seed": 866003962,
+      "extension_kind": "fresh",
+      "flips": 2,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_few_flip_08_0",
+      "symmetry": "AB",
+      "family": "few_flip",
+      "group": "fresh_AB_few_flip_08",
+      "rep": 0,
+      "L": [
+        [
+          13,
+          7,
+          -3,
+          -12
+        ],
+        [
+          2,
+          15,
+          19,
+          12
+        ]
+      ],
+      "N_expected": 1248,
+      "delta": 0.0183133637207186,
+      "phase_seed": 866004040,
+      "mc_seed": 866004063,
+      "extension_kind": "fresh",
+      "flips": 4,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_few_flip_08_1",
+      "symmetry": "AB",
+      "family": "few_flip",
+      "group": "fresh_AB_few_flip_08",
+      "rep": 1,
+      "L": [
+        [
+          13,
+          7,
+          -3,
+          -12
+        ],
+        [
+          2,
+          15,
+          19,
+          12
+        ]
+      ],
+      "N_expected": 1248,
+      "delta": 0.0183133637207186,
+      "phase_seed": 866004141,
+      "mc_seed": 866004164,
+      "extension_kind": "fresh",
+      "flips": 4,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_few_flip_09_0",
+      "symmetry": "AB",
+      "family": "few_flip",
+      "group": "fresh_AB_few_flip_09",
+      "rep": 0,
+      "L": [
+        [
+          18,
+          9,
+          -5,
+          -16
+        ],
+        [
+          5,
+          18,
+          21,
+          11
+        ]
+      ],
+      "N_expected": 1907,
+      "delta": 0.01031382198983415,
+      "phase_seed": 866004242,
+      "mc_seed": 866004265,
+      "extension_kind": "fresh",
+      "flips": 8,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_few_flip_09_1",
+      "symmetry": "AB",
+      "family": "few_flip",
+      "group": "fresh_AB_few_flip_09",
+      "rep": 1,
+      "L": [
+        [
+          18,
+          9,
+          -5,
+          -16
+        ],
+        [
+          5,
+          18,
+          21,
+          11
+        ]
+      ],
+      "N_expected": 1907,
+      "delta": 0.01031382198983415,
+      "phase_seed": 866004343,
+      "mc_seed": 866004366,
+      "extension_kind": "fresh",
+      "flips": 8,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_few_flip_10_0",
+      "symmetry": "AB",
+      "family": "few_flip",
+      "group": "fresh_AB_few_flip_10",
+      "rep": 0,
+      "L": [
+        [
+          12,
+          5,
+          -4,
+          -11
+        ],
+        [
+          3,
+          16,
+          20,
+          12
+        ]
+      ],
+      "N_expected": 1178,
+      "delta": 0.022496583292088444,
+      "phase_seed": 866004444,
+      "mc_seed": 866004467,
+      "extension_kind": "fresh",
+      "flips": 16,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_few_flip_10_1",
+      "symmetry": "AB",
+      "family": "few_flip",
+      "group": "fresh_AB_few_flip_10",
+      "rep": 1,
+      "L": [
+        [
+          12,
+          5,
+          -4,
+          -11
+        ],
+        [
+          3,
+          16,
+          20,
+          12
+        ]
+      ],
+      "N_expected": 1178,
+      "delta": 0.022496583292088444,
+      "phase_seed": 866004545,
+      "mc_seed": 866004568,
+      "extension_kind": "fresh",
+      "flips": 16,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_few_flip_11_0",
+      "symmetry": "AB",
+      "family": "few_flip",
+      "group": "fresh_AB_few_flip_11",
+      "rep": 0,
+      "L": [
+        [
+          19,
+          13,
+          -1,
+          -14
+        ],
+        [
+          2,
+          11,
+          14,
+          8
+        ]
+      ],
+      "N_expected": 1270,
+      "delta": 0.016352871248994913,
+      "phase_seed": 866004646,
+      "mc_seed": 866004669,
+      "extension_kind": "fresh",
+      "flips": 32,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_few_flip_11_1",
+      "symmetry": "AB",
+      "family": "few_flip",
+      "group": "fresh_AB_few_flip_11",
+      "rep": 1,
+      "L": [
+        [
+          19,
+          13,
+          -1,
+          -14
+        ],
+        [
+          2,
+          11,
+          14,
+          8
+        ]
+      ],
+      "N_expected": 1270,
+      "delta": 0.016352871248994913,
+      "phase_seed": 866004747,
+      "mc_seed": 866004770,
+      "extension_kind": "fresh",
+      "flips": 32,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_equilibrated_00_0",
+      "symmetry": "AB",
+      "family": "equilibrated",
+      "group": "fresh_AB_equilibrated_00",
+      "rep": 0,
+      "L": [
+        [
+          19,
+          14,
+          1,
+          -13
+        ],
+        [
+          -1,
+          11,
+          16,
+          12
+        ]
+      ],
+      "N_expected": 1487,
+      "delta": 0.010316071208449552,
+      "phase_seed": 866004848,
+      "mc_seed": 866004871,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_equilibrated_00_1",
+      "symmetry": "AB",
+      "family": "equilibrated",
+      "group": "fresh_AB_equilibrated_00",
+      "rep": 1,
+      "L": [
+        [
+          19,
+          14,
+          1,
+          -13
+        ],
+        [
+          -1,
+          11,
+          16,
+          12
+        ]
+      ],
+      "N_expected": 1487,
+      "delta": 0.010316071208449552,
+      "phase_seed": 866004949,
+      "mc_seed": 866004972,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_equilibrated_01_0",
+      "symmetry": "AB",
+      "family": "equilibrated",
+      "group": "fresh_AB_equilibrated_01",
+      "rep": 0,
+      "L": [
+        [
+          14,
+          14,
+          4,
+          -7
+        ],
+        [
+          -4,
+          8,
+          15,
+          13
+        ]
+      ],
+      "N_expected": 1121,
+      "delta": 0.03168248826779239,
+      "phase_seed": 866005050,
+      "mc_seed": 866005073,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_equilibrated_01_1",
+      "symmetry": "AB",
+      "family": "equilibrated",
+      "group": "fresh_AB_equilibrated_01",
+      "rep": 1,
+      "L": [
+        [
+          14,
+          14,
+          4,
+          -7
+        ],
+        [
+          -4,
+          8,
+          15,
+          13
+        ]
+      ],
+      "N_expected": 1121,
+      "delta": 0.03168248826779239,
+      "phase_seed": 866005151,
+      "mc_seed": 866005174,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_equilibrated_02_0",
+      "symmetry": "AB",
+      "family": "equilibrated",
+      "group": "fresh_AB_equilibrated_02",
+      "rep": 0,
+      "L": [
+        [
+          12,
+          9,
+          1,
+          -8
+        ],
+        [
+          -2,
+          13,
+          20,
+          15
+        ]
+      ],
+      "N_expected": 1161,
+      "delta": 0.013987490016784595,
+      "phase_seed": 866005252,
+      "mc_seed": 866005275,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_equilibrated_02_1",
+      "symmetry": "AB",
+      "family": "equilibrated",
+      "group": "fresh_AB_equilibrated_02",
+      "rep": 1,
+      "L": [
+        [
+          12,
+          9,
+          1,
+          -8
+        ],
+        [
+          -2,
+          13,
+          20,
+          15
+        ]
+      ],
+      "N_expected": 1161,
+      "delta": 0.013987490016784595,
+      "phase_seed": 866005353,
+      "mc_seed": 866005376,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_equilibrated_03_0",
+      "symmetry": "AB",
+      "family": "equilibrated",
+      "group": "fresh_AB_equilibrated_03",
+      "rep": 0,
+      "L": [
+        [
+          20,
+          16,
+          2,
+          -13
+        ],
+        [
+          -5,
+          12,
+          21,
+          18
+        ]
+      ],
+      "N_expected": 2110,
+      "delta": 0.016659443029539135,
+      "phase_seed": 866005454,
+      "mc_seed": 866005477,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_equilibrated_03_1",
+      "symmetry": "AB",
+      "family": "equilibrated",
+      "group": "fresh_AB_equilibrated_03",
+      "rep": 1,
+      "L": [
+        [
+          20,
+          16,
+          2,
+          -13
+        ],
+        [
+          -5,
+          12,
+          21,
+          18
+        ]
+      ],
+      "N_expected": 2110,
+      "delta": 0.016659443029539135,
+      "phase_seed": 866005555,
+      "mc_seed": 866005578,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_equilibrated_04_0",
+      "symmetry": "AB",
+      "family": "equilibrated",
+      "group": "fresh_AB_equilibrated_04",
+      "rep": 0,
+      "L": [
+        [
+          20,
+          14,
+          -1,
+          -14
+        ],
+        [
+          4,
+          12,
+          12,
+          5
+        ]
+      ],
+      "N_expected": 1165,
+      "delta": 0.03458107826278531,
+      "phase_seed": 866005656,
+      "mc_seed": 866005679,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_equilibrated_04_1",
+      "symmetry": "AB",
+      "family": "equilibrated",
+      "group": "fresh_AB_equilibrated_04",
+      "rep": 1,
+      "L": [
+        [
+          20,
+          14,
+          -1,
+          -14
+        ],
+        [
+          4,
+          12,
+          12,
+          5
+        ]
+      ],
+      "N_expected": 1165,
+      "delta": 0.03458107826278531,
+      "phase_seed": 866005757,
+      "mc_seed": 866005780,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_equilibrated_05_0",
+      "symmetry": "AB",
+      "family": "equilibrated",
+      "group": "fresh_AB_equilibrated_05",
+      "rep": 0,
+      "L": [
+        [
+          16,
+          14,
+          5,
+          -7
+        ],
+        [
+          -3,
+          7,
+          12,
+          11
+        ]
+      ],
+      "N_expected": 991,
+      "delta": 0.03308478368689529,
+      "phase_seed": 866005858,
+      "mc_seed": 866005881,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_equilibrated_05_1",
+      "symmetry": "AB",
+      "family": "equilibrated",
+      "group": "fresh_AB_equilibrated_05",
+      "rep": 1,
+      "L": [
+        [
+          16,
+          14,
+          5,
+          -7
+        ],
+        [
+          -3,
+          7,
+          12,
+          11
+        ]
+      ],
+      "N_expected": 991,
+      "delta": 0.03308478368689529,
+      "phase_seed": 866005959,
+      "mc_seed": 866005982,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_equilibrated_06_0",
+      "symmetry": "AB",
+      "family": "equilibrated",
+      "group": "fresh_AB_equilibrated_06",
+      "rep": 0,
+      "L": [
+        [
+          14,
+          12,
+          2,
+          -9
+        ],
+        [
+          0,
+          13,
+          18,
+          13
+        ]
+      ],
+      "N_expected": 1267,
+      "delta": 0.022199632888651878,
+      "phase_seed": 866006060,
+      "mc_seed": 866006083,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_equilibrated_06_1",
+      "symmetry": "AB",
+      "family": "equilibrated",
+      "group": "fresh_AB_equilibrated_06",
+      "rep": 1,
+      "L": [
+        [
+          14,
+          12,
+          2,
+          -9
+        ],
+        [
+          0,
+          13,
+          18,
+          13
+        ]
+      ],
+      "N_expected": 1267,
+      "delta": 0.022199632888651878,
+      "phase_seed": 866006161,
+      "mc_seed": 866006184,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_equilibrated_07_0",
+      "symmetry": "AB",
+      "family": "equilibrated",
+      "group": "fresh_AB_equilibrated_07",
+      "rep": 0,
+      "L": [
+        [
+          18,
+          16,
+          5,
+          -10
+        ],
+        [
+          -4,
+          10,
+          19,
+          17
+        ]
+      ],
+      "N_expected": 1773,
+      "delta": 0.023640423905554066,
+      "phase_seed": 866006262,
+      "mc_seed": 866006285,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_equilibrated_07_1",
+      "symmetry": "AB",
+      "family": "equilibrated",
+      "group": "fresh_AB_equilibrated_07",
+      "rep": 1,
+      "L": [
+        [
+          18,
+          16,
+          5,
+          -10
+        ],
+        [
+          -4,
+          10,
+          19,
+          17
+        ]
+      ],
+      "N_expected": 1773,
+      "delta": 0.023640423905554066,
+      "phase_seed": 866006363,
+      "mc_seed": 866006386,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_equilibrated_08_0",
+      "symmetry": "AB",
+      "family": "equilibrated",
+      "group": "fresh_AB_equilibrated_08",
+      "rep": 0,
+      "L": [
+        [
+          16,
+          11,
+          1,
+          -10
+        ],
+        [
+          -4,
+          9,
+          16,
+          14
+        ]
+      ],
+      "N_expected": 1217,
+      "delta": 0.02808143050028805,
+      "phase_seed": 866006464,
+      "mc_seed": 866006487,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_equilibrated_08_1",
+      "symmetry": "AB",
+      "family": "equilibrated",
+      "group": "fresh_AB_equilibrated_08",
+      "rep": 1,
+      "L": [
+        [
+          16,
+          11,
+          1,
+          -10
+        ],
+        [
+          -4,
+          9,
+          16,
+          14
+        ]
+      ],
+      "N_expected": 1217,
+      "delta": 0.02808143050028805,
+      "phase_seed": 866006565,
+      "mc_seed": 866006588,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_equilibrated_09_0",
+      "symmetry": "AB",
+      "family": "equilibrated",
+      "group": "fresh_AB_equilibrated_09",
+      "rep": 0,
+      "L": [
+        [
+          16,
+          11,
+          0,
+          -11
+        ],
+        [
+          1,
+          10,
+          13,
+          8
+        ]
+      ],
+      "N_expected": 980,
+      "delta": 0.017505891006924023,
+      "phase_seed": 866006666,
+      "mc_seed": 866006689,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_equilibrated_09_1",
+      "symmetry": "AB",
+      "family": "equilibrated",
+      "group": "fresh_AB_equilibrated_09",
+      "rep": 1,
+      "L": [
+        [
+          16,
+          11,
+          0,
+          -11
+        ],
+        [
+          1,
+          10,
+          13,
+          8
+        ]
+      ],
+      "N_expected": 980,
+      "delta": 0.017505891006924023,
+      "phase_seed": 866006767,
+      "mc_seed": 866006790,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_equilibrated_10_0",
+      "symmetry": "AB",
+      "family": "equilibrated",
+      "group": "fresh_AB_equilibrated_10",
+      "rep": 0,
+      "L": [
+        [
+          13,
+          8,
+          -2,
+          -11
+        ],
+        [
+          1,
+          13,
+          18,
+          11
+        ]
+      ],
+      "N_expected": 1128,
+      "delta": 0.026006280644432816,
+      "phase_seed": 866006868,
+      "mc_seed": 866006891,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_equilibrated_10_1",
+      "symmetry": "AB",
+      "family": "equilibrated",
+      "group": "fresh_AB_equilibrated_10",
+      "rep": 1,
+      "L": [
+        [
+          13,
+          8,
+          -2,
+          -11
+        ],
+        [
+          1,
+          13,
+          18,
+          11
+        ]
+      ],
+      "N_expected": 1128,
+      "delta": 0.026006280644432816,
+      "phase_seed": 866006969,
+      "mc_seed": 866006992,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_equilibrated_11_0",
+      "symmetry": "AB",
+      "family": "equilibrated",
+      "group": "fresh_AB_equilibrated_11",
+      "rep": 0,
+      "L": [
+        [
+          19,
+          10,
+          -3,
+          -15
+        ],
+        [
+          0,
+          12,
+          17,
+          12
+        ]
+      ],
+      "N_expected": 1504,
+      "delta": 0.02755245609008072,
+      "phase_seed": 866007070,
+      "mc_seed": 866007093,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_equilibrated_11_1",
+      "symmetry": "AB",
+      "family": "equilibrated",
+      "group": "fresh_AB_equilibrated_11",
+      "rep": 1,
+      "L": [
+        [
+          19,
+          10,
+          -3,
+          -15
+        ],
+        [
+          0,
+          12,
+          17,
+          12
+        ]
+      ],
+      "N_expected": 1504,
+      "delta": 0.02755245609008072,
+      "phase_seed": 866007171,
+      "mc_seed": 866007194,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_disc_cluster_00_0",
+      "symmetry": "AB",
+      "family": "disc_cluster",
+      "group": "fresh_AB_disc_cluster_00",
+      "rep": 0,
+      "L": [
+        [
+          18,
+          8,
+          -6,
+          -17
+        ],
+        [
+          3,
+          16,
+          19,
+          11
+        ]
+      ],
+      "N_expected": 1738,
+      "delta": 0.012768671479704456,
+      "phase_seed": 866007272,
+      "mc_seed": 866007295,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": 3,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_disc_cluster_00_1",
+      "symmetry": "AB",
+      "family": "disc_cluster",
+      "group": "fresh_AB_disc_cluster_00",
+      "rep": 1,
+      "L": [
+        [
+          18,
+          8,
+          -6,
+          -17
+        ],
+        [
+          3,
+          16,
+          19,
+          11
+        ]
+      ],
+      "N_expected": 1738,
+      "delta": 0.012768671479704456,
+      "phase_seed": 866007373,
+      "mc_seed": 866007396,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": 3,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_disc_cluster_01_0",
+      "symmetry": "AB",
+      "family": "disc_cluster",
+      "group": "fresh_AB_disc_cluster_01",
+      "rep": 0,
+      "L": [
+        [
+          18,
+          15,
+          3,
+          -10
+        ],
+        [
+          -4,
+          11,
+          20,
+          17
+        ]
+      ],
+      "N_expected": 1779,
+      "delta": 0.013347974815116632,
+      "phase_seed": 866007474,
+      "mc_seed": 866007497,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": 5,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_disc_cluster_01_1",
+      "symmetry": "AB",
+      "family": "disc_cluster",
+      "group": "fresh_AB_disc_cluster_01",
+      "rep": 1,
+      "L": [
+        [
+          18,
+          15,
+          3,
+          -10
+        ],
+        [
+          -4,
+          11,
+          20,
+          17
+        ]
+      ],
+      "N_expected": 1779,
+      "delta": 0.013347974815116632,
+      "phase_seed": 866007575,
+      "mc_seed": 866007598,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": 5,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_disc_cluster_02_0",
+      "symmetry": "AB",
+      "family": "disc_cluster",
+      "group": "fresh_AB_disc_cluster_02",
+      "rep": 0,
+      "L": [
+        [
+          17,
+          16,
+          5,
+          -8
+        ],
+        [
+          -2,
+          13,
+          21,
+          17
+        ]
+      ],
+      "N_expected": 1793,
+      "delta": 0.019123843708637626,
+      "phase_seed": 866007676,
+      "mc_seed": 866007699,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": 7,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_disc_cluster_02_1",
+      "symmetry": "AB",
+      "family": "disc_cluster",
+      "group": "fresh_AB_disc_cluster_02",
+      "rep": 1,
+      "L": [
+        [
+          17,
+          16,
+          5,
+          -8
+        ],
+        [
+          -2,
+          13,
+          21,
+          17
+        ]
+      ],
+      "N_expected": 1793,
+      "delta": 0.019123843708637626,
+      "phase_seed": 866007777,
+      "mc_seed": 866007800,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": 7,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_disc_cluster_03_0",
+      "symmetry": "AB",
+      "family": "disc_cluster",
+      "group": "fresh_AB_disc_cluster_03",
+      "rep": 0,
+      "L": [
+        [
+          21,
+          11,
+          -5,
+          -19
+        ],
+        [
+          5,
+          17,
+          18,
+          10
+        ]
+      ],
+      "N_expected": 2018,
+      "delta": 0.023181983345868153,
+      "phase_seed": 866007878,
+      "mc_seed": 866007901,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": 9,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_disc_cluster_03_1",
+      "symmetry": "AB",
+      "family": "disc_cluster",
+      "group": "fresh_AB_disc_cluster_03",
+      "rep": 1,
+      "L": [
+        [
+          21,
+          11,
+          -5,
+          -19
+        ],
+        [
+          5,
+          17,
+          18,
+          10
+        ]
+      ],
+      "N_expected": 2018,
+      "delta": 0.023181983345868153,
+      "phase_seed": 866007979,
+      "mc_seed": 866008002,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": 9,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_disc_cluster_04_0",
+      "symmetry": "AB",
+      "family": "disc_cluster",
+      "group": "fresh_AB_disc_cluster_04",
+      "rep": 0,
+      "L": [
+        [
+          20,
+          17,
+          4,
+          -11
+        ],
+        [
+          -5,
+          12,
+          21,
+          18
+        ]
+      ],
+      "N_expected": 2120,
+      "delta": 0.013970684638389323,
+      "phase_seed": 866008080,
+      "mc_seed": 866008103,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": 3,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_disc_cluster_04_1",
+      "symmetry": "AB",
+      "family": "disc_cluster",
+      "group": "fresh_AB_disc_cluster_04",
+      "rep": 1,
+      "L": [
+        [
+          20,
+          17,
+          4,
+          -11
+        ],
+        [
+          -5,
+          12,
+          21,
+          18
+        ]
+      ],
+      "N_expected": 2120,
+      "delta": 0.013970684638389323,
+      "phase_seed": 866008181,
+      "mc_seed": 866008204,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": 3,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_disc_cluster_05_0",
+      "symmetry": "AB",
+      "family": "disc_cluster",
+      "group": "fresh_AB_disc_cluster_05",
+      "rep": 0,
+      "L": [
+        [
+          13,
+          10,
+          1,
+          -8
+        ],
+        [
+          0,
+          12,
+          18,
+          13
+        ]
+      ],
+      "N_expected": 1110,
+      "delta": 0.020459428719349877,
+      "phase_seed": 866008282,
+      "mc_seed": 866008305,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": 5,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_disc_cluster_05_1",
+      "symmetry": "AB",
+      "family": "disc_cluster",
+      "group": "fresh_AB_disc_cluster_05",
+      "rep": 1,
+      "L": [
+        [
+          13,
+          10,
+          1,
+          -8
+        ],
+        [
+          0,
+          12,
+          18,
+          13
+        ]
+      ],
+      "N_expected": 1110,
+      "delta": 0.020459428719349877,
+      "phase_seed": 866008383,
+      "mc_seed": 866008406,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": 5,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_disc_cluster_06_0",
+      "symmetry": "AB",
+      "family": "disc_cluster",
+      "group": "fresh_AB_disc_cluster_06",
+      "rep": 0,
+      "L": [
+        [
+          15,
+          9,
+          -1,
+          -11
+        ],
+        [
+          -2,
+          13,
+          19,
+          15
+        ]
+      ],
+      "N_expected": 1355,
+      "delta": 0.02741642205583629,
+      "phase_seed": 866008484,
+      "mc_seed": 866008507,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": 7,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_disc_cluster_06_1",
+      "symmetry": "AB",
+      "family": "disc_cluster",
+      "group": "fresh_AB_disc_cluster_06",
+      "rep": 1,
+      "L": [
+        [
+          15,
+          9,
+          -1,
+          -11
+        ],
+        [
+          -2,
+          13,
+          19,
+          15
+        ]
+      ],
+      "N_expected": 1355,
+      "delta": 0.02741642205583629,
+      "phase_seed": 866008585,
+      "mc_seed": 866008608,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": 7,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_disc_cluster_07_0",
+      "symmetry": "AB",
+      "family": "disc_cluster",
+      "group": "fresh_AB_disc_cluster_07",
+      "rep": 0,
+      "L": [
+        [
+          18,
+          13,
+          1,
+          -12
+        ],
+        [
+          -1,
+          9,
+          13,
+          10
+        ]
+      ],
+      "N_expected": 1142,
+      "delta": 0.016324055586861383,
+      "phase_seed": 866008686,
+      "mc_seed": 866008709,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": 9,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_disc_cluster_07_1",
+      "symmetry": "AB",
+      "family": "disc_cluster",
+      "group": "fresh_AB_disc_cluster_07",
+      "rep": 1,
+      "L": [
+        [
+          18,
+          13,
+          1,
+          -12
+        ],
+        [
+          -1,
+          9,
+          13,
+          10
+        ]
+      ],
+      "N_expected": 1142,
+      "delta": 0.016324055586861383,
+      "phase_seed": 866008787,
+      "mc_seed": 866008810,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": 9,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_disc_cluster_08_0",
+      "symmetry": "AB",
+      "family": "disc_cluster",
+      "group": "fresh_AB_disc_cluster_08",
+      "rep": 0,
+      "L": [
+        [
+          17,
+          12,
+          0,
+          -13
+        ],
+        [
+          -1,
+          11,
+          17,
+          13
+        ]
+      ],
+      "N_expected": 1420,
+      "delta": 0.02137153424112779,
+      "phase_seed": 866008888,
+      "mc_seed": 866008911,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": 3,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_disc_cluster_08_1",
+      "symmetry": "AB",
+      "family": "disc_cluster",
+      "group": "fresh_AB_disc_cluster_08",
+      "rep": 1,
+      "L": [
+        [
+          17,
+          12,
+          0,
+          -13
+        ],
+        [
+          -1,
+          11,
+          17,
+          13
+        ]
+      ],
+      "N_expected": 1420,
+      "delta": 0.02137153424112779,
+      "phase_seed": 866008989,
+      "mc_seed": 866009012,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": 3,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_disc_cluster_09_0",
+      "symmetry": "AB",
+      "family": "disc_cluster",
+      "group": "fresh_AB_disc_cluster_09",
+      "rep": 0,
+      "L": [
+        [
+          21,
+          12,
+          -4,
+          -18
+        ],
+        [
+          1,
+          12,
+          16,
+          11
+        ]
+      ],
+      "N_expected": 1661,
+      "delta": 0.009572527078420346,
+      "phase_seed": 866009090,
+      "mc_seed": 866009113,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": 5,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_disc_cluster_09_1",
+      "symmetry": "AB",
+      "family": "disc_cluster",
+      "group": "fresh_AB_disc_cluster_09",
+      "rep": 1,
+      "L": [
+        [
+          21,
+          12,
+          -4,
+          -18
+        ],
+        [
+          1,
+          12,
+          16,
+          11
+        ]
+      ],
+      "N_expected": 1661,
+      "delta": 0.009572527078420346,
+      "phase_seed": 866009191,
+      "mc_seed": 866009214,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": 5,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_disc_cluster_10_0",
+      "symmetry": "AB",
+      "family": "disc_cluster",
+      "group": "fresh_AB_disc_cluster_10",
+      "rep": 0,
+      "L": [
+        [
+          17,
+          13,
+          1,
+          -10
+        ],
+        [
+          2,
+          11,
+          14,
+          9
+        ]
+      ],
+      "N_expected": 1117,
+      "delta": 0.03069621468818491,
+      "phase_seed": 866009292,
+      "mc_seed": 866009315,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": 7,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_disc_cluster_10_1",
+      "symmetry": "AB",
+      "family": "disc_cluster",
+      "group": "fresh_AB_disc_cluster_10",
+      "rep": 1,
+      "L": [
+        [
+          17,
+          13,
+          1,
+          -10
+        ],
+        [
+          2,
+          11,
+          14,
+          9
+        ]
+      ],
+      "N_expected": 1117,
+      "delta": 0.03069621468818491,
+      "phase_seed": 866009393,
+      "mc_seed": 866009416,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": 7,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_disc_cluster_11_0",
+      "symmetry": "AB",
+      "family": "disc_cluster",
+      "group": "fresh_AB_disc_cluster_11",
+      "rep": 0,
+      "L": [
+        [
+          22,
+          15,
+          0,
+          -16
+        ],
+        [
+          -2,
+          13,
+          21,
+          16
+        ]
+      ],
+      "N_expected": 2197,
+      "delta": 0.015201629061866484,
+      "phase_seed": 866009494,
+      "mc_seed": 866009517,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": 9,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_AB_disc_cluster_11_1",
+      "symmetry": "AB",
+      "family": "disc_cluster",
+      "group": "fresh_AB_disc_cluster_11",
+      "rep": 1,
+      "L": [
+        [
+          22,
+          15,
+          0,
+          -16
+        ],
+        [
+          -2,
+          13,
+          21,
+          16
+        ]
+      ],
+      "N_expected": 2197,
+      "delta": 0.015201629061866484,
+      "phase_seed": 866009595,
+      "mc_seed": 866009618,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": 9,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_approximant_00_0",
+      "symmetry": "Penrose",
+      "family": "approximant",
+      "group": "fresh_Penrose_approximant_00",
+      "rep": 0,
+      "L": [
+        [
+          13,
+          9,
+          0,
+          -8,
+          -12
+        ],
+        [
+          2,
+          12,
+          17,
+          15,
+          8
+        ]
+      ],
+      "N_expected": 1754,
+      "delta": 0.04223260800095964,
+      "phase_seed": 866009696,
+      "mc_seed": 866009719,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_approximant_00_1",
+      "symmetry": "Penrose",
+      "family": "approximant",
+      "group": "fresh_Penrose_approximant_00",
+      "rep": 1,
+      "L": [
+        [
+          13,
+          9,
+          0,
+          -8,
+          -12
+        ],
+        [
+          2,
+          12,
+          17,
+          15,
+          8
+        ]
+      ],
+      "N_expected": 1754,
+      "delta": 0.04223260800095964,
+      "phase_seed": 866009797,
+      "mc_seed": 866009820,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_approximant_01_0",
+      "symmetry": "Penrose",
+      "family": "approximant",
+      "group": "fresh_Penrose_approximant_01",
+      "rep": 0,
+      "L": [
+        [
+          19,
+          16,
+          9,
+          -3,
+          -15
+        ],
+        [
+          -3,
+          5,
+          12,
+          14,
+          10
+        ]
+      ],
+      "N_expected": 2033,
+      "delta": 0.045344753850258476,
+      "phase_seed": 866009898,
+      "mc_seed": 866009921,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_approximant_01_1",
+      "symmetry": "Penrose",
+      "family": "approximant",
+      "group": "fresh_Penrose_approximant_01",
+      "rep": 1,
+      "L": [
+        [
+          19,
+          16,
+          9,
+          -3,
+          -15
+        ],
+        [
+          -3,
+          5,
+          12,
+          14,
+          10
+        ]
+      ],
+      "N_expected": 2033,
+      "delta": 0.045344753850258476,
+      "phase_seed": 866009999,
+      "mc_seed": 866010022,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_approximant_02_0",
+      "symmetry": "Penrose",
+      "family": "approximant",
+      "group": "fresh_Penrose_approximant_02",
+      "rep": 0,
+      "L": [
+        [
+          20,
+          14,
+          3,
+          -10,
+          -19
+        ],
+        [
+          6,
+          13,
+          15,
+          12,
+          4
+        ]
+      ],
+      "N_expected": 2395,
+      "delta": 0.022516617666894143,
+      "phase_seed": 866010100,
+      "mc_seed": 866010123,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_approximant_02_1",
+      "symmetry": "Penrose",
+      "family": "approximant",
+      "group": "fresh_Penrose_approximant_02",
+      "rep": 1,
+      "L": [
+        [
+          20,
+          14,
+          3,
+          -10,
+          -19
+        ],
+        [
+          6,
+          13,
+          15,
+          12,
+          4
+        ]
+      ],
+      "N_expected": 2395,
+      "delta": 0.022516617666894143,
+      "phase_seed": 866010201,
+      "mc_seed": 866010224,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_approximant_03_0",
+      "symmetry": "Penrose",
+      "family": "approximant",
+      "group": "fresh_Penrose_approximant_03",
+      "rep": 0,
+      "L": [
+        [
+          14,
+          14,
+          9,
+          0,
+          -9
+        ],
+        [
+          -2,
+          10,
+          18,
+          19,
+          13
+        ]
+      ],
+      "N_expected": 2189,
+      "delta": 0.013411826595770313,
+      "phase_seed": 866010302,
+      "mc_seed": 866010325,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_approximant_03_1",
+      "symmetry": "Penrose",
+      "family": "approximant",
+      "group": "fresh_Penrose_approximant_03",
+      "rep": 1,
+      "L": [
+        [
+          14,
+          14,
+          9,
+          0,
+          -9
+        ],
+        [
+          -2,
+          10,
+          18,
+          19,
+          13
+        ]
+      ],
+      "N_expected": 2189,
+      "delta": 0.013411826595770313,
+      "phase_seed": 866010403,
+      "mc_seed": 866010426,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_approximant_04_0",
+      "symmetry": "Penrose",
+      "family": "approximant",
+      "group": "fresh_Penrose_approximant_04",
+      "rep": 0,
+      "L": [
+        [
+          15,
+          13,
+          6,
+          -3,
+          -11
+        ],
+        [
+          2,
+          9,
+          13,
+          12,
+          6
+        ]
+      ],
+      "N_expected": 1469,
+      "delta": 0.012743500475773018,
+      "phase_seed": 866010504,
+      "mc_seed": 866010527,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_approximant_04_1",
+      "symmetry": "Penrose",
+      "family": "approximant",
+      "group": "fresh_Penrose_approximant_04",
+      "rep": 1,
+      "L": [
+        [
+          15,
+          13,
+          6,
+          -3,
+          -11
+        ],
+        [
+          2,
+          9,
+          13,
+          12,
+          6
+        ]
+      ],
+      "N_expected": 1469,
+      "delta": 0.012743500475773018,
+      "phase_seed": 866010605,
+      "mc_seed": 866010628,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_approximant_05_0",
+      "symmetry": "Penrose",
+      "family": "approximant",
+      "group": "fresh_Penrose_approximant_05",
+      "rep": 0,
+      "L": [
+        [
+          16,
+          13,
+          5,
+          -4,
+          -12
+        ],
+        [
+          -3,
+          9,
+          17,
+          19,
+          14
+        ]
+      ],
+      "N_expected": 2308,
+      "delta": 0.022710291411112908,
+      "phase_seed": 866010706,
+      "mc_seed": 866010729,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_approximant_05_1",
+      "symmetry": "Penrose",
+      "family": "approximant",
+      "group": "fresh_Penrose_approximant_05",
+      "rep": 1,
+      "L": [
+        [
+          16,
+          13,
+          5,
+          -4,
+          -12
+        ],
+        [
+          -3,
+          9,
+          17,
+          19,
+          14
+        ]
+      ],
+      "N_expected": 2308,
+      "delta": 0.022710291411112908,
+      "phase_seed": 866010807,
+      "mc_seed": 866010830,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_approximant_06_0",
+      "symmetry": "Penrose",
+      "family": "approximant",
+      "group": "fresh_Penrose_approximant_06",
+      "rep": 0,
+      "L": [
+        [
+          17,
+          14,
+          6,
+          -4,
+          -13
+        ],
+        [
+          -3,
+          6,
+          14,
+          17,
+          12
+        ]
+      ],
+      "N_expected": 2095,
+      "delta": 0.032683025310504724,
+      "phase_seed": 866010908,
+      "mc_seed": 866010931,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_approximant_06_1",
+      "symmetry": "Penrose",
+      "family": "approximant",
+      "group": "fresh_Penrose_approximant_06",
+      "rep": 1,
+      "L": [
+        [
+          17,
+          14,
+          6,
+          -4,
+          -13
+        ],
+        [
+          -3,
+          6,
+          14,
+          17,
+          12
+        ]
+      ],
+      "N_expected": 2095,
+      "delta": 0.032683025310504724,
+      "phase_seed": 866011009,
+      "mc_seed": 866011032,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_approximant_07_0",
+      "symmetry": "Penrose",
+      "family": "approximant",
+      "group": "fresh_Penrose_approximant_07",
+      "rep": 0,
+      "L": [
+        [
+          14,
+          8,
+          0,
+          -7,
+          -13
+        ],
+        [
+          3,
+          12,
+          16,
+          14,
+          7
+        ]
+      ],
+      "N_expected": 1711,
+      "delta": 0.040586782681094086,
+      "phase_seed": 866011110,
+      "mc_seed": 866011133,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_approximant_07_1",
+      "symmetry": "Penrose",
+      "family": "approximant",
+      "group": "fresh_Penrose_approximant_07",
+      "rep": 1,
+      "L": [
+        [
+          14,
+          8,
+          0,
+          -7,
+          -13
+        ],
+        [
+          3,
+          12,
+          16,
+          14,
+          7
+        ]
+      ],
+      "N_expected": 1711,
+      "delta": 0.040586782681094086,
+      "phase_seed": 866011211,
+      "mc_seed": 866011234,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_approximant_08_0",
+      "symmetry": "Penrose",
+      "family": "approximant",
+      "group": "fresh_Penrose_approximant_08",
+      "rep": 0,
+      "L": [
+        [
+          19,
+          13,
+          2,
+          -9,
+          -17
+        ],
+        [
+          5,
+          12,
+          15,
+          12,
+          4
+        ]
+      ],
+      "N_expected": 2153,
+      "delta": 0.018691508638738873,
+      "phase_seed": 866011312,
+      "mc_seed": 866011335,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_approximant_08_1",
+      "symmetry": "Penrose",
+      "family": "approximant",
+      "group": "fresh_Penrose_approximant_08",
+      "rep": 1,
+      "L": [
+        [
+          19,
+          13,
+          2,
+          -9,
+          -17
+        ],
+        [
+          5,
+          12,
+          15,
+          12,
+          4
+        ]
+      ],
+      "N_expected": 2153,
+      "delta": 0.018691508638738873,
+      "phase_seed": 866011413,
+      "mc_seed": 866011436,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_approximant_09_0",
+      "symmetry": "Penrose",
+      "family": "approximant",
+      "group": "fresh_Penrose_approximant_09",
+      "rep": 0,
+      "L": [
+        [
+          13,
+          13,
+          8,
+          1,
+          -7
+        ],
+        [
+          -4,
+          6,
+          14,
+          15,
+          11
+        ]
+      ],
+      "N_expected": 1574,
+      "delta": 0.04639241315241152,
+      "phase_seed": 866011514,
+      "mc_seed": 866011537,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_approximant_09_1",
+      "symmetry": "Penrose",
+      "family": "approximant",
+      "group": "fresh_Penrose_approximant_09",
+      "rep": 1,
+      "L": [
+        [
+          13,
+          13,
+          8,
+          1,
+          -7
+        ],
+        [
+          -4,
+          6,
+          14,
+          15,
+          11
+        ]
+      ],
+      "N_expected": 1574,
+      "delta": 0.04639241315241152,
+      "phase_seed": 866011615,
+      "mc_seed": 866011638,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_approximant_10_0",
+      "symmetry": "Penrose",
+      "family": "approximant",
+      "group": "fresh_Penrose_approximant_10",
+      "rep": 0,
+      "L": [
+        [
+          12,
+          9,
+          4,
+          -3,
+          -10
+        ],
+        [
+          -1,
+          9,
+          16,
+          17,
+          11
+        ]
+      ],
+      "N_expected": 1570,
+      "delta": 0.04008216922392075,
+      "phase_seed": 866011716,
+      "mc_seed": 866011739,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_approximant_10_1",
+      "symmetry": "Penrose",
+      "family": "approximant",
+      "group": "fresh_Penrose_approximant_10",
+      "rep": 1,
+      "L": [
+        [
+          12,
+          9,
+          4,
+          -3,
+          -10
+        ],
+        [
+          -1,
+          9,
+          16,
+          17,
+          11
+        ]
+      ],
+      "N_expected": 1570,
+      "delta": 0.04008216922392075,
+      "phase_seed": 866011817,
+      "mc_seed": 866011840,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_approximant_11_0",
+      "symmetry": "Penrose",
+      "family": "approximant",
+      "group": "fresh_Penrose_approximant_11",
+      "rep": 0,
+      "L": [
+        [
+          15,
+          13,
+          6,
+          -3,
+          -11
+        ],
+        [
+          -1,
+          9,
+          16,
+          16,
+          10
+        ]
+      ],
+      "N_expected": 1914,
+      "delta": 0.018682736796645612,
+      "phase_seed": 866011918,
+      "mc_seed": 866011941,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_approximant_11_1",
+      "symmetry": "Penrose",
+      "family": "approximant",
+      "group": "fresh_Penrose_approximant_11",
+      "rep": 1,
+      "L": [
+        [
+          15,
+          13,
+          6,
+          -3,
+          -11
+        ],
+        [
+          -1,
+          9,
+          16,
+          16,
+          10
+        ]
+      ],
+      "N_expected": 1914,
+      "delta": 0.018682736796645612,
+      "phase_seed": 866012019,
+      "mc_seed": 866012042,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_few_flip_00_0",
+      "symmetry": "Penrose",
+      "family": "few_flip",
+      "group": "fresh_Penrose_few_flip_00",
+      "rep": 0,
+      "L": [
+        [
+          14,
+          10,
+          2,
+          -7,
+          -13
+        ],
+        [
+          0,
+          11,
+          18,
+          17,
+          10
+        ]
+      ],
+      "N_expected": 1997,
+      "delta": 0.022281264853713408,
+      "phase_seed": 866012120,
+      "mc_seed": 866012143,
+      "extension_kind": "fresh",
+      "flips": 1,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_few_flip_00_1",
+      "symmetry": "Penrose",
+      "family": "few_flip",
+      "group": "fresh_Penrose_few_flip_00",
+      "rep": 1,
+      "L": [
+        [
+          14,
+          10,
+          2,
+          -7,
+          -13
+        ],
+        [
+          0,
+          11,
+          18,
+          17,
+          10
+        ]
+      ],
+      "N_expected": 1997,
+      "delta": 0.022281264853713408,
+      "phase_seed": 866012221,
+      "mc_seed": 866012244,
+      "extension_kind": "fresh",
+      "flips": 1,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_few_flip_01_0",
+      "symmetry": "Penrose",
+      "family": "few_flip",
+      "group": "fresh_Penrose_few_flip_01",
+      "rep": 0,
+      "L": [
+        [
+          19,
+          14,
+          3,
+          -9,
+          -17
+        ],
+        [
+          2,
+          10,
+          15,
+          13,
+          6
+        ]
+      ],
+      "N_expected": 2174,
+      "delta": 0.031116598777584756,
+      "phase_seed": 866012322,
+      "mc_seed": 866012345,
+      "extension_kind": "fresh",
+      "flips": 2,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_few_flip_01_1",
+      "symmetry": "Penrose",
+      "family": "few_flip",
+      "group": "fresh_Penrose_few_flip_01",
+      "rep": 1,
+      "L": [
+        [
+          19,
+          14,
+          3,
+          -9,
+          -17
+        ],
+        [
+          2,
+          10,
+          15,
+          13,
+          6
+        ]
+      ],
+      "N_expected": 2174,
+      "delta": 0.031116598777584756,
+      "phase_seed": 866012423,
+      "mc_seed": 866012446,
+      "extension_kind": "fresh",
+      "flips": 2,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_few_flip_02_0",
+      "symmetry": "Penrose",
+      "family": "few_flip",
+      "group": "fresh_Penrose_few_flip_02",
+      "rep": 0,
+      "L": [
+        [
+          18,
+          16,
+          8,
+          -3,
+          -13
+        ],
+        [
+          -4,
+          5,
+          13,
+          16,
+          12
+        ]
+      ],
+      "N_expected": 2160,
+      "delta": 0.01979450637772532,
+      "phase_seed": 866012524,
+      "mc_seed": 866012547,
+      "extension_kind": "fresh",
+      "flips": 4,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_few_flip_02_1",
+      "symmetry": "Penrose",
+      "family": "few_flip",
+      "group": "fresh_Penrose_few_flip_02",
+      "rep": 1,
+      "L": [
+        [
+          18,
+          16,
+          8,
+          -3,
+          -13
+        ],
+        [
+          -4,
+          5,
+          13,
+          16,
+          12
+        ]
+      ],
+      "N_expected": 2160,
+      "delta": 0.01979450637772532,
+      "phase_seed": 866012625,
+      "mc_seed": 866012648,
+      "extension_kind": "fresh",
+      "flips": 4,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_few_flip_03_0",
+      "symmetry": "Penrose",
+      "family": "few_flip",
+      "group": "fresh_Penrose_few_flip_03",
+      "rep": 0,
+      "L": [
+        [
+          15,
+          12,
+          4,
+          -5,
+          -12
+        ],
+        [
+          0,
+          11,
+          17,
+          17,
+          11
+        ]
+      ],
+      "N_expected": 2073,
+      "delta": 0.01952832496692398,
+      "phase_seed": 866012726,
+      "mc_seed": 866012749,
+      "extension_kind": "fresh",
+      "flips": 8,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_few_flip_03_1",
+      "symmetry": "Penrose",
+      "family": "few_flip",
+      "group": "fresh_Penrose_few_flip_03",
+      "rep": 1,
+      "L": [
+        [
+          15,
+          12,
+          4,
+          -5,
+          -12
+        ],
+        [
+          0,
+          11,
+          17,
+          17,
+          11
+        ]
+      ],
+      "N_expected": 2073,
+      "delta": 0.01952832496692398,
+      "phase_seed": 866012827,
+      "mc_seed": 866012850,
+      "extension_kind": "fresh",
+      "flips": 8,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_few_flip_04_0",
+      "symmetry": "Penrose",
+      "family": "few_flip",
+      "group": "fresh_Penrose_few_flip_04",
+      "rep": 0,
+      "L": [
+        [
+          13,
+          12,
+          7,
+          -1,
+          -9
+        ],
+        [
+          -2,
+          7,
+          14,
+          16,
+          11
+        ]
+      ],
+      "N_expected": 1617,
+      "delta": 0.02244216234696241,
+      "phase_seed": 866012928,
+      "mc_seed": 866012951,
+      "extension_kind": "fresh",
+      "flips": 16,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_few_flip_04_1",
+      "symmetry": "Penrose",
+      "family": "few_flip",
+      "group": "fresh_Penrose_few_flip_04",
+      "rep": 1,
+      "L": [
+        [
+          13,
+          12,
+          7,
+          -1,
+          -9
+        ],
+        [
+          -2,
+          7,
+          14,
+          16,
+          11
+        ]
+      ],
+      "N_expected": 1617,
+      "delta": 0.02244216234696241,
+      "phase_seed": 866013029,
+      "mc_seed": 866013052,
+      "extension_kind": "fresh",
+      "flips": 16,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_few_flip_05_0",
+      "symmetry": "Penrose",
+      "family": "few_flip",
+      "group": "fresh_Penrose_few_flip_05",
+      "rep": 0,
+      "L": [
+        [
+          16,
+          13,
+          6,
+          -3,
+          -12
+        ],
+        [
+          -2,
+          10,
+          17,
+          18,
+          13
+        ]
+      ],
+      "N_expected": 2268,
+      "delta": 0.030438619107643273,
+      "phase_seed": 866013130,
+      "mc_seed": 866013153,
+      "extension_kind": "fresh",
+      "flips": 32,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_few_flip_05_1",
+      "symmetry": "Penrose",
+      "family": "few_flip",
+      "group": "fresh_Penrose_few_flip_05",
+      "rep": 1,
+      "L": [
+        [
+          16,
+          13,
+          6,
+          -3,
+          -12
+        ],
+        [
+          -2,
+          10,
+          17,
+          18,
+          13
+        ]
+      ],
+      "N_expected": 2268,
+      "delta": 0.030438619107643273,
+      "phase_seed": 866013231,
+      "mc_seed": 866013254,
+      "extension_kind": "fresh",
+      "flips": 32,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_few_flip_06_0",
+      "symmetry": "Penrose",
+      "family": "few_flip",
+      "group": "fresh_Penrose_few_flip_06",
+      "rep": 0,
+      "L": [
+        [
+          17,
+          14,
+          5,
+          -5,
+          -13
+        ],
+        [
+          -3,
+          5,
+          11,
+          13,
+          10
+        ]
+      ],
+      "N_expected": 1639,
+      "delta": 0.020825361646404538,
+      "phase_seed": 866013332,
+      "mc_seed": 866013355,
+      "extension_kind": "fresh",
+      "flips": 1,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_few_flip_06_1",
+      "symmetry": "Penrose",
+      "family": "few_flip",
+      "group": "fresh_Penrose_few_flip_06",
+      "rep": 1,
+      "L": [
+        [
+          17,
+          14,
+          5,
+          -5,
+          -13
+        ],
+        [
+          -3,
+          5,
+          11,
+          13,
+          10
+        ]
+      ],
+      "N_expected": 1639,
+      "delta": 0.020825361646404538,
+      "phase_seed": 866013433,
+      "mc_seed": 866013456,
+      "extension_kind": "fresh",
+      "flips": 1,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_few_flip_07_0",
+      "symmetry": "Penrose",
+      "family": "few_flip",
+      "group": "fresh_Penrose_few_flip_07",
+      "rep": 0,
+      "L": [
+        [
+          17,
+          16,
+          8,
+          -3,
+          -12
+        ],
+        [
+          -3,
+          7,
+          15,
+          17,
+          12
+        ]
+      ],
+      "N_expected": 2272,
+      "delta": 0.020722319781258183,
+      "phase_seed": 866013534,
+      "mc_seed": 866013557,
+      "extension_kind": "fresh",
+      "flips": 2,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_few_flip_07_1",
+      "symmetry": "Penrose",
+      "family": "few_flip",
+      "group": "fresh_Penrose_few_flip_07",
+      "rep": 1,
+      "L": [
+        [
+          17,
+          16,
+          8,
+          -3,
+          -12
+        ],
+        [
+          -3,
+          7,
+          15,
+          17,
+          12
+        ]
+      ],
+      "N_expected": 2272,
+      "delta": 0.020722319781258183,
+      "phase_seed": 866013635,
+      "mc_seed": 866013658,
+      "extension_kind": "fresh",
+      "flips": 2,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_few_flip_08_0",
+      "symmetry": "Penrose",
+      "family": "few_flip",
+      "group": "fresh_Penrose_few_flip_08",
+      "rep": 0,
+      "L": [
+        [
+          14,
+          9,
+          1,
+          -8,
+          -14
+        ],
+        [
+          2,
+          14,
+          21,
+          19,
+          10
+        ]
+      ],
+      "N_expected": 2341,
+      "delta": 0.02234890934169992,
+      "phase_seed": 866013736,
+      "mc_seed": 866013759,
+      "extension_kind": "fresh",
+      "flips": 4,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_few_flip_08_1",
+      "symmetry": "Penrose",
+      "family": "few_flip",
+      "group": "fresh_Penrose_few_flip_08",
+      "rep": 1,
+      "L": [
+        [
+          14,
+          9,
+          1,
+          -8,
+          -14
+        ],
+        [
+          2,
+          14,
+          21,
+          19,
+          10
+        ]
+      ],
+      "N_expected": 2341,
+      "delta": 0.02234890934169992,
+      "phase_seed": 866013837,
+      "mc_seed": 866013860,
+      "extension_kind": "fresh",
+      "flips": 4,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_few_flip_09_0",
+      "symmetry": "Penrose",
+      "family": "few_flip",
+      "group": "fresh_Penrose_few_flip_09",
+      "rep": 0,
+      "L": [
+        [
+          14,
+          13,
+          8,
+          -1,
+          -10
+        ],
+        [
+          -1,
+          7,
+          12,
+          12,
+          8
+        ]
+      ],
+      "N_expected": 1397,
+      "delta": 0.03044107072338911,
+      "phase_seed": 866013938,
+      "mc_seed": 866013961,
+      "extension_kind": "fresh",
+      "flips": 8,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_few_flip_09_1",
+      "symmetry": "Penrose",
+      "family": "few_flip",
+      "group": "fresh_Penrose_few_flip_09",
+      "rep": 1,
+      "L": [
+        [
+          14,
+          13,
+          8,
+          -1,
+          -10
+        ],
+        [
+          -1,
+          7,
+          12,
+          12,
+          8
+        ]
+      ],
+      "N_expected": 1397,
+      "delta": 0.03044107072338911,
+      "phase_seed": 866014039,
+      "mc_seed": 866014062,
+      "extension_kind": "fresh",
+      "flips": 8,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_few_flip_10_0",
+      "symmetry": "Penrose",
+      "family": "few_flip",
+      "group": "fresh_Penrose_few_flip_10",
+      "rep": 0,
+      "L": [
+        [
+          20,
+          14,
+          2,
+          -11,
+          -19
+        ],
+        [
+          4,
+          12,
+          15,
+          11,
+          4
+        ]
+      ],
+      "N_expected": 2297,
+      "delta": 0.03486663794954312,
+      "phase_seed": 866014140,
+      "mc_seed": 866014163,
+      "extension_kind": "fresh",
+      "flips": 16,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_few_flip_10_1",
+      "symmetry": "Penrose",
+      "family": "few_flip",
+      "group": "fresh_Penrose_few_flip_10",
+      "rep": 1,
+      "L": [
+        [
+          20,
+          14,
+          2,
+          -11,
+          -19
+        ],
+        [
+          4,
+          12,
+          15,
+          11,
+          4
+        ]
+      ],
+      "N_expected": 2297,
+      "delta": 0.03486663794954312,
+      "phase_seed": 866014241,
+      "mc_seed": 866014264,
+      "extension_kind": "fresh",
+      "flips": 16,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_few_flip_11_0",
+      "symmetry": "Penrose",
+      "family": "few_flip",
+      "group": "fresh_Penrose_few_flip_11",
+      "rep": 0,
+      "L": [
+        [
+          12,
+          10,
+          4,
+          -3,
+          -9
+        ],
+        [
+          -2,
+          8,
+          15,
+          16,
+          11
+        ]
+      ],
+      "N_expected": 1487,
+      "delta": 0.01478087831049955,
+      "phase_seed": 866014342,
+      "mc_seed": 866014365,
+      "extension_kind": "fresh",
+      "flips": 32,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_few_flip_11_1",
+      "symmetry": "Penrose",
+      "family": "few_flip",
+      "group": "fresh_Penrose_few_flip_11",
+      "rep": 1,
+      "L": [
+        [
+          12,
+          10,
+          4,
+          -3,
+          -9
+        ],
+        [
+          -2,
+          8,
+          15,
+          16,
+          11
+        ]
+      ],
+      "N_expected": 1487,
+      "delta": 0.01478087831049955,
+      "phase_seed": 866014443,
+      "mc_seed": 866014466,
+      "extension_kind": "fresh",
+      "flips": 32,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_equilibrated_00_0",
+      "symmetry": "Penrose",
+      "family": "equilibrated",
+      "group": "fresh_Penrose_equilibrated_00",
+      "rep": 0,
+      "L": [
+        [
+          13,
+          11,
+          4,
+          -4,
+          -10
+        ],
+        [
+          1,
+          8,
+          13,
+          12,
+          6
+        ]
+      ],
+      "N_expected": 1277,
+      "delta": 0.03997001425369034,
+      "phase_seed": 866014544,
+      "mc_seed": 866014567,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_equilibrated_00_1",
+      "symmetry": "Penrose",
+      "family": "equilibrated",
+      "group": "fresh_Penrose_equilibrated_00",
+      "rep": 1,
+      "L": [
+        [
+          13,
+          11,
+          4,
+          -4,
+          -10
+        ],
+        [
+          1,
+          8,
+          13,
+          12,
+          6
+        ]
+      ],
+      "N_expected": 1277,
+      "delta": 0.03997001425369034,
+      "phase_seed": 866014645,
+      "mc_seed": 866014668,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_equilibrated_01_0",
+      "symmetry": "Penrose",
+      "family": "equilibrated",
+      "group": "fresh_Penrose_equilibrated_01",
+      "rep": 0,
+      "L": [
+        [
+          14,
+          13,
+          7,
+          -1,
+          -9
+        ],
+        [
+          0,
+          9,
+          15,
+          16,
+          10
+        ]
+      ],
+      "N_expected": 1726,
+      "delta": 0.023315807907214308,
+      "phase_seed": 866014746,
+      "mc_seed": 866014769,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_equilibrated_01_1",
+      "symmetry": "Penrose",
+      "family": "equilibrated",
+      "group": "fresh_Penrose_equilibrated_01",
+      "rep": 1,
+      "L": [
+        [
+          14,
+          13,
+          7,
+          -1,
+          -9
+        ],
+        [
+          0,
+          9,
+          15,
+          16,
+          10
+        ]
+      ],
+      "N_expected": 1726,
+      "delta": 0.023315807907214308,
+      "phase_seed": 866014847,
+      "mc_seed": 866014870,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_equilibrated_02_0",
+      "symmetry": "Penrose",
+      "family": "equilibrated",
+      "group": "fresh_Penrose_equilibrated_02",
+      "rep": 0,
+      "L": [
+        [
+          14,
+          9,
+          1,
+          -7,
+          -13
+        ],
+        [
+          0,
+          13,
+          21,
+          20,
+          12
+        ]
+      ],
+      "N_expected": 2276,
+      "delta": 0.020461580784690306,
+      "phase_seed": 866014948,
+      "mc_seed": 866014971,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_equilibrated_02_1",
+      "symmetry": "Penrose",
+      "family": "equilibrated",
+      "group": "fresh_Penrose_equilibrated_02",
+      "rep": 1,
+      "L": [
+        [
+          14,
+          9,
+          1,
+          -7,
+          -13
+        ],
+        [
+          0,
+          13,
+          21,
+          20,
+          12
+        ]
+      ],
+      "N_expected": 2276,
+      "delta": 0.020461580784690306,
+      "phase_seed": 866015049,
+      "mc_seed": 866015072,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_equilibrated_03_0",
+      "symmetry": "Penrose",
+      "family": "equilibrated",
+      "group": "fresh_Penrose_equilibrated_03",
+      "rep": 0,
+      "L": [
+        [
+          14,
+          15,
+          10,
+          1,
+          -8
+        ],
+        [
+          -3,
+          7,
+          15,
+          17,
+          12
+        ]
+      ],
+      "N_expected": 1950,
+      "delta": 0.01617337146657252,
+      "phase_seed": 866015150,
+      "mc_seed": 866015173,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_equilibrated_03_1",
+      "symmetry": "Penrose",
+      "family": "equilibrated",
+      "group": "fresh_Penrose_equilibrated_03",
+      "rep": 1,
+      "L": [
+        [
+          14,
+          15,
+          10,
+          1,
+          -8
+        ],
+        [
+          -3,
+          7,
+          15,
+          17,
+          12
+        ]
+      ],
+      "N_expected": 1950,
+      "delta": 0.01617337146657252,
+      "phase_seed": 866015251,
+      "mc_seed": 866015274,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_equilibrated_04_0",
+      "symmetry": "Penrose",
+      "family": "equilibrated",
+      "group": "fresh_Penrose_equilibrated_04",
+      "rep": 0,
+      "L": [
+        [
+          17,
+          16,
+          9,
+          -2,
+          -12
+        ],
+        [
+          -2,
+          6,
+          12,
+          13,
+          9
+        ]
+      ],
+      "N_expected": 1780,
+      "delta": 0.014466515784082779,
+      "phase_seed": 866015352,
+      "mc_seed": 866015375,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_equilibrated_04_1",
+      "symmetry": "Penrose",
+      "family": "equilibrated",
+      "group": "fresh_Penrose_equilibrated_04",
+      "rep": 1,
+      "L": [
+        [
+          17,
+          16,
+          9,
+          -2,
+          -12
+        ],
+        [
+          -2,
+          6,
+          12,
+          13,
+          9
+        ]
+      ],
+      "N_expected": 1780,
+      "delta": 0.014466515784082779,
+      "phase_seed": 866015453,
+      "mc_seed": 866015476,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_equilibrated_05_0",
+      "symmetry": "Penrose",
+      "family": "equilibrated",
+      "group": "fresh_Penrose_equilibrated_05",
+      "rep": 0,
+      "L": [
+        [
+          13,
+          10,
+          3,
+          -5,
+          -11
+        ],
+        [
+          4,
+          12,
+          17,
+          15,
+          6
+        ]
+      ],
+      "N_expected": 1668,
+      "delta": 0.031148450930315957,
+      "phase_seed": 866015554,
+      "mc_seed": 866015577,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_equilibrated_05_1",
+      "symmetry": "Penrose",
+      "family": "equilibrated",
+      "group": "fresh_Penrose_equilibrated_05",
+      "rep": 1,
+      "L": [
+        [
+          13,
+          10,
+          3,
+          -5,
+          -11
+        ],
+        [
+          4,
+          12,
+          17,
+          15,
+          6
+        ]
+      ],
+      "N_expected": 1668,
+      "delta": 0.031148450930315957,
+      "phase_seed": 866015655,
+      "mc_seed": 866015678,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_equilibrated_06_0",
+      "symmetry": "Penrose",
+      "family": "equilibrated",
+      "group": "fresh_Penrose_equilibrated_06",
+      "rep": 0,
+      "L": [
+        [
+          14,
+          11,
+          3,
+          -7,
+          -13
+        ],
+        [
+          0,
+          10,
+          16,
+          17,
+          11
+        ]
+      ],
+      "N_expected": 1958,
+      "delta": 0.03482280899005207,
+      "phase_seed": 866015756,
+      "mc_seed": 866015779,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_equilibrated_06_1",
+      "symmetry": "Penrose",
+      "family": "equilibrated",
+      "group": "fresh_Penrose_equilibrated_06",
+      "rep": 1,
+      "L": [
+        [
+          14,
+          11,
+          3,
+          -7,
+          -13
+        ],
+        [
+          0,
+          10,
+          16,
+          17,
+          11
+        ]
+      ],
+      "N_expected": 1958,
+      "delta": 0.03482280899005207,
+      "phase_seed": 866015857,
+      "mc_seed": 866015880,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_equilibrated_07_0",
+      "symmetry": "Penrose",
+      "family": "equilibrated",
+      "group": "fresh_Penrose_equilibrated_07",
+      "rep": 0,
+      "L": [
+        [
+          14,
+          9,
+          1,
+          -8,
+          -14
+        ],
+        [
+          1,
+          9,
+          14,
+          13,
+          7
+        ]
+      ],
+      "N_expected": 1563,
+      "delta": 0.02354677328008011,
+      "phase_seed": 866015958,
+      "mc_seed": 866015981,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_equilibrated_07_1",
+      "symmetry": "Penrose",
+      "family": "equilibrated",
+      "group": "fresh_Penrose_equilibrated_07",
+      "rep": 1,
+      "L": [
+        [
+          14,
+          9,
+          1,
+          -8,
+          -14
+        ],
+        [
+          1,
+          9,
+          14,
+          13,
+          7
+        ]
+      ],
+      "N_expected": 1563,
+      "delta": 0.02354677328008011,
+      "phase_seed": 866016059,
+      "mc_seed": 866016082,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_equilibrated_08_0",
+      "symmetry": "Penrose",
+      "family": "equilibrated",
+      "group": "fresh_Penrose_equilibrated_08",
+      "rep": 0,
+      "L": [
+        [
+          17,
+          11,
+          1,
+          -9,
+          -16
+        ],
+        [
+          2,
+          9,
+          12,
+          10,
+          5
+        ]
+      ],
+      "N_expected": 1581,
+      "delta": 0.023762873304136345,
+      "phase_seed": 866016160,
+      "mc_seed": 866016183,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_equilibrated_08_1",
+      "symmetry": "Penrose",
+      "family": "equilibrated",
+      "group": "fresh_Penrose_equilibrated_08",
+      "rep": 1,
+      "L": [
+        [
+          17,
+          11,
+          1,
+          -9,
+          -16
+        ],
+        [
+          2,
+          9,
+          12,
+          10,
+          5
+        ]
+      ],
+      "N_expected": 1581,
+      "delta": 0.023762873304136345,
+      "phase_seed": 866016261,
+      "mc_seed": 866016284,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_equilibrated_09_0",
+      "symmetry": "Penrose",
+      "family": "equilibrated",
+      "group": "fresh_Penrose_equilibrated_09",
+      "rep": 0,
+      "L": [
+        [
+          16,
+          11,
+          2,
+          -8,
+          -15
+        ],
+        [
+          4,
+          13,
+          17,
+          14,
+          6
+        ]
+      ],
+      "N_expected": 2113,
+      "delta": 0.011375767964316948,
+      "phase_seed": 866016362,
+      "mc_seed": 866016385,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_equilibrated_09_1",
+      "symmetry": "Penrose",
+      "family": "equilibrated",
+      "group": "fresh_Penrose_equilibrated_09",
+      "rep": 1,
+      "L": [
+        [
+          16,
+          11,
+          2,
+          -8,
+          -15
+        ],
+        [
+          4,
+          13,
+          17,
+          14,
+          6
+        ]
+      ],
+      "N_expected": 2113,
+      "delta": 0.011375767964316948,
+      "phase_seed": 866016463,
+      "mc_seed": 866016486,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_equilibrated_10_0",
+      "symmetry": "Penrose",
+      "family": "equilibrated",
+      "group": "fresh_Penrose_equilibrated_10",
+      "rep": 0,
+      "L": [
+        [
+          15,
+          13,
+          6,
+          -3,
+          -11
+        ],
+        [
+          -1,
+          10,
+          16,
+          17,
+          12
+        ]
+      ],
+      "N_expected": 2044,
+      "delta": 0.025863001443674993,
+      "phase_seed": 866016564,
+      "mc_seed": 866016587,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_equilibrated_10_1",
+      "symmetry": "Penrose",
+      "family": "equilibrated",
+      "group": "fresh_Penrose_equilibrated_10",
+      "rep": 1,
+      "L": [
+        [
+          15,
+          13,
+          6,
+          -3,
+          -11
+        ],
+        [
+          -1,
+          10,
+          16,
+          17,
+          12
+        ]
+      ],
+      "N_expected": 2044,
+      "delta": 0.025863001443674993,
+      "phase_seed": 866016665,
+      "mc_seed": 866016688,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_equilibrated_11_0",
+      "symmetry": "Penrose",
+      "family": "equilibrated",
+      "group": "fresh_Penrose_equilibrated_11",
+      "rep": 0,
+      "L": [
+        [
+          15,
+          14,
+          7,
+          -3,
+          -11
+        ],
+        [
+          -3,
+          7,
+          15,
+          16,
+          11
+        ]
+      ],
+      "N_expected": 1935,
+      "delta": 0.030888981441529267,
+      "phase_seed": 866016766,
+      "mc_seed": 866016789,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    },
+    {
+      "id": "fresh_Penrose_equilibrated_11_1",
+      "symmetry": "Penrose",
+      "family": "equilibrated",
+      "group": "fresh_Penrose_equilibrated_11",
+      "rep": 1,
+      "L": [
+        [
+          15,
+          14,
+          7,
+          -3,
+          -11
+        ],
+        [
+          -3,
+          7,
+          15,
+          16,
+          11
+        ]
+      ],
+      "N_expected": 1935,
+      "delta": 0.030888981441529267,
+      "phase_seed": 866016867,
+      "mc_seed": 866016890,
+      "extension_kind": "fresh",
+      "flips": 0,
+      "disc_radius": -1,
+      "burn_sweeps": 50000,
+      "blocks": 40,
+      "block_sweeps": 1250
+    }
+  ]
+}

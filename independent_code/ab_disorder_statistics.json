@@ -1,0 +1,295 @@
+{
+  "classification": "P",
+  "source_script": "ab_analyze.py",
+  "statistics": {
+    "complete_seeds": [
+      31001,
+      31002,
+      31003,
+      31004,
+      31005,
+      31006,
+      31007,
+      31008,
+      31009,
+      31010,
+      31011,
+      31012,
+      31013,
+      31014,
+      31015,
+      31016,
+      31017,
+      31018,
+      31019,
+      31020,
+      31021,
+      31022,
+      31023,
+      31024
+    ],
+    "groups": [
+      {
+        "k": 1,
+        "n": 24,
+        "moved_mean": 0.0007178750897343862,
+        "mean_relative_drop": 5.1214203819316406e-05,
+        "std_relative_drop": 0.00013521295905659044,
+        "bootstrap_CI95": [
+          2.0433273571852936e-06,
+          0.00010645053508987706
+        ],
+        "raising_count": 13,
+        "lowering_count": 11,
+        "minimum": -7.217736105680217e-05,
+        "maximum": 0.0003188405869508637
+      },
+      {
+        "k": 3,
+        "n": 24,
+        "moved_mean": 0.0021536252692031586,
+        "mean_relative_drop": 0.00013372847662918483,
+        "std_relative_drop": 0.0001427680644173589,
+        "bootstrap_CI95": [
+          7.62119809771524e-05,
+          0.0001878799586951321
+        ],
+        "raising_count": 4,
+        "lowering_count": 20,
+        "minimum": -0.00021160854098067894,
+        "maximum": 0.00036888746865226807
+      },
+      {
+        "k": 10,
+        "n": 24,
+        "moved_mean": 0.007178750897343861,
+        "mean_relative_drop": 0.0007729595363890016,
+        "std_relative_drop": 0.00040869691023169547,
+        "bootstrap_CI95": [
+          0.0006116555718963076,
+          0.0009294060034989512
+        ],
+        "raising_count": 1,
+        "lowering_count": 23,
+        "minimum": -7.005715073638008e-05,
+        "maximum": 0.0016009910351910683
+      },
+      {
+        "k": 30,
+        "n": 24,
+        "moved_mean": 0.020758554678152668,
+        "mean_relative_drop": 0.0028107322501027404,
+        "std_relative_drop": 0.000675751233588244,
+        "bootstrap_CI95": [
+          0.0025451912209809914,
+          0.003069038615944054
+        ],
+        "raising_count": 0,
+        "lowering_count": 24,
+        "minimum": 0.0014479196977036368,
+        "maximum": 0.003808072747940816
+      },
+      {
+        "k": 100,
+        "n": 24,
+        "moved_mean": 0.06173725771715721,
+        "mean_relative_drop": 0.02476890465297453,
+        "std_relative_drop": 0.02622499960524998,
+        "bootstrap_CI95": [
+          0.015765720091066294,
+          0.03622713424376672
+        ],
+        "raising_count": 0,
+        "lowering_count": 24,
+        "minimum": 0.006926943324291446,
+        "maximum": 0.11177718947077064
+      },
+      {
+        "k": 300,
+        "n": 24,
+        "moved_mean": 0.1449509452022015,
+        "mean_relative_drop": 0.1282902629587689,
+        "std_relative_drop": 0.04718404339159225,
+        "bootstrap_CI95": [
+          0.110238920932218,
+          0.14659312388380435
+        ],
+        "raising_count": 0,
+        "lowering_count": 24,
+        "minimum": 0.03115344270048126,
+        "maximum": 0.24074601683831887
+      },
+      {
+        "k": 1000,
+        "n": 24,
+        "moved_mean": 0.2571488394352716,
+        "mean_relative_drop": 0.25291515435677586,
+        "std_relative_drop": 0.034175160514069575,
+        "bootstrap_CI95": [
+          0.23951460981253936,
+          0.2661470332160282
+        ],
+        "raising_count": 0,
+        "lowering_count": 24,
+        "minimum": 0.19975726166176677,
+        "maximum": 0.3279493624303036
+      }
+    ],
+    "power_fits": [
+      {
+        "n": 4,
+        "alpha": 1.220192289967203,
+        "alpha_CI95": [
+          0.8773651831185241,
+          1.563019396815882
+        ],
+        "prefactor": 0.3041298934035317,
+        "R2": 0.991544035213318,
+        "x": [
+          0.0007178750897343862,
+          0.0021536252692031586,
+          0.007178750897343859,
+          0.020758554678152664
+        ],
+        "y": [
+          5.1214203819316406e-05,
+          0.00013372847662918483,
+          0.0007729595363890016,
+          0.0028107322501027404
+        ],
+        "interpretation": "OLS log-residual t interval conditional on reference, points and iid residual model; not an asymptotic or numerical-error bound.",
+        "k_range": [
+          1,
+          30
+        ],
+        "seed_bootstrap_alpha_CI95": [
+          1.0234637063950978,
+          1.7334553432617354
+        ],
+        "valid_bootstrap_fraction": 0.9801
+      },
+      {
+        "n": 5,
+        "alpha": 1.3777090234969578,
+        "alpha_CI95": [
+          1.0468295003535335,
+          1.708588546640382
+        ],
+        "prefactor": 0.7981748219525197,
+        "R2": 0.9832016562940845,
+        "x": [
+          0.0007178750897343862,
+          0.0021536252692031586,
+          0.007178750897343859,
+          0.020758554678152664,
+          0.06173725771715721
+        ],
+        "y": [
+          5.1214203819316406e-05,
+          0.00013372847662918483,
+          0.0007729595363890016,
+          0.0028107322501027404,
+          0.02476890465297453
+        ],
+        "interpretation": "OLS log-residual t interval conditional on reference, points and iid residual model; not an asymptotic or numerical-error bound.",
+        "k_range": [
+          1,
+          100
+        ],
+        "seed_bootstrap_alpha_CI95": [
+          1.223557503335006,
+          1.7278997826616964
+        ],
+        "valid_bootstrap_fraction": 0.9801
+      },
+      {
+        "n": 4,
+        "alpha": 1.7280443240423962,
+        "alpha_CI95": [
+          1.1680140796942524,
+          2.28807456839054
+        ],
+        "prefactor": 3.1465024254829017,
+        "R2": 0.9887805765608719,
+        "x": [
+          0.007178750897343859,
+          0.020758554678152664,
+          0.06173725771715721,
+          0.14495094520220148
+        ],
+        "y": [
+          0.0007729595363890016,
+          0.0028107322501027404,
+          0.02476890465297453,
+          0.1282902629587689
+        ],
+        "interpretation": "OLS log-residual t interval conditional on reference, points and iid residual model; not an asymptotic or numerical-error bound.",
+        "k_range": [
+          10,
+          300
+        ],
+        "seed_bootstrap_alpha_CI95": [
+          1.637634178213449,
+          1.8225053854187259
+        ],
+        "valid_bootstrap_fraction": 1.0
+      },
+      {
+        "n": 4,
+        "alpha": 1.8225783389489598,
+        "alpha_CI95": [
+          1.3549857165024422,
+          2.2901709613954777
+        ],
+        "prefactor": 3.607825964454583,
+        "R2": 0.9929393768754042,
+        "x": [
+          0.020758554678152664,
+          0.06173725771715721,
+          0.14495094520220148,
+          0.25714883943527156
+        ],
+        "y": [
+          0.0028107322501027404,
+          0.02476890465297453,
+          0.1282902629587689,
+          0.252915154356776
+        ],
+        "interpretation": "OLS log-residual t interval conditional on reference, points and iid residual model; not an asymptotic or numerical-error bound.",
+        "k_range": [
+          30,
+          1000
+        ],
+        "seed_bootstrap_alpha_CI95": [
+          1.7610673652353404,
+          1.8914863323410556
+        ],
+        "valid_bootstrap_fraction": 1.0
+      }
+    ],
+    "small_density_polynomial": {
+      "k_max": 30,
+      "linear_plus_quadratic_coefficients": [
+        0.08692677972926906,
+        2.341356918881509
+      ],
+      "coefficient_CI95": [
+        [
+          0.056216649304337965,
+          0.9071146342622666
+        ],
+        [
+          0.11587026866422277,
+          3.8921651283400673
+        ]
+      ],
+      "linear_only_coefficient": 0.1317056289743844,
+      "linear_only_CI95": [
+        0.11977762932732902,
+        0.14305945995024413
+      ],
+      "definition": "Mean relative pressure loss = a*moved + b*moved^2, zero intercept; descriptive local fit."
+    },
+    "note": "Pointwise mean CIs and exponent CIs resample entire seed trajectories; accepted-flip trajectories are not equilibrium draws."
+  }
+}
